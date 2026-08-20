@@ -1,0 +1,260 @@
+sources:
+  - id: eurlex
+    country: EU
+    name: EUR-Lex — DOUE
+    section_url: https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22
+    mode: search
+
+  - id: ecb
+    country: EU
+    name: European Central Bank
+    section_url: https://www.ecb.europa.eu/press/html/index.en.html
+    mode: auto
+  - id: ec_euro
+    country: EU
+    name: European Commission — Euro coins
+    section_url: https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en
+    mode: scrape
+
+  - id: austria_oenb
+    country: AT
+    name: Oesterreichische Nationalbank
+    section_url: https://www.oenb.at/en/Media.html
+    mode: auto
+  - id: austria_mint
+    country: AT
+    name: Münze Österreich
+    section_url: https://www.muenzeoesterreich.at/
+    mode: auto
+  - id: belgium_nbb
+    country: BE
+    name: National Bank of Belgium
+    section_url: https://www.nbb.be/en/news-and-publications
+    mode: auto
+  - id: belgium_finances
+    country: BE
+    name: SPF Finances
+    section_url: https://finances.belgium.be/en/Actueel/overview
+    mode: auto
+  - id: germany_bundesbank
+    country: DE
+    name: Deutsche Bundesbank
+    section_url: https://www.bundesbank.de/en/tasks/cash-management/euro-coins
+    mode: auto
+  - id: germany_mint
+    country: DE
+    name: MÜNZE DEUTSCHLAND
+    section_url: https://www.muenze-deutschland.de/
+    mode: auto
+  - id: spain_bde
+    country: ES
+    name: Banco de España
+    section_url: https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/
+    mode: auto
+  - id: spain_fnmt
+    country: ES
+    name: FNMT — Real Casa de la Moneda
+    section_url: https://www.fnmt.es/
+    mode: auto
+  - id: finland_bof
+    country: FI
+    name: Bank of Finland
+    section_url: https://www.suomenpankki.fi/en/media-and-publication/
+    mode: auto
+  - id: finland_mint
+    country: FI
+    name: Helsinkimint / Mint of Finland
+    section_url: https://www.helsinkimint.com/
+    mode: auto
+  - id: france_bdf
+    country: FR
+    name: Banque de France
+    section_url: https://www.banque-france.fr/en/press-and-media
+    mode: auto
+  - id: france_mdp
+    country: FR
+    name: Monnaie de Paris
+    section_url: https://www.monnaiedeparis.fr/
+    mode: auto
+  - id: ireland
+    country: IE
+    name: Central Bank of Ireland
+    section_url: https://www.centralbank.ie/news-media
+    mode: auto
+  - id: italy_bdi
+    country: IT
+    name: Banca d’Italia
+    section_url: https://www.bancaditalia.it/media/notizie/index.html
+    mode: auto
+  - id: italy_ipzs
+    country: IT
+    name: Istituto Poligrafico e Zecca dello Stato
+    section_url: https://www.ipzs.it/
+    mode: auto
+  - id: luxembourg
+    country: LU
+    name: Banque centrale du Luxembourg
+    section_url: https://www.bcl.lu/en/media_actualites/communiques/index.html
+    mode: auto
+  - id: netherlands_dnb
+    country: NL
+    name: De Nederlandsche Bank
+    section_url: https://www.dnb.nl/en/news-and-archive/
+    mode: auto
+  - id: netherlands_mint
+    country: NL
+    name: Royal Dutch Mint
+    section_url: https://www.royaldutchmint.com/
+    mode: auto
+  - id: portugal_bdp
+    country: PT
+    name: Banco de Portugal
+    section_url: https://www.bportugal.pt/en
+    mode: auto
+  - id: portugal_incm
+    country: PT
+    name: Imprensa Nacional-Casa da Moeda
+    section_url: https://www.incm.pt/
+    mode: auto
+  - id: greece
+    country: GR
+    name: Bank of Greece
+    section_url: https://www.bankofgreece.gr/en/news-and-media
+    mode: auto
+  - id: slovenia
+    country: SI
+    name: Banka Slovenije
+    section_url: https://www.bsi.si/en/cash/numismatics
+    mode: auto
+  - id: cyprus
+    country: CY
+    name: Central Bank of Cyprus
+    section_url: https://www.centralbank.cy/en/announcements
+    mode: auto
+  - id: malta
+    country: MT
+    name: Central Bank of Malta
+    section_url: https://www.centralbankmalta.org/euro-coins
+    mode: auto
+  - id: slovakia_nbs
+    country: SK
+    name: Národná banka Slovenska
+    section_url: https://nbs.sk/en/notes-and-coins/euro-coins/
+    mode: auto
+  - id: slovakia_mint
+    country: SK
+    name: Mincovňa Kremnica
+    section_url: https://www.mint.sk/
+    mode: auto
+  - id: estonia
+    country: EE
+    name: Eesti Pank
+    section_url: https://www.eestipank.ee/en/coins
+    mode: auto
+  - id: latvia
+    country: LV
+    name: Latvijas Banka
+    section_url: https://www.bank.lv/en/coins
+    mode: auto
+  - id: lithuania_lb
+    country: LT
+    name: Lietuvos bankas
+    section_url: https://www.lb.lt/en/coins
+    mode: auto
+  - id: lithuania_mint
+    country: LT
+    name: Lithuanian Mint
+    section_url: https://lithuanian-mint.lt/
+    mode: auto
+  - id: croatia_hnb
+    country: HR
+    name: Croatian National Bank
+    section_url: https://www.hnb.hr/en/currency/euro-coins
+    mode: auto
+  - id: croatia_mint
+    country: HR
+    name: Croatian Mint
+    section_url: https://croatian-mint.hr/
+    mode: auto
+  - id: bulgaria_bnb
+    country: BG
+    name: Bulgarian National Bank
+    section_url: https://www.bnb.bg/NotesAndCoins/index.htm
+    mode: auto
+  - id: bulgaria_mint
+    country: BG
+    name: Bulgarian Mint
+    section_url: https://www.mint.bg/
+    mode: auto
+  - id: monaco
+    country: MC
+    name: Gouvernement Princier de Monaco
+    section_url: https://www.gouv.mc/
+    mode: auto
+  - id: san_marino_dfn
+    country: SM
+    name: Divisione Filatelica Numismatica
+    section_url: https://www.aasfn.sm/
+    mode: auto
+  - id: san_marino_cfn
+    country: SM
+    name: Commercializzazione Filatelica e Numismatica
+    section_url: https://www.aasfn.sm/
+    mode: auto
+  - id: vatican
+    country: VA
+    name: Vatican City State
+    section_url: https://www.vaticanstate.va/en/
+    mode: auto
+  - id: andorra
+    country: AD
+    name: Govern d'Andorra
+    section_url: https://www.govern.ad/
+    mode: auto
+
+include:
+  - euro coin
+  - euro coins
+  - euro coin intended for circulation
+  - circulation coin
+  - circulating coin
+  - commemorative 2 euro
+  - commemorative 2-euro
+  - 2 euro commemorative
+  - 2-euro commemorative
+  - national side
+  - new national side
+  - euro coins issued
+  - coins in circulation
+  - monedas de euro
+  - moneda conmemorativa de 2 euros
+  - monedas destinadas a la circulación
+  - pièces en euros
+  - pièce commémorative de 2 euros
+  - pièces destinées à la circulation
+  - monete euro
+  - moneta commemorativa da 2 euro
+  - 2-Euro-Gedenkmünze
+  - 2 euron juhlaraha
+  - 2-euromunt
+  - 2-euromünze
+  - 2-euro commemorative coin
+
+exclude:
+  - banknote
+  - billet
+  - billete
+  - medaglia
+  - medal
+  - medalha
+  - medalje
+  - token
+  - jeton
+  - gold coin
+  - silver coin
+  - bullion
+  - collector coin
+  - monnaie de collection
+  - moneda de colección
+  - sammlermünze
+  - set coincard
