@@ -1,20 +1,30 @@
 name: Update euro coins feed
+
 on:
   schedule:
     - cron: "17 */6 * * *"
   workflow_dispatch:
+
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
+
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+
       - run: pip install -r requirements.txt
+
       - run: python src/build_feed.py
+
       - name: Commit feed
         run: |
           git config user.name "euro-coins-feed"
@@ -22,3 +32,14 @@ jobs:
           git add public/euro-coins.xml
           git diff --cached --quiet || git commit -m "Update euro coins feed"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload feed
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: './public'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4
