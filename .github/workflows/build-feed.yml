@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "euro-coins-feed"
           git config user.email "actions@users.noreply.github.com"
-          git add public/euro-coins.xml
+          git add public/euro-coins.xml data/state.json
           git diff --cached --quiet || git commit -m "Update euro coins feed"
           git pull --rebase origin main
           git push
