@@ -214,11 +214,6 @@ def is_relevant(title, summary):
     if has_euro and has_circulation:
         return True, "circulation"
 
-    # Usamos los términos del YAML como ayuda secundaria.
-    if has_euro and any(term in text for term in INCLUDE):
-        if not any(term in text for term in EXCLUDE):
-            return True, "possible"
-
     return False, None
 
 
