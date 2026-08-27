@@ -358,22 +358,12 @@ def scrape(url, source):
         if link in seen:
             continue
 
-        parent = (
-            link_tag.parent.get_text(
-                " ",
-                strip=True
-            )
-            if link_tag.parent
-            else ""
-        )
+relevant, kind = is_relevant(
+    title,
+    ""
+)
 
-        context = f"{title} {parent}"
-
-        relevant, kind = is_relevant(
-            title,
-            context
-        )
-
+context = title
         if not relevant:
             continue
 
