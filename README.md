@@ -14,7 +14,6 @@ en la serie de comunicaciones sobre monedas destinadas a circulación.
 ## Publicación gratuita
 
 El workflow de GitHub Actions actualiza `public/euro-coins.xml` cada 6 horas.
-Puedes servir ese fichero con GitHub Pages y añadir su URL a Feedly.
 
 ## Nota
 
