@@ -358,12 +358,8 @@ def scrape(url, source):
         if link in seen:
             continue
 
-relevant, kind = is_relevant(
-    title,
-    ""
-)
+        relevant, kind = is_relevant(title, "")
 
-context = title
         if not relevant:
             continue
 
@@ -372,7 +368,6 @@ context = title
         date = page_default_date
         image = ""
 
-        # Intentamos obtener fecha e imagen de la noticia.
         try:
             page = get(link)
             detail = BeautifulSoup(
@@ -380,15 +375,8 @@ context = title
                 "html.parser"
             )
 
-            date = (
-                page_date(detail)
-                or date
-            )
-
-            image = extract_image(
-                detail,
-                page.url
-            )
+            date = page_date(detail) or date
+            image = extract_image(detail, page.url)
 
         except Exception:
             pass
@@ -396,7 +384,7 @@ context = title
         result.append({
             "title": f"[{source['country']}] {title}",
             "link": link,
-            "summary": context[:1800],
+            "summary": title[:1800],
             "date": date,
             "source": source["name"],
             "country": source["country"],
@@ -408,7 +396,6 @@ context = title
             break
 
     return result
-
 
 def collect(source):
     section_url = source.get("section_url")
