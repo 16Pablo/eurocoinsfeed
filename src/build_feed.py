@@ -342,7 +342,6 @@ def scrape(url, source):
     )
 
     for link_tag in soup.find_all("a", href=True):
-
         title = clean(
             link_tag.get_text(" ", strip=True)
         )
@@ -376,7 +375,10 @@ def scrape(url, source):
             )
 
             date = page_date(detail) or date
-            image = extract_image(detail, page.url)
+            image = extract_image(
+                detail,
+                page.url
+            )
 
         except Exception:
             pass
@@ -396,7 +398,7 @@ def scrape(url, source):
             break
 
     return result
-
+    
 def collect(source):
     section_url = source.get("section_url")
 
