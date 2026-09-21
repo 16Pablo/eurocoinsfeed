@@ -81,6 +81,11 @@ sources:
     name: Central Bank of Ireland
     section_url: https://www.centralbank.ie/news-media
     mode: auto
+  - id: ireland_collector_coins
+    country: IE
+    name: Collector Coins — Central Bank of Ireland
+    section_url: https://www.collectorcoins.ie/
+    mode: auto
   - id: italy_bdi
     country: IT
     name: Banca d’Italia
