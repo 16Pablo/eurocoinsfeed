@@ -15,7 +15,7 @@
       "year": 2025,
       "denomination": null,
       "image": "https://muenze-deutschland.de/out/pictures/generated/product/1/1600_900_85/fuchs_2_euro_saarland_saarschleife_1500x1050.jpg",
-      "last_seen": "2026-10-12T05:56:43.780085+00:00"
+      "last_seen": "2026-10-12T15:22:35.535196+00:00"
     },
     "f98c5b5bc244767e1c3ed8ba4033d211b23915d027092fb5019d8bfd42eb352c": {
       "id": "f98c5b5bc244767e1c3ed8ba4033d211b23915d027092fb5019d8bfd42eb352c",
@@ -49,7 +49,7 @@
       "year": 2026,
       "denomination": null,
       "image": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-      "last_seen": "2026-10-12T05:56:43.780085+00:00"
+      "last_seen": "2026-10-12T15:22:35.535196+00:00"
     },
     "fee1101c805c8f188355fd645ccc88715f29fa0812686ad08f0667e3d6920b05": {
       "id": "fee1101c805c8f188355fd645ccc88715f29fa0812686ad08f0667e3d6920b05",
@@ -168,7 +168,24 @@
       "year": null,
       "denomination": null,
       "image": "",
-      "last_seen": "2026-10-12T05:56:43.780085+00:00"
+      "last_seen": "2026-10-12T15:22:35.535196+00:00"
+    },
+    "9eef69740b2a3200a5e31b1372b59ac7603635b2a046ee004dc5709a50ded46a": {
+      "id": "9eef69740b2a3200a5e31b1372b59ac7603635b2a046ee004dc5709a50ded46a",
+      "title": "[MC] « Les jeunes face à la désinformation » : Lancement du plan national monégasque dans le cadre de la campagne « Les journalistes comptent », du Conseil de l’Europe",
+      "link": "https://www.gouv.mc/actualites/les-jeunes-face-a-la-desinformation-lancement-du-plan-national-monegasque-dans-le-cadre-de-la-campagne-les-journalistes-comptent-du-con",
+      "summary": "Modérée par Léa CALORI, Attachée de Presse à la Direction de la Communication, la conférence de presse s’est ouverte par un mot de bienvenue de Claire FISSOIRE, Responsable des Opérations de la DIN.Florian BOTTO, Conseiller au Département des Relations Extérieures et de la Coopération, a ensuite rappelé les priorités de la Présidence monégasque, parmi lesquelles la protection des enfants et la participation des jeunes aux prises de décisions. Artemiza-Tatiana CHISCA, Cheffe de la Division de la liberté d’expression et Secrétaire du Comité directeur sur les médias et la société de l’information du Conseil de l’Europe (CDMSI), a exposé les travaux de l’Organisation en matière de lutte contre la désinformation et de protection des journalistes. Serge ROBILLARD, Chargé des partenariats et des relations institutionnelles à la Direction des Plateformes et des Ressources Numériques (DPRN) et Responsable du programme « Les jeunes face à la désinformation », a détaillé les actions menées en Principauté, la Conférence des 9 et 10 novembre 2026 à Strasbourg ainsi que les prolongements prévus jusqu’à la fin de l’année 2027. Il a, en outre, évoqué les temps forts de la campagne « Les journalistes comptent » du Conseil de l’Europe, dans laquelle s’inscrit la Conférence organisée à Strasbourg les 9 et 10 novembre prochains. Cet événement, qui constituera le dernier point d’orgue de la Présidence monégasque, favorisera les échanges entre une centaine de jeunes Européens, des journalistes, des chercheurs, des spécialistes de l’éducation aux médias, des acteurs du numérique et des réseaux sociaux, ainsi que des représentants institutionnels.À destination des journalistes et des partenaires, cette rencontre s’est tenue en présence des membres du Bureau du CDMSI du Conseil de l’Europe, réu",
+      "date": "2026-10-12T13:31:45+00:00",
+      "source": "Gouvernement Princier de Monaco",
+      "sources": [
+        "Gouvernement Princier de Monaco"
+      ],
+      "country": "MC",
+      "kind": "circulation",
+      "year": 2026,
+      "denomination": null,
+      "image": "",
+      "last_seen": "2026-10-12T15:22:35.535196+00:00"
     }
   }
 }
