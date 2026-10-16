@@ -586,6 +586,23 @@ def description(item):
 
     return text
 
+# --- Parche 1: filtro nuevo y diagnóstico (archivos src/relevance.py y src/collector.py) ---
+import collector
+
+collector.init(
+    S=S, ROOT=ROOT, clean=clean, get=get, parse_date=parse_date,
+    page_date=page_date, extract_image=extract_image,
+)
+collect = collector.collect          # sustituye a collect()
+description = collector.description  # sustituye a description()
+
+_save_state_original = save_state
+
+
+def save_state(state):               # igual que antes y, además, guarda el diagnóstico
+    _save_state_original(state)
+    collector.save_diagnostics()
+# --- fin del parche 1 ---
 
 def main():
     state = load_state()
