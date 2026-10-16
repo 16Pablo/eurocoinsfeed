@@ -1,0 +1,2988 @@
+{
+ "generated_at": "2026-10-16T19:37:47.387837+00:00",
+ "feedparser": "6.0.11",
+ "sources": {
+  "eurlex": {
+   "name": "EUR-Lex — DOUE",
+   "country": "EU",
+   "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
+   "section_http": 200,
+   "section_title": "Search results - EUR-Lex",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://eur-lex.europa.eu/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://eur-lex.europa.eu/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://eur-lex.europa.eu/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://eur-lex.europa.eu/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://eur-lex.europa.eu/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 182,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Log in My EUR-Lex",
+     "EUR-Lex home",
+     "Browse by EuroVoc",
+     "EUR-Lex developments",
+     "About EUR-Lex"
+    ],
+    "http": 200,
+    "page_title": "Search results - EUR-Lex",
+    "html_chars": 237687
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "ecb": {
+   "name": "European Central Bank",
+   "country": "EU",
+   "section_url": "https://www.ecb.europa.eu/press/html/index.en.html",
+   "section_http": 200,
+   "section_title": "Publications by date",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.ecb.europa.eu/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.ecb.europa.eu/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.ecb.europa.eu/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.ecb.europa.eu/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:113: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.ecb.europa.eu/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 413,
+    "accepted": 1,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Two per cent inflation target",
+     "Euro central bank liquidity lines",
+     "Structure of the euro area economy",
+     "Digital euro",
+     "Euro Cyber Resilience Board",
+     "Euro exchange rates",
+     "Euro short-term rate (€STR)",
+     "Working group on euro risk-free rates",
+     "Euro area yield curves",
+     "Overview of the euro",
+     "Banknote and coins statistics",
+     "Euro exchange rates",
+     "Digital euro",
+     "Digital euro and privacy",
+     "Collector coins"
+    ],
+    "http": 200,
+    "page_title": "Publications by date",
+    "html_chars": 99821,
+    "accepted_in_menu": 1,
+    "accepted_in_menu_sample": [
+     "€2 commemorative coins"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 1
+  },
+  "ec_euro": {
+   "name": "European Commission — Euro coins",
+   "country": "EU",
+   "section_url": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
+   "section_http": 200,
+   "section_title": "Euro coins and notes - Economy and Finance - European Commission",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 40,
+    "accepted": 1,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Euro coins",
+     "Types of euro coins",
+     "Common sides of euro coins",
+     "Legislation on the euro coins",
+     "Commemorative coins",
+     "Euro banknotes",
+     "Copyright and reproduction rules of euro coins and notes",
+     "Euro cash in transit"
+    ],
+    "http": 200,
+    "page_title": "Euro coins and notes - Economy and Finance - European Commission",
+    "html_chars": 66077
+   },
+   "method": "scraping",
+   "relevant": 1
+  },
+  "austria_oenb": {
+   "name": "Oesterreichische Nationalbank",
+   "country": "AT",
+   "section_url": "https://www.oenb.at/en/Media.html",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.oenb.at/en/Media.html",
+   "feeds_tried": [
+    {
+     "url": "https://www.oenb.at/rss.xml",
+     "http": 404,
+     "type": "application/xml;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.oenb.at/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.oenb.at/feed.xml",
+     "http": 404,
+     "type": "application/xml;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.oenb.at/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.oenb.at/atom.xml",
+     "http": 404,
+     "type": "application/xml;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.oenb.at/en/Media.html"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "austria_mint": {
+   "name": "Münze Österreich",
+   "country": "AT",
+   "section_url": "https://www.muenzeoesterreich.at/",
+   "section_http": 200,
+   "section_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.muenzeoesterreich.at/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.muenzeoesterreich.at/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.muenzeoesterreich.at/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.muenzeoesterreich.at/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.muenzeoesterreich.at/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 216,
+    "accepted": 8,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Ansparkassetten 18 Stück Philharmoniker-Münzen",
+     "Holzetuis für Anlagemünzen",
+     "Anlagemünzen",
+     "Goldmünzen",
+     "Silbermünzen",
+     "Kupfermünzen",
+     "Silber-Niob-Münzen",
+     "3-Euro-Münzen",
+     "25-Euro-Münzen",
+     "Euro-Münzensätze",
+     "Für unter 50 Euro",
+     "Für unter 100 Euro",
+     "Für unter 200 Euro",
+     "Für unter 500 Euro",
+     "Für über 500 Euro"
+    ],
+    "http": 200,
+    "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
+    "html_chars": 147529,
+    "accepted_in_menu": 6,
+    "accepted_in_menu_sample": [
+     "2-Euro-Münzen",
+     "5-Euro-Münzen",
+     "10-Euro-Münzen",
+     "20-Euro-Münzen",
+     "50-Euro-Münzen",
+     "100-Euro-Münzen"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 8
+  },
+  "belgium_nbb": {
+   "name": "National Bank of Belgium",
+   "country": "BE",
+   "section_url": "https://www.nbb.be/en/news-and-publications",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.nbb.be/en/news-and-publications",
+   "feeds_tried": [
+    {
+     "url": "https://www.nbb.be/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.nbb.be/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.nbb.be/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.nbb.be/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.nbb.be/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nbb.be/en/news-and-publications"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "belgium_finances": {
+   "name": "SPF Finances",
+   "country": "BE",
+   "section_url": "https://finances.belgium.be/en/Actueel/overview",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2021-10-28",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
+       "ok": false
+      },
+      {
+       "title": "Calendrier des opérations de maintenance",
+       "ok": false
+      },
+      {
+       "title": "Planning van onderhoudswerkzaamheden",
+       "ok": false
+      },
+      {
+       "title": "MyMinFin",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      },
+      {
+       "title": "Tax-Calc",
+       "ok": false
+      },
+      {
+       "title": "Tax-on-web",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 51,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "http": 200,
+    "page_title": "Actueel | FPS Finance",
+    "html_chars": 39892
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "germany_bundesbank": {
+   "name": "Deutsche Bundesbank",
+   "country": "DE",
+   "section_url": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins",
+   "section_http": 200,
+   "section_title": "Euro coins | Deutsche Bundesbank",
+   "link_feeds": [
+    "https://www.bundesbank.de/service/rss/en/633292/feed.rss",
+    "https://www.bundesbank.de/service/rss/en/633306/feed.rss",
+    "https://www.bundesbank.de/service/rss/en/878806/feed.rss",
+    "https://www.bundesbank.de/service/rss/en/633296/feed.rss",
+    "https://www.bundesbank.de/service/rss/en/633312/feed.rss"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://www.bundesbank.de/service/rss/en/633292/feed.rss",
+     "http": 200,
+     "type": "application/rss+xml;charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-01",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Some thoughts on modified X-11 seasonal adjustments for time series with complex seasonality | Karsten Webel",
+       "ok": false
+      },
+      {
+       "title": "The macroeconomics of stablecoins | Boris Hofmann, Matthias Kaldorf, Matthias Rottner",
+       "ok": false
+      },
+      {
+       "title": "Safe haven status and international shock transmission | Stefan Hasenclever, Benedikt Kolb",
+       "ok": false
+      },
+      {
+       "title": "Carbon pricing, trade and the natural rate | Anne Ernst, Natascha Hinterlang, Nikolai Stähler",
+       "ok": false
+      },
+      {
+       "title": "Macroeconomic effects of carbon-intensive energy price changes: A model comparison | Matthias Burgert, Matthie",
+       "ok": false
+      },
+      {
+       "title": "On looking through sectoral shocks: The role of (de-)anchored inflation expectations | Rafael Gerke, Joost Röt",
+       "ok": false
+      },
+      {
+       "title": "The consequences of optimism and pessimism for inflation dynamics and monetary policy | Stefan Hasenclever, Ma",
+       "ok": false
+      },
+      {
+       "title": "Survey design and professional forecasters: The case of uncertainty in the US SPF | Malte Knüppel, Lora Pavlov",
+       "ok": false
+      },
+      {
+       "title": "Navigating climate policy shocks: Optimal monetary policy responses | Marco Carli, Francesca Diluiso, Mathias ",
+       "ok": false
+      },
+      {
+       "title": "Import tariff transmission in a production network | Makram Khalil, Pierre M. Rouillard, Felix Strobel",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bundesbank.de/service/rss/en/633306/feed.rss",
+     "http": 200,
+     "type": "application/rss+xml;charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-16",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
+      {
+       "title": "Reopening of two Federal bonds – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Why I believe Europe must stop counting bank capital twice | Guest contribution in The Banker online",
+       "ok": false
+      },
+      {
+       "title": "Announcement of a multi-ISIN auction – Reopening of two Green German Federal securities",
+       "ok": false
+      },
+      {
+       "title": "German balance of payments in August 2026",
+       "ok": false
+      },
+      {
+       "title": "Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid – Reopening of two Federal bonds",
+       "ok": false
+      },
+      {
+       "title": "Announcement – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
+      {
+       "title": "Auction result – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid by auction – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bundesbank.de/service/rss/en/878806/feed.rss",
+     "http": 200,
+     "type": "application/rss+xml;charset=UTF-8",
+     "entries": 5,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260066 | Reverse transaction",
+       "ok": false
+      },
+      {
+       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260075 | Reverse transaction",
+       "ok": false
+      },
+      {
+       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260086 | Reverse transaction",
+       "ok": false
+      },
+      {
+       "title": "Main refinancing operation – Allotment | Tender-ID: 20260090 | Reverse transaction",
+       "ok": false
+      },
+      {
+       "title": "FX Liquidity providing operation – Allotment | Tender-ID: 20260091 | Reverse transaction | USD",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bundesbank.de/service/rss/en/633296/feed.rss",
+     "http": 200,
+     "type": "application/rss+xml;charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Why I believe Europe must stop counting bank capital twice | Guest contribution in The Banker online",
+       "ok": false
+      },
+      {
+       "title": "Kaurischnecken und Stablecoins | Gastbeitrag in: „Die Politische Meinung“, Konrad-Adenauer-Stiftung",
+       "ok": false
+      },
+      {
+       "title": "Verschiebung der Rahmenbedingungen – wie Geopolitik das Wirtschaftswachstum, die Geldpolitik und die Rolle von",
+       "ok": false
+      },
+      {
+       "title": "Shifting Ground – How Geopolitics Is Reshaping Growth, Monetary Policy and the Role of Gold as a Reserve Asset",
+       "ok": false
+      },
+      {
+       "title": "Mehr Dynamik für die Wirtschaft | Gastrede bei der Jahresköste der Kaufmannschaft zu Rostock",
+       "ok": false
+      },
+      {
+       "title": "More momentum for the economy | Guest speech at the “Jahresköste” annual banquet of the Rostock Merchants’ Ass",
+       "ok": false
+      },
+      {
+       "title": "Die Wettbewerbsfähigkeit des europäischen Bankensektors | Eröffnungsrede beim Roundtable des OMFIF zum Thema „",
+       "ok": false
+      },
+      {
+       "title": "The competitiveness of the European banking sector | Opening remarks at the OMFIF Roundtable on “Future of Ban",
+       "ok": false
+      },
+      {
+       "title": "Private Credit: Finanzstabilität durch Diversifikation? | Keynote beim TSI-Kongress",
+       "ok": false
+      },
+      {
+       "title": "Introductory statement | Roundtable \"Preparing for transformative AI\"",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bundesbank.de/service/rss/en/633312/feed.rss",
+     "http": 200,
+     "type": "application/rss+xml;charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-16",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Joachim Nagel: „Deutschland macht sich fit für die Herausforderungen der Zukunft“",
+       "ok": false
+      },
+      {
+       "title": "Bundesbank publishes climate roadmap for up to end 2027",
+       "ok": false
+      },
+      {
+       "title": "Bundesbank veröffentlicht Klimafahrplan bis 2027",
+       "ok": false
+      },
+      {
+       "title": "Pressekonferenz: Ergebnisse des LSI-Stresstests 2026 im Livestream",
+       "ok": false
+      },
+      {
+       "title": "4. Finanzplatzkonferenz: Innovation, Energie und Altersvorsorge im Fokus",
+       "ok": false
+      },
+      {
+       "title": "4 Financial Centre Conference: Focus on innovation, energy and pension provision",
+       "ok": false
+      },
+      {
+       "title": "Bundesbank celebrates five years of InnoWerk",
+       "ok": false
+      },
+      {
+       "title": "Bundesbank feiert fünf Jahre InnoWerk",
+       "ok": false
+      },
+      {
+       "title": "Welcome on Board | Duale Studiengänge – Zentralbankwesen (BWL) / Bachelor of Science",
+       "ok": false
+      },
+      {
+       "title": "The Bundesbank launches its new children’s book",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bundesbank.de/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesbank.de/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesbank.de/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesbank.de/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesbank.de/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 506,
+    "accepted": 3,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Euro pavilion",
+     "Digital euro",
+     "Euro banknotes",
+     "Overview Euro banknotes",
+     "Euro coins",
+     "Overview Euro coins",
+     "Regular coins",
+     "Collector coins",
+     "DEM banknotes and DEM coins",
+     "Digital euro",
+     "Overview Digital euro",
+     "FAQ – Digital euro",
+     "Exchange rates, euro foreign exchange reference rates, other rates",
+     "Euro money market",
+     "Euro banknotes"
+    ],
+    "http": 200,
+    "page_title": "Euro coins | Deutsche Bundesbank",
+    "html_chars": 282745,
+    "accepted_in_menu": 1,
+    "accepted_in_menu_sample": [
+     "€2 commemorative coins"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 3
+  },
+  "germany_mint": {
+   "name": "MÜNZE DEUTSCHLAND",
+   "country": "DE",
+   "section_url": "https://www.muenze-deutschland.de/",
+   "section_http": 200,
+   "section_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://muenze-deutschland.de/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://muenze-deutschland.de/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://muenze-deutschland.de/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://muenze-deutschland.de/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://muenze-deutschland.de/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 51,
+    "accepted": 7,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Alle Münzen",
+     "Polymerringmünzen",
+     "Farbdruckmünzen",
+     "Goldmünzen",
+     "Silbermünzen",
+     "Kurs-/Umlaufmünzen",
+     "Von der Idee zur Münze",
+     "Prägende Münzen",
+     "entdecken Sie hier alle Münzen",
+     "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
+     "Zum Produkt 2-Euro-Sonderset 2026 \"Konrad Adenauer\" für ab 23,95 Euro"
+    ],
+    "http": 200,
+    "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+    "html_chars": 112088,
+    "accepted_in_menu": 1,
+    "accepted_in_menu_sample": [
+     "2-Euro-Sammlermünzen-Set"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 7
+  },
+  "spain_bde": {
+   "name": "Banco de España",
+   "country": "ES",
+   "section_url": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/",
+   "section_http": 200,
+   "section_title": "Banknotes and coins - Banco de España",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.bde.es/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=ISO-8859-1",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bde.es/feed",
+     "http": 404,
+     "type": "text/html;charset=ISO-8859-1",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bde.es/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=ISO-8859-1",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bde.es/rss",
+     "http": 404,
+     "type": "text/html;charset=ISO-8859-1",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bde.es/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=ISO-8859-1",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 406,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "“ Conozca el euro ” course",
+     "Generation €uro Students’ Award",
+     "Videos on banknotes and coins",
+     "Euro area monetary policy and instruments",
+     "Digital euro",
+     "The Single Euro Payments Area ( SEPA )",
+     "Digital Euro",
+     "Euro banknotes",
+     "Euro coins"
+    ],
+    "http": 200,
+    "page_title": "Banknotes and coins - Banco de España",
+    "html_chars": 397141
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "spain_fnmt": {
+   "name": "FNMT — Real Casa de la Moneda",
+   "country": "ES",
+   "section_url": "https://www.fnmt.es/",
+   "section_http": 200,
+   "section_title": "FNMT - FNMT",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.fnmt.es/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.fnmt.es/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.fnmt.es/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.fnmt.es/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.fnmt.es/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 142,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Museo Casa de la Moneda",
+     "Moneda Circulante",
+     "Emisiones de 2 Euro",
+     "Moneda de Colección",
+     "Moneda Circulante",
+     "Moneda de Colección"
+    ],
+    "http": 200,
+    "page_title": "FNMT - FNMT",
+    "html_chars": 179865
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "finland_bof": {
+   "name": "Bank of Finland",
+   "country": "FI",
+   "section_url": "https://www.suomenpankki.fi/en/media-and-publication/",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.suomenpankki.fi/en/media-and-publication/",
+   "feeds_tried": [
+    {
+     "url": "https://www.suomenpankki.fi/rss.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.suomenpankki.fi/feed",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.suomenpankki.fi/feed.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.suomenpankki.fi/rss",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.suomenpankki.fi/atom.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.suomenpankki.fi/en/media-and-publication/"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "finland_mint": {
+   "name": "Helsinkimint / Mint of Finland",
+   "country": "FI",
+   "section_url": "https://www.helsinkimint.com/",
+   "section_http": 200,
+   "section_title": "Home Page - Helsinkimint.com",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.helsinkimint.com/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.helsinkimint.com/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.helsinkimint.com/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.helsinkimint.com/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.helsinkimint.com/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 63,
+    "accepted": 4,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Foreign coins",
+     "Foreign coins",
+     "Gold Coins",
+     "Bullion Coins",
+     "Silver Coins",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality €32.50 Add to Cart",
+     "Finland 20 Euro “Raili & Reima Pietilä” Silver €149.95 Add to Cart",
+     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+     "Finland 30 years member of the EU €9.95 Add to Cart",
+     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
+     "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard EN €12.50 Add to Cart",
+     "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard FI/SE €12.50 Add to Cart",
+     "Finland 2 Euro “100 years Yle Broadcasting” Proof Quality €32.50 Add to Cart"
+    ],
+    "http": 200,
+    "page_title": "Home Page - Helsinkimint.com",
+    "html_chars": 315570
+   },
+   "method": "scraping",
+   "relevant": 4
+  },
+  "france_bdf": {
+   "name": "Banque de France",
+   "country": "FR",
+   "section_url": "https://www.banque-france.fr/en/press-and-media",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.banque-france.fr/en/press-and-media",
+   "feeds_tried": [
+    {
+     "url": "https://www.banque-france.fr/rss.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.banque-france.fr/feed",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.banque-france.fr/feed.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.banque-france.fr/rss",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.banque-france.fr/atom.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.banque-france.fr/en/press-and-media"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "france_mdp": {
+   "name": "Monnaie de Paris",
+   "country": "FR",
+   "section_url": "https://www.monnaiedeparis.fr/",
+   "section_http": 200,
+   "section_title": "Accueil Monnaie de Paris",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.monnaiedeparis.fr/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.monnaiedeparis.fr/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.monnaiedeparis.fr/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.monnaiedeparis.fr/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.monnaiedeparis.fr/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 330,
+    "accepted": 4,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Euros Argent",
+     "Monnaies de collection classiques",
+     "Découvrir toutes les monnaies",
+     "Guide du collectionneur L'univers de la monnaie Découvrir",
+     "Mon anniversaire à la Monnaie",
+     "Le Prix de la Monnaie de Paris",
+     "Le rôle de la monnaie aujourd'hui",
+     "Euro, les pièces en circulation",
+     "L'architecture de la Monnaie de Paris",
+     "Euros Argent",
+     "Monnaies de collection classiques",
+     "Mon anniversaire à la Monnaie",
+     "Le rôle de la monnaie aujourd'hui",
+     "Euro, les pièces en circulation",
+     "Le Prix de la Monnaie de Paris"
+    ],
+    "http": 200,
+    "page_title": "Accueil Monnaie de Paris",
+    "html_chars": 456453
+   },
+   "method": "scraping",
+   "relevant": 4
+  },
+  "ireland": {
+   "name": "Central Bank of Ireland",
+   "country": "IE",
+   "section_url": "https://www.centralbank.ie/news-media",
+   "section_http": 200,
+   "section_title": "News and media | Central Bank of Ireland",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.centralbank.ie/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbank.ie/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbank.ie/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbank.ie/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbank.ie/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 304,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Money, notes and coins",
+     "Single Euro Payments Area",
+     "A Digital Euro",
+     "Euro Area Statistics",
+     "Banknotes & Coins"
+    ],
+    "http": 200,
+    "page_title": "News and media | Central Bank of Ireland",
+    "html_chars": 124623
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "ireland_collector_coins": {
+   "name": "Collector Coins — Central Bank of Ireland",
+   "country": "IE",
+   "section_url": "https://www.collectorcoins.ie/",
+   "section_http": 200,
+   "section_title": "Home page",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.collectorcoins.ie/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.collectorcoins.ie/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.collectorcoins.ie/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.collectorcoins.ie/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.collectorcoins.ie/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 34,
+    "accepted": 5,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Silver Coins",
+     "Gold coins",
+     "Collector Coins IE",
+     "Silver Coins",
+     "Gold coins",
+     "Coin Theme Criteria",
+     "Proof Set 2026 €120.00 Out of stock",
+     "Annual Mint Set 2026 €33.00 Add to Cart",
+     "Baby Set 2026 €33.00 Add to Cart",
+     "Coin Theme Criteria",
+     "Coin Theme Criteria"
+    ],
+    "http": 200,
+    "page_title": "Home page",
+    "html_chars": 203018,
+    "accepted_in_menu": 1,
+    "accepted_in_menu_sample": [
+     "2 Euro Coins"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 5
+  },
+  "italy_bdi": {
+   "name": "Banca d’Italia",
+   "country": "IT",
+   "section_url": "https://www.bancaditalia.it/media/notizie/index.html",
+   "section_http": 200,
+   "section_title": "Banca d'Italia - Notizie",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.bancaditalia.it/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bancaditalia.it/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bancaditalia.it/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bancaditalia.it/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bancaditalia.it/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 177,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Emissione euro",
+     "Euro Digitale",
+     "Cambio di banconote e monete",
+     "Banche, istituzioni finanziarie, moneta e mercato finanziario",
+     "Principali indicatori dell'economia italiana e dell'area dell'euro",
+     "Banche e moneta: serie nazionali - agosto 2026"
+    ],
+    "http": 200,
+    "page_title": "Banca d'Italia - Notizie",
+    "html_chars": 132857
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "italy_ipzs": {
+   "name": "Istituto Poligrafico e Zecca dello Stato",
+   "country": "IT",
+   "section_url": "https://www.ipzs.it/",
+   "section_http": 200,
+   "section_title": "IPZS - Diamo valore all'Italia",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.ipzs.it/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:14:109: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.ipzs.it/feed",
+     "http": 200,
+     "type": "text/html; charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:14:109: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.ipzs.it/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:14:109: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.ipzs.it/rss",
+     "http": 200,
+     "type": "text/html; charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:14:109: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.ipzs.it/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:14:109: not well-formed (invalid token)"
+    }
+   ],
+   "scrape": {
+    "anchors": 164,
+    "accepted": 1,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "CNAC – Centro Nazionale di Analisi delle Monete",
+     "CNAC – Centro Nazionale di Analisi delle Monete"
+    ],
+    "http": 200,
+    "page_title": "IPZS - Diamo valore all'Italia",
+    "html_chars": 163910
+   },
+   "method": "scraping",
+   "relevant": 1
+  },
+  "luxembourg": {
+   "name": "Banque centrale du Luxembourg",
+   "country": "LU",
+   "section_url": "https://www.bcl.lu/en/media_actualites/communiques/index.html",
+   "section_http": 200,
+   "section_title": "",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.bcl.lu/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:2: mismatched tag"
+    },
+    {
+     "url": "https://www.bcl.lu/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:2: mismatched tag"
+    },
+    {
+     "url": "https://www.bcl.lu/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:2: mismatched tag"
+    },
+    {
+     "url": "https://www.bcl.lu/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:2: mismatched tag"
+    },
+    {
+     "url": "https://www.bcl.lu/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:6:2: mismatched tag"
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "http": 200,
+    "page_title": "",
+    "html_chars": 456
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "netherlands_dnb": {
+   "name": "De Nederlandsche Bank",
+   "country": "NL",
+   "section_url": "https://www.dnb.nl/en/news-and-archive/",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.dnb.nl/en/news-and-archive/",
+   "feeds_tried": [
+    {
+     "url": "https://www.dnb.nl/rss.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.dnb.nl/feed",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.dnb.nl/feed.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.dnb.nl/rss",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.dnb.nl/atom.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.dnb.nl/en/news-and-archive/"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "netherlands_mint": {
+   "name": "Royal Dutch Mint",
+   "country": "NL",
+   "section_url": "https://www.royaldutchmint.com/",
+   "section_http": 200,
+   "section_title": "Home Page - Royal Dutch Mint",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.royaldutchmint.com/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.royaldutchmint.com/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.royaldutchmint.com/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.royaldutchmint.com/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.royaldutchmint.com/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 173,
+    "accepted": 20,
+    "second_chance": 0,
+    "detail_errors": 1,
+    "rejected_sample": [
+     "Dutch coins",
+     "Foreign coins",
+     "Silver Coins",
+     "Gold coins",
+     "Dutch coins",
+     "Foreign coins",
+     "Silver Coins",
+     "Gold coins",
+     "Circulation Coins",
+     "Commemorative Coins",
+     "Commemoratives and loose coins",
+     "Gold Bullion Coins",
+     "Coin sets Europe",
+     "Coin bars with face value",
+     "Non European coins"
+    ],
+    "http": 200,
+    "page_title": "Home Page - Royal Dutch Mint",
+    "html_chars": 623558
+   },
+   "method": "scraping",
+   "relevant": 20
+  },
+  "portugal_bdp": {
+   "name": "Banco de Portugal",
+   "country": "PT",
+   "section_url": "https://www.bportugal.pt/en",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bportugal.pt/en",
+   "feeds_tried": [
+    {
+     "url": "https://www.bportugal.pt/rss.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bportugal.pt/feed",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bportugal.pt/feed.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bportugal.pt/rss",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bportugal.pt/atom.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bportugal.pt/en"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "portugal_incm": {
+   "name": "Imprensa Nacional-Casa da Moeda",
+   "country": "PT",
+   "section_url": "https://www.incm.pt/",
+   "section_http": 200,
+   "section_title": "Imprensa Nacional Casa da Moeda - INCM",
+   "link_feeds": [
+    "https://incm.pt/site/feed/",
+    "https://incm.pt/site/comments/feed/"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://incm.pt/site/feed/",
+     "http": 200,
+     "type": "application/rss+xml",
+     "entries": 10,
+     "newest": "2026-10-16",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Secretário de Estado da Presidência do Conselho de Ministros visita a INCM",
+       "ok": false
+      },
+      {
+       "title": "Candidaturas à 5.ª edição das Bolsas de Residência Literária Eça de Queiroz",
+       "ok": false
+      },
+      {
+       "title": "Portugal acolhe 22.ª edição do Fórum Europeu de Jornais Oficiais",
+       "ok": false
+      },
+      {
+       "title": "Moeda «Cabo de São Vicente» distinguida pelo European Product Design Award",
+       "ok": false
+      },
+      {
+       "title": "INCM na sessão de abertura da 9.ª edição da Festa do Livro em Belém",
+       "ok": false
+      },
+      {
+       "title": "Visite a Contrastaria na Portojóia",
+       "ok": false
+      },
+      {
+       "title": "Exposição «O Arco-íris debaixo de terra», de Tiago Baptista, na Galeria Imprensa Nacional",
+       "ok": false
+      },
+      {
+       "title": "Moeda dedicada a Amadeo de Souza-Cardoso apresentada no CAM – Centro de Arte Moderna Gulbenkian",
+       "ok": false
+      },
+      {
+       "title": "INCM participa na cerimónia de abertura do novo ano letivo e reafirma o seu compromisso com a Educação",
+       "ok": false
+      },
+      {
+       "title": "Candidaturas abertas à 6.ª edição do Prémio Jornalismo de Excelência Vicente Jorge Silva",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://incm.pt/site/comments/feed/",
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://incm.pt/rss.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://incm.pt/feed",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://incm.pt/feed.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://incm.pt/rss",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://incm.pt/atom.xml",
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 135,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Casa da Moeda",
+     "Museu Casa da Moeda",
+     "Casa da Moeda",
+     "Museu Casa da Moeda",
+     "Casa da Moeda",
+     "Museu Casa da Moeda"
+    ],
+    "http": 200,
+    "page_title": "Imprensa Nacional Casa da Moeda - INCM",
+    "html_chars": 329797
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "greece": {
+   "name": "Bank of Greece",
+   "country": "GR",
+   "section_url": "https://www.bankofgreece.gr/en/news-and-media",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bankofgreece.gr/en/news-and-media",
+   "feeds_tried": [
+    {
+     "url": "https://www.bankofgreece.gr/rss.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bankofgreece.gr/feed",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bankofgreece.gr/feed.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bankofgreece.gr/rss",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bankofgreece.gr/atom.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bankofgreece.gr/en/news-and-media"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "slovenia": {
+   "name": "Banka Slovenije",
+   "country": "SI",
+   "section_url": "https://www.bsi.si/en/cash/numismatics",
+   "section_http": 200,
+   "section_title": "Numismatics | Banka Slovenije",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.bsi.si/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bsi.si/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bsi.si/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bsi.si/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bsi.si/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 95,
+    "accepted": 4,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "August 6, 2026 Call for proposals for events to be commemorated by issuing occasional coins",
+     "July 21, 2026 Results of tender for designing drafts of occasional coins to be issued in 2027",
+     "joint commemorative coin",
+     "Coin catalogue | DBS",
+     "ECB: Coins"
+    ],
+    "http": 200,
+    "page_title": "Numismatics | Banka Slovenije",
+    "html_chars": 241657
+   },
+   "method": "scraping",
+   "relevant": 4
+  },
+  "cyprus": {
+   "name": "Central Bank of Cyprus",
+   "country": "CY",
+   "section_url": "https://www.centralbank.cy/en/announcements",
+   "section_http": 200,
+   "section_title": "Central Bank of Cyprus - Announcements",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.centralbank.cy/rss.xml",
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.centralbank.cy/feed",
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:107:17: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.centralbank.cy/feed.xml",
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.centralbank.cy/rss",
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.centralbank.cy/atom.xml",
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+    }
+   ],
+   "scrape": {
+    "anchors": 25,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Banknotes & Coins",
+     "Banknotes & Coins"
+    ],
+    "http": 200,
+    "page_title": "Central Bank of Cyprus - Announcements",
+    "html_chars": 450944
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "malta": {
+   "name": "Central Bank of Malta",
+   "country": "MT",
+   "section_url": "https://www.centralbankmalta.org/euro-coins",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.centralbankmalta.org/euro-coins",
+   "feeds_tried": [
+    {
+     "url": "https://www.centralbankmalta.org/rss.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbankmalta.org/feed",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbankmalta.org/feed.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbankmalta.org/rss",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.centralbankmalta.org/atom.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.centralbankmalta.org/euro-coins"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "slovakia_nbs": {
+   "name": "Národná banka Slovenska",
+   "country": "SK",
+   "section_url": "https://nbs.sk/en/notes-and-coins/euro-coins/",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://nbs.sk/en/notes-and-coins/euro-coins/",
+   "feeds_tried": [
+    {
+     "url": "https://nbs.sk/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://nbs.sk/feed",
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-09",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
+       "ok": false
+      },
+      {
+       "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
+       "ok": false
+      },
+      {
+       "title": "Platíme inak ako pred pár rokmi. Dáta ukazujú, ako sa menia naše návyky",
+       "ok": false
+      },
+      {
+       "title": "Komuniké z 18. rokovania Bankovej rady NBS",
+       "ok": false
+      },
+      {
+       "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
+       "ok": false
+      },
+      {
+       "title": "Prekvapivé zlacnenie potravín drží infláciu na dvojročnom minime",
+       "ok": false
+      },
+      {
+       "title": "NBS upravuje pravidlá pri hypotékach",
+       "ok": false
+      },
+      {
+       "title": "Makroprudenciálny komentár – september 2026",
+       "ok": false
+      },
+      {
+       "title": "NBS upravuje pravidlá pri hypotékach",
+       "ok": false
+      },
+      {
+       "title": "Komuniké zo 17. rokovania Bankovej rady NBS",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://nbs.sk/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://nbs.sk/rss",
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 10,
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
+       "ok": false
+      },
+      {
+       "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
+       "ok": false
+      },
+      {
+       "title": "Platíme inak ako pred pár rokmi. Dáta ukazujú, ako sa menia naše návyky",
+       "ok": false
+      },
+      {
+       "title": "Komuniké z 18. rokovania Bankovej rady NBS",
+       "ok": false
+      },
+      {
+       "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
+       "ok": false
+      },
+      {
+       "title": "Prekvapivé zlacnenie potravín drží infláciu na dvojročnom minime",
+       "ok": false
+      },
+      {
+       "title": "NBS upravuje pravidlá pri hypotékach",
+       "ok": false
+      },
+      {
+       "title": "Makroprudenciálny komentár – september 2026",
+       "ok": false
+      },
+      {
+       "title": "NBS upravuje pravidlá pri hypotékach",
+       "ok": false
+      },
+      {
+       "title": "Komuniké zo 17. rokovania Bankovej rady NBS",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://nbs.sk/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://nbs.sk/en/notes-and-coins/euro-coins/"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "slovakia_mint": {
+   "name": "Mincovňa Kremnica",
+   "country": "SK",
+   "section_url": "https://www.mint.sk/",
+   "section_http": 200,
+   "section_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.mint.sk/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.mint.sk/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.mint.sk/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.mint.sk/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.mint.sk/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 63,
+    "accepted": 9,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Mincovňa Kremnica",
+     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
+     "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+     "Investičné zlato - zlatá tehlička 5 g - Münze Österreich",
+     "Emisný plán mincovne 2026",
+     "História mincovne"
+    ],
+    "http": 200,
+    "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+    "html_chars": 135453,
+    "accepted_in_menu": 2,
+    "accepted_in_menu_sample": [
+     "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
+     "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 9
+  },
+  "estonia": {
+   "name": "Eesti Pank",
+   "country": "EE",
+   "section_url": "https://www.eestipank.ee/en/coins",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.eestipank.ee/en/coins",
+   "feeds_tried": [
+    {
+     "url": "https://www.eestipank.ee/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.eestipank.ee/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.eestipank.ee/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.eestipank.ee/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.eestipank.ee/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.eestipank.ee/en/coins"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "latvia": {
+   "name": "Latvijas Banka",
+   "country": "LV",
+   "section_url": "https://www.bank.lv/en/coins",
+   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.bank.lv/en/coins",
+   "feeds_tried": [
+    {
+     "url": "https://www.bank.lv/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bank.lv/feed",
+     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate v"
+    },
+    {
+     "url": "https://www.bank.lv/feed.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica"
+    },
+    {
+     "url": "https://www.bank.lv/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bank.lv/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bank.lv/en/coins"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "lithuania_lb": {
+   "name": "Lietuvos bankas",
+   "country": "LT",
+   "section_url": "https://www.lb.lt/en/coins",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins",
+   "feeds_tried": [
+    {
+     "url": "https://www.lb.lt/rss.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.lb.lt/feed",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.lb.lt/feed.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.lb.lt/rss",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.lb.lt/atom.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "lithuania_mint": {
+   "name": "Lithuanian Mint",
+   "country": "LT",
+   "section_url": "https://lithuanian-mint.lt/",
+   "section_http": 200,
+   "section_title": "Lietuvos Monetų Kalykla",
+   "link_feeds": [
+    "https://kalykla.lt/feed/"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://kalykla.lt/feed/",
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-07-03",
+     "relevant": 1,
+     "sample": [
+      {
+       "title": "Aukso karštinė leido Lietuvos monetų kalyklai vėl tapti pelningai, svarstoma gaminti daugiau juvelyrikos",
+       "ok": false
+      },
+      {
+       "title": "2025 m. aukso paklausos tendencijų apžvalga",
+       "ok": false
+      },
+      {
+       "title": "Skelbiamas 10 eurų kolekcinės monetos, skirtos Lietuvos didžiajam kunigaikščiui, Lietuvos aukščiausiajam kunig",
+       "ok": false
+      },
+      {
+       "title": "Skelbiamas 2 eurų proginės monetos, skirtos Kaunui, nacionalinės pusės (averso) grafinio projekto sukūrimo kon",
+       "ok": true
+      },
+      {
+       "title": "Valstybės valdomai įmonei UAB „Lietuvos monetų kalykla“ pradeda vadovauti Tomas Miliūnas",
+       "ok": false
+      },
+      {
+       "title": "Skelbiamas 5 eurų kolekcinės monetos „Aitvaras“ (iš serijos „Lietuvių mitinės būtybės“) averso ir reverso graf",
+       "ok": false
+      },
+      {
+       "title": "Trečiojo 2025 m. ketvirčio aukso paklausos tendencijų apžvalga",
+       "ok": false
+      },
+      {
+       "title": "Lietuvos monetų kalykla pristato naują kolekcinę monetą su M. K. Čiurlionio kūriniu „Pasaka“",
+       "ok": false
+      },
+      {
+       "title": "Lietuvos monetų kalykla pristato išskirtinį pakabuką „Barbora Radvilaitė – Karališka apsauga“",
+       "ok": false
+      },
+      {
+       "title": "Antrojo 2025 m. ketvirčio aukso paklausos tendencijų apžvalga",
+       "ok": false
+      }
+     ]
+    }
+   ],
+   "method": "feed_descubierto",
+   "feed_url": "https://kalykla.lt/feed/",
+   "relevant": 1
+  },
+  "croatia_hnb": {
+   "name": "Croatian National Bank",
+   "country": "HR",
+   "section_url": "https://www.hnb.hr/en/currency/euro-coins",
+   "section_http": 200,
+   "section_title": "Euro coins",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.hnb.hr/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.hnb.hr/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.hnb.hr/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.hnb.hr/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.hnb.hr/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 532,
+    "accepted": 3,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Digital euro",
+     "Euro banknotes",
+     "Euro coins",
+     "Euro coin denominations",
+     "Euro coins of other countries",
+     "Numismatic coins",
+     "Commemorative gold and silver kuna coins",
+     "Replacement of stained euro banknotes at the Croatian National Bank",
+     "Euro area bank lending survey",
+     "Digital euro",
+     "Euro banknotes",
+     "Euro coins",
+     "Euro coin denominations",
+     "Euro coins of other countries",
+     "Replacement of stained euro banknotes at the Croatian National Bank"
+    ],
+    "http": 200,
+    "page_title": "Euro coins",
+    "html_chars": 239486,
+    "accepted_in_menu": 3,
+    "accepted_in_menu_sample": [
+     "Issuance of commemorative and collector euro coins",
+     "Commemorative euro coins",
+     "Euro coin issuance plan"
+    ]
+   },
+   "method": "scraping",
+   "relevant": 3
+  },
+  "croatia_mint": {
+   "name": "Croatian Mint",
+   "country": "HR",
+   "section_url": "https://croatian-mint.hr/",
+   "section_error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed to ",
+   "feeds_tried": [
+    {
+     "url": "https://croatian-mint.hr/rss.xml",
+     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fai"
+    },
+    {
+     "url": "https://croatian-mint.hr/feed",
+     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /feed (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed"
+    },
+    {
+     "url": "https://croatian-mint.hr/feed.xml",
+     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fa"
+    },
+    {
+     "url": "https://croatian-mint.hr/rss",
+     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /rss (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed "
+    },
+    {
+     "url": "https://croatian-mint.hr/atom.xml",
+     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fa"
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed to "
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "bulgaria_bnb": {
+   "name": "Bulgarian National Bank",
+   "country": "BG",
+   "section_url": "https://www.bnb.bg/NotesAndCoins/index.htm",
+   "section_http": 200,
+   "section_title": "(untitled)",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.bnb.bg/rss.xml",
+     "http": 200,
+     "type": "text/html;charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.bnb.bg/feed",
+     "http": 200,
+     "type": "text/html;charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.bnb.bg/feed.xml",
+     "http": 200,
+     "type": "text/html;charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.bnb.bg/rss",
+     "http": 200,
+     "type": "text/html;charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.bnb.bg/atom.xml",
+     "http": 200,
+     "type": "text/html;charset=utf-8",
+     "entries": 0,
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+    }
+   ],
+   "scrape": {
+    "anchors": 37,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "http": 200,
+    "page_title": "(untitled)",
+    "html_chars": 43229
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "bulgaria_mint": {
+   "name": "Bulgarian Mint",
+   "country": "BG",
+   "section_url": "https://www.mint.bg/",
+   "section_http": 200,
+   "section_title": "Начало - Монетен двор",
+   "link_feeds": [
+    "https://mint.bg/feed/",
+    "https://mint.bg/comments/feed/"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://mint.bg/feed/",
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-09",
+     "relevant": 1,
+     "sample": [
+      {
+       "title": "Златна монета „Св. Иван Рилски“",
+       "ok": false
+      },
+      {
+       "title": "10 евро „Преображенски манастир“ – изчерпана наличност",
+       "ok": false
+      },
+      {
+       "title": "10 евро „Преображенски манастир“",
+       "ok": true
+      },
+      {
+       "title": "Кюлчета от злато 999/1000 за раждане, кръщение и юбилей",
+       "ok": false
+      },
+      {
+       "title": "Медал „Рожден ден“",
+       "ok": false
+      },
+      {
+       "title": "Монета „150 години от Априлското въстание“",
+       "ok": false
+      },
+      {
+       "title": "Празничен медал „Лазарица – Цветница“",
+       "ok": false
+      },
+      {
+       "title": "Монета „150 години от рождението на Кръстьо Сарафов“",
+       "ok": false
+      },
+      {
+       "title": "СТРОИТЕЛНО-РЕМОНТНИ ДЕЙНОСТИ В АДМИНИСТРАТИВНА СГРАДА",
+       "ok": false
+      },
+      {
+       "title": "Продажба на монети",
+       "ok": false
+      }
+     ]
+    }
+   ],
+   "method": "feed_descubierto",
+   "feed_url": "https://mint.bg/feed/",
+   "relevant": 1
+  },
+  "monaco": {
+   "name": "Gouvernement Princier de Monaco",
+   "country": "MC",
+   "section_url": "https://www.gouv.mc/",
+   "section_http": 200,
+   "section_title": "Portail Officiel du Gouvernement Princier de Monaco",
+   "link_feeds": [
+    "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+    "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr"
+   ],
+   "feeds_tried": [
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-16",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Monaco défend une économie lunaire responsable, équitable et multilatérale à l’IAC 2026",
+       "ok": false
+      },
+      {
+       "title": "Vaccination contre la grippe : dès à présent, pensez à vous faire vacciner",
+       "ok": false
+      },
+      {
+       "title": "Diplomatie : accréditation de cinq Ambassadeurs République Dominicaine – Equateur – Saint-Marin – Egypte – Gui",
+       "ok": false
+      },
+      {
+       "title": "Monaco reçoit une mission de prospection d’une trentaine d’entreprises allemandes",
+       "ok": false
+      },
+      {
+       "title": "Bicentenaire de la photographie en Principauté : programmation 2026-2027",
+       "ok": false
+      },
+      {
+       "title": "Proclamation des Prix de la Fondation Prince Pierre de Monaco",
+       "ok": false
+      },
+      {
+       "title": "Accès au crédit : un dispositif désormais opérationnel en faveur des personnes présentant un risque aggravé de",
+       "ok": false
+      },
+      {
+       "title": "« Les jeunes face à la désinformation » : Lancement du plan national monégasque dans le cadre de la campagne «",
+       "ok": false
+      },
+      {
+       "title": "J-MED : six années au service des jeunes et des sociétés civiles en Méditerranée",
+       "ok": false
+      },
+      {
+       "title": "Médecins de garde Monaco : un an après son lancement, le dispositif est un succès",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:80:152: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.gouv.mc/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 266,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "http": 200,
+    "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
+    "html_chars": 697570
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "san_marino_dfn": {
+   "name": "Divisione Filatelica Numismatica",
+   "country": "SM",
+   "section_url": "https://www.aasfn.sm/",
+   "section_error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl",
+   "feeds_tried": [
+    {
+     "url": "https://www.aasfn.sm/rss.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur"
+    },
+    {
+     "url": "https://www.aasfn.sm/feed",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure ("
+    },
+    {
+     "url": "https://www.aasfn.sm/feed.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+    },
+    {
+     "url": "https://www.aasfn.sm/rss",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_"
+    },
+    {
+     "url": "https://www.aasfn.sm/atom.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "san_marino_cfn": {
+   "name": "Commercializzazione Filatelica e Numismatica",
+   "country": "SM",
+   "section_url": "https://www.aasfn.sm/",
+   "section_error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl",
+   "feeds_tried": [
+    {
+     "url": "https://www.aasfn.sm/rss.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur"
+    },
+    {
+     "url": "https://www.aasfn.sm/feed",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure ("
+    },
+    {
+     "url": "https://www.aasfn.sm/feed.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+    },
+    {
+     "url": "https://www.aasfn.sm/rss",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_"
+    },
+    {
+     "url": "https://www.aasfn.sm/atom.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+    }
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "vatican": {
+   "name": "Vatican City State",
+   "country": "VA",
+   "section_url": "https://www.vaticanstate.va/en/",
+   "section_http": 200,
+   "section_title": "Vatican State",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.vaticanstate.va/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.vaticanstate.va/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.vaticanstate.va/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.vaticanstate.va/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.vaticanstate.va/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 171,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Coins and stamps",
+     "2026 Coin Set – Pontificate of Leo XIV",
+     "Coins and stamps"
+    ],
+    "http": 200,
+    "page_title": "Vatican State",
+    "html_chars": 271211
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "andorra": {
+   "name": "Govern d'Andorra",
+   "country": "AD",
+   "section_url": "https://www.govern.ad/",
+   "section_http": 200,
+   "section_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
+   "link_feeds": [],
+   "feeds_tried": [
+    {
+     "url": "https://www.govern.ad/rss.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.govern.ad/feed",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.govern.ad/feed.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.govern.ad/rss",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.govern.ad/atom.xml",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
+    }
+   ],
+   "scrape": {
+    "anchors": 1000,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "Dia mundial dels docents"
+    ],
+    "http": 200,
+    "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
+    "html_chars": 904173
+   },
+   "method": "scraping",
+   "relevant": 0
+  }
+ }
+}
