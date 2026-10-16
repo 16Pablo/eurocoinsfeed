@@ -6,9 +6,11 @@ build_feed.py le pasa sus utilidades con init(...). Aquí viven:
   save_diagnostics()  escribe data/diagnostics.json y un resumen en el log de Actions
 
 Claves opcionales por fuente en config/sources.yaml:
-  feeds:          lista de URLs de RSS/Atom oficiales (se leen todas)
+  feeds:          lista de URLs de RSS/Atom oficiales (se leen todas). Si responden,
+                  además se rastrea section_url, salvo que se ponga "scrape: false".
   coins_section:  true si section_url es una página dedicada a monedas; los enlaces
                   que parecen monedas se abren para mirar su título/texto
+  scrape:         false para no rastrear section_url cuando hay feeds que responden
 """
 
 import copy
@@ -151,7 +153,9 @@ def parse_feed(feed_url, source):
 
     for entry in feed.entries[:100]:
         title = clean(entry.get("title", ""))
-        link = entry.get("link", "")
+        raw_link = (entry.get("link", "") or "").strip()
+        # Enlaces relativos ("/news/x") o sin protocolo ("//host/x"): se completan con la URL del feed
+        link = urljoin(response.url, raw_link) if raw_link else ""
         summary = clean(entry.get("summary", "") or entry.get("description", ""))
 
         if not title or not link:
@@ -326,7 +330,11 @@ def collect(source):
 
 
 def _collect(source):
-    # 1) Feeds oficiales indicados a mano en sources.yaml (clave "feeds")
+    section_url = source.get("section_url")
+
+    # 1) Feeds oficiales indicados a mano en sources.yaml (clave "feeds").
+    #    Si responden, se leen y ADEMÁS se rastrea la página de la sección (donde suelen
+    #    aparecer monedas que no tienen nota de prensa). Con "scrape: false" no se rastrea.
     manual = source.get("feeds") or []
     if isinstance(manual, str):          # por si se escribe "feeds: https://..." sin lista
         manual = [manual]
@@ -336,10 +344,17 @@ def _collect(source):
         found.extend(items)
         answered = answered or total > 0
     if answered:
-        note(method="feeds_a_mano", relevant=len(found))
+        method = "feeds_a_mano"
+        if section_url and source.get("scrape", True) is not False:
+            seen = {item["link"] for item in found}
+            for item in scrape(section_url, source):
+                if item["link"] not in seen:
+                    found.append(item)
+                    seen.add(item["link"])
+            method = "feeds_a_mano+scraping"
+        note(method=method, relevant=len(found))
         return found
 
-    section_url = source.get("section_url")
     if not section_url:
         note(method="sin_url", relevant=0)
         return []
