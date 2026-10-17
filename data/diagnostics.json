@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T10:43:50.730936+00:00",
+ "generated_at": "2026-10-17T15:34:48.239016+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -142,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99793,
+    "html_chars": 99781,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -390,42 +390,134 @@
    "country": "BE",
    "section_url": "https://finances.belgium.be/en/Actueel/overview",
    "section_http": 200,
-   "section_title": "",
-   "link_feeds": [],
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
    "feeds_tried": [
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
+    },
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2021-10-28",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
+       "ok": false
+      },
+      {
+       "title": "Calendrier des opérations de maintenance",
+       "ok": false
+      },
+      {
+       "title": "Planning van onderhoudswerkzaamheden",
+       "ok": false
+      },
+      {
+       "title": "MyMinFin",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      },
+      {
+       "title": "Tax-Calc",
+       "ok": false
+      },
+      {
+       "title": "Tax-on-web",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      }
+     ]
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -742,7 +834,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 179865
+    "html_chars": 179872
    },
    "method": "scraping",
    "relevant": 0
@@ -974,7 +1066,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 457265
+    "html_chars": 457209
    },
    "method": "scraping",
    "relevant": 4
@@ -1974,7 +2066,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135451,
+    "html_chars": 135450,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
@@ -2381,14 +2473,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/feed.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
@@ -2402,7 +2494,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -2413,7 +2505,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -2574,7 +2666,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2591,7 +2683,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696617
+    "html_chars": 696064
    },
    "method": "scraping",
    "relevant": 0
@@ -2723,7 +2815,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271278
+    "html_chars": 271315
    },
    "method": "scraping",
    "relevant": 0
@@ -2777,7 +2869,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 904173
+    "html_chars": 904360
    },
    "method": "scraping",
    "relevant": 0
