@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T07:16:56.416772+00:00",
+ "generated_at": "2026-10-17T10:43:50.730936+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -142,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99757,
+    "html_chars": 99793,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -390,23 +390,14 @@
    "country": "BE",
    "section_url": "https://finances.belgium.be/en/Actueel/overview",
    "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
+   "section_title": "",
+   "link_feeds": [],
    "feeds_tried": [
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
      "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/feed",
@@ -751,7 +742,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 178309
+    "html_chars": 179865
    },
    "method": "scraping",
    "relevant": 0
@@ -983,7 +974,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 458021
+    "html_chars": 457265
    },
    "method": "scraping",
    "relevant": 4
@@ -1983,7 +1974,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135453,
+    "html_chars": 135451,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
@@ -2321,7 +2312,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239482,
+    "html_chars": 239486,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2390,14 +2381,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/feed.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
@@ -2411,7 +2402,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -2422,7 +2413,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -2583,7 +2574,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:222: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2600,7 +2591,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 695786
+    "html_chars": 696617
    },
    "method": "scraping",
    "relevant": 0
@@ -2786,7 +2777,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 902687
+    "html_chars": 904173
    },
    "method": "scraping",
    "relevant": 0
