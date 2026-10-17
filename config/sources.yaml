@@ -208,7 +208,7 @@ sources:
     feeds:
       - https://www.lb.lt/en/news/rss
 
-- id: germany_bmf
+  - id: germany_bmf
     country: DE
     name: Bundesministerium der Finanzen
     section_url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html
