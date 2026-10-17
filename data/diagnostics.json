@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-17T15:34:48.239016+00:00",
+ "generated_at": "2026-10-17T20:42:23.424489+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -142,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99781,
+    "html_chars": 99821,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -448,76 +448,37 @@
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2021-10-28",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
-       "ok": false
-      },
-      {
-       "title": "Calendrier des opérations de maintenance",
-       "ok": false
-      },
-      {
-       "title": "Planning van onderhoudswerkzaamheden",
-       "ok": false
-      },
-      {
-       "title": "MyMinFin",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      },
-      {
-       "title": "Tax-Calc",
-       "ok": false
-      },
-      {
-       "title": "Tax-on-web",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      }
-     ]
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
    "scrape": {
@@ -613,7 +574,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -834,7 +795,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 179872
+    "html_chars": 178339
    },
    "method": "scraping",
    "relevant": 0
@@ -2014,67 +1975,39 @@
    "name": "Mincovňa Kremnica",
    "country": "SK",
    "section_url": "https://www.mint.sk/",
-   "section_http": 200,
-   "section_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-   "link_feeds": [],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285920ccb0>, 'C",
    "feeds_tried": [
     {
      "url": "https://www.mint.sk/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f2859157e"
     },
     {
      "url": "https://www.mint.sk/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a8ea6f0>"
     },
     {
      "url": "https://www.mint.sk/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285920c"
     },
     {
      "url": "https://www.mint.sk/rss",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01ec90>,"
     },
     {
      "url": "https://www.mint.sk/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01f"
     }
    ],
    "scrape": {
-    "anchors": 63,
-    "accepted": 9,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Mincovňa Kremnica",
-     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
-     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
-     "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
-     "Investičné zlato - zlatá tehlička 5 g - Münze Österreich",
-     "Emisný plán mincovne 2026",
-     "História mincovne"
-    ],
-    "http": 200,
-    "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135450,
-    "accepted_in_menu": 2,
-    "accepted_in_menu_sample": [
-     "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
-     "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
-    ]
+    "rejected_sample": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01d730>, 'C"
    },
    "method": "scraping",
-   "relevant": 9
+   "relevant": 0
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -2404,7 +2337,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239488,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2480,14 +2413,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -2505,7 +2438,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -2666,7 +2599,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2683,7 +2616,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696064
+    "html_chars": 696090
    },
    "method": "scraping",
    "relevant": 0
