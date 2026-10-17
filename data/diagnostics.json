@@ -1,61 +1,55 @@
 {
- "generated_at": "2026-10-16T19:37:47.387837+00:00",
+ "generated_at": "2026-10-17T07:16:56.416772+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
    "name": "EUR-Lex — DOUE",
    "country": "EU",
    "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
-   "section_http": 200,
-   "section_title": "Search results - EUR-Lex",
+   "section_http": 202,
+   "section_title": "",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://eur-lex.europa.eu/rss.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/rss",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/atom.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 182,
+    "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Log in My EUR-Lex",
-     "EUR-Lex home",
-     "Browse by EuroVoc",
-     "EUR-Lex developments",
-     "About EUR-Lex"
-    ],
-    "http": 200,
-    "page_title": "Search results - EUR-Lex",
-    "html_chars": 237687
+    "rejected_sample": [],
+    "http": 202,
+    "page_title": "",
+    "html_chars": 0
    },
    "method": "scraping",
    "relevant": 0
@@ -64,40 +58,64 @@
    "name": "European Central Bank",
    "country": "EU",
    "section_url": "https://www.ecb.europa.eu/press/html/index.en.html",
-   "section_http": 200,
-   "section_title": "Publications by date",
-   "link_feeds": [],
    "feeds_tried": [
     {
-     "url": "https://www.ecb.europa.eu/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.ecb.europa.eu/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.ecb.europa.eu/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.ecb.europa.eu/rss",
+     "url": "https://www.ecb.europa.eu/rss/press.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:113: not well-formed (invalid token)"
-    },
-    {
-     "url": "https://www.ecb.europa.eu/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "type": "text/xml",
+     "entries": 15,
+     "newest": "2026-10-17",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Christine Lagarde: IMFC Statement",
+       "ok": false
+      },
+      {
+       "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
+       "ok": false
+      },
+      {
+       "title": "Philip R. Lane: The AI opportunity for Europe",
+       "ok": false
+      },
+      {
+       "title": "Meeting of 9-10 September 2026",
+       "ok": false
+      },
+      {
+       "title": "Piero Cipollone: Interview with Corriere della Sera",
+       "ok": false
+      },
+      {
+       "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing a",
+       "ok": false
+      },
+      {
+       "title": "Frank Elderson: Effective supervision through timely remediation",
+       "ok": false
+      },
+      {
+       "title": "Piero Cipollone: Money in the digital age: digital euro, tokenisation and the role of central banks",
+       "ok": false
+      },
+      {
+       "title": "Philip R. Lane: Interview with Ansa",
+       "ok": false
+      },
+      {
+       "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
+       "ok": false
+      },
+      {
+       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+       "ok": false
+      },
+      {
+       "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+       "ok": false
+      }
+     ]
     }
    ],
    "scrape": {
@@ -124,13 +142,13 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99821,
+    "html_chars": 99757,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
     ]
    },
-   "method": "scraping",
+   "method": "feeds_a_mano+scraping",
    "relevant": 1
   },
   "ec_euro": {
@@ -380,126 +398,43 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2026-10-11",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
-       "ok": false
-      },
-      {
-       "title": "The Library presents its new website",
-       "ok": false
-      },
-      {
-       "title": "Library closed from 7 until 10 September 2026 inclusive",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
-       "ok": false
-      },
-      {
-       "title": "BEPS 13 Webinar: register now and prepare your questions",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
-       "ok": false
-      }
-     ]
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2021-10-28",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
-       "ok": false
-      },
-      {
-       "title": "Calendrier des opérations de maintenance",
-       "ok": false
-      },
-      {
-       "title": "Planning van onderhoudswerkzaamheden",
-       "ok": false
-      },
-      {
-       "title": "MyMinFin",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      },
-      {
-       "title": "Tax-Calc",
-       "ok": false
-      },
-      {
-       "title": "Tax-on-web",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      }
-     ]
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
    "scrape": {
@@ -519,74 +454,19 @@
    "name": "Deutsche Bundesbank",
    "country": "DE",
    "section_url": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins",
-   "section_http": 200,
-   "section_title": "Euro coins | Deutsche Bundesbank",
-   "link_feeds": [
-    "https://www.bundesbank.de/service/rss/en/633292/feed.rss",
-    "https://www.bundesbank.de/service/rss/en/633306/feed.rss",
-    "https://www.bundesbank.de/service/rss/en/878806/feed.rss",
-    "https://www.bundesbank.de/service/rss/en/633296/feed.rss",
-    "https://www.bundesbank.de/service/rss/en/633312/feed.rss"
-   ],
    "feeds_tried": [
-    {
-     "url": "https://www.bundesbank.de/service/rss/en/633292/feed.rss",
-     "http": 200,
-     "type": "application/rss+xml;charset=UTF-8",
-     "entries": 10,
-     "newest": "2026-10-01",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Some thoughts on modified X-11 seasonal adjustments for time series with complex seasonality | Karsten Webel",
-       "ok": false
-      },
-      {
-       "title": "The macroeconomics of stablecoins | Boris Hofmann, Matthias Kaldorf, Matthias Rottner",
-       "ok": false
-      },
-      {
-       "title": "Safe haven status and international shock transmission | Stefan Hasenclever, Benedikt Kolb",
-       "ok": false
-      },
-      {
-       "title": "Carbon pricing, trade and the natural rate | Anne Ernst, Natascha Hinterlang, Nikolai Stähler",
-       "ok": false
-      },
-      {
-       "title": "Macroeconomic effects of carbon-intensive energy price changes: A model comparison | Matthias Burgert, Matthie",
-       "ok": false
-      },
-      {
-       "title": "On looking through sectoral shocks: The role of (de-)anchored inflation expectations | Rafael Gerke, Joost Röt",
-       "ok": false
-      },
-      {
-       "title": "The consequences of optimism and pessimism for inflation dynamics and monetary policy | Stefan Hasenclever, Ma",
-       "ok": false
-      },
-      {
-       "title": "Survey design and professional forecasters: The case of uncertainty in the US SPF | Malte Knüppel, Lora Pavlov",
-       "ok": false
-      },
-      {
-       "title": "Navigating climate policy shocks: Optimal monetary policy responses | Marco Carli, Francesca Diluiso, Mathias ",
-       "ok": false
-      },
-      {
-       "title": "Import tariff transmission in a production network | Makram Khalil, Pierre M. Rouillard, Felix Strobel",
-       "ok": false
-      }
-     ]
-    },
     {
      "url": "https://www.bundesbank.de/service/rss/en/633306/feed.rss",
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-16",
+     "newest": "2026-10-17",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Remarks on the panel topic “Paths to prosperity: Forging growth, trade and investment between Europe and Asia”",
+       "ok": false
+      },
       {
        "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -622,172 +502,8 @@
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194",
-       "ok": false
       }
      ]
-    },
-    {
-     "url": "https://www.bundesbank.de/service/rss/en/878806/feed.rss",
-     "http": 200,
-     "type": "application/rss+xml;charset=UTF-8",
-     "entries": 5,
-     "newest": "2026-10-14",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260066 | Reverse transaction",
-       "ok": false
-      },
-      {
-       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260075 | Reverse transaction",
-       "ok": false
-      },
-      {
-       "title": "Longer-term refinancing operation – Allotment | Tender-ID: 20260086 | Reverse transaction",
-       "ok": false
-      },
-      {
-       "title": "Main refinancing operation – Allotment | Tender-ID: 20260090 | Reverse transaction",
-       "ok": false
-      },
-      {
-       "title": "FX Liquidity providing operation – Allotment | Tender-ID: 20260091 | Reverse transaction | USD",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://www.bundesbank.de/service/rss/en/633296/feed.rss",
-     "http": 200,
-     "type": "application/rss+xml;charset=UTF-8",
-     "entries": 10,
-     "newest": "2026-10-14",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Why I believe Europe must stop counting bank capital twice | Guest contribution in The Banker online",
-       "ok": false
-      },
-      {
-       "title": "Kaurischnecken und Stablecoins | Gastbeitrag in: „Die Politische Meinung“, Konrad-Adenauer-Stiftung",
-       "ok": false
-      },
-      {
-       "title": "Verschiebung der Rahmenbedingungen – wie Geopolitik das Wirtschaftswachstum, die Geldpolitik und die Rolle von",
-       "ok": false
-      },
-      {
-       "title": "Shifting Ground – How Geopolitics Is Reshaping Growth, Monetary Policy and the Role of Gold as a Reserve Asset",
-       "ok": false
-      },
-      {
-       "title": "Mehr Dynamik für die Wirtschaft | Gastrede bei der Jahresköste der Kaufmannschaft zu Rostock",
-       "ok": false
-      },
-      {
-       "title": "More momentum for the economy | Guest speech at the “Jahresköste” annual banquet of the Rostock Merchants’ Ass",
-       "ok": false
-      },
-      {
-       "title": "Die Wettbewerbsfähigkeit des europäischen Bankensektors | Eröffnungsrede beim Roundtable des OMFIF zum Thema „",
-       "ok": false
-      },
-      {
-       "title": "The competitiveness of the European banking sector | Opening remarks at the OMFIF Roundtable on “Future of Ban",
-       "ok": false
-      },
-      {
-       "title": "Private Credit: Finanzstabilität durch Diversifikation? | Keynote beim TSI-Kongress",
-       "ok": false
-      },
-      {
-       "title": "Introductory statement | Roundtable \"Preparing for transformative AI\"",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://www.bundesbank.de/service/rss/en/633312/feed.rss",
-     "http": 200,
-     "type": "application/rss+xml;charset=UTF-8",
-     "entries": 10,
-     "newest": "2026-10-16",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Joachim Nagel: „Deutschland macht sich fit für die Herausforderungen der Zukunft“",
-       "ok": false
-      },
-      {
-       "title": "Bundesbank publishes climate roadmap for up to end 2027",
-       "ok": false
-      },
-      {
-       "title": "Bundesbank veröffentlicht Klimafahrplan bis 2027",
-       "ok": false
-      },
-      {
-       "title": "Pressekonferenz: Ergebnisse des LSI-Stresstests 2026 im Livestream",
-       "ok": false
-      },
-      {
-       "title": "4. Finanzplatzkonferenz: Innovation, Energie und Altersvorsorge im Fokus",
-       "ok": false
-      },
-      {
-       "title": "4 Financial Centre Conference: Focus on innovation, energy and pension provision",
-       "ok": false
-      },
-      {
-       "title": "Bundesbank celebrates five years of InnoWerk",
-       "ok": false
-      },
-      {
-       "title": "Bundesbank feiert fünf Jahre InnoWerk",
-       "ok": false
-      },
-      {
-       "title": "Welcome on Board | Duale Studiengänge – Zentralbankwesen (BWL) / Bachelor of Science",
-       "ok": false
-      },
-      {
-       "title": "The Bundesbank launches its new children’s book",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://www.bundesbank.de/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesbank.de/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesbank.de/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesbank.de/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesbank.de/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
     }
    ],
    "scrape": {
@@ -820,7 +536,7 @@
      "€2 commemorative coins"
     ]
    },
-   "method": "scraping",
+   "method": "feeds_a_mano+scraping",
    "relevant": 3
   },
   "germany_mint": {
@@ -895,39 +611,64 @@
    "name": "Banco de España",
    "country": "ES",
    "section_url": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/",
-   "section_http": 200,
-   "section_title": "Banknotes and coins - Banco de España",
-   "link_feeds": [],
    "feeds_tried": [
     {
-     "url": "https://www.bde.es/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=ISO-8859-1",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bde.es/feed",
-     "http": 404,
-     "type": "text/html;charset=ISO-8859-1",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bde.es/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=ISO-8859-1",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bde.es/rss",
-     "http": 404,
-     "type": "text/html;charset=ISO-8859-1",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bde.es/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=ISO-8859-1",
-     "entries": 0
+     "url": "https://www.bde.es/wbe/es/inicio/rss/rss-noticias/",
+     "http": 200,
+     "type": "text/xml; charset=UTF-8",
+     "entries": 20,
+     "newest": "2026-10-16",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "José Luis Escrivá. Seminar on Iberian Economic Integration",
+       "ok": false
+      },
+      {
+       "title": "José Luis Escrivá. VI Campaña de sensibilización para jóvenes - UCLM",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España analiza en Valladolid las proyecciones macroeconómicas con los agentes sociales y la comuni",
+       "ok": false
+      },
+      {
+       "title": "Trabajar en el Banco de España: una forma única de construir Europa",
+       "ok": false
+      },
+      {
+       "title": "DG Economía. CREO 2026. Incertidumbre, transformación y resiliencia",
+       "ok": false
+      },
+      {
+       "title": "Entrevista al director general de Operaciones, Mercados y Sistemas de Pago en Última Hora",
+       "ok": false
+      },
+      {
+       "title": "Estado financiero consolidado del Eurosistema a 9 de octubre de 2026",
+       "ok": false
+      },
+      {
+       "title": "D.G. Economía. Proyecciones macroeconómicas de España. Tercer trimestre de 2026",
+       "ok": false
+      },
+      {
+       "title": "David López Salido. Proyecciones macroeconómicas e informe trimestral de la economía española",
+       "ok": false
+      },
+      {
+       "title": "David López Salido. CREO 2026",
+       "ok": false
+      },
+      {
+       "title": "Juan Ayuso. Conferencia: \"El euro digital\"",
+       "ok": false
+      },
+      {
+       "title": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Berlin on",
+       "ok": false
+      }
+     ]
     }
    ],
    "scrape": {
@@ -953,7 +694,7 @@
     "page_title": "Banknotes and coins - Banco de España",
     "html_chars": 397141
    },
-   "method": "scraping",
+   "method": "feeds_a_mano+scraping",
    "relevant": 0
   },
   "spain_fnmt": {
@@ -1010,7 +751,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 179865
+    "html_chars": 178309
    },
    "method": "scraping",
    "relevant": 0
@@ -1242,7 +983,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456453
+    "html_chars": 458021
    },
    "method": "scraping",
    "relevant": 4
@@ -1487,7 +1228,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163910
+    "html_chars": 163885
    },
    "method": "scraping",
    "relevant": 1
@@ -1553,8 +1294,13 @@
    "name": "De Nederlandsche Bank",
    "country": "NL",
    "section_url": "https://www.dnb.nl/en/news-and-archive/",
-   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.dnb.nl/en/news-and-archive/",
    "feeds_tried": [
+    {
+     "url": "https://www.dnb.nl/en/rss/16451/6882",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
     {
      "url": "https://www.dnb.nl/rss.xml",
      "http": 403,
@@ -1586,6 +1332,7 @@
      "entries": 0
     }
    ],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.dnb.nl/en/news-and-archive/",
    "scrape": {
     "anchors": 0,
     "accepted": 0,
@@ -1660,7 +1407,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623558
+    "html_chars": 624798
    },
    "method": "scraping",
    "relevant": 20
@@ -1777,7 +1524,7 @@
     {
      "url": "https://incm.pt/site/comments/feed/",
      "http": 200,
-     "type": "application/rss+xml; charset=UTF-8",
+     "type": "application/rss+xml",
      "entries": 0
     },
     {
@@ -2342,8 +2089,13 @@
    "name": "Lietuvos bankas",
    "country": "LT",
    "section_url": "https://www.lb.lt/en/coins",
-   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins",
    "feeds_tried": [
+    {
+     "url": "https://www.lb.lt/en/news/rss",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
     {
      "url": "https://www.lb.lt/rss.xml",
      "http": 403,
@@ -2375,6 +2127,7 @@
      "entries": 0
     }
    ],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins",
    "scrape": {
     "anchors": 0,
     "accepted": 0,
@@ -2382,6 +2135,60 @@
     "detail_errors": 0,
     "rejected_sample": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins"
+   },
+   "method": "scraping",
+   "relevant": 0
+  },
+  "germany_bmf": {
+   "name": "Bundesministerium der Finanzen",
+   "country": "DE",
+   "section_url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+   "feeds_tried": [
+    {
+     "url": "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/rss.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/feed",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/feed.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/rss",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/atom.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html"
    },
    "method": "scraping",
    "relevant": 0
@@ -2514,7 +2321,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239482,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2776,7 +2583,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:152: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:222: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2793,7 +2600,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697570
+    "html_chars": 695786
    },
    "method": "scraping",
    "relevant": 0
@@ -2925,7 +2732,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271211
+    "html_chars": 271278
    },
    "method": "scraping",
    "relevant": 0
@@ -2979,7 +2786,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 904173
+    "html_chars": 902687
    },
    "method": "scraping",
    "relevant": 0
