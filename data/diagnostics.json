@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-18T04:36:42.551623+00:00",
+ "generated_at": "2026-10-18T11:04:04.745365+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -55,7 +55,7 @@
     ],
     "http": 200,
     "page_title": "Search results - EUR-Lex",
-    "html_chars": 237687
+    "html_chars": 237688
    },
    "method": "scraping",
    "relevant": 0
@@ -148,7 +148,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99784,
+    "html_chars": 99782,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -1072,7 +1072,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456057
+    "html_chars": 457209
    },
    "method": "scraping",
    "relevant": 4
@@ -2020,39 +2020,67 @@
    "name": "Mincovňa Kremnica",
    "country": "SK",
    "section_url": "https://www.mint.sk/",
-   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1b48fef0>, 'C",
+   "section_http": 200,
+   "section_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.mint.sk/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1ce8b2"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1ad44b00>"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1b5fb"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1bd73e60>,"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/atom.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1af56"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 63,
+    "accepted": 9,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1a61dbb0>, 'C"
+    "rejected_sample": [
+     "Mincovňa Kremnica",
+     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
+     "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+     "Investičné zlato - zlatá tehlička 5 g - Münze Österreich",
+     "Emisný plán mincovne 2026",
+     "História mincovne"
+    ],
+    "http": 200,
+    "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+    "html_chars": 135453,
+    "accepted_in_menu": 2,
+    "accepted_in_menu_sample": [
+     "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
+     "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 9
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -2207,52 +2235,78 @@
    "feeds_tried": [
     {
      "url": "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/atom.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
+     "http": 200,
+     "type": "text/xml;charset=utf-8",
+     "entries": 20,
+     "newest": "2026-10-14",
+     "relevant": 9,
+     "sample": [
+      {
+       "title": "Bundeskabinett bringt Gesetzentwurf für Zuckergetränkesteuer auf den Weg",
+       "ok": false
+      },
+      {
+       "title": "36. Sitzung des Stabilitätsrates am 12. Oktober 2026",
+       "ok": false
+      },
+      {
+       "title": "50-Euro-Sammlermünze „Alle Jahre wieder“",
+       "ok": true
+      },
+      {
+       "title": "100-Euro-Sammlermünze „Dies Buch gehört dem König“",
+       "ok": true
+      },
+      {
+       "title": "2-Euro-Gedenkmünze „Hans-Dietrich Genscher“",
+       "ok": true
+      },
+      {
+       "title": "Digitale Belege und digitale Kassen: Bundesregierung baut Bürokratie ab und bekämpft Steuerhinterziehung",
+       "ok": false
+      },
+      {
+       "title": "Bund und Berlin unterzeichnen neuen Hauptstadtfinanzierungsvertrag",
+       "ok": false
+      },
+      {
+       "title": "Bundesregierung stärkt Transparenz: Bundeshaushalt wird mit Nachhaltigkeitszielen verknüpft",
+       "ok": false
+      },
+      {
+       "title": "Bundesregierung bringt Einkommensteuerreform auf den Weg: Insbesondere Familien mit Kindern werden entlastet",
+       "ok": false
+      },
+      {
+       "title": "Vorstellung der Sonderbriefmarke „Alexandria Blue Boy“ aus der Serie „Tag der Briefmarke“",
+       "ok": false
+      },
+      {
+       "title": "Vorstellung der Sonderbriefmarke „Anpassung an den Klimawandel“ aus der Serie „Für den Umweltschutz“",
+       "ok": false
+      },
+      {
+       "title": "Kabinett beschließt Frühstartrente: Startkapital für die Altersvorsorge der jungen Generation",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 175,
+    "accepted": 3,
     "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html"
+    "detail_errors": 3,
+    "rejected_sample": [
+     "Zurück Briefmarken & Sammlermünzen Weiter",
+     "Sammlermünzen"
+    ],
+    "http": 200,
+    "page_title": "Bundesfinanzministerium  - Pressemitteilungen",
+    "html_chars": 208191
    },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feeds_a_mano+scraping",
+   "relevant": 12
   },
   "lithuania_mint": {
    "name": "Lithuanian Mint",
@@ -2382,7 +2436,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239487,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2458,14 +2512,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -2661,7 +2715,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696086
+    "html_chars": 696048
    },
    "method": "scraping",
    "relevant": 0
@@ -2793,7 +2847,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271225
+    "html_chars": 271188
    },
    "method": "scraping",
    "relevant": 0
