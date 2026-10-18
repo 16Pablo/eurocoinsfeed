@@ -1,55 +1,61 @@
 {
- "generated_at": "2026-10-17T20:42:23.424489+00:00",
+ "generated_at": "2026-10-18T04:36:42.551623+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
    "name": "EUR-Lex — DOUE",
    "country": "EU",
    "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
-   "section_http": 202,
-   "section_title": "",
+   "section_http": 200,
+   "section_title": "Search results - EUR-Lex",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://eur-lex.europa.eu/rss.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/rss",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/atom.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
+    "anchors": 182,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "http": 202,
-    "page_title": "",
-    "html_chars": 0
+    "rejected_sample": [
+     "Log in My EUR-Lex",
+     "EUR-Lex home",
+     "Browse by EuroVoc",
+     "EUR-Lex developments",
+     "About EUR-Lex"
+    ],
+    "http": 200,
+    "page_title": "Search results - EUR-Lex",
+    "html_chars": 237687
    },
    "method": "scraping",
    "relevant": 0
@@ -142,7 +148,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99821,
+    "html_chars": 99784,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -448,37 +454,76 @@
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2021-10-28",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
+       "ok": false
+      },
+      {
+       "title": "Calendrier des opérations de maintenance",
+       "ok": false
+      },
+      {
+       "title": "Planning van onderhoudswerkzaamheden",
+       "ok": false
+      },
+      {
+       "title": "MyMinFin",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      },
+      {
+       "title": "Tax-Calc",
+       "ok": false
+      },
+      {
+       "title": "Tax-on-web",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      }
+     ]
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -574,7 +619,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
+    "html_chars": 282745,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -795,7 +840,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 178339
+    "html_chars": 178307
    },
    "method": "scraping",
    "relevant": 0
@@ -1027,7 +1072,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 457209
+    "html_chars": 456057
    },
    "method": "scraping",
    "relevant": 4
@@ -1975,27 +2020,27 @@
    "name": "Mincovňa Kremnica",
    "country": "SK",
    "section_url": "https://www.mint.sk/",
-   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285920ccb0>, 'C",
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1b48fef0>, 'C",
    "feeds_tried": [
     {
      "url": "https://www.mint.sk/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f2859157e"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1ce8b2"
     },
     {
      "url": "https://www.mint.sk/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a8ea6f0>"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1ad44b00>"
     },
     {
      "url": "https://www.mint.sk/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285920c"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1b5fb"
     },
     {
      "url": "https://www.mint.sk/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01ec90>,"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1bd73e60>,"
     },
     {
      "url": "https://www.mint.sk/atom.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01f"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1af56"
     }
    ],
    "scrape": {
@@ -2004,7 +2049,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
-    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f285a01d730>, 'C"
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9f1a61dbb0>, 'C"
    },
    "method": "scraping",
    "relevant": 0
@@ -2337,7 +2382,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239488,
+    "html_chars": 239486,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2438,7 +2483,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -2599,7 +2644,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2616,7 +2661,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696090
+    "html_chars": 696086
    },
    "method": "scraping",
    "relevant": 0
@@ -2748,7 +2793,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271315
+    "html_chars": 271225
    },
    "method": "scraping",
    "relevant": 0
