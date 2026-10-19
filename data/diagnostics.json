@@ -1,55 +1,61 @@
 {
- "generated_at": "2026-10-19T13:13:16.475301+00:00",
+ "generated_at": "2026-10-19T22:23:36.549367+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
    "name": "EUR-Lex — DOUE",
    "country": "EU",
    "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
-   "section_http": 202,
-   "section_title": "",
+   "section_http": 200,
+   "section_title": "Search results - EUR-Lex",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://eur-lex.europa.eu/rss.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/rss",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/atom.xml",
-     "http": 202,
+     "http": 404,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
+    "anchors": 182,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "http": 202,
-    "page_title": "",
-    "html_chars": 0
+    "rejected_sample": [
+     "Log in My EUR-Lex",
+     "EUR-Lex home",
+     "Browse by EuroVoc",
+     "EUR-Lex developments",
+     "About EUR-Lex"
+    ],
+    "http": 200,
+    "page_title": "Search results - EUR-Lex",
+    "html_chars": 237688
    },
    "method": "scraping",
    "relevant": 0
@@ -142,7 +148,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99757,
+    "html_chars": 99781,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -323,7 +329,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147530,
+    "html_chars": 147529,
     "accepted_in_menu": 6,
     "accepted_in_menu_sample": [
      "2-Euro-Münzen",
@@ -613,7 +619,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
+    "html_chars": 282745,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -681,7 +687,7 @@
     ],
     "http": 200,
     "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 112088,
+    "html_chars": 112114,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "2-Euro-Sammlermünzen-Set"
@@ -790,32 +796,32 @@
    "feeds_tried": [
     {
      "url": "https://www.fnmt.es/rss.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/rss",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/atom.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
      "entries": 0
     }
    ],
@@ -834,7 +840,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 178327
+    "html_chars": 178305
    },
    "method": "scraping",
    "relevant": 0
@@ -1066,7 +1072,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456548
+    "html_chars": 456296
    },
    "method": "scraping",
    "relevant": 4
@@ -1237,7 +1243,7 @@
     }
    ],
    "scrape": {
-    "anchors": 177,
+    "anchors": 172,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1245,12 +1251,11 @@
      "Emissione euro",
      "Euro Digitale",
      "Cambio di banconote e monete",
-     "Banche, istituzioni finanziarie, moneta e mercato finanziario",
-     "Principali indicatori dell'economia italiana e dell'area dell'euro"
+     "Banche, moneta e istituzioni finanziarie"
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132557
+    "html_chars": 132380
    },
    "method": "scraping",
    "relevant": 0
@@ -1641,12 +1646,21 @@
     }
    ],
    "scrape": {
-    "anchors": 0,
+    "anchors": 135,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+    "rejected_sample": [
+     "Casa da Moeda",
+     "Museu Casa da Moeda",
+     "Casa da Moeda",
+     "Museu Casa da Moeda",
+     "Casa da Moeda",
+     "Museu Casa da Moeda"
+    ],
+    "http": 200,
+    "page_title": "Imprensa Nacional Casa da Moeda - INCM",
+    "html_chars": 329797
    },
    "method": "scraping",
    "relevant": 0
@@ -2056,7 +2070,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135457,
+    "html_chars": 135453,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
@@ -2394,7 +2408,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239489,
+    "html_chars": 239483,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2495,7 +2509,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -2656,7 +2670,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:111: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2673,7 +2687,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 695765
+    "html_chars": 697494
    },
    "method": "scraping",
    "relevant": 0
@@ -2859,7 +2873,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 910492
+    "html_chars": 910817
    },
    "method": "scraping",
    "relevant": 0
