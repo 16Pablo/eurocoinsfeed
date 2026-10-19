@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-19T04:40:40.692618+00:00",
+ "generated_at": "2026-10-19T13:13:16.475301+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -64,9 +64,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-17",
+     "newest": "2026-10-19",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
+       "ok": false
+      },
       {
        "title": "Christine Lagarde: IMFC Statement",
        "ok": false
@@ -110,10 +114,6 @@
       {
        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
        "ok": false
-      },
-      {
-       "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
-       "ok": false
       }
      ]
     }
@@ -142,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99781,
+    "html_chars": 99757,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -323,7 +323,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147529,
+    "html_chars": 147530,
     "accepted_in_menu": 6,
     "accepted_in_menu_sample": [
      "2-Euro-Münzen",
@@ -448,37 +448,76 @@
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2021-10-28",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
+       "ok": false
+      },
+      {
+       "title": "Calendrier des opérations de maintenance",
+       "ok": false
+      },
+      {
+       "title": "Planning van onderhoudswerkzaamheden",
+       "ok": false
+      },
+      {
+       "title": "MyMinFin",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      },
+      {
+       "title": "Tax-Calc",
+       "ok": false
+      },
+      {
+       "title": "Tax-on-web",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      }
+     ]
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -504,9 +543,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-17",
+     "newest": "2026-10-19",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Auction result – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid multi-ISIN auction – Reopening of two Green German Federal securities",
+       "ok": false
+      },
       {
        "title": "Remarks on the panel topic “Paths to prosperity: Forging growth, trade and investment between Europe and Asia”",
        "ok": false
@@ -538,14 +585,6 @@
       {
        "title": "Invitation to bid – Reopening of two Federal bonds",
        "ok": false
-      },
-      {
-       "title": "Announcement – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "Auction result – Federal Treasury discount paper (Bubills)",
-       "ok": false
       }
      ]
     }
@@ -574,7 +613,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -661,9 +700,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-16",
+     "newest": "2026-10-17",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Artículo del DG de Economía en El Mundo/ Actualidad Económica. \"Hall y Woodford: Expectativas y estabilización",
+       "ok": false
+      },
       {
        "title": "José Luis Escrivá. Seminar on Iberian Economic Integration",
        "ok": false
@@ -707,10 +750,6 @@
       {
        "title": "Juan Ayuso. Conferencia: \"El euro digital\"",
        "ok": false
-      },
-      {
-       "title": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Berlin on",
-       "ok": false
       }
      ]
     }
@@ -751,32 +790,32 @@
    "feeds_tried": [
     {
      "url": "https://www.fnmt.es/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
+     "http": 503,
+     "type": "text/html",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
+     "http": 503,
+     "type": "text/html",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
+     "http": 503,
+     "type": "text/html",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
+     "http": 503,
+     "type": "text/html",
      "entries": 0
     },
     {
      "url": "https://www.fnmt.es/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
+     "http": 503,
+     "type": "text/html",
      "entries": 0
     }
    ],
@@ -795,7 +834,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 179887
+    "html_chars": 178327
    },
    "method": "scraping",
    "relevant": 0
@@ -1004,7 +1043,7 @@
     }
    ],
    "scrape": {
-    "anchors": 330,
+    "anchors": 328,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1027,7 +1066,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456341
+    "html_chars": 456548
    },
    "method": "scraping",
    "relevant": 4
@@ -1207,12 +1246,11 @@
      "Euro Digitale",
      "Cambio di banconote e monete",
      "Banche, istituzioni finanziarie, moneta e mercato finanziario",
-     "Principali indicatori dell'economia italiana e dell'area dell'euro",
-     "Banche e moneta: serie nazionali - agosto 2026"
+     "Principali indicatori dell'economia italiana e dell'area dell'euro"
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132857
+    "html_chars": 132557
    },
    "method": "scraping",
    "relevant": 0
@@ -1451,7 +1489,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 625158
+    "html_chars": 625841
    },
    "method": "scraping",
    "relevant": 20
@@ -1603,21 +1641,12 @@
     }
    ],
    "scrape": {
-    "anchors": 135,
+    "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Casa da Moeda",
-     "Museu Casa da Moeda",
-     "Casa da Moeda",
-     "Museu Casa da Moeda",
-     "Casa da Moeda",
-     "Museu Casa da Moeda"
-    ],
-    "http": 200,
-    "page_title": "Imprensa Nacional Casa da Moeda - INCM",
-    "html_chars": 329797
+    "rejected_sample": [],
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
    },
    "method": "scraping",
    "relevant": 0
@@ -1783,7 +1812,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 450944
+    "html_chars": 452147
    },
    "method": "scraping",
    "relevant": 0
@@ -2027,7 +2056,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135452,
+    "html_chars": 135457,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
@@ -2365,7 +2394,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239408,
+    "html_chars": 239489,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2441,14 +2470,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -2466,7 +2495,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -2553,9 +2582,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-16",
+     "newest": "2026-10-19",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Conseil de l’Europe : Monaco accueille les Ministres responsables du Sport",
+       "ok": false
+      },
       {
        "title": "Monaco défend une économie lunaire responsable, équitable et multilatérale à l’IAC 2026",
        "ok": false
@@ -2591,10 +2624,6 @@
       {
        "title": "J-MED : six années au service des jeunes et des sociétés civiles en Méditerranée",
        "ok": false
-      },
-      {
-       "title": "Médecins de garde Monaco : un an après son lancement, le dispositif est un succès",
-       "ok": false
       }
      ]
     },
@@ -2627,7 +2656,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2644,7 +2673,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696306
+    "html_chars": 695765
    },
    "method": "scraping",
    "relevant": 0
@@ -2776,7 +2805,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271181
+    "html_chars": 271218
    },
    "method": "scraping",
    "relevant": 0
@@ -2830,7 +2859,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 904360
+    "html_chars": 910492
    },
    "method": "scraping",
    "relevant": 0
