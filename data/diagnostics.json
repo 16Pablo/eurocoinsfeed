@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T04:50:50.221976+00:00",
+ "generated_at": "2026-10-20T11:36:55.993697+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
@@ -142,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99757,
+    "html_chars": 99781,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -323,7 +323,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147529,
+    "html_chars": 147530,
     "accepted_in_menu": 6,
     "accepted_in_menu_sample": [
      "2-Euro-Münzen",
@@ -390,9 +390,61 @@
    "country": "BE",
    "section_url": "https://finances.belgium.be/en/Actueel/overview",
    "section_http": 200,
-   "section_title": "",
-   "link_feeds": [],
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
    "feeds_tried": [
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
+    },
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
@@ -452,9 +504,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-19",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening of two Green Federal securities – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Acquisition of financial assets and external financing in Germany in the second quarter of 2026 | Results of t",
+       "ok": false
+      },
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -485,14 +545,6 @@
       },
       {
        "title": "German balance of payments in August 2026",
-       "ok": false
-      },
-      {
-       "title": "Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid – Reopening of two Federal bonds",
        "ok": false
       }
      ]
@@ -609,9 +661,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-17",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "El Banco de España se adhiere a la Red Panhispánica de Lenguaje Claro y Accesible",
+       "ok": false
+      },
       {
        "title": "Artículo del DG de Economía en El Mundo/ Actualidad Económica. \"Hall y Woodford: Expectativas y estabilización",
        "ok": false
@@ -654,10 +710,6 @@
       },
       {
        "title": "David López Salido. CREO 2026",
-       "ok": false
-      },
-      {
-       "title": "Juan Ayuso. Conferencia: \"El euro digital\"",
        "ok": false
       }
      ]
@@ -743,7 +795,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 179865
+    "html_chars": 178306
    },
    "method": "scraping",
    "relevant": 0
@@ -859,7 +911,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 315570
+    "html_chars": 318022
    },
    "method": "scraping",
    "relevant": 4
@@ -975,7 +1027,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455676
+    "html_chars": 456028
    },
    "method": "scraping",
    "relevant": 4
@@ -1033,7 +1085,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124600
+    "html_chars": 123600
    },
    "method": "scraping",
    "relevant": 0
@@ -1158,7 +1210,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132380
+    "html_chars": 132356
    },
    "method": "scraping",
    "relevant": 0
@@ -1218,7 +1270,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163910
+    "html_chars": 163885
    },
    "method": "scraping",
    "relevant": 1
@@ -1397,7 +1449,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 625841
+    "html_chars": 626062
    },
    "method": "scraping",
    "relevant": 20
@@ -1466,9 +1518,13 @@
      "http": 200,
      "type": "application/rss+xml",
      "entries": 10,
-     "newest": "2026-10-16",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Imprensa Nacional participa no Festival FÓLIO 2026",
+       "ok": false
+      },
       {
        "title": "Secretário de Estado da Presidência do Conselho de Ministros visita a INCM",
        "ok": false
@@ -1504,17 +1560,13 @@
       {
        "title": "INCM participa na cerimónia de abertura do novo ano letivo e reafirma o seu compromisso com a Educação",
        "ok": false
-      },
-      {
-       "title": "Candidaturas abertas à 6.ª edição do Prémio Jornalismo de Excelência Vicente Jorge Silva",
-       "ok": false
       }
      ]
     },
     {
      "url": "https://incm.pt/site/comments/feed/",
      "http": 200,
-     "type": "application/rss+xml",
+     "type": "application/rss+xml; charset=UTF-8",
      "entries": 0
     },
     {
@@ -1549,21 +1601,12 @@
     }
    ],
    "scrape": {
-    "anchors": 135,
+    "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Casa da Moeda",
-     "Museu Casa da Moeda",
-     "Casa da Moeda",
-     "Museu Casa da Moeda",
-     "Casa da Moeda",
-     "Museu Casa da Moeda"
-    ],
-    "http": 200,
-    "page_title": "Imprensa Nacional Casa da Moeda - INCM",
-    "html_chars": 329797
+    "rejected_sample": [],
+    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
    },
    "method": "scraping",
    "relevant": 0
@@ -1729,7 +1772,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 452147
+    "html_chars": 452552
    },
    "method": "scraping",
    "relevant": 0
@@ -1799,9 +1842,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-09",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
+       "ok": false
+      },
       {
        "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
        "ok": false
@@ -1836,10 +1883,6 @@
       },
       {
        "title": "NBS upravuje pravidlá pri hypotékach",
-       "ok": false
-      },
-      {
-       "title": "Komuniké zo 17. rokovania Bankovej rady NBS",
        "ok": false
       }
      ]
@@ -1858,6 +1901,10 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
+       "ok": false
+      },
+      {
        "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
        "ok": false
       },
@@ -1891,10 +1938,6 @@
       },
       {
        "title": "NBS upravuje pravidlá pri hypotékach",
-       "ok": false
-      },
-      {
-       "title": "Komuniké zo 17. rokovania Bankovej rady NBS",
        "ok": false
       }
      ]
@@ -1973,7 +2016,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135453,
+    "html_chars": 135454,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
@@ -2198,9 +2241,17 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-07-03",
-     "relevant": 1,
+     "newest": "2026-10-20",
+     "relevant": 2,
      "sample": [
+      {
+       "title": "Skelbiamas 2 eurų proginės monetos, skirtos Klaipėdai, nacionalinės pusės (averso) grafinio projekto sukūrimo ",
+       "ok": true
+      },
+      {
+       "title": "Skelbiamas 3 eurų kolekcinės monetos, skirtos Roko maršui, averso ir reverso grafinio projekto sukūrimo konkur",
+       "ok": false
+      },
       {
        "title": "Aukso karštinė leido Lietuvos monetų kalyklai vėl tapti pelningai, svarstoma gaminti daugiau juvelyrikos",
        "ok": false
@@ -2232,21 +2283,13 @@
       {
        "title": "Lietuvos monetų kalykla pristato naują kolekcinę monetą su M. K. Čiurlionio kūriniu „Pasaka“",
        "ok": false
-      },
-      {
-       "title": "Lietuvos monetų kalykla pristato išskirtinį pakabuką „Barbora Radvilaitė – Karališka apsauga“",
-       "ok": false
-      },
-      {
-       "title": "Antrojo 2025 m. ketvirčio aukso paklausos tendencijų apžvalga",
-       "ok": false
       }
      ]
     }
    ],
    "method": "feed_descubierto",
    "feed_url": "https://kalykla.lt/feed/",
-   "relevant": 1
+   "relevant": 2
   },
   "croatia_hnb": {
    "name": "Croatian National Bank",
@@ -2311,7 +2354,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239484,
+    "html_chars": 239485,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2387,14 +2430,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -2412,7 +2455,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -2499,9 +2542,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-19",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Appels indésirables : des solutions gratuites pour mieux s’en protéger",
+       "ok": false
+      },
       {
        "title": "Conseil de l’Europe : Monaco accueille les Ministres responsables du Sport",
        "ok": false
@@ -2537,10 +2584,6 @@
       {
        "title": "« Les jeunes face à la désinformation » : Lancement du plan national monégasque dans le cadre de la campagne «",
        "ok": false
-      },
-      {
-       "title": "J-MED : six années au service des jeunes et des sociétés civiles en Méditerranée",
-       "ok": false
       }
      ]
     },
@@ -2573,7 +2616,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2590,7 +2633,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696599
+    "html_chars": 696519
    },
    "method": "scraping",
    "relevant": 0
@@ -2767,7 +2810,7 @@
     }
    ],
    "scrape": {
-    "anchors": 1000,
+    "anchors": 998,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -2776,7 +2819,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 909331
+    "html_chars": 909964
    },
    "method": "scraping",
    "relevant": 0
