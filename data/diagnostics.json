@@ -1,61 +1,55 @@
 {
- "generated_at": "2026-10-19T22:23:36.549367+00:00",
+ "generated_at": "2026-10-20T04:50:50.221976+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex": {
    "name": "EUR-Lex — DOUE",
    "country": "EU",
    "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
-   "section_http": 200,
-   "section_title": "Search results - EUR-Lex",
+   "section_http": 202,
+   "section_title": "",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://eur-lex.europa.eu/rss.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/feed.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/rss",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://eur-lex.europa.eu/atom.xml",
-     "http": 404,
+     "http": 202,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 182,
+    "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Log in My EUR-Lex",
-     "EUR-Lex home",
-     "Browse by EuroVoc",
-     "EUR-Lex developments",
-     "About EUR-Lex"
-    ],
-    "http": 200,
-    "page_title": "Search results - EUR-Lex",
-    "html_chars": 237688
+    "rejected_sample": [],
+    "http": 202,
+    "page_title": "",
+    "html_chars": 0
    },
    "method": "scraping",
    "relevant": 0
@@ -148,7 +142,7 @@
     ],
     "http": 200,
     "page_title": "Publications by date",
-    "html_chars": 99781,
+    "html_chars": 99757,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -396,134 +390,43 @@
    "country": "BE",
    "section_url": "https://finances.belgium.be/en/Actueel/overview",
    "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
+   "section_title": "",
+   "link_feeds": [],
    "feeds_tried": [
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2026-10-11",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
-       "ok": false
-      },
-      {
-       "title": "The Library presents its new website",
-       "ok": false
-      },
-      {
-       "title": "Library closed from 7 until 10 September 2026 inclusive",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
-       "ok": false
-      },
-      {
-       "title": "BEPS 13 Webinar: register now and prepare your questions",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
-       "ok": false
-      }
-     ]
-    },
     {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2021-10-28",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
-       "ok": false
-      },
-      {
-       "title": "Calendrier des opérations de maintenance",
-       "ok": false
-      },
-      {
-       "title": "Planning van onderhoudswerkzaamheden",
-       "ok": false
-      },
-      {
-       "title": "MyMinFin",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      },
-      {
-       "title": "Tax-Calc",
-       "ok": false
-      },
-      {
-       "title": "Tax-on-web",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      }
-     ]
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
    "scrape": {
@@ -619,7 +522,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
      "€2 commemorative coins"
@@ -840,7 +743,7 @@
     ],
     "http": 200,
     "page_title": "FNMT - FNMT",
-    "html_chars": 178305
+    "html_chars": 179865
    },
    "method": "scraping",
    "relevant": 0
@@ -1072,7 +975,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456296
+    "html_chars": 455676
    },
    "method": "scraping",
    "relevant": 4
@@ -1130,7 +1033,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124623
+    "html_chars": 124600
    },
    "method": "scraping",
    "relevant": 0
@@ -1315,7 +1218,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885
+    "html_chars": 163910
    },
    "method": "scraping",
    "relevant": 1
@@ -2408,7 +2311,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239484,
     "accepted_in_menu": 3,
     "accepted_in_menu_sample": [
      "Issuance of commemorative and collector euro coins",
@@ -2484,14 +2387,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -2670,7 +2573,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:111: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2687,7 +2590,7 @@
     "rejected_sample": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697494
+    "html_chars": 696599
    },
    "method": "scraping",
    "relevant": 0
@@ -2819,7 +2722,7 @@
     ],
     "http": 200,
     "page_title": "Vatican State",
-    "html_chars": 271218
+    "html_chars": 271249
    },
    "method": "scraping",
    "relevant": 0
@@ -2873,7 +2776,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 910817
+    "html_chars": 909331
    },
    "method": "scraping",
    "relevant": 0
