@@ -1,57 +1,107 @@
 {
- "generated_at": "2026-10-20T11:36:55.993697+00:00",
+ "generated_at": "2026-10-20T12:25:53.281258+00:00",
  "feedparser": "6.0.11",
  "sources": {
-  "eurlex": {
-   "name": "EUR-Lex — DOUE",
+  "eurlex_sparql": {
+   "name": "EUR-Lex — Diario Oficial de la UE",
    "country": "EU",
-   "section_url": "https://eur-lex.europa.eu/search.html?lang=en&type=advanced&q=%22New+national+side+of+euro+coins+intended+for+circulation%22",
-   "section_http": 202,
-   "section_title": "",
-   "link_feeds": [],
-   "feeds_tried": [
+   "section_url": null,
+   "method": "sparql",
+   "sparql": [
     {
-     "url": "https://eur-lex.europa.eu/rss.xml",
-     "http": 202,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "method": "GET",
+     "http": 200,
+     "seconds": 47.9,
+     "query": "por_titulo",
+     "rows": 1,
+     "relevant": 1
     },
     {
-     "url": "https://eur-lex.europa.eu/feed",
-     "http": 202,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://eur-lex.europa.eu/feed.xml",
-     "http": 202,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://eur-lex.europa.eu/rss",
-     "http": 202,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://eur-lex.europa.eu/atom.xml",
-     "http": 202,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "method": "GET",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
+     "query": "por_celex"
     }
    ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "http": 202,
-    "page_title": "",
-    "html_chars": 0
-   },
-   "method": "scraping",
+   "relevant": 1
+  },
+  "ec_commemorative": {
+   "name": "Comisión Europea — monedas conmemorativas de 2 €",
+   "country": "EU",
+   "section_url": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins/commemorative-coins_en",
+   "feeds_tried": [
+    {
+     "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 30,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "35 years of the Erasmus programme - Finland",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovakia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovenia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Portugal",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Austria",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Netherlands",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Malta",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Luxembourg",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Lithuania",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Latvia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Cyprus",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Italy",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - France",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Spain",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Greece",
+       "ok": true
+      }
+     ],
+     "skipped_old": 30
+    }
+   ],
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "ecb": {
@@ -64,9 +114,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-19",
+     "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Frank Elderson: Interview with Die Presse",
+       "ok": false
+      },
       {
        "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
        "ok": false
@@ -114,150 +168,19 @@
       {
        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
        "ok": false
+      },
+      {
+       "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
+       "ok": false
+      },
+      {
+       "title": "Isabel Schnabel: Central banks on-chain",
+       "ok": false
       }
      ]
     }
    ],
-   "scrape": {
-    "anchors": 413,
-    "accepted": 1,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [
-     "Two per cent inflation target",
-     "Euro central bank liquidity lines",
-     "Structure of the euro area economy",
-     "Digital euro",
-     "Euro Cyber Resilience Board",
-     "Euro exchange rates",
-     "Euro short-term rate (€STR)",
-     "Working group on euro risk-free rates",
-     "Euro area yield curves",
-     "Overview of the euro",
-     "Banknote and coins statistics",
-     "Euro exchange rates",
-     "Digital euro",
-     "Digital euro and privacy",
-     "Collector coins"
-    ],
-    "http": 200,
-    "page_title": "Publications by date",
-    "html_chars": 99781,
-    "accepted_in_menu": 1,
-    "accepted_in_menu_sample": [
-     "€2 commemorative coins"
-    ]
-   },
-   "method": "feeds_a_mano+scraping",
-   "relevant": 1
-  },
-  "ec_euro": {
-   "name": "European Commission — Euro coins",
-   "country": "EU",
-   "section_url": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
-   "section_http": 200,
-   "section_title": "Euro coins and notes - Economy and Finance - European Commission",
-   "link_feeds": [],
-   "feeds_tried": [
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    }
-   ],
-   "scrape": {
-    "anchors": 40,
-    "accepted": 1,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [
-     "Euro coins",
-     "Types of euro coins",
-     "Common sides of euro coins",
-     "Legislation on the euro coins",
-     "Commemorative coins",
-     "Euro banknotes",
-     "Copyright and reproduction rules of euro coins and notes",
-     "Euro cash in transit"
-    ],
-    "http": 200,
-    "page_title": "Euro coins and notes - Economy and Finance - European Commission",
-    "html_chars": 66077
-   },
-   "method": "scraping",
-   "relevant": 1
-  },
-  "austria_oenb": {
-   "name": "Oesterreichische Nationalbank",
-   "country": "AT",
-   "section_url": "https://www.oenb.at/en/Media.html",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.oenb.at/en/Media.html",
-   "feeds_tried": [
-    {
-     "url": "https://www.oenb.at/rss.xml",
-     "http": 404,
-     "type": "application/xml;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.oenb.at/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.oenb.at/feed.xml",
-     "http": 404,
-     "type": "application/xml;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.oenb.at/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.oenb.at/atom.xml",
-     "http": 404,
-     "type": "application/xml;charset=UTF-8",
-     "entries": 0
-    }
-   ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.oenb.at/en/Media.html"
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "austria_mint": {
@@ -300,11 +223,193 @@
     }
    ],
    "scrape": {
-    "anchors": 216,
-    "accepted": 8,
+    "anchors": 226,
+    "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "€ 3.783,98",
+     "€ 1.965,47",
+     "€ 1.001,11",
+     "€ 1.899,46"
+    ],
+    "coin_links": [
+     {
+      "t": "Ansparkassetten 18 Stück Philharmoniker-Münzen",
+      "u": "https://www.muenzeoesterreich.at/wiener-philharmoniker/kassetten-und-etuis/ansparkassetten-18-stueck-philharmoniker-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Holzetuis für Anlagemünzen",
+      "u": "https://www.muenzeoesterreich.at/wiener-philharmoniker/kassetten-und-etuis/holzetuis-fuer-anlagemuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Anlagemünzen",
+      "u": "https://www.muenzeoesterreich.at/anlegen/anlagemuenzen/anlagemuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Goldmünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/goldmuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silbermünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/silbermuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Kupfermünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/kupfermuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silber-Niob-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/silber-niob-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/2-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "3-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/3-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "5-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/5-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "10-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/10-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "20-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/20-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "50-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/50-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "100-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/100-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro-Münzensätze",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/euro-muenzensaetze",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 50 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-50-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 100 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-100-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 200 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-200-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 500 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-500-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für über 500 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-ueber-500-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Münzen für Unternehmen",
+      "u": "https://www.muenzeoesterreich.at/infothek/fuer-unternehmen/muenzen-fuer-unternehmen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Falschmünzen",
+      "u": "https://www.muenzeoesterreich.at/kundenservice/faqs/falschmuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Jetzt kostenlos MünzeClub Mitglied werden!",
+      "u": "https://www.muenzeoesterreich.at/muenzeclub",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "€ 3.783,98",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.965,47",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.001,11",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.899,46",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "20-Euro-Silbermünze Schütze PP",
+      "u": "https://www.muenzeoesterreich.at/produkte/20-euro-silbermuenze-schuetze-pp",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "100-Euro-Goldmünze Symbole des Göttlichen PP",
+      "u": "https://www.muenzeoesterreich.at/produkte/100-euro-goldmuenze-symbole-des-goettlichen-pp",
+      "ok": true,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
+    "html_chars": 147529,
+    "skipped_menu": 208,
+    "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
      "Holzetuis für Anlagemünzen",
      "Anlagemünzen",
@@ -312,75 +417,69 @@
      "Silbermünzen",
      "Kupfermünzen",
      "Silber-Niob-Münzen",
-     "3-Euro-Münzen",
-     "25-Euro-Münzen",
-     "Euro-Münzensätze",
-     "Für unter 50 Euro",
-     "Für unter 100 Euro",
-     "Für unter 200 Euro",
-     "Für unter 500 Euro",
-     "Für über 500 Euro"
-    ],
-    "http": 200,
-    "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147530,
-    "accepted_in_menu": 6,
-    "accepted_in_menu_sample": [
-     "2-Euro-Münzen",
-     "5-Euro-Münzen",
-     "10-Euro-Münzen",
-     "20-Euro-Münzen",
-     "50-Euro-Münzen",
-     "100-Euro-Münzen"
+     "2-Euro-Münzen"
     ]
    },
    "method": "scraping",
-   "relevant": 8
+   "relevant": 2
   },
-  "belgium_nbb": {
-   "name": "National Bank of Belgium",
+  "belgium_federal_news": {
+   "name": "Gobierno federal belga — news.belgium.be",
    "country": "BE",
-   "section_url": "https://www.nbb.be/en/news-and-publications",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.nbb.be/en/news-and-publications",
+   "section_url": "https://news.belgium.be/fr",
    "feeds_tried": [
     {
-     "url": "https://www.nbb.be/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
+     "url": "https://news.belgium.be/fr/feeds/all",
+     "http": 403,
+     "type": "text/html",
      "entries": 0
     },
     {
-     "url": "https://www.nbb.be/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
+     "url": "https://news.belgium.be/nl/feeds/all",
+     "http": 403,
+     "type": "text/html",
      "entries": 0
     },
     {
-     "url": "https://www.nbb.be/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
+     "url": "https://news.belgium.be/rss.xml",
+     "http": 403,
+     "type": "text/html",
      "entries": 0
     },
     {
-     "url": "https://www.nbb.be/rss",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
+     "url": "https://news.belgium.be/feed",
+     "http": 403,
+     "type": "text/html",
      "entries": 0
     },
     {
-     "url": "https://www.nbb.be/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
+     "url": "https://news.belgium.be/feed.xml",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://news.belgium.be/rss",
+     "http": 403,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://news.belgium.be/atom.xml",
+     "http": 403,
+     "type": "text/html",
      "entries": 0
     }
    ],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://news.belgium.be/fr",
    "scrape": {
     "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.nbb.be/en/news-and-publications"
+    "coin_links": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://news.belgium.be/fr"
    },
    "method": "scraping",
    "relevant": 0
@@ -389,11 +488,6 @@
    "name": "SPF Finances",
    "country": "BE",
    "section_url": "https://finances.belgium.be/en/Actueel/overview",
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
    "feeds_tried": [
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
@@ -444,54 +538,9 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "scrape": {
-    "anchors": 51,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "http": 200,
-    "page_title": "Actueel | FPS Finance",
-    "html_chars": 39892
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -551,11 +600,107 @@
     }
    ],
    "scrape": {
-    "anchors": 506,
-    "accepted": 3,
+    "anchors": 505,
+    "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Regular coins",
+     "Euro coins FAQ"
+    ],
+    "coin_links": [
+     {
+      "t": "Euro pavilion",
+      "u": "https://www.bundesbank.de/en/bundesbank/euro-pavilion-",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Digital euro",
+      "u": "https://www.bundesbank.de/en/tasks/payment-systems/digital-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-banknotes",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Regular coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/regular-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "€2 commemorative coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/-2-commemorative-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Collector coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/collector-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "DEM banknotes and DEM coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/dem-banknotes-and-dem-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "FAQ – Digital euro",
+      "u": "https://www.bundesbank.de/en/tasks/payment-systems/digital-euro/faq-digital-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Exchange rates, euro foreign exchange reference rates, other rates",
+      "u": "https://www.bundesbank.de/en/statistics/exchange-rates/exchange-rates-euro-foreign-exchange-reference-rates-other-rates",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro money market",
+      "u": "https://www.bundesbank.de/en/statistics/money-and-capital-markets/euro-money-market",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Regular coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/regular-coins/regular-coins-623842",
+      "ok": false
+     },
+     {
+      "t": "German €2 commemorative coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/-2-commemorative-coins/german-2-commemorative-coins-623620",
+      "ok": true
+     },
+     {
+      "t": "Collector euro coins",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/euro-coins/collector-coins/collector-euro-coins-623396",
+      "ok": true
+     },
+     {
+      "t": "Euro coins FAQ",
+      "u": "https://www.bundesbank.de/en/tasks/cash-management/frequently-asked-questions/frequently-asked-questions-euro-coins",
+      "ok": false
+     }
+    ],
+    "http": 200,
+    "page_title": "Euro coins | Deutsche Bundesbank",
+    "html_chars": 282745,
+    "skipped_menu": 497,
+    "skipped_menu_sample": [
      "Euro pavilion",
      "Digital euro",
      "Euro banknotes",
@@ -563,25 +708,41 @@
      "Euro coins",
      "Overview Euro coins",
      "Regular coins",
-     "Collector coins",
-     "DEM banknotes and DEM coins",
-     "Digital euro",
-     "Overview Digital euro",
-     "FAQ – Digital euro",
-     "Exchange rates, euro foreign exchange reference rates, other rates",
-     "Euro money market",
-     "Euro banknotes"
-    ],
-    "http": 200,
-    "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
-    "accepted_in_menu": 1,
-    "accepted_in_menu_sample": [
      "€2 commemorative coins"
-    ]
+    ],
+    "child_links": {
+     "count": 10,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Regular coins",
+       "u": "://www.bundesbank.de/en/tasks/cash-management/euro-coins/regular-coins"
+      },
+      {
+       "t": "€2 commemorative coins",
+       "u": "ndesbank.de/en/tasks/cash-management/euro-coins/-2-commemorative-coins"
+      },
+      {
+       "t": "Collector coins",
+       "u": "/www.bundesbank.de/en/tasks/cash-management/euro-coins/collector-coins"
+      },
+      {
+       "t": "Regular coins",
+       "u": "://www.bundesbank.de/en/tasks/cash-management/euro-coins/regular-coins"
+      },
+      {
+       "t": "€2 commemorative coins",
+       "u": "ndesbank.de/en/tasks/cash-management/euro-coins/-2-commemorative-coins"
+      },
+      {
+       "t": "Collector coins",
+       "u": "/www.bundesbank.de/en/tasks/cash-management/euro-coins/collector-coins"
+      }
+     ]
+    }
    },
    "method": "feeds_a_mano+scraping",
-   "relevant": 3
+   "relevant": 2
   },
   "germany_mint": {
    "name": "MÜNZE DEUTSCHLAND",
@@ -623,33 +784,193 @@
     }
    ],
    "scrape": {
-    "anchors": 51,
-    "accepted": 7,
+    "anchors": 67,
+    "accepted": 6,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "entdecken Sie hier alle Münzen",
+     "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
+     "Zum Produkt 2-Euro-Sonderset 2026 \"Konrad Adenauer\" für ab 23,95 Euro",
+     "Zu Goldmünzen",
+     "Zu Silbermünzen",
+     "Zu Polymerringmünzen",
+     "Zu Gedenkmünzen"
+    ],
+    "coin_links": [
+     {
+      "t": "Alle Münzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Polymerringmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Polymerringmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Farbdruckmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Farbdruckmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Goldmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Goldmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silbermünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Silbermuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2-Euro-Sammlermünzen-Set",
+      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Kurs-/Umlaufmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Kurs-Umlaufmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Von der Idee zur Münze",
+      "u": "https://muenze-deutschland.de/Ueber-uns/Von-der-Idee-zur-Muenze/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Prägende Münzen",
+      "u": "https://muenze-deutschland.de/Blog/Praegende-Muenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "entdecken Sie hier alle Münzen",
+      "u": "https://shop.muenze-deutschland.de/Muenzen/Alle-Muenzen/",
+      "ok": false
+     },
+     {
+      "t": "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
+      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/2-Euro-Sonderset-2026-Konrad-Adenauer.html",
+      "ok": false
+     },
+     {
+      "t": "5-Euro-Farbdruckmünze 2026 \"Ariane 6\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/5-Euro-Farbdruckmuenze-2026-Ariane-6.html",
+      "ok": true
+     },
+     {
+      "t": "35-Euro-Silbermünze 2026 \"125 Jahre Wuppertaler Schwebebahn\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/35-Euro-Silbermuenze-2026-125-Jahre-Wuppertaler-Schwebebahn.html",
+      "ok": true
+     },
+     {
+      "t": "20-Euro-Silbermünze 2025 \"75. Berlinale\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-75-Berlinale.html",
+      "ok": true
+     },
+     {
+      "t": "10-Euro-Polymerring-Sammlermünze 2025 \"Technisches Hilfswerk\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/10-Euro-Polymerring-Sammlermuenze-2025-Technisches-Hilfswerk.html",
+      "ok": true
+     },
+     {
+      "t": "20-Euro-Silbermünze 2025 \"50 Jahre Internationales Jahr der Frau\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-50-Jahre-Internationales-Jahr-der-Frau.html",
+      "ok": true
+     },
+     {
+      "t": "Download 2-Euro-Gedenkmünze 2025 \"Bundesländer - Saarland (Saarschleife)\"",
+      "u": "https://muenze-deutschland.de/Service/Download/Bilder/Download-2-Euro-Gedenkmuenze-2025-Bundeslaender-Saarland-Saarschleife.html",
+      "ok": true
+     },
+     {
+      "t": "Zu Goldmünzen",
+      "u": "https://shop.muenze-deutschland.de/Muenzen/Goldmuenzen/",
+      "ok": false,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+    "html_chars": 112114,
+    "skipped_menu": 42,
+    "skipped_menu_sample": [
      "Alle Münzen",
      "Polymerringmünzen",
      "Farbdruckmünzen",
      "Goldmünzen",
      "Silbermünzen",
+     "2-Euro-Sammlermünzen-Set",
      "Kurs-/Umlaufmünzen",
-     "Von der Idee zur Münze",
-     "Prägende Münzen",
-     "entdecken Sie hier alle Münzen",
-     "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
-     "Zum Produkt 2-Euro-Sonderset 2026 \"Konrad Adenauer\" für ab 23,95 Euro"
-    ],
-    "http": 200,
-    "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 112114,
-    "accepted_in_menu": 1,
-    "accepted_in_menu_sample": [
-     "2-Euro-Sammlermünzen-Set"
+     "Von der Idee zur Münze"
     ]
    },
    "method": "scraping",
-   "relevant": 7
+   "relevant": 6
+  },
+  "germany_bmf": {
+   "name": "Bundesministerium der Finanzen",
+   "country": "DE",
+   "section_url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+   "feeds_tried": [
+    {
+     "url": "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/rss.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/feed",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/feed.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/rss",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bundesfinanzministerium.de/atom.xml",
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
+    }
+   ],
+   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html"
+   },
+   "method": "scraping",
+   "relevant": 0
   },
   "spain_bde": {
    "name": "Banco de España",
@@ -664,6 +985,10 @@
      "newest": "2026-10-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Gobernador. UCLM. Las cooperativas de crédito en el sistema bancario español",
+       "ok": false
+      },
       {
        "title": "El Banco de España se adhiere a la Red Panhispánica de Lenguaje Claro y Accesible",
        "ok": false
@@ -711,16 +1036,123 @@
       {
        "title": "David López Salido. CREO 2026",
        "ok": false
+      },
+      {
+       "title": "Juan Ayuso. Conferencia: \"El euro digital\"",
+       "ok": false
+      },
+      {
+       "title": "Account of the monetary policy meeting of the Governing Council of the European Central Bank held in Berlin on",
+       "ok": false
       }
      ]
     }
    ],
    "scrape": {
-    "anchors": 406,
+    "anchors": 435,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Euro banknotes",
+     "Euro coins",
+     "History of peseta coins and notes",
+     "Training programme on banknotes and coins and information material",
+     "Legislation on general regime of the euro",
+     "Study on the payment attitudes of consumers in the euro area",
+     "El euro: 20 años en nuestros bolsillos"
+    ],
+    "coin_links": [
+     {
+      "t": "Banknotes and coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/monedas-euros/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "“ Conozca el euro ” course",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/talleres-jornadas-y-visitas/curso-conozca-el-euro/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Generation €uro Students’ Award",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/concursos/generacion-euro/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Videos on banknotes and coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/recursos/videos/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro area monetary policy and instruments",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/politica-monetaria/politica-monetaria-area-euro/bce-estrategia-politica-monetaria/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Digital euro",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/sistemas-pago/euro-digital/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "The Single Euro Payments Area ( SEPA )",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/sistemas-pago/zona-unica-pagos-euros-sepa/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "History of peseta coins and notes",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/historia-peseta/",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Training programme on banknotes and coins and information material",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/programa-formacion-billetes-monedas-material-informativo/",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Legislation on general regime of the euro",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/normativa/regulacion-sistema-financiero/regimen-general-del-euro.html",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Study on the payment attitudes of consumers in the euro area",
+      "u": "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/index.en.html",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "El euro: 20 años en nuestros bolsillos",
+      "u": "https://www.bde.es/wbe/en/inicio/noticias/euro-20-anos-nuestros-bolsillos.html",
+      "ok": false,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Banknotes and coins - Banco de España",
+    "html_chars": 397141,
+    "skipped_menu": 409,
+    "skipped_menu_sample": [
      "Banknotes and coins",
      "Euro banknotes",
      "Euro coins",
@@ -728,25 +1160,79 @@
      "Generation €uro Students’ Award",
      "Videos on banknotes and coins",
      "Euro area monetary policy and instruments",
-     "Digital euro",
-     "The Single Euro Payments Area ( SEPA )",
-     "Digital Euro",
-     "Euro banknotes",
-     "Euro coins"
+     "Digital euro"
     ],
-    "http": 200,
-    "page_title": "Banknotes and coins - Banco de España",
-    "html_chars": 397141
+    "child_links": {
+     "count": 26,
+     "no_text": 10,
+     "sample": [
+      {
+       "t": "Euro banknotes",
+       "u": "s://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/"
+      },
+      {
+       "t": "Euro coins",
+       "u": "ps://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/monedas-euros/"
+      },
+      {
+       "t": "Anti-counterfeiting",
+       "u": "es/wbe/en/areas-actuacion/billetes-monedas/lucha-contra-falsificacion/"
+      },
+      {
+       "t": "The role of cash",
+       "u": "s://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/papel-efectivo/"
+      },
+      {
+       "t": "The Eurosystem cash strategy",
+       "u": "reas-actuacion/billetes-monedas/estrategia-sobre-efectivo-eurosistema/"
+      },
+      {
+       "t": "Cashback and cash-in-shop",
+       "u": "monedas/estrategia-sobre-efectivo-eurosistema/cashback-y-cash-in-shop/"
+      }
+     ]
+    }
    },
    "method": "feeds_a_mano+scraping",
    "relevant": 0
   },
+  "spain_boe": {
+   "name": "BOE — Boletín Oficial del Estado",
+   "country": "ES",
+   "section_url": null,
+   "method": "boe",
+   "boe": [
+    {
+     "day": "2026-10-20",
+     "http": 200,
+     "items": 257,
+     "relevant": 0
+    },
+    {
+     "day": "2026-10-19",
+     "http": 200,
+     "items": 261,
+     "relevant": 0
+    },
+    {
+     "day": "2026-10-18",
+     "http": 404
+    },
+    {
+     "day": "2026-10-17",
+     "http": 200,
+     "items": 271,
+     "relevant": 1
+    }
+   ],
+   "relevant": 1
+  },
   "spain_fnmt": {
    "name": "FNMT — Real Casa de la Moneda",
    "country": "ES",
-   "section_url": "https://www.fnmt.es/",
+   "section_url": "https://www.fnmt.es/prensa/notas-de-prensa",
    "section_http": 200,
-   "section_title": "FNMT - FNMT",
+   "section_title": "Notas de prensa - FNMT",
    "link_feeds": [],
    "feeds_tried": [
     {
@@ -781,72 +1267,53 @@
     }
    ],
    "scrape": {
-    "anchors": 142,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [
-     "Museo Casa de la Moneda",
-     "Moneda Circulante",
-     "Emisiones de 2 Euro",
-     "Moneda de Colección",
-     "Moneda Circulante",
-     "Moneda de Colección"
-    ],
-    "http": 200,
-    "page_title": "FNMT - FNMT",
-    "html_chars": 178306
-   },
-   "method": "scraping",
-   "relevant": 0
-  },
-  "finland_bof": {
-   "name": "Bank of Finland",
-   "country": "FI",
-   "section_url": "https://www.suomenpankki.fi/en/media-and-publication/",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.suomenpankki.fi/en/media-and-publication/",
-   "feeds_tried": [
-    {
-     "url": "https://www.suomenpankki.fi/rss.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.suomenpankki.fi/feed",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.suomenpankki.fi/feed.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.suomenpankki.fi/rss",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.suomenpankki.fi/atom.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    }
-   ],
-   "scrape": {
-    "anchors": 0,
+    "anchors": 124,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.suomenpankki.fi/en/media-and-publication/"
+    "coin_links": [
+     {
+      "t": "Moneda Circulante",
+      "u": "https://www.fnmt.es/coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Emisiones de 2 Euro",
+      "u": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-circulante/emisiones-de-2-euros",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Moneda de Colección",
+      "u": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-de-coleccion",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Notas de prensa - FNMT",
+    "html_chars": 180210,
+    "coin_filter": "news",
+    "skipped_menu": 91,
+    "skipped_menu_sample": [
+     "Moneda Circulante",
+     "Emisiones de 2 Euro",
+     "Moneda de Colección"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 0,
+   "watch": [
+    {
+     "url": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-circulante/emisiones-de-2-euros",
+     "http": 200,
+     "lines": 71,
+     "title": "Emisiones de 2 Euros - FNMT",
+     "baseline": true
+    }
+   ]
   },
   "finland_mint": {
    "name": "Helsinkimint / Mint of Finland",
@@ -888,30 +1355,186 @@
     }
    ],
    "scrape": {
-    "anchors": 63,
+    "anchors": 82,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Foreign coins",
-     "Foreign coins",
      "Gold Coins",
      "Bullion Coins",
      "Silver Coins",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
      "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality €32.50 Add to Cart",
+     "Finland 20 Euro “Raili & Reima Pietilä” Silver",
      "Finland 20 Euro “Raili & Reima Pietilä” Silver €149.95 Add to Cart",
      "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-     "Finland 30 years member of the EU €9.95 Add to Cart",
-     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
-     "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard EN €12.50 Add to Cart",
-     "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard FI/SE €12.50 Add to Cart",
-     "Finland 2 Euro “100 years Yle Broadcasting” Proof Quality €32.50 Add to Cart"
+     "Finland Baby Set 2026 – My First Coin Set",
+     "Finland 30 years member of the EU €9.95 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "Foreign coins",
+      "u": "https://www.helsinkimint.com/foreign-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2 Euro Coins",
+      "u": "https://www.helsinkimint.com/finland/2-euro-coins",
+      "ok": true
+     },
+     {
+      "t": "Gold Coins",
+      "u": "https://www.helsinkimint.com/finland/gold-coins",
+      "ok": false
+     },
+     {
+      "t": "Bullion Coins",
+      "u": "https://www.helsinkimint.com/gold-and-silverbars/bullion-coins",
+      "ok": false
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.helsinkimint.com/finland/silver-coins",
+      "ok": false
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-proof-quality",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” Coin Roll",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-coin-roll",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 20 Euro “Raili & Reima Pietilä” Silver",
+      "u": "https://www.helsinkimint.com/finland-20-euro-raili-reima-pietila-silver",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
+      "ok": false
+     },
+     {
+      "t": "Finland Baby Set 2026 – My First Coin Set",
+      "u": "https://www.helsinkimint.com/finland-baby-set-2026-my-first-coin-set",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 30 years member of the EU €9.95 Add to Cart",
+      "u": "https://www.helsinkimint.com/finland-30-years-member-of-the-eu",
+      "ok": false
+     },
+     {
+      "t": "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
+      "u": "https://www.helsinkimint.com/finland-20-euro-erik-allardt-100-years-social-sciences-in-finland-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard EN",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard FI/SE",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” Proof Quality",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-proof-quality",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 100 Euro “100 years Yle Broadcasting” Gold",
+      "u": "https://www.helsinkimint.com/finland-100-euro-100-years-yle-broadcasting-gold",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” Coin Roll",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-coin-roll",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 20 Euro “Finland-Sweden Athletics International 100 years” 2025 – Silver Proof",
+      "u": "https://www.helsinkimint.com/finland-20-euro-finland-sweden-athletics-international-100-years-2025-silver-proof",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” – BU Quality in Coincard",
+      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” 2025 – BU Quality in Coi",
+      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-2025-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Slovakia 2 Euro \"EC Champion\" 2026",
+      "u": "https://www.helsinkimint.com/slowakije-2-euro-ek-kampioen-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Slovenia 2 Euro \"Ivan Cankar\" 2026 UNC",
+      "u": "https://www.helsinkimint.com/slovenie-2-euro-ivan-cankar-2026-unc",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Estonia 2 Euro \"Sipsik\" 2026",
+      "u": "https://www.helsinkimint.com/estland-2-euro-sipsik-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Spain 2 Euro \"Poblet\" 2026",
+      "u": "https://www.helsinkimint.com/spanje-2-euro-poblet-2026",
+      "ok": false,
+      "via": "attr"
+     }
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 318022
+    "html_chars": 318022,
+    "skipped_menu": 22,
+    "skipped_menu_sample": [
+     "Foreign coins"
+    ]
    },
    "method": "scraping",
    "relevant": 4
@@ -959,6 +1582,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.banque-france.fr/en/press-and-media"
    },
    "method": "scraping",
@@ -1004,30 +1628,144 @@
     }
    ],
    "scrape": {
-    "anchors": 328,
+    "anchors": 368,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Voir toutes les monnaies",
+     "de monnaies de collection, de médailles et d’objets d’art ."
+    ],
+    "coin_links": [
+     {
+      "t": "euros or 2",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/euros-or-2",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euros Argent",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/euros-argent",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Monnaies de collection classiques",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/monnaies-de-collection-classiques",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Découvrir toutes les monnaies",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Guide du collectionneur L'univers de la monnaie Découvrir",
+      "u": "https://www.monnaiedeparis.fr/guide-du-collectionneur",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Mon anniversaire à la Monnaie",
+      "u": "https://www.monnaiedeparis.fr/fr/le-lieu-culturel/toutes-les-visites-et-activites/visites-et-activites/activites-et-visites-jeune-famille/anniversaire-monnaie",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Le rôle de la monnaie aujourd'hui",
+      "u": "https://www.monnaiedeparis.fr/fr/le-role-de-la-monnaie-aujourd-hui",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro, les pièces en circulation",
+      "u": "https://www.monnaiedeparis.fr/fr/euro-pieces-en-circulation",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Voir toutes les monnaies",
+      "u": "https://www.monnaiedeparis.fr/monnaies",
+      "ok": false
+     },
+     {
+      "t": "Les classiques d'animation Disney - Winnie l'Ourson Monnaie de 50€ Or - Qualité BE millési",
+      "u": "https://www.monnaiedeparis.fr/fr/les-classiques-d-animation-disney-winnie-l-ourson-monnaie-de-50eur-or-qualite-be-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "Année de la Chèvre Monnaie de 20€ 1 Oz Argent Haut-Relief - Qualité BE millésime 2027",
+      "u": "https://www.monnaiedeparis.fr/fr/annee-de-la-chevre-monnaie-de-20eur-1-oz-argent-haut-relief-qualite-be-millesime-2027",
+      "ok": true
+     },
+     {
+      "t": "Le Seigneur des Anneaux Monnaie de 250€ Or Le drapeau du Gondor - Qualité BU Millésime 202",
+      "u": "https://www.monnaiedeparis.fr/fr/le-seigneur-des-anneaux-monnaie-de-250eur-or-le-drapeau-du-gondor-qualite-bu-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "Marilyn Monroe Monnaie de 10€ Argent - Qualité Courante Millésime 2026",
+      "u": "https://www.monnaiedeparis.fr/fr/marilyn-monroe-monnaie-de-10eur-argent-qualite-courante-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "de monnaies de collection, de médailles et d’objets d’art .",
+      "u": "https://www.monnaiedeparis.fr/fr/boutique-en-ligne",
+      "ok": false
+     },
+     {
+      "t": "Frais de ports offerts dès 149€ d'achats en France métropolitaine",
+      "u": "https://www.monnaiedeparis.fr/faq",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Accueil Monnaie de Paris",
+    "html_chars": 457180,
+    "child_links": {
+     "count": 315,
+     "no_text": 61,
+     "sample": [
+      {
+       "t": "en",
+       "u": "en/uenc/aHR0cHM6Ly93d3cubW9ubmFpZWRlcGFyaXMuZnIvZW4v/___from_store/fr/"
+      },
+      {
+       "t": "Enseignants",
+       "u": "/fr/espace-pro-visites-de-groupes-scolaires-periscolaires-et-etudiants"
+      },
+      {
+       "t": "Chercheurs",
+       "u": "https://www.monnaiedeparis.fr/fr/espace-pro-chercheurs"
+      },
+      {
+       "t": "Journalistes",
+       "u": "https://www.monnaiedeparis.fr/fr/espace-presse"
+      },
+      {
+       "t": "Sites touristiques",
+       "u": "nnaiedeparis.fr/fr/mini-medailles-pour-sites-culturels-et-touristiques"
+      },
+      {
+       "t": "Banques centrales",
+       "u": "https://www.monnaiedeparis.fr/fr/banques-centrales"
+      }
+     ]
+    },
+    "skipped_menu": 288,
+    "skipped_menu_sample": [
+     "euros or 2",
      "Euros Argent",
      "Monnaies de collection classiques",
      "Découvrir toutes les monnaies",
      "Guide du collectionneur L'univers de la monnaie Découvrir",
      "Mon anniversaire à la Monnaie",
-     "Le Prix de la Monnaie de Paris",
      "Le rôle de la monnaie aujourd'hui",
-     "Euro, les pièces en circulation",
-     "L'architecture de la Monnaie de Paris",
-     "Euros Argent",
-     "Monnaies de collection classiques",
-     "Mon anniversaire à la Monnaie",
-     "Le rôle de la monnaie aujourd'hui",
-     "Euro, les pièces en circulation",
-     "Le Prix de la Monnaie de Paris"
-    ],
-    "http": 200,
-    "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456028
+     "Euro, les pièces en circulation"
+    ]
    },
    "method": "scraping",
    "relevant": 4
@@ -1072,20 +1810,84 @@
     }
    ],
    "scrape": {
-    "anchors": 304,
+    "anchors": 308,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "Money, notes and coins",
+      "u": "https://www.centralbank.ie/consumer-hub/notes-and-coins/exchange-old-or-damaged-money",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Single Euro Payments Area",
+      "u": "https://www.centralbank.ie/financial-system/payments-and-securities-settlements/single-euro-payments-overview",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "A Digital Euro",
+      "u": "https://www.centralbank.ie/financial-system/a-digital-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro Area Statistics",
+      "u": "https://www.centralbank.ie/statistics/data-and-analysis/euro-area-statistics",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Banknotes & Coins",
+      "u": "https://www.centralbank.ie/consumer-hub/notes-and-coins",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "News and media | Central Bank of Ireland",
+    "html_chars": 124600,
+    "skipped_menu": 300,
+    "skipped_menu_sample": [
      "Money, notes and coins",
      "Single Euro Payments Area",
      "A Digital Euro",
      "Euro Area Statistics",
      "Banknotes & Coins"
     ],
-    "http": 200,
-    "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 123600
+    "child_links": {
+     "count": 18,
+     "no_text": 2,
+     "sample": [
+      {
+       "t": "Governor's Blog",
+       "u": "https://www.centralbank.ie/news-media/blog"
+      },
+      {
+       "t": "Schedule of Activities",
+       "u": "https://www.centralbank.ie/news-media/schedule"
+      },
+      {
+       "t": "Press Releases",
+       "u": "https://www.centralbank.ie/news-media/press-releases"
+      },
+      {
+       "t": "Speeches",
+       "u": "https://www.centralbank.ie/news-media/speeches"
+      },
+      {
+       "t": "Enforcement Actions",
+       "u": "https://www.centralbank.ie/news-media/enforcement-actions"
+      },
+      {
+       "t": "Legal Notices",
+       "u": "https://www.centralbank.ie/news-media/legal-notices"
+      }
+     ]
+    }
    },
    "method": "scraping",
    "relevant": 0
@@ -1130,29 +1932,98 @@
     }
    ],
    "scrape": {
-    "anchors": 34,
+    "anchors": 40,
     "accepted": 5,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Silver Coins",
      "Gold coins",
-     "Collector Coins IE",
-     "Silver Coins",
-     "Gold coins",
      "Coin Theme Criteria",
      "Proof Set 2026 €120.00 Out of stock",
      "Annual Mint Set 2026 €33.00 Add to Cart",
-     "Baby Set 2026 €33.00 Add to Cart",
-     "Coin Theme Criteria",
-     "Coin Theme Criteria"
+     "Baby Set 2026 €33.00 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "2 Euro Coins",
+      "u": "https://www.collectorcoins.ie/2-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.collectorcoins.ie/silver-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Gold coins",
+      "u": "https://www.collectorcoins.ie/gold-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Coin Theme Criteria",
+      "u": "https://www.collectorcoins.ie/coin-theme-criteria",
+      "ok": false
+     },
+     {
+      "t": "€15 Silver Proof Coin 2026 - Maeve Binchy",
+      "u": "https://www.collectorcoins.ie/15-silver-proof-coin-2026-maeve-binchy",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "2 euro coin ’U2 50th Anniversary 2026' BU quality in coincard",
+      "u": "https://www.collectorcoins.ie/2-euro-coin-u2-50th-anniversary-2026-bu-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "2 euro proof coin ‘U2 50th Anniversary 2026’",
+      "u": "https://www.collectorcoins.ie/2-euro-proof-coin-u2-50th-anniversary-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "€15 Silver Proof coin 2026 - Sean O'Casey",
+      "u": "https://www.collectorcoins.ie/15-silver-proof-coin-2026-sean-o-casey",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Proof Set 2026 €120.00 Out of stock",
+      "u": "https://www.collectorcoins.ie/proof-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Annual Mint Set 2026 €33.00 Add to Cart",
+      "u": "https://www.collectorcoins.ie/annual-mint-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Baby Set 2026 €33.00 Add to Cart",
+      "u": "https://www.collectorcoins.ie/baby-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Coin Theme Criteria",
+      "u": "https://www.collectorcoins.ie/coin-theme-criteria/",
+      "ok": false,
+      "menu": true
+     }
     ],
     "http": 200,
     "page_title": "Home page",
     "html_chars": 203018,
-    "accepted_in_menu": 1,
-    "accepted_in_menu_sample": [
-     "2 Euro Coins"
+    "skipped_menu": 22,
+    "skipped_menu_sample": [
+     "2 Euro Coins",
+     "Silver Coins",
+     "Gold coins",
+     "Coin Theme Criteria",
+     "Coin Theme Criteria"
     ]
    },
    "method": "scraping",
@@ -1198,19 +2069,47 @@
     }
    ],
    "scrape": {
-    "anchors": 172,
+    "anchors": 168,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "Emissione euro",
+      "u": "https://www.bancaditalia.it/compiti/emissione-euro/index.html",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro Digitale",
+      "u": "https://www.bancaditalia.it/focus/euro-digitale/index.html",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Cambio di banconote e monete",
+      "u": "https://www.bancaditalia.it/servizi-cittadino/servizi/cambio-banconote/index.html",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Banche, moneta e istituzioni finanziarie",
+      "u": "https://www.bancaditalia.it/statistiche/tematiche/moneta-intermediari-finanza/index.html",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Banca d'Italia - Notizie",
+    "html_chars": 132356,
+    "skipped_menu": 117,
+    "skipped_menu_sample": [
      "Emissione euro",
      "Euro Digitale",
      "Cambio di banconote e monete",
      "Banche, moneta e istituzioni finanziarie"
-    ],
-    "http": 200,
-    "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132356
+    ]
    },
    "method": "scraping",
    "relevant": 0
@@ -1260,76 +2159,113 @@
     }
    ],
    "scrape": {
-    "anchors": 164,
+    "anchors": 158,
     "accepted": 1,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "CNAC – Centro Nazionale di Analisi delle Monete",
-     "CNAC – Centro Nazionale di Analisi delle Monete"
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "CNAC – Centro Nazionale di Analisi delle Monete",
+      "u": "https://www.ipzs.it/soluzioni/numismatica-medaglie-monetazione/cnac",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Nuove Emissioni Dalla Magna Grecia ai sapori di oggi: la Calabria diventa moneta La nuova ",
+      "u": "https://www.ipzs.it/news/lista-news/dettaglio-news/2026/10/15/dalla-magna-grecia-ai-sapori-di-oggi--la-calabria-diventa-moneta",
+      "ok": true
+     }
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885
+    "html_chars": 163885,
+    "skipped_menu": 136,
+    "skipped_menu_sample": [
+     "CNAC – Centro Nazionale di Analisi delle Monete",
+     "CNAC – Centro Nazionale di Analisi delle Monete"
+    ]
    },
    "method": "scraping",
    "relevant": 1
   },
-  "luxembourg": {
-   "name": "Banque centrale du Luxembourg",
+  "luxembourg_gov": {
+   "name": "Gouvernement du Luxembourg",
    "country": "LU",
-   "section_url": "https://www.bcl.lu/en/media_actualites/communiques/index.html",
-   "section_http": 200,
-   "section_title": "",
-   "link_feeds": [],
+   "section_url": "https://gouvernement.lu/fr/actualites/toutes_actualites.html",
    "feeds_tried": [
     {
-     "url": "https://www.bcl.lu/rss.xml",
+     "url": "https://gouvernement.lu/fr/actualites/toutes_actualites.rss",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:2: mismatched tag"
-    },
-    {
-     "url": "https://www.bcl.lu/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:2: mismatched tag"
-    },
-    {
-     "url": "https://www.bcl.lu/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:2: mismatched tag"
-    },
-    {
-     "url": "https://www.bcl.lu/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:2: mismatched tag"
-    },
-    {
-     "url": "https://www.bcl.lu/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:6:2: mismatched tag"
+     "type": "text/html; charset=utf-8",
+     "entries": 50,
+     "newest": "2026-10-20",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Assermentation d'un agent au ministère de l'Environnement, du Climat et de la Biodiversité",
+       "ok": false
+      },
+      {
+       "title": "Évolution du chômage en septembre 2026",
+       "ok": false
+      },
+      {
+       "title": "Marc Spautz et Max Hahn ont participé au Conseil EPSCO à Luxembourg",
+       "ok": false
+      },
+      {
+       "title": "Le nouveau Jugendpakt: du temps pour grandir, découvrir et s'engager",
+       "ok": false
+      },
+      {
+       "title": "Assermentation de 11 agents au ministère de la Fonction publique",
+       "ok": false
+      },
+      {
+       "title": "Remises des diplômes et des prix des formations BTS",
+       "ok": false
+      },
+      {
+       "title": "Fast Forward Luxembourg: le nouveau rendez-vous de l'audiovisuel au Luxembourg",
+       "ok": false
+      },
+      {
+       "title": "Zwischen Krisenhilfe und neuen Auflagen",
+       "ok": false
+      },
+      {
+       "title": "Produits du quotidien: des contrôles européens pour protéger les consommateurs",
+       "ok": false
+      },
+      {
+       "title": "Journée mondiale de l'AVC 2026 – Reconnaître les signes, agir sans attendre",
+       "ok": false
+      },
+      {
+       "title": "Le secteur audiovisuel luxembourgeois en mission de prospection au Japon et en Corée du Sud",
+       "ok": false
+      },
+      {
+       "title": "Gilles Roth a participé aux réunions annuelles de la Banque mondiale et du Fonds monétaire international à Ban",
+       "ok": false
+      },
+      {
+       "title": "Résumé des travaux du 16 octobre 2026",
+       "ok": false
+      },
+      {
+       "title": "Assises sectorielles du patrimoine: protéger et valoriser le patrimoine culturel face aux défis actuels",
+       "ok": false
+      },
+      {
+       "title": "Lancement d'une campagne de sensibilisation pendant la saison de chasse en battue",
+       "ok": false
+      }
+     ]
     }
    ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "http": 200,
-    "page_title": "",
-    "html_chars": 456
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "netherlands_dnb": {
@@ -1381,6 +2317,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.dnb.nl/en/news-and-archive/"
    },
    "method": "scraping",
@@ -1426,15 +2363,11 @@
     }
    ],
    "scrape": {
-    "anchors": 173,
+    "anchors": 219,
     "accepted": 20,
     "second_chance": 0,
     "detail_errors": 1,
     "rejected_sample": [
-     "Dutch coins",
-     "Foreign coins",
-     "Silver Coins",
-     "Gold coins",
      "Dutch coins",
      "Foreign coins",
      "Silver Coins",
@@ -1445,11 +2378,188 @@
      "Gold Bullion Coins",
      "Coin sets Europe",
      "Coin bars with face value",
-     "Non European coins"
+     "Non European coins",
+     "Craft of Coin making",
+     "NGC Graded Foreign Coins",
+     "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
+     "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "Dutch coins",
+      "u": "https://www.royaldutchmint.com/dutch-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Foreign coins",
+      "u": "https://www.royaldutchmint.com/buitenland",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.royaldutchmint.com/silver-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Gold coins",
+      "u": "https://www.royaldutchmint.com/gold-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Circulation Coins",
+      "u": "https://www.royaldutchmint.com/circulation-coins",
+      "ok": false
+     },
+     {
+      "t": "Commemorative Coins",
+      "u": "https://www.royaldutchmint.com/commemorative-coins",
+      "ok": false
+     },
+     {
+      "t": "2 Euro coins",
+      "u": "https://www.royaldutchmint.com/buitenland/2-euromunten",
+      "ok": true
+     },
+     {
+      "t": "Commemoratives and loose coins",
+      "u": "https://www.royaldutchmint.com/catalog/category/view/s/commemoratives-and-loose-coins/id/551/",
+      "ok": false
+     },
+     {
+      "t": "Gold Bullion Coins",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
+      "ok": false
+     },
+     {
+      "t": "Coin sets Europe",
+      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
+      "ok": false
+     },
+     {
+      "t": "Coin bars with face value",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/coin-bars-with-face-value",
+      "ok": false
+     },
+     {
+      "t": "Non European coins",
+      "u": "https://www.royaldutchmint.com/buitenland/niet-europese-munten",
+      "ok": false
+     },
+     {
+      "t": "Craft of Coin making",
+      "u": "https://www.royaldutchmint.com/dutch-coins/specials/craft-of-coin-making",
+      "ok": false
+     },
+     {
+      "t": "NGC Graded Foreign Coins",
+      "u": "https://www.royaldutchmint.com/dutch-coins/ngc-graded/ngc-graded-foreign-coins",
+      "ok": false
+     },
+     {
+      "t": "50 years recognition COC 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/50-jaar-erkenning-coc",
+      "ok": true
+     },
+     {
+      "t": "Willemstad 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/willemstad-vijfje",
+      "ok": true
+     },
+     {
+      "t": "Piet Mondriaan 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/piet-mondriaan-vijfje",
+      "ok": true
+     },
+     {
+      "t": "Maastricht Treaty 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/verdrag-van-maastricht",
+      "ok": true
+     },
+     {
+      "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/halloween-2026-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart",
+      "u": "https://www.royaldutchmint.com/dutch-burn-foundation-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "250th anniversary of the United States in a coincard €19.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/250th-anniversary-of-the-united-states-in-a-coincard",
+      "ok": false
+     },
+     {
+      "t": "Wonder Women 50 Dollar Cents in Coincard",
+      "u": "https://www.royaldutchmint.com/wonder-women-50-dollar-cents-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 UNC Quality in Coincard",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-unc-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 BU Quality in Coincard",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-bu-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 Silver Coin",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-silver-coin",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 10 Euro Coin 2026 Gold Proof",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-10-euro-coin-2026-gold-proof",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "75 years TV – 75 cents in Coincard",
+      "u": "https://www.royaldutchmint.com/75-years-tv-75-cents-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "75 years TV – Silver Medal €150.00 Out of stock",
+      "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
+      "ok": false
+     },
+     {
+      "t": "Theme Set 2026 €34.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/theme-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Annual Set The Netherlands 2026 UNC Quality €14.50 Add to Cart",
+      "u": "https://www.royaldutchmint.com/annual-set-the-netherlands-2026-unc-quality",
+      "ok": false
+     }
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 626062
+    "html_chars": 626062,
+    "skipped_menu": 43,
+    "skipped_menu_sample": [
+     "Dutch coins",
+     "Foreign coins",
+     "Silver Coins",
+     "Gold coins",
+     "Circulation Coins",
+     "Commemorative Coins",
+     "Circulation Coins",
+     "Commemorative Coins"
+    ]
    },
    "method": "scraping",
    "relevant": 20
@@ -1497,6 +2607,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bportugal.pt/en"
    },
    "method": "scraping",
@@ -1506,12 +2617,6 @@
    "name": "Imprensa Nacional-Casa da Moeda",
    "country": "PT",
    "section_url": "https://www.incm.pt/",
-   "section_http": 200,
-   "section_title": "Imprensa Nacional Casa da Moeda - INCM",
-   "link_feeds": [
-    "https://incm.pt/site/feed/",
-    "https://incm.pt/site/comments/feed/"
-   ],
    "feeds_tried": [
     {
      "url": "https://incm.pt/site/feed/",
@@ -1519,7 +2624,7 @@
      "type": "application/rss+xml",
      "entries": 10,
      "newest": "2026-10-20",
-     "relevant": 0,
+     "relevant": 2,
      "sample": [
       {
        "title": "Imprensa Nacional participa no Festival FÓLIO 2026",
@@ -1539,7 +2644,7 @@
       },
       {
        "title": "Moeda «Cabo de São Vicente» distinguida pelo European Product Design Award",
-       "ok": false
+       "ok": true
       },
       {
        "title": "INCM na sessão de abertura da 9.ª edição da Festa do Livro em Belém",
@@ -1555,61 +2660,17 @@
       },
       {
        "title": "Moeda dedicada a Amadeo de Souza-Cardoso apresentada no CAM – Centro de Arte Moderna Gulbenkian",
-       "ok": false
+       "ok": true
       },
       {
        "title": "INCM participa na cerimónia de abertura do novo ano letivo e reafirma o seu compromisso com a Educação",
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://incm.pt/site/comments/feed/",
-     "http": 200,
-     "type": "application/rss+xml; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://incm.pt/rss.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://incm.pt/feed",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://incm.pt/feed.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://incm.pt/rss",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://incm.pt/atom.xml",
-     "http": 404,
-     "type": "text/html",
-     "entries": 0
     }
    ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
-   },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feeds_a_mano",
+   "relevant": 2
   },
   "greece": {
    "name": "Bank of Greece",
@@ -1654,6 +2715,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.bankofgreece.gr/en/news-and-media"
    },
    "method": "scraping",
@@ -1699,23 +2761,94 @@
     }
    ],
    "scrape": {
-    "anchors": 95,
-    "accepted": 4,
+    "anchors": 94,
+    "accepted": 6,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "August 6, 2026 Call for proposals for events to be commemorated by issuing occasional coins",
-     "July 21, 2026 Results of tender for designing drafts of occasional coins to be issued in 2027",
-     "joint commemorative coin",
      "Coin catalogue | DBS",
      "ECB: Coins"
     ],
+    "coin_links": [
+     {
+      "t": "August 6, 2026 Call for proposals for events to be commemorated by issuing occasional coin",
+      "u": "https://www.bsi.si/en/media/posts/call-for-proposals-for-events-to-be-commemorated-by-issuing-occasional-coins-3",
+      "ok": true
+     },
+     {
+      "t": "July 21, 2026 Results of tender for designing drafts of occasional coins to be issued in 2",
+      "u": "https://www.bsi.si/en/media/posts/results-of-tender-for-designing-drafts-of-occasional-coins-to-be-issued-in-2027",
+      "ok": true
+     },
+     {
+      "t": "June 15, 2026 Purchase limits for the 2-euro commemorative coin in proof quality",
+      "u": "https://www.bsi.si/en/media/posts/purchase-limits-for-the-2-euro-commemorative-coin-in-proof-quality",
+      "ok": true
+     },
+     {
+      "t": "joint commemorative coin",
+      "u": "https://www.ecb.europa.eu/euro/coins/comm/html/index.en.html",
+      "ok": true
+     },
+     {
+      "t": "Coin catalogue | DBS",
+      "u": "https://www.dbs.si/numizmatika/katalog-kovancev",
+      "ok": false
+     },
+     {
+      "t": "Set of 2026 euro coins",
+      "u": "https://www.bsi.si/en/cash/numismatics/set-of-2026-euro-coins",
+      "ok": true
+     },
+     {
+      "t": "Set of 2025 euro coins",
+      "u": "https://www.bsi.si/en/cash/numismatics/set-of-2025-euro-coins",
+      "ok": true
+     },
+     {
+      "t": "ECB: Coins",
+      "u": "https://www.ecb.europa.eu/euro/coins/html/index.en.html",
+      "ok": false
+     }
+    ],
     "http": 200,
     "page_title": "Numismatics | Banka Slovenije",
-    "html_chars": 241657
+    "html_chars": 241657,
+    "coin_filter": "news",
+    "skipped_menu": 25,
+    "child_links": {
+     "count": 23,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Gold medal on the 30th anniversary of Banka Sloven",
+       "u": "cash/numismatics/gold-medal-on-the-30th-anniversary-of-banka-slovenije"
+      },
+      {
+       "t": "Silver medal on the 30th anniversary of Banka Slov",
+       "u": "sh/numismatics/silver-medal-on-the-30th-anniversary-of-banka-slovenije"
+      },
+      {
+       "t": "Gold medal on the 20th anniversary of the founding",
+       "u": "/gold-medal-on-the-20th-anniversary-of-the-founding-of-banka-slovenije"
+      },
+      {
+       "t": "Silver medal on the 20th anniversary of the foundi",
+       "u": "ilver-medal-on-the-20th-anniversary-of-the-founding-of-banka-slovenije"
+      },
+      {
+       "t": "Gold medal marking the 10th anniversary of the tol",
+       "u": "/cash/numismatics/gold-medal-marking-the-10th-anniversary-of-the-tolar"
+      },
+      {
+       "t": "Silver medal marking the 10th anniversary of the t",
+       "u": "ash/numismatics/silver-medal-marking-the-10th-anniversary-of-the-tolar"
+      }
+     ]
+    }
    },
    "method": "scraping",
-   "relevant": 4
+   "relevant": 6
   },
   "cyprus": {
    "name": "Central Bank of Cyprus",
@@ -1762,27 +2895,263 @@
     }
    ],
    "scrape": {
-    "anchors": 25,
-    "accepted": 0,
+    "anchors": 798,
+    "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "Banknotes & Coins",
-     "Banknotes & Coins"
+     "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
+     "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
+     "Νέα ανάρτηση στο The CBC Blog: Από τη Γνώση στη Χρήση - Τι Δείχνει η Έρευνα για το Ψηφιακό Ευρώ",
+     "CBC invites citizens to share their views on the new euro banknotes",
+     "European Central Bank selects Bank of Cyprus Public Company Limited and JCC Payment Systems Ltd to participate",
+     "Keynote Speech by the Governor of the Central Bank of Cyprus Nicosia 27 March 2026 – Eurofi High Level Seminar",
+     "Annual Bulletin on euro banknote counterfeiting",
+     "Introductory Remarks by the Governor of the Central Bank of Cyprus «Presenting The Digital Euro in Cyprus» Nic",
+     "Exchanging Bulgarian lev for euro",
+     "Δημοσιογραφική Διάσκεψη για το ψηφιακό ευρώ",
+     "Focus Session with Payment Service Providers on the Digital Euro",
+     "ECB launches design contest for future euro banknotes",
+     "Digital euro: safeguarding the existing order of our financial system",
+     "Annual Bulletin on euro banknote counterfeiting",
+     "ECB selects motifs for future euro banknotes"
+    ],
+    "coin_links": [
+     {
+      "t": "Banknotes & Coins",
+      "u": "https://www.centralbank.cy/en/banknotes-and-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative coin, mint year 2026, on the occasion of the assumption of the Presidency of",
+      "u": "https://www.centralbank.cy/en/announcements/commemorative-2026-19-10-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Sale of Cyprus euro coins with mint year 2025 and 2026",
+      "u": "https://www.centralbank.cy/en/announcements/cyprus-euro-coins-2025-and-2026-16-10-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Issue of set of Cyprus euro coins, mint year 2026",
+      "u": "https://www.centralbank.cy/en/announcements/cyprus-euro-coins-mint-year-2026-16-10-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμο",
+      "u": "https://www.centralbank.cy/en/announcements/coin-workshop-09-10-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
+      "u": "https://www.centralbank.cy/en/announcements/invitation-coin-workshop-25-09-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Νέα ανάρτηση στο The CBC Blog: Από τη Γνώση στη Χρήση - Τι Δείχνει η Έρευνα για το Ψηφιακό",
+      "u": "https://www.centralbank.cy/en/announcements/the-cbc-blog-digital-euro-18-08-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Tender No. 12/2026 for the Minting, Packaging and Delivery of Cypriot Euro Silver and Gold",
+      "u": "https://www.centralbank.cy/en/announcements/tender-no-122026-12-08-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "CBC invites citizens to share their views on the new euro banknotes",
+      "u": "https://www.centralbank.cy/en/announcements/new-euro-banknotes-survey-24-07-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "European Central Bank selects Bank of Cyprus Public Company Limited and JCC Payment System",
+      "u": "https://www.centralbank.cy/en/announcements/digiital-euro-pilot-14-07-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Tender No. 12/2026 Invitation for the Award of a Contract for the Minting, Packaging and D",
+      "u": "https://www.centralbank.cy/en/announcements/tender-12-2026-10-07-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Issue of a set of Cyprus euro coins, mint year 2025",
+      "u": "https://www.centralbank.cy/en/announcements/issue-of-a-set-of-cyprus-euro-coins-mint-year-2025-15-06-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Issue of a commemorative coin on the occasion of the assumption of the Presidency of the C",
+      "u": "https://www.centralbank.cy/en/announcements/issue-of-a-commemorative-coin-on-the-occation-of-the-assumption-of-the-presidency-of-the-council-of-the-eu-by-the-rep-of-cyprus-for-the-first-half-of-2026-17-04-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Silver collector coin with theme",
+      "u": "https://www.centralbank.cy/en/announcements/silver-collector-coin-with-theme-rigaina-s-castles-03-04-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Keynote Speech by the Governor of the Central Bank of Cyprus Nicosia 27 March 2026 – Eurof",
+      "u": "https://www.centralbank.cy/en/announcements/keynote-speech-by-the-governor-eurofi-high-level-seminar-digital-euro-26-03-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Issue of a silver collector coin with theme",
+      "u": "https://www.centralbank.cy/en/announcements/issue-of-a-silver-collector-coin-with-theme-rigainas-castles-13-03-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Annual Bulletin on euro banknote counterfeiting",
+      "u": "https://www.centralbank.cy/en/announcements/annual-bulletin-on-euro-banknote-counterfeiting-04-03-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Introductory Remarks by the Governor of the Central Bank of Cyprus «Presenting The Digital",
+      "u": "https://www.centralbank.cy/en/announcements/introductory-remarks-by-the-governor-«presenting-the-digital-euro-in-cyprus»-06-02-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Exchanging Bulgarian lev for euro",
+      "u": "https://www.centralbank.cy/en/announcements/exchanging-bulgarian-lev-for-euro-31-12-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Announcement in relation to the Issue of a Silver Collector Coin on the occasion of the 70",
+      "u": "https://www.centralbank.cy/en/announcements/announcement-20-11-2025",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Issue of a Silver Collector Coin on the occasion of the 70th Anniversary of the start of t",
+      "u": "https://www.centralbank.cy/en/announcements/silver-collector-coin-eoka-19-11-2025",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Δημοσιογραφική Διάσκεψη για το ψηφιακό ευρώ",
+      "u": "https://www.centralbank.cy/en/announcements/δημοσιογραφική-διάσκεψη-για-το-ψηφιακό-ευρώ",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Focus Session with Payment Service Providers on the Digital Euro",
+      "u": "https://www.centralbank.cy/en/announcements/focus-session-with-psp-on-the-digital-euro-24-10-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "ECB launches design contest for future euro banknotes",
+      "u": "https://www.centralbank.cy/en/announcements/ecb-launches-design-contest-for-future-euro-banknotes-16-07-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Digital euro: safeguarding the existing order of our financial system",
+      "u": "https://www.centralbank.cy/en/announcements/digital-euro-stelios-georgakis-article-30-04-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Invitation to tender with distinctive number 03/2025 for the award of a contract for the m",
+      "u": "https://www.centralbank.cy/en/announcements/tender-032025-euro-circulation-coins-07-03-2025",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Annual Bulletin on euro banknote counterfeiting",
+      "u": "https://www.centralbank.cy/en/announcements/annual-bulletin-on-euro-banknote-counterfeiting-21-02-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "ECB selects motifs for future euro banknotes",
+      "u": "https://www.centralbank.cy/en/announcements/31-01-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Sales of commemorative and collector coins issued on the occasion of the 20th anniversary ",
+      "u": "https://www.centralbank.cy/en/announcements/16-12-2024",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Procedure for the submission of requests for the purchase of commemorative and collector c",
+      "u": "https://www.centralbank.cy/en/announcements/12-12-2024",
+      "ok": true,
+      "via": "attr"
+     }
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 452552
+    "html_chars": 452936,
+    "coin_filter": "news",
+    "skipped_menu": 26,
+    "skipped_menu_sample": [
+     "Banknotes & Coins",
+     "Banknotes & Coins"
+    ],
+    "child_links": {
+     "count": 773,
+     "no_text": 772,
+     "sample": [
+      {
+       "t": "",
+       "u": "s://www.centralbank.cy/en/announcements/behind-every-number-20-10-2026"
+      },
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/economic-brief-20-10-2026"
+      },
+      {
+       "t": "",
+       "u": "ps://www.centralbank.cy/en/announcements/commemorative-2026-19-10-2026"
+      },
+      {
+       "t": "",
+       "u": "tps://www.centralbank.cy/en/announcements/npls-31-july-2026-19-10-2026"
+      },
+      {
+       "t": "",
+       "u": "ralbank.cy/en/announcements/cyprus-euro-coins-2025-and-2026-16-10-2026"
+      },
+      {
+       "t": "",
+       "u": "albank.cy/en/announcements/cyprus-euro-coins-mint-year-2026-16-10-2026"
+      }
+     ]
+    }
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 21
   },
   "malta": {
    "name": "Central Bank of Malta",
    "country": "MT",
    "section_url": "https://www.centralbankmalta.org/euro-coins",
-   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.centralbankmalta.org/euro-coins",
    "feeds_tried": [
+    {
+     "url": "https://www.centralbankmalta.org/rssnews.ashx",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
     {
      "url": "https://www.centralbankmalta.org/rss.xml",
      "http": 403,
@@ -1814,12 +3183,14 @@
      "entries": 0
     }
    ],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.centralbankmalta.org/euro-coins",
    "scrape": {
     "anchors": 0,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.centralbankmalta.org/euro-coins"
    },
    "method": "scraping",
@@ -1828,15 +3199,8 @@
   "slovakia_nbs": {
    "name": "Národná banka Slovenska",
    "country": "SK",
-   "section_url": "https://nbs.sk/en/notes-and-coins/euro-coins/",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://nbs.sk/en/notes-and-coins/euro-coins/",
+   "section_url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/news/",
    "feeds_tried": [
-    {
-     "url": "https://nbs.sk/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
     {
      "url": "https://nbs.sk/feed",
      "http": 200,
@@ -1886,79 +3250,132 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://nbs.sk/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://nbs.sk/rss",
-     "http": 200,
-     "type": "application/rss+xml; charset=UTF-8",
-     "entries": 10,
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
-       "ok": false
-      },
-      {
-       "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
-       "ok": false
-      },
-      {
-       "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
-       "ok": false
-      },
-      {
-       "title": "Platíme inak ako pred pár rokmi. Dáta ukazujú, ako sa menia naše návyky",
-       "ok": false
-      },
-      {
-       "title": "Komuniké z 18. rokovania Bankovej rady NBS",
-       "ok": false
-      },
-      {
-       "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
-       "ok": false
-      },
-      {
-       "title": "Prekvapivé zlacnenie potravín drží infláciu na dvojročnom minime",
-       "ok": false
-      },
-      {
-       "title": "NBS upravuje pravidlá pri hypotékach",
-       "ok": false
-      },
-      {
-       "title": "Makroprudenciálny komentár – september 2026",
-       "ok": false
-      },
-      {
-       "title": "NBS upravuje pravidlá pri hypotékach",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://nbs.sk/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 203,
+    "accepted": 5,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://nbs.sk/en/notes-and-coins/euro-coins/"
+    "rejected_sample": [
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "Circulation coins",
+     "How the Slovak euro coin designs were chosen",
+     "Exchanging banknotes and coins",
+     "Banknotes and coins",
+     "Exchanging banknotes and coins",
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "Exchanging banknotes and coins",
+     "Museum of Coins and Medals in Kremnica",
+     "Museum of coins and medals",
+     "Exchange rates of selected foreign currencies against the euro"
+    ],
+    "coin_links": [
+     {
+      "t": "Banknotes and coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/",
+      "ok": false
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-banknotes/",
+      "ok": false
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/",
+      "ok": false
+     },
+     {
+      "t": "Circulation coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/circulation-coins/",
+      "ok": false
+     },
+     {
+      "t": "Commemorative coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/commemorative-coins/",
+      "ok": true
+     },
+     {
+      "t": "Collector coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/collector-coins/",
+      "ok": true
+     },
+     {
+      "t": "Issuance schedule for commemorative and collector coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
+      "ok": true
+     },
+     {
+      "t": "Upcoming coin issues",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/news/",
+      "ok": true
+     },
+     {
+      "t": "How the Slovak euro coin designs were chosen",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/how-the-slovak-euro-coin-designs-were-chosen/",
+      "ok": false
+     },
+     {
+      "t": "Exchanging banknotes and coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/exchange-of-money/",
+      "ok": false
+     },
+     {
+      "t": "Museum of Coins and Medals in Kremnica",
+      "u": "https://www.muzeumkremnica.sk/en/",
+      "ok": false
+     },
+     {
+      "t": "Exchange rates of selected foreign currencies against the euro",
+      "u": "https://nbs.sk/en/statistics/exchange-rates/exchange-rates-of-selected-foreign-currencies-against-the-eur/",
+      "ok": false
+     },
+     {
+      "t": "Next coin to be issued",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/news/next-coin-to-be-issued",
+      "ok": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Upcoming coin issues – Národná banka Slovenska",
+    "html_chars": 99393,
+    "coin_filter": "news",
+    "skipped_menu": 12,
+    "skipped_menu_sample": [
+     "Banknotes and coins",
+     "Euro coins"
+    ],
+    "child_links": {
+     "count": 2,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Terms and conditions of public anonymous competiti",
+       "u": "-coins/news/terms-and-conditions-of-the-public-anonymous-competitions/"
+      },
+      {
+       "t": "Next coin to be issued",
+       "u": "//nbs.sk/en/banknotes-and-coins/euro-coins/news/next-coin-to-be-issued"
+      }
+     ]
+    }
    },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feeds_a_mano+scraping",
+   "relevant": 5,
+   "watch": [
+    {
+     "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
+     "http": 200,
+     "lines": 144,
+     "title": "Issuance schedule for commemorative and collector coins – Národná banka Slovenska",
+     "baseline": true
+    }
+   ]
   },
   "slovakia_mint": {
    "name": "Mincovňa Kremnica",
@@ -2000,27 +3417,107 @@
     }
    ],
    "scrape": {
-    "anchors": 63,
+    "anchors": 59,
     "accepted": 9,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "Mincovňa Kremnica",
      "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
      "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
-     "Investičné zlato - zlatá tehlička 5 g - Münze Österreich",
-     "Emisný plán mincovne 2026",
-     "História mincovne"
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
+    ],
+    "coin_links": [
+     {
+      "t": "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
+      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
+      "ok": true
+     },
+     {
+      "t": "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+      "u": "https://www.mint.sk/novinky/20eur-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
+      "ok": false
+     },
+     {
+      "t": "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr",
+      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
+      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
+      "u": "https://www.mint.sk/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
+      "ok": false
+     },
+     {
+      "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
+      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
+      "ok": true
+     },
+     {
+      "t": "Album na mince - 5€ (2026-2030)",
+      "u": "https://www.mint.sk/eshop/album-na-mince-5eur-2026-2030",
+      "ok": true
+     },
+     {
+      "t": "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
+      "u": "https://www.mint.sk/eshop/pamatny-list-100eur-2026-bitka-pri-mohaci-500-vyrocie",
+      "ok": false
+     },
+     {
+      "t": "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-1000-francs-cfa-pribehy-zeme-viii-nosorozec",
+      "ok": false
+     },
+     {
+      "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Strieborná minca 20€ (2026) proof - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 25",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-vyhlasenie-morica-benovskeho-za-krala-madagaskaru",
+      "ok": true
+     },
+     {
+      "t": "Strieborná minca 10€ (2026) BU - Ivan Krasko - 150.výročie narodenia",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-10eur-2026-bu-ivan-krasko-150vyrocie-narodenia",
+      "ok": true
+     },
+     {
+      "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
+      "u": "https://www.mint.sk/eshop/pamatna-minca-2eu-2026-proof-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy-50vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Emisný plán mincovne 2026",
+      "u": "https://www.mint.sk/emisny-plan-mincovne-2026",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "História mincovne",
+      "u": "https://www.mint.sk/historia-mincovni",
+      "ok": false,
+      "menu": true
+     }
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135454,
+    "html_chars": 135453,
+    "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
      "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
      "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
+    ],
+    "skipped_menu_sample": [
+     "Emisný plán mincovne 2026",
+     "História mincovne"
     ]
    },
    "method": "scraping",
@@ -2029,8 +3526,10 @@
   "estonia": {
    "name": "Eesti Pank",
    "country": "EE",
-   "section_url": "https://www.eestipank.ee/en/coins",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.eestipank.ee/en/coins",
+   "section_url": "https://www.eestipank.ee/en/keyword/meenemunt",
+   "section_http": 200,
+   "section_title": "Eesti Pank",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.eestipank.ee/rss.xml",
@@ -2064,59 +3563,260 @@
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 38,
+    "accepted": 25,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.eestipank.ee/en/coins"
+    "rejected_sample": [
+     "01.07.2026 Eesti Pank coins and coin cards are now on sale in the 100kingitust OÜ online store Eesti Pank’s co",
+     "19.06.2026 Eesti Pank coins will be on sale temporarily from a different online store It will no longer be pos"
+    ],
+    "coin_links": [
+     {
+      "t": "14.09.2026 The silver coin dedicated to the Forest Brothers will be issued on Resistance D",
+      "u": "https://www.eestipank.ee/en/press/silver-coin-dedicated-forest-brothers-will-be-issued-resistance-day-14092026",
+      "ok": true
+     },
+     {
+      "t": "01.07.2026 Eesti Pank coins and coin cards are now on sale in the 100kingitust OÜ online s",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-coins-and-coin-cards-are-now-sale-100kingitust-ou-online-store-01072026",
+      "ok": false
+     },
+     {
+      "t": "30.06.2026 Eesti Pank approved the design for the silver coin dedicated to Anne Vabarna Th",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-approved-design-silver-coin-dedicated-anne-vabarna-30062026",
+      "ok": true
+     },
+     {
+      "t": "19.06.2026 Eesti Pank coins will be on sale temporarily from a different online store It w",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-coins-will-be-sale-temporarily-different-online-store-19062026",
+      "ok": false
+     },
+     {
+      "t": "14.04.2026 Eesti Pank is issuing a silver coin dedicated to Georg Lurich Three thousand of",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-dedicated-georg-lurich-14042026",
+      "ok": true
+     },
+     {
+      "t": "13.02.2026 Eesti Pank is calling for designs for a silver coin dedicated to Anne Vabarna E",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-calling-designs-silver-coin-dedicated-anne-vabarna-13022026",
+      "ok": true
+     },
+     {
+      "t": "14.01.2026 Eesti Pank is issuing a silver coin for the Milano Cortina Olympic Winter Games",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-milano-cortina-olympic-winter-games-14012026",
+      "ok": true
+     },
+     {
+      "t": "06.01.2026 Eesti Pank has approved the design for the silver coin dedicated to the Forest ",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-has-approved-design-silver-coin-dedicated-forest-brothers-06012026",
+      "ok": true
+     },
+     {
+      "t": "22.12.2025 The new series of coins from the central bank will be dedicated to the counties",
+      "u": "https://www.eestipank.ee/en/press/new-series-coins-central-bank-will-be-dedicated-counties-estonia-22122025",
+      "ok": true
+     },
+     {
+      "t": "28.11.2025 Eesti Pank is issuing a silver coin for the 150th anniversary of the birth of O",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-150th-anniversary-birth-otto-strandman-28112025",
+      "ok": true
+     },
+     {
+      "t": "14.11.2025 Eesti Pank is issuing a silver coin dedicated to Lilli Suburg Three thousand of",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-dedicated-lilli-suburg-14112025",
+      "ok": true
+     },
+     {
+      "t": "21.10.2025 Eesti Pank is issuing a silver coin in honour of the Finnish Boys 4000 of the c",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-honour-finnish-boys-21102025",
+      "ok": true
+     },
+     {
+      "t": "08.10.2025 Eesti Pank is calling for designs for a silver coin dedicated to the Forest Bro",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-calling-designs-silver-coin-dedicated-forest-brothers-08102025",
+      "ok": true
+     },
+     {
+      "t": "04.07.2025 Eesti Pank approved the design for the silver coin dedicated to the 150th anniv",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-approved-design-silver-coin-dedicated-150th-anniversary-birth-georg-lurich-04072025",
+      "ok": true
+     },
+     {
+      "t": "05.05.2025 Eesti Pank approved the design for the silver coin for the Milano Cortina 2026 ",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-approved-design-silver-coin-milano-cortina-2026-olympic-winter-games-05052025",
+      "ok": true
+     },
+     {
+      "t": "11.03.2025 Eesti Pank is seeking a design for a collector coin dedicated to the legendary ",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-seeking-design-collector-coin-dedicated-legendary-wrestler-georg-lurich-11032025",
+      "ok": true
+     },
+     {
+      "t": "05.03.2025 Eesti Pank is dedicating a collector coin to the Forest Brothers Eesti Pank wil",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-dedicating-collector-coin-forest-brothers-05032025",
+      "ok": true
+     },
+     {
+      "t": "07.02.2025 Eesti Pank is looking for a design for a silver collector coin for the Milano C",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-looking-design-silver-collector-coin-milano-cortina-2026-olympic-winter-games-07022025",
+      "ok": true
+     },
+     {
+      "t": "26.09.2024 Eesti Pank has approved the designs for the silver coins dedicated to the Finni",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-has-approved-designs-silver-coins-dedicated-finnish-boys-and-otto-strandman-26092024",
+      "ok": true
+     },
+     {
+      "t": "27.06.2024 Eesti Pank approved the design for the silver coin dedicated to Lilli Suburg Th",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-approved-design-silver-coin-dedicated-lilli-suburg-27062024",
+      "ok": true
+     },
+     {
+      "t": "07.06.2024 The silver and gold collector coins for the Hanseatic town of Tartu will go on ",
+      "u": "https://www.eestipank.ee/en/press/silver-and-gold-collector-coins-hanseatic-town-tartu-will-go-sale-07062024",
+      "ok": true
+     },
+     {
+      "t": "23.04.2024 Eesti Pank is issuing a silver coin dedicated to the Olympic games in Paris 400",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-dedicated-olympic-games-paris-23042024",
+      "ok": true
+     },
+     {
+      "t": "04.03.2024 Eesti Pank is calling for designs for a silver coin dedicated to the Finnish Bo",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-calling-designs-silver-coin-dedicated-finnish-boys-and-one-dedicated-otto-strandman-04032024",
+      "ok": true
+     },
+     {
+      "t": "13.02.2024 Eesti Pank is calling for designs for a silver coin dedicated to Lilli Suburg E",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-calling-designs-silver-coin-dedicated-lilli-suburg-13022024",
+      "ok": true
+     },
+     {
+      "t": "06.02.2024 Eesti Pank is issuing a silver coin for the 150th anniversary of the birth of K",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-150th-anniversary-birth-konstantin-pats-06022024",
+      "ok": true
+     },
+     {
+      "t": "29.12.2023 Eesti Pank is dedicating new collector coin series to Resistance and Women Eest",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-dedicating-new-collector-coin-series-resistance-and-women-29122023",
+      "ok": true
+     },
+     {
+      "t": "12.12.2023 Eesti Pank is issuing a silver coin dedicated to Konstantin Konik On 12 Decembe",
+      "u": "https://www.eestipank.ee/en/press/eesti-pank-issuing-silver-coin-dedicated-konstantin-konik-12122023",
+      "ok": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Eesti Pank",
+    "html_chars": 146816,
+    "coin_filter": "news",
+    "skipped_menu": 5,
+    "child_links": {
+     "count": 5,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Pressiteated 95",
+       "u": "https://www.eestipank.ee/en/keyword/meenemunt/press-release"
+      },
+      {
+       "t": "Sisuleht 3",
+       "u": "https://www.eestipank.ee/en/keyword/meenemunt/article"
+      },
+      {
+       "t": "Blogipostitused 0",
+       "u": "https://www.eestipank.ee/en/keyword/meenemunt/blog-post"
+      },
+      {
+       "t": "Publikatsioonid 0",
+       "u": "https://www.eestipank.ee/en/keyword/meenemunt/publication"
+      },
+      {
+       "t": "Kalender 11",
+       "u": "https://www.eestipank.ee/en/keyword/meenemunt/event"
+      }
+     ]
+    }
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 25,
+   "watch": [
+    {
+     "url": "https://www.eestipank.ee/en/notes-coins/confirmed-programme-issuing-collector-and-commemorative-coins",
+     "http": 200,
+     "lines": 5,
+     "title": "Confirmed programme of issuing collector and commemorative coins | Eesti Pank",
+     "baseline": true
+    }
+   ]
   },
   "latvia": {
    "name": "Latvijas Banka",
    "country": "LV",
-   "section_url": "https://www.bank.lv/en/coins",
-   "section_error": "HTTPError: 404 Client Error: Not Found for url: https://www.bank.lv/en/coins",
+   "section_url": "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins",
+   "section_http": 200,
+   "section_title": "News | Latvijas Banka",
+   "link_feeds": [
+    "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=rss",
+    "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=atom"
+   ],
    "feeds_tried": [
     {
-     "url": "https://www.bank.lv/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bank.lv/feed",
-     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate v"
-    },
-    {
-     "url": "https://www.bank.lv/feed.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica"
-    },
-    {
-     "url": "https://www.bank.lv/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bank.lv/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "url": "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=rss",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-06",
+     "relevant": 1,
+     "sample": [
+      {
+       "title": "What lessons have we learned from the August storm?",
+       "ok": false
+      },
+      {
+       "title": "The new euro banknotes: what happens next?",
+       "ok": false
+      },
+      {
+       "title": "The contours of the digital euro are becoming increasingly clear",
+       "ok": false
+      },
+      {
+       "title": "Latvijas Banka is issuing a symbolic collector coin \"Chestnut\"",
+       "ok": true
+      },
+      {
+       "title": "Latvijas Banka is issuing a licence to Neverless SIA to operate as a payment institution",
+       "ok": false
+      },
+      {
+       "title": "Latvijas Banka is issuing a licence to Atrya Technologies SIA for the provision of crypto-asset services",
+       "ok": false
+      },
+      {
+       "title": "Latvijas Banka is issuing two licences to Noah LV SIA",
+       "ok": false
+      },
+      {
+       "title": "The share of non-cash payments in Latvia reaches a historical high",
+       "ok": false
+      },
+      {
+       "title": "Latvijas Banka's conference will focus on the economic challenges the euro area is facing in the new geopoliti",
+       "ok": false
+      },
+      {
+       "title": "Andris Strazds is approved by the Saeima as Deputy Governor of Latvijas Banka",
+       "ok": false
+      }
+     ]
     }
    ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 404 Client Error: Not Found for url: https://www.bank.lv/en/coins"
-   },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feed_descubierto",
+   "feed_url": "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=rss",
+   "relevant": 1
   },
   "lithuania_lb": {
    "name": "Lietuvos bankas",
@@ -2167,61 +3867,8 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.lb.lt/en/coins"
-   },
-   "method": "scraping",
-   "relevant": 0
-  },
-  "germany_bmf": {
-   "name": "Bundesministerium der Finanzen",
-   "country": "DE",
-   "section_url": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
-   "feeds_tried": [
-    {
-     "url": "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/atom.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    }
-   ],
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html"
    },
    "method": "scraping",
    "relevant": 0
@@ -2242,7 +3889,7 @@
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
      "newest": "2026-10-20",
-     "relevant": 2,
+     "relevant": 6,
      "sample": [
       {
        "title": "Skelbiamas 2 eurų proginės monetos, skirtos Klaipėdai, nacionalinės pusės (averso) grafinio projekto sukūrimo ",
@@ -2250,7 +3897,7 @@
       },
       {
        "title": "Skelbiamas 3 eurų kolekcinės monetos, skirtos Roko maršui, averso ir reverso grafinio projekto sukūrimo konkur",
-       "ok": false
+       "ok": true
       },
       {
        "title": "Aukso karštinė leido Lietuvos monetų kalyklai vėl tapti pelningai, svarstoma gaminti daugiau juvelyrikos",
@@ -2262,7 +3909,7 @@
       },
       {
        "title": "Skelbiamas 10 eurų kolekcinės monetos, skirtos Lietuvos didžiajam kunigaikščiui, Lietuvos aukščiausiajam kunig",
-       "ok": false
+       "ok": true
       },
       {
        "title": "Skelbiamas 2 eurų proginės monetos, skirtos Kaunui, nacionalinės pusės (averso) grafinio projekto sukūrimo kon",
@@ -2274,7 +3921,7 @@
       },
       {
        "title": "Skelbiamas 5 eurų kolekcinės monetos „Aitvaras“ (iš serijos „Lietuvių mitinės būtybės“) averso ir reverso graf",
-       "ok": false
+       "ok": true
       },
       {
        "title": "Trečiojo 2025 m. ketvirčio aukso paklausos tendencijų apžvalga",
@@ -2282,14 +3929,14 @@
       },
       {
        "title": "Lietuvos monetų kalykla pristato naują kolekcinę monetą su M. K. Čiurlionio kūriniu „Pasaka“",
-       "ok": false
+       "ok": true
       }
      ]
     }
    ],
    "method": "feed_descubierto",
    "feed_url": "https://kalykla.lt/feed/",
-   "relevant": 2
+   "relevant": 6
   },
   "croatia_hnb": {
    "name": "Croatian National Bank",
@@ -2331,39 +3978,200 @@
     }
    ],
    "scrape": {
-    "anchors": 532,
+    "anchors": 535,
     "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "Digital euro",
      "Euro banknotes",
      "Euro coins",
      "Euro coin denominations",
      "Euro coins of other countries",
-     "Numismatic coins",
-     "Commemorative gold and silver kuna coins",
      "Replacement of stained euro banknotes at the Croatian National Bank",
-     "Euro area bank lending survey",
-     "Digital euro",
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Euro coins of other countries",
-     "Replacement of stained euro banknotes at the Croatian National Bank"
+     "Commemorative coins in circulation",
+     "Demonetisation of damaged kuna coins",
+     "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
+     "Numismatic coins",
+     "Commemorative gold and silver kuna coins"
+    ],
+    "coin_links": [
+     {
+      "t": "Digital euro",
+      "u": "https://www.hnb.hr/en/core-functions/payment-system/digital-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://www.hnb.hr/en/currency/euro-banknotes",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coin denominations",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Issuance of commemorative and collector euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins of other countries",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Numismatic coins",
+      "u": "https://www.hnb.hr/en/currency/numismatics/numismatic-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative gold and silver kuna coins",
+      "u": "https://www.hnb.hr/en/currency/numismatics/commemorative-gold-and-silver-kuna-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Replacement of stained euro banknotes at the Croatian National Bank",
+      "u": "https://www.hnb.hr/en/currency/replacement-of-cash/replacement-of-stained-euro-banknotes-at-the-croatian-national-bank",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro area bank lending survey",
+      "u": "https://www.hnb.hr/en/statistics/statistical-surveys/euro-area-bank-lending-survey",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coin issuance plan",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative coins in circulation",
+      "u": "https://www.hnb.hr/en/currency/kuna/coins/commemorative-coins-in-circulation",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Demonetisation of damaged kuna coins",
+      "u": "https://www.hnb.hr/en/currency/kuna/coins/demonetisation-of-damaged-kuna-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
+      "u": "https://www.hnb.hr/en/novac/kuna/kovani-novac/prodaja-kovanica-kune-i-lipe",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Republic of Croatia contribution to euro area monetary aggregates",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro foreign exchange reference rates",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/euro-foreign-exchange-reference-rates",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Exchange rates of other currencies for the euro (CNB)",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/exchange-rates-of-other-currencies-for-the-euro-cnb",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "The results of the euro area bank lending survey",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/other-monetary-financial-institutions/credit-institutions/the-results-of-the-euro-area-bank-lending-survey",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Digital euro",
+      "u": "https://www.hnb.hr/en/public-relations/explainers/by-topic/digital-euro",
+      "ok": false,
+      "menu": true
+     }
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
-    "accepted_in_menu": 3,
-    "accepted_in_menu_sample": [
+    "html_chars": 239484,
+    "skipped_menu": 503,
+    "skipped_menu_sample": [
+     "Digital euro",
+     "Euro banknotes",
+     "Euro coins",
+     "Euro coin denominations",
      "Issuance of commemorative and collector euro coins",
      "Commemorative euro coins",
-     "Euro coin issuance plan"
-    ]
+     "Euro coins of other countries",
+     "Numismatic coins"
+    ],
+    "child_links": {
+     "count": 14,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Euro coin denominations",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
+      },
+      {
+       "t": "Issuance of commemorative and collector euro coins",
+       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
+      },
+      {
+       "t": "Commemorative euro coins",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins"
+      },
+      {
+       "t": "Euro coins of other countries",
+       "u": "ttps://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries"
+      },
+      {
+       "t": "Euro coin denominations",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
+      },
+      {
+       "t": "Issuance of commemorative and collector euro coins",
+       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
+      }
+     ]
+    }
    },
    "method": "scraping",
-   "relevant": 3
+   "relevant": 3,
+   "watch": [
+    {
+     "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
+     "http": 200,
+     "lines": 35,
+     "title": "Euro coin issuance plan",
+     "baseline": true
+    }
+   ]
   },
   "croatia_mint": {
    "name": "Croatian Mint",
@@ -2398,6 +4206,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed to "
    },
    "method": "scraping",
@@ -2448,14 +4257,15 @@
     }
    ],
    "scrape": {
-    "anchors": 37,
+    "anchors": 34,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -2616,7 +4426,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -2626,19 +4436,21 @@
     }
    ],
    "scrape": {
-    "anchors": 266,
+    "anchors": 271,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
+    "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696519
+    "html_chars": 697200,
+    "skipped_menu": 226
    },
    "method": "scraping",
    "relevant": 0
   },
-  "san_marino_dfn": {
+  "san_marino": {
    "name": "Divisione Filatelica Numismatica",
    "country": "SM",
    "section_url": "https://www.aasfn.sm/",
@@ -2671,44 +4483,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
-    "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl"
-   },
-   "method": "scraping",
-   "relevant": 0
-  },
-  "san_marino_cfn": {
-   "name": "Commercializzazione Filatelica e Numismatica",
-   "country": "SM",
-   "section_url": "https://www.aasfn.sm/",
-   "section_error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl",
-   "feeds_tried": [
-    {
-     "url": "https://www.aasfn.sm/rss.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur"
-    },
-    {
-     "url": "https://www.aasfn.sm/feed",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure ("
-    },
-    {
-     "url": "https://www.aasfn.sm/feed.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
-    },
-    {
-     "url": "https://www.aasfn.sm/rss",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_"
-    },
-    {
-     "url": "https://www.aasfn.sm/atom.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
-    }
-   ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
+    "coin_links": [],
     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl"
    },
    "method": "scraping",
@@ -2717,58 +4492,52 @@
   "vatican": {
    "name": "Vatican City State",
    "country": "VA",
-   "section_url": "https://www.vaticanstate.va/en/",
+   "section_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.html",
    "section_http": 200,
    "section_title": "Vatican State",
-   "link_feeds": [],
+   "link_feeds": [
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=atom"
+   ],
    "feeds_tried": [
     {
-     "url": "https://www.vaticanstate.va/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.vaticanstate.va/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.vaticanstate.va/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.vaticanstate.va/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://www.vaticanstate.va/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 6,
+     "newest": "2026-10-03",
+     "relevant": 6,
+     "sample": [
+      {
+       "title": "New Numismatic Issues Available",
+       "ok": true
+      },
+      {
+       "title": "New numismatic issues, year 2025, of the Governorate of the Vatican City State",
+       "ok": true
+      },
+      {
+       "title": "Numismatic issues commemorating Saint Francis",
+       "ok": true
+      },
+      {
+       "title": "Presentation of New Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three States, One Tribute to Saint Francis: the Numismatic Triptych Dedicated to the Canticle of the Creatures",
+       "ok": true
+      }
+     ]
     }
    ],
-   "scrape": {
-    "anchors": 171,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [
-     "Coins and stamps",
-     "2026 Coin Set – Pontificate of Leo XIV",
-     "Coins and stamps"
-    ],
-    "http": 200,
-    "page_title": "Vatican State",
-    "html_chars": 271249
-   },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feed_descubierto",
+   "feed_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+   "relevant": 6
   },
   "andorra": {
    "name": "Govern d'Andorra",
@@ -2810,16 +4579,17 @@
     }
    ],
    "scrape": {
-    "anchors": 998,
+    "anchors": 992,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Dia mundial dels docents"
-    ],
+    "rejected_sample": [],
+    "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 909964
+    "html_chars": 909964,
+    "coin_filter": "news",
+    "skipped_menu": 955
    },
    "method": "scraping",
    "relevant": 0
