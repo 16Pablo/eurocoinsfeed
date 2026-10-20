@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-20T17:10:34.945672+00:00",
+ "generated_at": "2026-10-20T21:45:11.524299+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 29.4,
+     "seconds": 30.7,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 1
@@ -19,7 +19,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.5,
+     "seconds": 23.1,
      "query": "por_celex",
      "rows": 200,
      "relevant": 0
@@ -231,10 +231,10 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.785,37",
-     "€ 1.966,20",
-     "€ 1.001,47",
-     "€ 1.914,89"
+     "€ 3.786,76",
+     "€ 1.966,92",
+     "€ 1.001,84",
+     "€ 1.919,42"
     ],
     "coin_links": [
      {
@@ -376,22 +376,22 @@
       "menu": true
      },
      {
-      "t": "€ 3.785,37",
+      "t": "€ 3.786,76",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.966,20",
+      "t": "€ 1.966,92",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.001,47",
+      "t": "€ 1.001,84",
       "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.914,89",
+      "t": "€ 1.919,42",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -701,7 +701,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1297,7 +1297,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 181767,
+    "html_chars": 181764,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1814,7 +1814,7 @@
     }
    ],
    "scrape": {
-    "anchors": 308,
+    "anchors": 309,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1853,8 +1853,8 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124600,
-    "skipped_menu": 300,
+    "html_chars": 124614,
+    "skipped_menu": 301,
     "skipped_menu_sample": [
      "Money, notes and coins",
      "Single Euro Payments Area",
@@ -2183,7 +2183,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885,
+    "html_chars": 163910,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2207,7 +2207,15 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Veille légale du mois de septembre",
+       "ok": false
+      },
+      {
        "title": "Pressekonferenz: Suivi vun der Tripartite",
+       "ok": false
+      },
+      {
+       "title": "Comité de suivi de l'accord tripartite du 8 juin 2026 \"Resilienzpak\"",
        "ok": false
       },
       {
@@ -2256,14 +2264,6 @@
       },
       {
        "title": "Le secteur audiovisuel luxembourgeois en mission de prospection au Japon et en Corée du Sud",
-       "ok": false
-      },
-      {
-       "title": "Gilles Roth a participé aux réunions annuelles de la Banque mondiale et du Fonds monétaire international à Ban",
-       "ok": false
-      },
-      {
-       "title": "Résumé des travaux du 16 octobre 2026",
        "ok": false
       }
      ]
@@ -2885,10 +2885,7 @@
     },
     {
      "url": "https://www.centralbank.cy/rss",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
     },
     {
      "url": "https://www.centralbank.cy/atom.xml",
@@ -3715,7 +3712,7 @@
     ],
     "http": 200,
     "page_title": "Eesti Pank",
-    "html_chars": 146816,
+    "html_chars": 146351,
     "coin_filter": "news",
     "skipped_menu": 5,
     "child_links": {
@@ -3952,23 +3949,23 @@
    "feeds_tried": [
     {
      "url": "https://www.hnb.hr/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f1cbe502f00"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f69c93f6c60"
     },
     {
      "url": "https://www.hnb.hr/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f1cbf782330>, "
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f69c8f4e7b0>, "
     },
     {
      "url": "https://www.hnb.hr/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f1cbf78062"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f69c92c7f5"
     },
     {
      "url": "https://www.hnb.hr/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f1cbf0c7b00>, '"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f69c8195bb0>, '"
     },
     {
      "url": "https://www.hnb.hr/atom.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f1cbd8feff"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f69c8195fa"
     }
    ],
    "scrape": {
@@ -4055,14 +4052,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4081,7 +4078,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4242,7 +4239,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:138: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4260,7 +4257,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696752,
+    "html_chars": 697616,
     "skipped_menu": 226
    },
    "method": "scraping",
@@ -4403,7 +4400,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 913145,
+    "html_chars": 911659,
     "coin_filter": "news",
     "skipped_menu": 955
    },
