@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T17:16:25.388227+00:00",
+ "generated_at": "2026-10-21T21:50:26.141865+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,15 +11,15 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 33.9,
+     "seconds": 37.0,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 1
     },
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 51.6,
+     "seconds": 27.1,
      "query": "por_celex",
      "rows": 200,
      "relevant": 0
@@ -987,7 +987,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1400,7 +1400,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132101,
+    "html_chars": 132109,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -1966,24 +1966,17 @@
    "feeds_tried": [
     {
      "url": "https://www.centralbank.cy/rss.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "http": 503,
+     "type": "text/html",
+     "entries": 0
     },
     {
      "url": "https://www.centralbank.cy/feed",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:107:17: not well-formed (invalid token)"
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
     },
     {
      "url": "https://www.centralbank.cy/feed.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
     },
     {
      "url": "https://www.centralbank.cy/rss",
@@ -2004,7 +1997,7 @@
     "anchors": 798,
     "accepted": 21,
     "second_chance": 0,
-    "detail_errors": 2,
+    "detail_errors": 8,
     "rejected_sample": [
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
      "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -2985,14 +2978,28 @@
    "name": "Lithuanian Mint",
    "country": "LT",
    "section_url": "https://lithuanian-mint.lt/",
-   "section_http": 200,
-   "section_title": "Lietuvos Monetų Kalykla",
-   "link_feeds": [
-    "https://kalykla.lt/feed/"
-   ],
+   "section_error": "HTTPError: 522 Server Error: <none> for url: https://lithuanian-mint.lt/",
    "feeds_tried": [
     {
-     "url": "https://kalykla.lt/feed/",
+     "url": "https://lithuanian-mint.lt/rss.xml",
+     "http": 522,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://lithuanian-mint.lt/feed",
+     "http": 522,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://lithuanian-mint.lt/feed.xml",
+     "http": 522,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://lithuanian-mint.lt/rss",
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
@@ -3043,7 +3050,7 @@
     }
    ],
    "method": "feed_descubierto",
-   "feed_url": "https://kalykla.lt/feed/",
+   "feed_url": "https://lithuanian-mint.lt/rss",
    "relevant": 6
   },
   "croatia_hnb": {
@@ -3226,7 +3233,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
+    "html_chars": 239488,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -3374,7 +3381,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -3645,7 +3652,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 903540,
+    "html_chars": 902046,
     "coin_filter": "news",
     "skipped_menu": 956
    },
