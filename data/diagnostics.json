@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T04:49:19.958863+00:00",
+ "generated_at": "2026-10-21T11:52:46.880882+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -10,19 +10,22 @@
    "sparql": [
     {
      "method": "GET",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
-     "query": "por_titulo"
+     "http": 200,
+     "seconds": 39.1,
+     "query": "por_titulo",
+     "rows": 1,
+     "relevant": 1
     },
     {
      "method": "POST",
      "http": 200,
-     "seconds": 21.7,
+     "seconds": 25.5,
      "query": "por_celex",
      "rows": 200,
      "relevant": 0
     }
    ],
-   "relevant": 0
+   "relevant": 1
   },
   "ec_commemorative": {
    "name": "Comisión Europea — monedas conmemorativas de 2 €",
@@ -118,6 +121,10 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
+       "ok": false
+      },
+      {
        "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
        "ok": false
       },
@@ -172,10 +179,6 @@
       {
        "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
        "ok": false
-      },
-      {
-       "title": "Boris Vujčić: Resilience, integration and competitiveness: building the future of European banking",
-       "ok": false
       }
      ]
     }
@@ -228,10 +231,10 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.783,98",
-     "€ 1.965,47",
-     "€ 1.001,11",
-     "€ 1.903,64"
+     "€ 3.800,74",
+     "€ 1.974,18",
+     "€ 1.005,54",
+     "€ 1.904,76"
     ],
     "coin_links": [
      {
@@ -373,22 +376,22 @@
       "menu": true
      },
      {
-      "t": "€ 3.783,98",
+      "t": "€ 3.800,74",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.965,47",
+      "t": "€ 1.974,18",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.001,11",
+      "t": "€ 1.005,54",
       "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.903,64",
+      "t": "€ 1.904,76",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -553,9 +556,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-20",
+     "newest": "2026-10-21",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Auction announcement – Reopening of Federal Treasury notes",
+       "ok": false
+      },
       {
        "title": "Reopening of two Green Federal securities – Auction result",
        "ok": false
@@ -590,10 +597,6 @@
       },
       {
        "title": "Announcement of a multi-ISIN auction – Reopening of two Green German Federal securities",
-       "ok": false
-      },
-      {
-       "title": "German balance of payments in August 2026",
        "ok": false
       }
      ]
@@ -749,173 +752,58 @@
    "country": "DE",
    "section_url": "https://www.muenze-deutschland.de/",
    "section_http": 200,
-   "section_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+   "section_title": "Shop - Münze Deutschland - Seitenwartung",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://muenze-deutschland.de/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html",
+     "entries": 0,
+     "bozo": "<unknown>:4:16: undefined entity"
     },
     {
      "url": "https://muenze-deutschland.de/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html",
+     "entries": 0,
+     "bozo": "<unknown>:4:16: undefined entity"
     },
     {
      "url": "https://muenze-deutschland.de/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html",
+     "entries": 0,
+     "bozo": "<unknown>:4:16: undefined entity"
     },
     {
      "url": "https://muenze-deutschland.de/rss",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html",
+     "entries": 0,
+     "bozo": "<unknown>:4:16: undefined entity"
     },
     {
      "url": "https://muenze-deutschland.de/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "http": 200,
+     "type": "text/html",
+     "entries": 0,
+     "bozo": "<unknown>:4:16: undefined entity"
     }
    ],
    "scrape": {
-    "anchors": 67,
-    "accepted": 6,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "entdecken Sie hier alle Münzen",
-     "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
-     "Zum Produkt 2-Euro-Sonderset 2026 \"Konrad Adenauer\" für ab 23,95 Euro",
-     "Zu Goldmünzen",
-     "Zu Silbermünzen",
-     "Zu Polymerringmünzen",
-     "Zu Gedenkmünzen"
-    ],
-    "coin_links": [
-     {
-      "t": "Alle Münzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Polymerringmünzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Polymerringmuenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Farbdruckmünzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Farbdruckmuenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Goldmünzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Goldmuenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Silbermünzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Silbermuenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "2-Euro-Sammlermünzen-Set",
-      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Kurs-/Umlaufmünzen",
-      "u": "https://muenze-deutschland.de/Muenzen/Kurs-Umlaufmuenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Von der Idee zur Münze",
-      "u": "https://muenze-deutschland.de/Ueber-uns/Von-der-Idee-zur-Muenze/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Prägende Münzen",
-      "u": "https://muenze-deutschland.de/Blog/Praegende-Muenzen/",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "entdecken Sie hier alle Münzen",
-      "u": "https://shop.muenze-deutschland.de/Muenzen/Alle-Muenzen/",
-      "ok": false
-     },
-     {
-      "t": "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
-      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/2-Euro-Sonderset-2026-Konrad-Adenauer.html",
-      "ok": false
-     },
-     {
-      "t": "5-Euro-Farbdruckmünze 2026 \"Ariane 6\"",
-      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/5-Euro-Farbdruckmuenze-2026-Ariane-6.html",
-      "ok": true
-     },
-     {
-      "t": "35-Euro-Silbermünze 2026 \"125 Jahre Wuppertaler Schwebebahn\"",
-      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/35-Euro-Silbermuenze-2026-125-Jahre-Wuppertaler-Schwebebahn.html",
-      "ok": true
-     },
-     {
-      "t": "20-Euro-Silbermünze 2025 \"75. Berlinale\"",
-      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-75-Berlinale.html",
-      "ok": true
-     },
-     {
-      "t": "10-Euro-Polymerring-Sammlermünze 2025 \"Technisches Hilfswerk\"",
-      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/10-Euro-Polymerring-Sammlermuenze-2025-Technisches-Hilfswerk.html",
-      "ok": true
-     },
-     {
-      "t": "20-Euro-Silbermünze 2025 \"50 Jahre Internationales Jahr der Frau\"",
-      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-50-Jahre-Internationales-Jahr-der-Frau.html",
-      "ok": true
-     },
-     {
-      "t": "Download 2-Euro-Gedenkmünze 2025 \"Bundesländer - Saarland (Saarschleife)\"",
-      "u": "https://muenze-deutschland.de/Service/Download/Bilder/Download-2-Euro-Gedenkmuenze-2025-Bundeslaender-Saarland-Saarschleife.html",
-      "ok": true
-     },
-     {
-      "t": "Zu Goldmünzen",
-      "u": "https://shop.muenze-deutschland.de/Muenzen/Goldmuenzen/",
-      "ok": false,
-      "via": "attr"
-     }
-    ],
+    "rejected_sample": [],
+    "coin_links": [],
     "http": 200,
-    "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 112114,
-    "skipped_menu": 42,
-    "skipped_menu_sample": [
-     "Alle Münzen",
-     "Polymerringmünzen",
-     "Farbdruckmünzen",
-     "Goldmünzen",
-     "Silbermünzen",
-     "2-Euro-Sammlermünzen-Set",
-     "Kurs-/Umlaufmünzen",
-     "Von der Idee zur Münze"
-    ]
+    "page_title": "Shop - Münze Deutschland - Seitenwartung",
+    "html_chars": 13662
    },
    "method": "scraping",
-   "relevant": 6
+   "relevant": 0
   },
   "germany_bmf": {
    "name": "Bundesministerium der Finanzen",
@@ -982,9 +870,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-20",
+     "newest": "2026-10-21",
      "relevant": 0,
      "sample": [
+      {
+       "title": "La deuda de las Administraciones Públicas se situó en agosto de 2026 en el 99,7% del PIB",
+       "ok": false
+      },
       {
        "title": "El gobernador del Banco de España visita la UCLM para conocer el desarrollo del programa pionero de educación ",
        "ok": false
@@ -1039,10 +931,6 @@
       },
       {
        "title": "D.G. Economía. Proyecciones macroeconómicas de España. Tercer trimestre de 2026",
-       "ok": false
-      },
-      {
-       "title": "David López Salido. Proyecciones macroeconómicas e informe trimestral de la economía española",
        "ok": false
       }
      ]
@@ -1204,7 +1092,9 @@
    "boe": [
     {
      "day": "2026-10-21",
-     "http": 404
+     "http": 200,
+     "items": 163,
+     "relevant": 0
     },
     {
      "day": "2026-10-20",
@@ -1292,7 +1182,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1632,6 +1522,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
      "Voir toutes les monnaies",
      "de monnaies de collection, de médailles et d’objets d’art ."
     ],
@@ -1685,6 +1576,11 @@
       "menu": true
      },
      {
+      "t": "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondia",
+      "u": "https://www.monnaiedeparis.fr/unesco-patrimoine-mondial",
+      "ok": false
+     },
+     {
       "t": "Voir toutes les monnaies",
       "u": "https://www.monnaiedeparis.fr/monnaies",
       "ok": false
@@ -1723,7 +1619,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455556,
+    "html_chars": 456148,
     "child_links": {
      "count": 315,
      "no_text": 61,
@@ -1848,7 +1744,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124614,
+    "html_chars": 123625,
     "skipped_menu": 301,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2101,7 +1997,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132306,
+    "html_chars": 132137,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2198,9 +2094,13 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-20",
+     "newest": "2026-10-21",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Publication du rapport annuel 2024 sur la consommation d'antibiotiques, de l'antibiorésistance et de la présen",
+       "ok": false
+      },
       {
        "title": "Veille légale du mois de septembre",
        "ok": false
@@ -2255,10 +2155,6 @@
       },
       {
        "title": "Journée mondiale de l'AVC 2026 – Reconnaître les signes, agir sans attendre",
-       "ok": false
-      },
-      {
-       "title": "Le secteur audiovisuel luxembourgeois en mission de prospection au Japon et en Corée du Sud",
        "ok": false
       }
      ]
@@ -2812,7 +2708,7 @@
     ],
     "http": 200,
     "page_title": "Numismatics | Banka Slovenije",
-    "html_chars": 241657,
+    "html_chars": 241721,
     "coin_filter": "news",
     "skipped_menu": 25,
     "child_links": {
@@ -2859,10 +2755,7 @@
    "feeds_tried": [
     {
      "url": "https://www.centralbank.cy/rss.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
     },
     {
      "url": "https://www.centralbank.cy/feed",
@@ -2887,14 +2780,17 @@
     },
     {
      "url": "https://www.centralbank.cy/atom.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
     }
    ],
    "scrape": {
     "anchors": 798,
     "accepted": 21,
     "second_chance": 0,
-    "detail_errors": 0,
+    "detail_errors": 2,
     "rejected_sample": [
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
      "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -4116,7 +4012,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239489,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4252,7 +4148,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4264,7 +4160,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4443,7 +4339,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697599,
+    "html_chars": 697616,
     "skipped_menu": 226
    },
    "method": "scraping",
@@ -4586,9 +4482,9 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 913145,
+    "html_chars": 908950,
     "coin_filter": "news",
-    "skipped_menu": 955
+    "skipped_menu": 956
    },
    "method": "scraping",
    "relevant": 0
