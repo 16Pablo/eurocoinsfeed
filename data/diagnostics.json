@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T04:49:59.186809+00:00",
+ "generated_at": "2026-10-22T11:53:23.689335+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,20 +9,23 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
-     "query": "por_titulo"
+     "method": "POST",
+     "http": 200,
+     "seconds": 37.0,
+     "query": "por_titulo",
+     "rows": 1,
+     "relevant": 1
     },
     {
      "method": "POST",
      "http": 200,
-     "seconds": 48.4,
+     "seconds": 25.6,
      "query": "por_celex",
      "rows": 200,
      "relevant": 0
     }
    ],
-   "relevant": 0
+   "relevant": 1
   },
   "ec_commemorative": {
    "name": "Comisión Europea — monedas conmemorativas de 2 €",
@@ -358,9 +361,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-21",
+     "newest": "2026-10-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Announcement of auction – Reopening 10-year Federal bond",
+       "ok": false
+      },
       {
        "title": "Auction announcement – Reopening of Federal Treasury notes",
        "ok": false
@@ -395,10 +402,6 @@
       },
       {
        "title": "Reopening of two Federal bonds – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Why I believe Europe must stop counting bank capital twice | Guest contribution in The Banker online",
        "ok": false
       }
      ]
@@ -553,44 +556,37 @@
    "name": "MÜNZE DEUTSCHLAND",
    "country": "DE",
    "section_url": "https://www.muenze-deutschland.de/",
-   "section_http": 200,
-   "section_title": "Shop - Münze Deutschland - Seitenwartung",
-   "link_feeds": [],
+   "section_error": "HTTPError: 401 Client Error: Unauthorized for url: https://muenze-deutschland.de/",
    "feeds_tried": [
     {
-     "url": "https://muenze-deutschland.de/rss.xml",
-     "http": 200,
-     "type": "text/html",
-     "entries": 0,
-     "bozo": "<unknown>:4:16: undefined entity"
+     "url": "https://www.muenze-deutschland.de/rss.xml",
+     "http": 401,
+     "type": "text/html; charset=iso-8859-1",
+     "entries": 0
     },
     {
-     "url": "https://muenze-deutschland.de/feed",
-     "http": 200,
-     "type": "text/html",
-     "entries": 0,
-     "bozo": "<unknown>:4:16: undefined entity"
+     "url": "https://www.muenze-deutschland.de/feed",
+     "http": 401,
+     "type": "text/html; charset=iso-8859-1",
+     "entries": 0
     },
     {
-     "url": "https://muenze-deutschland.de/feed.xml",
-     "http": 200,
-     "type": "text/html",
-     "entries": 0,
-     "bozo": "<unknown>:4:16: undefined entity"
+     "url": "https://www.muenze-deutschland.de/feed.xml",
+     "http": 401,
+     "type": "text/html; charset=iso-8859-1",
+     "entries": 0
     },
     {
-     "url": "https://muenze-deutschland.de/rss",
-     "http": 200,
-     "type": "text/html",
-     "entries": 0,
-     "bozo": "<unknown>:4:16: undefined entity"
+     "url": "https://www.muenze-deutschland.de/rss",
+     "http": 401,
+     "type": "text/html; charset=iso-8859-1",
+     "entries": 0
     },
     {
-     "url": "https://muenze-deutschland.de/atom.xml",
-     "http": 200,
-     "type": "text/html",
-     "entries": 0,
-     "bozo": "<unknown>:4:16: undefined entity"
+     "url": "https://www.muenze-deutschland.de/atom.xml",
+     "http": 401,
+     "type": "text/html; charset=iso-8859-1",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -600,9 +596,7 @@
     "detail_errors": 0,
     "rejected_sample": [],
     "coin_links": [],
-    "http": 200,
-    "page_title": "Shop - Münze Deutschland - Seitenwartung",
-    "html_chars": 13662
+    "error": "HTTPError: 401 Client Error: Unauthorized for url: https://muenze-deutschland.de/"
    },
    "method": "scraping",
    "relevant": 0
@@ -894,7 +888,9 @@
    "boe": [
     {
      "day": "2026-10-22",
-     "http": 404
+     "http": 200,
+     "items": 248,
+     "relevant": 0
     },
     {
      "day": "2026-10-21",
@@ -984,7 +980,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180205,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1010,50 +1006,225 @@
    "name": "Helsinkimint / Mint of Finland",
    "country": "FI",
    "section_url": "https://www.helsinkimint.com/",
-   "section_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.helsinkimint.com/",
+   "section_http": 200,
+   "section_title": "Home Page - Helsinkimint.com",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.helsinkimint.com/rss.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/feed",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/feed.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/rss",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/atom.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 82,
+    "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.helsinkimint.com/"
+    "rejected_sample": [
+     "Foreign coins",
+     "Gold Coins",
+     "Bullion Coins",
+     "Silver Coins",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
+     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
+     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality €32.50 Add to Cart",
+     "Finland 20 Euro “Raili & Reima Pietilä” Silver",
+     "Finland 20 Euro “Raili & Reima Pietilä” Silver €149.95 Add to Cart",
+     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+     "Finland Baby Set 2026 – My First Coin Set",
+     "Finland 30 years member of the EU €9.95 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "Foreign coins",
+      "u": "https://www.helsinkimint.com/foreign-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2 Euro Coins",
+      "u": "https://www.helsinkimint.com/finland/2-euro-coins",
+      "ok": true
+     },
+     {
+      "t": "Gold Coins",
+      "u": "https://www.helsinkimint.com/finland/gold-coins",
+      "ok": false
+     },
+     {
+      "t": "Bullion Coins",
+      "u": "https://www.helsinkimint.com/gold-and-silverbars/bullion-coins",
+      "ok": false
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.helsinkimint.com/finland/silver-coins",
+      "ok": false
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-proof-quality",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Raili & Reima Pietilä” Coin Roll",
+      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-coin-roll",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 20 Euro “Raili & Reima Pietilä” Silver",
+      "u": "https://www.helsinkimint.com/finland-20-euro-raili-reima-pietila-silver",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
+      "ok": false
+     },
+     {
+      "t": "Finland Baby Set 2026 – My First Coin Set",
+      "u": "https://www.helsinkimint.com/finland-baby-set-2026-my-first-coin-set",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 30 years member of the EU €9.95 Add to Cart",
+      "u": "https://www.helsinkimint.com/finland-30-years-member-of-the-eu",
+      "ok": false
+     },
+     {
+      "t": "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
+      "u": "https://www.helsinkimint.com/finland-20-euro-erik-allardt-100-years-social-sciences-in-finland-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard EN",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard FI/SE",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” Proof Quality",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-proof-quality",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 100 Euro “100 years Yle Broadcasting” Gold",
+      "u": "https://www.helsinkimint.com/finland-100-euro-100-years-yle-broadcasting-gold",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “100 years Yle Broadcasting” Coin Roll",
+      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-coin-roll",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 20 Euro “Finland-Sweden Athletics International 100 years” 2025 – Silver Proof",
+      "u": "https://www.helsinkimint.com/finland-20-euro-finland-sweden-athletics-international-100-years-2025-silver-proof",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” – BU Quality in Coincard",
+      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-bu-quality-in-coincard-fi-se",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” 2025 – BU Quality in Coi",
+      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-2025-bu-quality-in-coincard-en",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Slovakia 2 Euro \"EC Champion\" 2026",
+      "u": "https://www.helsinkimint.com/slowakije-2-euro-ek-kampioen-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Slovenia 2 Euro \"Ivan Cankar\" 2026 UNC",
+      "u": "https://www.helsinkimint.com/slovenie-2-euro-ivan-cankar-2026-unc",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Estonia 2 Euro \"Sipsik\" 2026",
+      "u": "https://www.helsinkimint.com/estland-2-euro-sipsik-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Spain 2 Euro \"Poblet\" 2026",
+      "u": "https://www.helsinkimint.com/spanje-2-euro-poblet-2026",
+      "ok": false,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Home Page - Helsinkimint.com",
+    "html_chars": 316796,
+    "skipped_menu": 22,
+    "skipped_menu_sample": [
+     "Foreign coins"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 4
   },
   "france_bdf": {
    "name": "Banque de France",
@@ -1108,7 +1279,9 @@
    "name": "Monnaie de Paris",
    "country": "FR",
    "section_url": "https://www.monnaiedeparis.fr/",
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.monnaiedeparis.fr/fr",
+   "section_http": 200,
+   "section_title": "Accueil Monnaie de Paris",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.monnaiedeparis.fr/rss.xml",
@@ -1118,8 +1291,8 @@
     },
     {
      "url": "https://www.monnaiedeparis.fr/feed",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
@@ -1130,8 +1303,8 @@
     },
     {
      "url": "https://www.monnaiedeparis.fr/rss",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
@@ -1142,16 +1315,153 @@
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 368,
+    "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.monnaiedeparis.fr/fr"
+    "rejected_sample": [
+     "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
+     "Voir toutes les monnaies",
+     "de monnaies de collection, de médailles et d’objets d’art ."
+    ],
+    "coin_links": [
+     {
+      "t": "euros or 2",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/euros-or-2",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euros Argent",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/euros-argent",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Monnaies de collection classiques",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies/monnaies-de-collection-classiques",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Découvrir toutes les monnaies",
+      "u": "https://www.monnaiedeparis.fr/fr/monnaies",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Guide du collectionneur L'univers de la monnaie Découvrir",
+      "u": "https://www.monnaiedeparis.fr/guide-du-collectionneur",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Mon anniversaire à la Monnaie",
+      "u": "https://www.monnaiedeparis.fr/fr/le-lieu-culturel/toutes-les-visites-et-activites/visites-et-activites/activites-et-visites-jeune-famille/anniversaire-monnaie",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Le rôle de la monnaie aujourd'hui",
+      "u": "https://www.monnaiedeparis.fr/fr/le-role-de-la-monnaie-aujourd-hui",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro, les pièces en circulation",
+      "u": "https://www.monnaiedeparis.fr/fr/euro-pieces-en-circulation",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondia",
+      "u": "https://www.monnaiedeparis.fr/unesco-patrimoine-mondial",
+      "ok": false
+     },
+     {
+      "t": "Voir toutes les monnaies",
+      "u": "https://www.monnaiedeparis.fr/monnaies",
+      "ok": false
+     },
+     {
+      "t": "Les classiques d'animation Disney - Winnie l'Ourson Monnaie de 50€ Or - Qualité BE millési",
+      "u": "https://www.monnaiedeparis.fr/fr/les-classiques-d-animation-disney-winnie-l-ourson-monnaie-de-50eur-or-qualite-be-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "Année de la Chèvre Monnaie de 20€ 1 Oz Argent Haut-Relief - Qualité BE millésime 2027",
+      "u": "https://www.monnaiedeparis.fr/fr/annee-de-la-chevre-monnaie-de-20eur-1-oz-argent-haut-relief-qualite-be-millesime-2027",
+      "ok": true
+     },
+     {
+      "t": "Le Seigneur des Anneaux Monnaie de 250€ Or Le drapeau du Gondor - Qualité BU Millésime 202",
+      "u": "https://www.monnaiedeparis.fr/fr/le-seigneur-des-anneaux-monnaie-de-250eur-or-le-drapeau-du-gondor-qualite-bu-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "Marilyn Monroe Monnaie de 10€ Argent - Qualité Courante Millésime 2026",
+      "u": "https://www.monnaiedeparis.fr/fr/marilyn-monroe-monnaie-de-10eur-argent-qualite-courante-millesime-2026",
+      "ok": true
+     },
+     {
+      "t": "de monnaies de collection, de médailles et d’objets d’art .",
+      "u": "https://www.monnaiedeparis.fr/fr/boutique-en-ligne",
+      "ok": false
+     },
+     {
+      "t": "Frais de ports offerts dès 149€ d'achats en France métropolitaine",
+      "u": "https://www.monnaiedeparis.fr/faq",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Accueil Monnaie de Paris",
+    "html_chars": 455612,
+    "child_links": {
+     "count": 315,
+     "no_text": 61,
+     "sample": [
+      {
+       "t": "en",
+       "u": "en/uenc/aHR0cHM6Ly93d3cubW9ubmFpZWRlcGFyaXMuZnIvZW4v/___from_store/fr/"
+      },
+      {
+       "t": "Enseignants",
+       "u": "/fr/espace-pro-visites-de-groupes-scolaires-periscolaires-et-etudiants"
+      },
+      {
+       "t": "Chercheurs",
+       "u": "https://www.monnaiedeparis.fr/fr/espace-pro-chercheurs"
+      },
+      {
+       "t": "Journalistes",
+       "u": "https://www.monnaiedeparis.fr/fr/espace-presse"
+      },
+      {
+       "t": "Sites touristiques",
+       "u": "nnaiedeparis.fr/fr/mini-medailles-pour-sites-culturels-et-touristiques"
+      },
+      {
+       "t": "Banques centrales",
+       "u": "https://www.monnaiedeparis.fr/fr/banques-centrales"
+      }
+     ]
+    },
+    "skipped_menu": 288,
+    "skipped_menu_sample": [
+     "euros or 2",
+     "Euros Argent",
+     "Monnaies de collection classiques",
+     "Découvrir toutes les monnaies",
+     "Guide du collectionneur L'univers de la monnaie Découvrir",
+     "Mon anniversaire à la Monnaie",
+     "Le rôle de la monnaie aujourd'hui",
+     "Euro, les pièces en circulation"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 4
   },
   "ireland": {
    "name": "Central Bank of Ireland",
@@ -1232,7 +1542,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 123604,
+    "html_chars": 123448,
     "skipped_menu": 301,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -1279,50 +1589,138 @@
    "name": "Collector Coins — Central Bank of Ireland",
    "country": "IE",
    "section_url": "https://www.collectorcoins.ie/",
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.collectorcoins.ie/",
+   "section_http": 200,
+   "section_title": "Home page",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.collectorcoins.ie/rss.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.collectorcoins.ie/feed",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.collectorcoins.ie/feed.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.collectorcoins.ie/rss",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.collectorcoins.ie/atom.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 40,
+    "accepted": 5,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.collectorcoins.ie/"
+    "rejected_sample": [
+     "Silver Coins",
+     "Gold coins",
+     "Coin Theme Criteria",
+     "Proof Set 2026 €120.00 Out of stock",
+     "Annual Mint Set 2026 €33.00 Add to Cart",
+     "Baby Set 2026 €33.00 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "2 Euro Coins",
+      "u": "https://www.collectorcoins.ie/2-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.collectorcoins.ie/silver-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Gold coins",
+      "u": "https://www.collectorcoins.ie/gold-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Coin Theme Criteria",
+      "u": "https://www.collectorcoins.ie/coin-theme-criteria",
+      "ok": false
+     },
+     {
+      "t": "€15 Silver Proof Coin 2026 - Maeve Binchy",
+      "u": "https://www.collectorcoins.ie/15-silver-proof-coin-2026-maeve-binchy",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "2 euro coin ’U2 50th Anniversary 2026' BU quality in coincard",
+      "u": "https://www.collectorcoins.ie/2-euro-coin-u2-50th-anniversary-2026-bu-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "2 euro proof coin ‘U2 50th Anniversary 2026’",
+      "u": "https://www.collectorcoins.ie/2-euro-proof-coin-u2-50th-anniversary-2026",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "€15 Silver Proof coin 2026 - Sean O'Casey",
+      "u": "https://www.collectorcoins.ie/15-silver-proof-coin-2026-sean-o-casey",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Proof Set 2026 €120.00 Out of stock",
+      "u": "https://www.collectorcoins.ie/proof-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Annual Mint Set 2026 €33.00 Add to Cart",
+      "u": "https://www.collectorcoins.ie/annual-mint-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Baby Set 2026 €33.00 Add to Cart",
+      "u": "https://www.collectorcoins.ie/baby-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Coin Theme Criteria",
+      "u": "https://www.collectorcoins.ie/coin-theme-criteria/",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Home page",
+    "html_chars": 203018,
+    "skipped_menu": 22,
+    "skipped_menu_sample": [
+     "2 Euro Coins",
+     "Silver Coins",
+     "Gold coins",
+     "Coin Theme Criteria",
+     "Coin Theme Criteria"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 5
   },
   "italy_bdi": {
    "name": "Banca d’Italia",
@@ -1397,7 +1795,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132109,
+    "html_chars": 132565,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -1494,9 +1892,33 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-21",
+     "newest": "2026-10-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Un nouveau certificat universitaire, au croisement de la normalisation et du développement durable",
+       "ok": false
+      },
+      {
+       "title": "25e conférence annuelle du réseau EPAC/EACN au Monténégro",
+       "ok": false
+      },
+      {
+       "title": "Réunion de la cellule d'évaluation du risque cyber (CERC) – Recommandations aux organisations utilisant PHP su",
+       "ok": false
+      },
+      {
+       "title": "Cofinancé par le Luxembourg et la Région Grand Est, le nouveau centre de maintenance de Montigny-lès-Metz ouvr",
+       "ok": false
+      },
+      {
+       "title": "Infections respiratoires: rétrospective de la semaine du 12 au 18 octobre 2026",
+       "ok": false
+      },
+      {
+       "title": "Stéphanie Obertin en visite de travail au Royaume-Uni: renforcer la coopération dans les domaines de la recher",
+       "ok": false
+      },
       {
        "title": "Résumé des travaux du comité de quadripartite",
        "ok": false
@@ -1531,30 +1953,6 @@
       },
       {
        "title": "Comité de suivi de l'accord tripartite du 8 juin 2026 \"Resilienzpak\"",
-       "ok": false
-      },
-      {
-       "title": "Assermentation d'un agent au ministère de l'Environnement, du Climat et de la Biodiversité",
-       "ok": false
-      },
-      {
-       "title": "Évolution du chômage en septembre 2026",
-       "ok": false
-      },
-      {
-       "title": "Statistiques concernant la protection internationale et la protection temporaire - mois de septembre 2026",
-       "ok": false
-      },
-      {
-       "title": "Marc Spautz et Max Hahn ont participé au Conseil EPSCO à Luxembourg",
-       "ok": false
-      },
-      {
-       "title": "Le nouveau Jugendpakt: du temps pour grandir, découvrir et s'engager",
-       "ok": false
-      },
-      {
-       "title": "Assermentation de 11 agents au ministère de la Fonction publique",
        "ok": false
       }
      ]
@@ -1622,50 +2020,242 @@
    "name": "Royal Dutch Mint",
    "country": "NL",
    "section_url": "https://www.royaldutchmint.com/",
-   "section_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.royaldutchmint.com/",
+   "section_http": 200,
+   "section_title": "Home Page - Royal Dutch Mint",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.royaldutchmint.com/rss.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/feed",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/feed.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/rss",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/atom.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 219,
+    "accepted": 20,
     "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.royaldutchmint.com/"
+    "detail_errors": 1,
+    "rejected_sample": [
+     "Dutch coins",
+     "Foreign coins",
+     "Silver Coins",
+     "Gold coins",
+     "Circulation Coins",
+     "Commemorative Coins",
+     "Commemoratives and loose coins",
+     "Gold Bullion Coins",
+     "Coin sets Europe",
+     "Coin bars with face value",
+     "Non European coins",
+     "Craft of Coin making",
+     "NGC Graded Foreign Coins",
+     "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
+     "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart"
+    ],
+    "coin_links": [
+     {
+      "t": "Dutch coins",
+      "u": "https://www.royaldutchmint.com/dutch-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Foreign coins",
+      "u": "https://www.royaldutchmint.com/buitenland",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silver Coins",
+      "u": "https://www.royaldutchmint.com/silver-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Gold coins",
+      "u": "https://www.royaldutchmint.com/gold-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Circulation Coins",
+      "u": "https://www.royaldutchmint.com/circulation-coins",
+      "ok": false
+     },
+     {
+      "t": "Commemorative Coins",
+      "u": "https://www.royaldutchmint.com/commemorative-coins",
+      "ok": false
+     },
+     {
+      "t": "2 Euro coins",
+      "u": "https://www.royaldutchmint.com/buitenland/2-euromunten",
+      "ok": true
+     },
+     {
+      "t": "Commemoratives and loose coins",
+      "u": "https://www.royaldutchmint.com/catalog/category/view/s/commemoratives-and-loose-coins/id/551/",
+      "ok": false
+     },
+     {
+      "t": "Gold Bullion Coins",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
+      "ok": false
+     },
+     {
+      "t": "Coin sets Europe",
+      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
+      "ok": false
+     },
+     {
+      "t": "Coin bars with face value",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/coin-bars-with-face-value",
+      "ok": false
+     },
+     {
+      "t": "Non European coins",
+      "u": "https://www.royaldutchmint.com/buitenland/niet-europese-munten",
+      "ok": false
+     },
+     {
+      "t": "Craft of Coin making",
+      "u": "https://www.royaldutchmint.com/dutch-coins/specials/craft-of-coin-making",
+      "ok": false
+     },
+     {
+      "t": "NGC Graded Foreign Coins",
+      "u": "https://www.royaldutchmint.com/dutch-coins/ngc-graded/ngc-graded-foreign-coins",
+      "ok": false
+     },
+     {
+      "t": "50 years recognition COC 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/50-jaar-erkenning-coc",
+      "ok": true
+     },
+     {
+      "t": "Willemstad 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/willemstad-vijfje",
+      "ok": true
+     },
+     {
+      "t": "Piet Mondriaan 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/piet-mondriaan-vijfje",
+      "ok": true
+     },
+     {
+      "t": "Maastricht Treaty 5 Euro Coin",
+      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/verdrag-van-maastricht",
+      "ok": true
+     },
+     {
+      "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/halloween-2026-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart",
+      "u": "https://www.royaldutchmint.com/dutch-burn-foundation-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "250th anniversary of the United States in a coincard €19.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/250th-anniversary-of-the-united-states-in-a-coincard",
+      "ok": false
+     },
+     {
+      "t": "Wonder Women 50 Dollar Cents in Coincard",
+      "u": "https://www.royaldutchmint.com/wonder-women-50-dollar-cents-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 UNC Quality in Coincard",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-unc-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 BU Quality in Coincard",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-bu-quality-in-coincard",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 Silver Coin",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-silver-coin",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "Eise Eisinga Planetarium 10 Euro Coin 2026 Gold Proof",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-10-euro-coin-2026-gold-proof",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "75 years TV – 75 cents in Coincard",
+      "u": "https://www.royaldutchmint.com/75-years-tv-75-cents-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "75 years TV – Silver Medal €150.00 Out of stock",
+      "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
+      "ok": false
+     },
+     {
+      "t": "Theme Set 2026 €34.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/theme-set-2026",
+      "ok": false
+     },
+     {
+      "t": "Annual Set The Netherlands 2026 UNC Quality €14.50 Add to Cart",
+      "u": "https://www.royaldutchmint.com/annual-set-the-netherlands-2026-unc-quality",
+      "ok": false
+     }
+    ],
+    "http": 200,
+    "page_title": "Home Page - Royal Dutch Mint",
+    "html_chars": 624601,
+    "skipped_menu": 43,
+    "skipped_menu_sample": [
+     "Dutch coins",
+     "Foreign coins",
+     "Silver Coins",
+     "Gold coins",
+     "Circulation Coins",
+     "Commemorative Coins",
+     "Circulation Coins",
+     "Commemorative Coins"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 20
   },
   "portugal_bdp": {
    "name": "Banco de Portugal",
@@ -1998,7 +2588,7 @@
     }
    ],
    "scrape": {
-    "anchors": 798,
+    "anchors": 799,
     "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
@@ -2203,7 +2793,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 452936,
+    "html_chars": 453314,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -2211,9 +2801,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 773,
-     "no_text": 772,
+     "count": 774,
+     "no_text": 773,
      "sample": [
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/bank-holiday-22-10-2026"
+      },
       {
        "t": "",
        "u": "s://www.centralbank.cy/en/announcements/behind-every-number-20-10-2026"
@@ -2233,10 +2827,6 @@
       {
        "t": "",
        "u": "ralbank.cy/en/announcements/cyprus-euro-coins-2025-and-2026-16-10-2026"
-      },
-      {
-       "t": "",
-       "u": "albank.cy/en/announcements/cyprus-euro-coins-mint-year-2026-16-10-2026"
       }
      ]
     }
@@ -2485,40 +3075,147 @@
    "name": "Mincovňa Kremnica",
    "country": "SK",
    "section_url": "https://www.mint.sk/",
-   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a572849e0>, 'C",
+   "section_http": 200,
+   "section_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.mint.sk/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b15"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b24b0>"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b2"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a56a55880>,"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.mint.sk/atom.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b0"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 59,
+    "accepted": 9,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b2000>, 'C"
+    "rejected_sample": [
+     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
+     "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
+    ],
+    "coin_links": [
+     {
+      "t": "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
+      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
+      "ok": true
+     },
+     {
+      "t": "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+      "u": "https://www.mint.sk/novinky/20eur-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
+      "ok": false
+     },
+     {
+      "t": "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr",
+      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
+      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
+      "u": "https://www.mint.sk/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
+      "ok": false
+     },
+     {
+      "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
+      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
+      "ok": true
+     },
+     {
+      "t": "Album na mince - 5€ (2026-2030)",
+      "u": "https://www.mint.sk/eshop/album-na-mince-5eur-2026-2030",
+      "ok": true
+     },
+     {
+      "t": "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
+      "u": "https://www.mint.sk/eshop/pamatny-list-100eur-2026-bitka-pri-mohaci-500-vyrocie",
+      "ok": false
+     },
+     {
+      "t": "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-1000-francs-cfa-pribehy-zeme-viii-nosorozec",
+      "ok": false
+     },
+     {
+      "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Strieborná minca 20€ (2026) proof - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 25",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-vyhlasenie-morica-benovskeho-za-krala-madagaskaru",
+      "ok": true
+     },
+     {
+      "t": "Strieborná minca 10€ (2026) BU - Ivan Krasko - 150.výročie narodenia",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-10eur-2026-bu-ivan-krasko-150vyrocie-narodenia",
+      "ok": true
+     },
+     {
+      "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
+      "u": "https://www.mint.sk/eshop/pamatna-minca-2eu-2026-proof-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy-50vyrocie",
+      "ok": true
+     },
+     {
+      "t": "Emisný plán mincovne 2026",
+      "u": "https://www.mint.sk/emisny-plan-mincovne-2026",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "História mincovne",
+      "u": "https://www.mint.sk/historia-mincovni",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
+    "html_chars": 135483,
+    "skipped_menu": 21,
+    "accepted_in_menu": 2,
+    "accepted_in_menu_sample": [
+     "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
+     "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
+    ],
+    "skipped_menu_sample": [
+     "Emisný plán mincovne 2026",
+     "História mincovne"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 9
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -2707,7 +3404,7 @@
     ],
     "http": 200,
     "page_title": "Eesti Pank",
-    "html_chars": 146351,
+    "html_chars": 146341,
     "coin_filter": "news",
     "skipped_menu": 5,
     "child_links": {
@@ -2766,9 +3463,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-21",
+     "newest": "2026-10-22",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Working paper: Causal Macroeconomic Effects of Public Investment",
+       "ok": false
+      },
       {
        "title": "Turning Europe's scale into impact",
        "ok": false
@@ -2803,10 +3504,6 @@
       },
       {
        "title": "The share of non-cash payments in Latvia reaches a historical high",
-       "ok": false
-      },
-      {
-       "title": "Latvijas Banka's conference will focus on the economic challenges the euro area is facing in the new geopoliti",
        "ok": false
       }
      ]
@@ -3116,7 +3813,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
+    "html_chars": 239489,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -3252,7 +3949,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -3264,7 +3961,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -3339,47 +4036,112 @@
    "name": "Gouvernement Princier de Monaco",
    "country": "MC",
    "section_url": "https://www.gouv.mc/",
-   "section_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.gouv.mc/",
+   "section_http": 200,
+   "section_title": "Portail Officiel du Gouvernement Princier de Monaco",
+   "link_feeds": [
+    "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+    "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr"
+   ],
    "feeds_tried": [
     {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-21",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Les travaux d’extension de la Darse Sud débutent",
+       "ok": false
+      },
+      {
+       "title": "Feuille de route santé sexuelle : Mieux informer et mieux accompagner",
+       "ok": false
+      },
+      {
+       "title": "Appels indésirables : des solutions gratuites pour mieux s’en protéger",
+       "ok": false
+      },
+      {
+       "title": "Conseil de l’Europe : Monaco accueille les Ministres responsables du Sport",
+       "ok": false
+      },
+      {
+       "title": "Monaco défend une économie lunaire responsable, équitable et multilatérale à l’IAC 2026",
+       "ok": false
+      },
+      {
+       "title": "Vaccination contre la grippe : dès à présent, pensez à vous faire vacciner",
+       "ok": false
+      },
+      {
+       "title": "Diplomatie : accréditation de cinq Ambassadeurs République Dominicaine – Equateur – Saint-Marin – Egypte – Gui",
+       "ok": false
+      },
+      {
+       "title": "Monaco reçoit une mission de prospection d’une trentaine d’entreprises allemandes",
+       "ok": false
+      },
+      {
+       "title": "Bicentenaire de la photographie en Principauté : programmation 2026-2027",
+       "ok": false
+      },
+      {
+       "title": "Proclamation des Prix de la Fondation Prince Pierre de Monaco",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 0
+    },
+    {
      "url": "https://www.gouv.mc/rss.xml",
-     "http": 503,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.gouv.mc/feed",
-     "http": 503,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.gouv.mc/feed.xml",
-     "http": 503,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.gouv.mc/rss",
-     "http": 503,
-     "type": "",
-     "entries": 0
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:80:139: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
-     "http": 503,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
+    "anchors": 271,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
     "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://www.gouv.mc/"
+    "http": 200,
+    "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
+    "html_chars": 697255,
+    "skipped_menu": 226
    },
    "method": "scraping",
    "relevant": 0
@@ -3535,7 +4297,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900560,
+    "html_chars": 902621,
     "coin_filter": "news",
     "skipped_menu": 956
    },
