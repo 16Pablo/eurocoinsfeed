@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-21T21:50:26.141865+00:00",
+ "generated_at": "2026-10-22T04:49:59.186809+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,23 +9,20 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "POST",
-     "http": 200,
-     "seconds": 37.0,
-     "query": "por_titulo",
-     "rows": 1,
-     "relevant": 1
+     "method": "GET",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
+     "query": "por_titulo"
     },
     {
      "method": "POST",
      "http": 200,
-     "seconds": 27.1,
+     "seconds": 48.4,
      "query": "por_celex",
      "rows": 200,
      "relevant": 0
     }
    ],
-   "relevant": 1
+   "relevant": 0
   },
   "ec_commemorative": {
    "name": "Comisión Europea — monedas conmemorativas de 2 €",
@@ -338,7 +335,7 @@
      "entries": 0
     }
    ],
-   "section_error": "HTTPError: 503 Server Error: Service Unavailable for url: https://finances.belgium.be/en/Actueel/overview",
+   "section_error": "HTTPError: 503 Server Error: Backend fetch failed for url: https://finances.belgium.be/en/Actueel/overview",
    "scrape": {
     "anchors": 0,
     "accepted": 0,
@@ -346,7 +343,7 @@
     "detail_errors": 0,
     "rejected_sample": [],
     "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Unavailable for url: https://finances.belgium.be/en/Actueel/overview"
+    "error": "HTTPError: 503 Server Error: Backend fetch failed for url: https://finances.belgium.be/en/Actueel/overview"
    },
    "method": "scraping",
    "relevant": 0
@@ -896,6 +893,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-10-22",
+     "http": 404
+    },
+    {
      "day": "2026-10-21",
      "http": 200,
      "items": 163,
@@ -912,10 +913,6 @@
      "http": 200,
      "items": 261,
      "relevant": 0
-    },
-    {
-     "day": "2026-10-18",
-     "http": 404
     }
    ],
    "relevant": 0
@@ -987,7 +984,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180205,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1966,17 +1963,24 @@
    "feeds_tried": [
     {
      "url": "https://www.centralbank.cy/rss.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
     },
     {
      "url": "https://www.centralbank.cy/feed",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:107:17: not well-formed (invalid token)"
     },
     {
      "url": "https://www.centralbank.cy/feed.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='www.centralbank.cy', port=443): Read timed out. (read timeout=30)"
+     "http": 200,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
     },
     {
      "url": "https://www.centralbank.cy/rss",
@@ -1997,7 +2001,7 @@
     "anchors": 798,
     "accepted": 21,
     "second_chance": 0,
-    "detail_errors": 8,
+    "detail_errors": 0,
     "rejected_sample": [
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
      "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -2481,147 +2485,40 @@
    "name": "Mincovňa Kremnica",
    "country": "SK",
    "section_url": "https://www.mint.sk/",
-   "section_http": 200,
-   "section_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-   "link_feeds": [],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a572849e0>, 'C",
    "feeds_tried": [
     {
      "url": "https://www.mint.sk/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b15"
     },
     {
      "url": "https://www.mint.sk/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b24b0>"
     },
     {
      "url": "https://www.mint.sk/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b2"
     },
     {
      "url": "https://www.mint.sk/rss",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a56a55880>,"
     },
     {
      "url": "https://www.mint.sk/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b0"
     }
    ],
    "scrape": {
-    "anchors": 59,
-    "accepted": 9,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
-     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
-     "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
-    ],
-    "coin_links": [
-     {
-      "t": "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
-      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
-      "ok": true
-     },
-     {
-      "t": "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
-      "u": "https://www.mint.sk/novinky/20eur-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
-      "ok": false
-     },
-     {
-      "t": "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr",
-      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
-      "ok": true
-     },
-     {
-      "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
-      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
-      "ok": true
-     },
-     {
-      "t": "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
-      "u": "https://www.mint.sk/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
-      "ok": false
-     },
-     {
-      "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
-      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
-      "ok": true
-     },
-     {
-      "t": "Album na mince - 5€ (2026-2030)",
-      "u": "https://www.mint.sk/eshop/album-na-mince-5eur-2026-2030",
-      "ok": true
-     },
-     {
-      "t": "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-      "u": "https://www.mint.sk/eshop/pamatny-list-100eur-2026-bitka-pri-mohaci-500-vyrocie",
-      "ok": false
-     },
-     {
-      "t": "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-1000-francs-cfa-pribehy-zeme-viii-nosorozec",
-      "ok": false
-     },
-     {
-      "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
-      "ok": true
-     },
-     {
-      "t": "Strieborná minca 20€ (2026) proof - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 25",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-vyhlasenie-morica-benovskeho-za-krala-madagaskaru",
-      "ok": true
-     },
-     {
-      "t": "Strieborná minca 10€ (2026) BU - Ivan Krasko - 150.výročie narodenia",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-10eur-2026-bu-ivan-krasko-150vyrocie-narodenia",
-      "ok": true
-     },
-     {
-      "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
-      "u": "https://www.mint.sk/eshop/pamatna-minca-2eu-2026-proof-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy-50vyrocie",
-      "ok": true
-     },
-     {
-      "t": "Emisný plán mincovne 2026",
-      "u": "https://www.mint.sk/emisny-plan-mincovne-2026",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "História mincovne",
-      "u": "https://www.mint.sk/historia-mincovni",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135483,
-    "skipped_menu": 21,
-    "accepted_in_menu": 2,
-    "accepted_in_menu_sample": [
-     "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
-     "Pozvánka - predaj 20€ minca - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250. výr"
-    ],
-    "skipped_menu_sample": [
-     "Emisný plán mincovne 2026",
-     "História mincovne"
-    ]
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.mint.sk', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.mint.sk', port=443) at 0x7f9a570b2000>, 'C"
    },
    "method": "scraping",
-   "relevant": 9
+   "relevant": 0
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -2978,28 +2875,14 @@
    "name": "Lithuanian Mint",
    "country": "LT",
    "section_url": "https://lithuanian-mint.lt/",
-   "section_error": "HTTPError: 522 Server Error: <none> for url: https://lithuanian-mint.lt/",
+   "section_http": 200,
+   "section_title": "Lietuvos Monetų Kalykla",
+   "link_feeds": [
+    "https://kalykla.lt/feed/"
+   ],
    "feeds_tried": [
     {
-     "url": "https://lithuanian-mint.lt/rss.xml",
-     "http": 522,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://lithuanian-mint.lt/feed",
-     "http": 522,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://lithuanian-mint.lt/feed.xml",
-     "http": 522,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://lithuanian-mint.lt/rss",
+     "url": "https://kalykla.lt/feed/",
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
@@ -3050,7 +2933,7 @@
     }
    ],
    "method": "feed_descubierto",
-   "feed_url": "https://lithuanian-mint.lt/rss",
+   "feed_url": "https://kalykla.lt/feed/",
    "relevant": 6
   },
   "croatia_hnb": {
@@ -3233,7 +3116,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239488,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -3355,14 +3238,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -3381,7 +3264,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -3652,7 +3535,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 902046,
+    "html_chars": 900560,
     "coin_filter": "news",
     "skipped_menu": 956
    },
