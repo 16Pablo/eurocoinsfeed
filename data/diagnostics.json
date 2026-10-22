@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T11:53:23.689335+00:00",
+ "generated_at": "2026-10-22T15:42:35.661448+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,23 +9,21 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "POST",
-     "http": 200,
-     "seconds": 37.0,
-     "query": "por_titulo",
-     "rows": 1,
-     "relevant": 1
+     "method": "GET",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
+     "query": "por_titulo"
     },
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
-     "seconds": 25.6,
+     "seconds": 21.1,
      "query": "por_celex",
-     "rows": 200,
-     "relevant": 0
+     "rows": 1,
+     "relevant": 0,
+     "skipped_not_notice": 0
     }
    ],
-   "relevant": 1
+   "relevant": 0
   },
   "ec_commemorative": {
    "name": "Comisión Europea — monedas conmemorativas de 2 €",
@@ -190,50 +188,235 @@
    "name": "Münze Österreich",
    "country": "AT",
    "section_url": "https://www.muenzeoesterreich.at/",
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.muenzeoesterreich.at/",
+   "section_http": 200,
+   "section_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.muenzeoesterreich.at/rss.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.muenzeoesterreich.at/feed",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.muenzeoesterreich.at/feed.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.muenzeoesterreich.at/rss",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.muenzeoesterreich.at/atom.xml",
-     "http": 503,
-     "type": "text/html",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 225,
+    "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.muenzeoesterreich.at/"
+    "rejected_sample": [
+     "€ 3.733,24",
+     "€ 1.939,12",
+     "€ 1.839,61"
+    ],
+    "coin_links": [
+     {
+      "t": "Ansparkassetten 18 Stück Philharmoniker-Münzen",
+      "u": "https://www.muenzeoesterreich.at/wiener-philharmoniker/kassetten-und-etuis/ansparkassetten-18-stueck-philharmoniker-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Holzetuis für Anlagemünzen",
+      "u": "https://www.muenzeoesterreich.at/wiener-philharmoniker/kassetten-und-etuis/holzetuis-fuer-anlagemuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Anlagemünzen",
+      "u": "https://www.muenzeoesterreich.at/anlegen/anlagemuenzen/anlagemuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Goldmünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/goldmuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silbermünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/silbermuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Kupfermünzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/kupfermuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silber-Niob-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/sammlermuenzen/silber-niob-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/2-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "3-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/3-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "5-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/5-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "10-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/10-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "20-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/20-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "50-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/50-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "100-Euro-Münzen",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/100-euro-muenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro-Münzensätze",
+      "u": "https://www.muenzeoesterreich.at/sammeln/euro-muenzen/euro-muenzensaetze",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 50 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-50-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 100 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-100-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 200 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-200-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für unter 500 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-unter-500-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Für über 500 Euro",
+      "u": "https://www.muenzeoesterreich.at/schenken/geschenkideen/fuer-ueber-500-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Münzen für Unternehmen",
+      "u": "https://www.muenzeoesterreich.at/infothek/fuer-unternehmen/muenzen-fuer-unternehmen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Falschmünzen",
+      "u": "https://www.muenzeoesterreich.at/kundenservice/faqs/falschmuenzen",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Jetzt kostenlos MünzeClub Mitglied werden!",
+      "u": "https://www.muenzeoesterreich.at/muenzeclub",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "€ 3.733,24",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.939,12",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.839,61",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "20-Euro-Silbermünze Schütze PP",
+      "u": "https://www.muenzeoesterreich.at/produkte/20-euro-silbermuenze-schuetze-pp",
+      "ok": true,
+      "via": "attr"
+     },
+     {
+      "t": "100-Euro-Goldmünze Symbole des Göttlichen PP",
+      "u": "https://www.muenzeoesterreich.at/produkte/100-euro-goldmuenze-symbole-des-goettlichen-pp",
+      "ok": true,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
+    "html_chars": 147372,
+    "skipped_menu": 208,
+    "skipped_menu_sample": [
+     "Ansparkassetten 18 Stück Philharmoniker-Münzen",
+     "Holzetuis für Anlagemünzen",
+     "Anlagemünzen",
+     "Goldmünzen",
+     "Silbermünzen",
+     "Kupfermünzen",
+     "Silber-Niob-Münzen",
+     "2-Euro-Münzen"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 2
   },
   "belgium_federal_news": {
    "name": "Gobierno federal belga — news.belgium.be",
@@ -303,52 +486,56 @@
    "feeds_tried": [
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finances.belgium.be/rss.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finances.belgium.be/feed",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finances.belgium.be/feed.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finances.belgium.be/rss",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finances.belgium.be/atom.xml",
-     "http": 503,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_error": "HTTPError: 503 Server Error: Backend fetch failed for url: https://finances.belgium.be/en/Actueel/overview",
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Backend fetch failed for url: https://finances.belgium.be/en/Actueel/overview"
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -506,7 +693,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
+    "html_chars": 282745,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -556,50 +743,170 @@
    "name": "MÜNZE DEUTSCHLAND",
    "country": "DE",
    "section_url": "https://www.muenze-deutschland.de/",
-   "section_error": "HTTPError: 401 Client Error: Unauthorized for url: https://muenze-deutschland.de/",
+   "section_http": 200,
+   "section_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+   "link_feeds": [],
    "feeds_tried": [
     {
-     "url": "https://www.muenze-deutschland.de/rss.xml",
-     "http": 401,
-     "type": "text/html; charset=iso-8859-1",
+     "url": "https://muenze-deutschland.de/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
-     "url": "https://www.muenze-deutschland.de/feed",
-     "http": 401,
-     "type": "text/html; charset=iso-8859-1",
+     "url": "https://muenze-deutschland.de/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
-     "url": "https://www.muenze-deutschland.de/feed.xml",
-     "http": 401,
-     "type": "text/html; charset=iso-8859-1",
+     "url": "https://muenze-deutschland.de/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
-     "url": "https://www.muenze-deutschland.de/rss",
-     "http": 401,
-     "type": "text/html; charset=iso-8859-1",
+     "url": "https://muenze-deutschland.de/rss",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
-     "url": "https://www.muenze-deutschland.de/atom.xml",
-     "http": 401,
-     "type": "text/html; charset=iso-8859-1",
+     "url": "https://muenze-deutschland.de/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 67,
+    "accepted": 6,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 401 Client Error: Unauthorized for url: https://muenze-deutschland.de/"
+    "rejected_sample": [
+     "entdecken Sie hier alle Münzen",
+     "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
+     "Zum Produkt 2-Euro-Sonderset 2026 \"Konrad Adenauer\" für ab 23,95 Euro"
+    ],
+    "coin_links": [
+     {
+      "t": "Alle Münzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Polymerringmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Polymerringmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Farbdruckmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Farbdruckmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Goldmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Goldmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Silbermünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Silbermuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "2-Euro-Sammlermünzen-Set",
+      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Kurs-/Umlaufmünzen",
+      "u": "https://muenze-deutschland.de/Muenzen/Kurs-Umlaufmuenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Von der Idee zur Münze",
+      "u": "https://muenze-deutschland.de/Ueber-uns/Von-der-Idee-zur-Muenze/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Prägende Münzen",
+      "u": "https://muenze-deutschland.de/Blog/Praegende-Muenzen/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "entdecken Sie hier alle Münzen",
+      "u": "https://shop.muenze-deutschland.de/Muenzen/Alle-Muenzen/",
+      "ok": false
+     },
+     {
+      "t": "2-Euro-Sonderset 2026 \"Konrad Adenauer\"",
+      "u": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/2-Euro-Sonderset-2026-Konrad-Adenauer.html",
+      "ok": false
+     },
+     {
+      "t": "5-Euro-Farbdruckmünze 2026 \"Ariane 6\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/5-Euro-Farbdruckmuenze-2026-Ariane-6.html",
+      "ok": true
+     },
+     {
+      "t": "35-Euro-Silbermünze 2026 \"125 Jahre Wuppertaler Schwebebahn\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/35-Euro-Silbermuenze-2026-125-Jahre-Wuppertaler-Schwebebahn.html",
+      "ok": true
+     },
+     {
+      "t": "20-Euro-Silbermünze 2025 \"75. Berlinale\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-75-Berlinale.html",
+      "ok": true
+     },
+     {
+      "t": "10-Euro-Polymerring-Sammlermünze 2025 \"Technisches Hilfswerk\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Alle-Muenzen/10-Euro-Polymerring-Sammlermuenze-2025-Technisches-Hilfswerk.html",
+      "ok": true
+     },
+     {
+      "t": "20-Euro-Silbermünze 2025 \"50 Jahre Internationales Jahr der Frau\"",
+      "u": "https://muenze-deutschland.de/Muenzen/Verfuegbare-Produkte/20-Euro-Silbermuenze-2025-50-Jahre-Internationales-Jahr-der-Frau.html",
+      "ok": true
+     },
+     {
+      "t": "Download 2-Euro-Gedenkmünze 2025 \"Bundesländer - Saarland (Saarschleife)\"",
+      "u": "https://muenze-deutschland.de/Service/Download/Bilder/Download-2-Euro-Gedenkmuenze-2025-Bundeslaender-Saarland-Saarschleife.html",
+      "ok": true
+     },
+     {
+      "t": "Zu Goldmünzen",
+      "u": "https://shop.muenze-deutschland.de/Muenzen/Goldmuenzen/",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
+    "html_chars": 116073,
+    "skipped_menu": 47,
+    "skipped_menu_sample": [
+     "Alle Münzen",
+     "Polymerringmünzen",
+     "Farbdruckmünzen",
+     "Goldmünzen",
+     "Silbermünzen",
+     "2-Euro-Sammlermünzen-Set",
+     "Kurs-/Umlaufmünzen",
+     "Von der Idee zur Münze"
+    ]
    },
    "method": "scraping",
-   "relevant": 0
+   "relevant": 6
   },
   "germany_bmf": {
    "name": "Bundesministerium der Finanzen",
@@ -666,9 +973,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-21",
+     "newest": "2026-10-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "9th ANNUAL RESEARCH CONFERENCE Structural change in the international monetary system: Challenges for central ",
+       "ok": false
+      },
       {
        "title": "19th Research Workshop Banco de España-CEMFI",
        "ok": false
@@ -723,10 +1034,6 @@
       },
       {
        "title": "Entrevista al director general de Operaciones, Mercados y Sistemas de Pago en Última Hora",
-       "ok": false
-      },
-      {
-       "title": "Estado financiero consolidado del Eurosistema a 9 de octubre de 2026",
        "ok": false
       }
      ]
@@ -1417,7 +1724,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455612,
+    "html_chars": 457124,
     "child_links": {
      "count": 315,
      "no_text": 61,
@@ -1542,7 +1849,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 123448,
+    "html_chars": 123369,
     "skipped_menu": 301,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -1762,7 +2069,7 @@
     }
    ],
    "scrape": {
-    "anchors": 168,
+    "anchors": 169,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1795,7 +2102,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132565,
+    "html_chars": 132757,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -1896,6 +2203,34 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Présentation du Jugendpakt 2026–2030 au secteur de la jeunesse",
+       "ok": false
+      },
+      {
+       "title": "Le ministère de la Culture, le SCRIPT et la Fondation Sommer lancent un appel à projets pour des résidences d'",
+       "ok": false
+      },
+      {
+       "title": "SaisonsInfo: Bam a Bësch - Planzen fir d'Zukunft",
+       "ok": false
+      },
+      {
+       "title": "\"Meng Stëmm, Mäin Impakt!\": 5e édition de la Semaine de la démocratie et de la citoyenneté",
+       "ok": false
+      },
+      {
+       "title": "Remise des brevets d'État INAPS dans le domaine du de l'activité physique et du sport",
+       "ok": false
+      },
+      {
+       "title": "Contournement d'Alzingen - un projet structurant pour la mobilité dans le sud-est de l'agglomération de Luxemb",
+       "ok": false
+      },
+      {
+       "title": "Adapto et Mobibus - un nouveau cadre légal pour renforcer la mobilité inclusive",
+       "ok": false
+      },
+      {
        "title": "Un nouveau certificat universitaire, au croisement de la normalisation et du développement durable",
        "ok": false
       },
@@ -1916,43 +2251,15 @@
        "ok": false
       },
       {
+       "title": "Xavier Bettel au Berlin Global Dialogue 2026",
+       "ok": false
+      },
+      {
        "title": "Stéphanie Obertin en visite de travail au Royaume-Uni: renforcer la coopération dans les domaines de la recher",
        "ok": false
       },
       {
        "title": "Résumé des travaux du comité de quadripartite",
-       "ok": false
-      },
-      {
-       "title": "Accompagner les compétences à l'ère de l'IA",
-       "ok": false
-      },
-      {
-       "title": "Réunion d'une Cellule d'évaluation du risque cyber",
-       "ok": false
-      },
-      {
-       "title": "Première édition du Jobday Aides & Soins: Un succès retentissant avec plus de 1.200 visiteurs",
-       "ok": false
-      },
-      {
-       "title": "Publication du rapport annuel 2024 sur la consommation d'antibiotiques, de l'antibiorésistance et de la présen",
-       "ok": false
-      },
-      {
-       "title": "Audit externe du Département étrangers de la Direction générale de l'immigration: Léon Gloden présente les con",
-       "ok": false
-      },
-      {
-       "title": "Veille légale du mois de septembre",
-       "ok": false
-      },
-      {
-       "title": "Pressekonferenz: Suivi vun der Tripartite",
-       "ok": false
-      },
-      {
-       "title": "Comité de suivi de l'accord tripartite du 8 juin 2026 \"Resilienzpak\"",
        "ok": false
       }
      ]
@@ -2241,7 +2548,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 624601,
+    "html_chars": 623361,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -3035,8 +3342,8 @@
      }
     ],
     "http": 200,
-    "page_title": "Upcoming coin issues – Národná banka Slovenska",
-    "html_chars": 99393,
+    "page_title": "Upcoming coin issues - Národná banka Slovenska",
+    "html_chars": 151704,
     "coin_filter": "news",
     "skipped_menu": 12,
     "skipped_menu_sample": [
@@ -3065,7 +3372,7 @@
      "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
      "http": 200,
      "lines": 144,
-     "title": "Issuance schedule for commemorative and collector coins – Národná banka Slovenska",
+     "title": "Issuance schedule for commemorative and collector coins - Národná banka Slovenska",
      "added": 0,
      "removed": 0
     }
@@ -3202,7 +3509,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135483,
+    "html_chars": 135482,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -3637,235 +3944,44 @@
    "name": "Croatian National Bank",
    "country": "HR",
    "section_url": "https://www.hnb.hr/en/currency/euro-coins",
-   "section_http": 200,
-   "section_title": "Euro coins",
-   "link_feeds": [],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at",
    "feeds_tried": [
     {
      "url": "https://www.hnb.hr/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7fbd00e57fe0"
     },
     {
      "url": "https://www.hnb.hr/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7fbd01dd6ae0>, "
     },
     {
      "url": "https://www.hnb.hr/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7fbd0174642"
     },
     {
      "url": "https://www.hnb.hr/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7fbd026e7470>, '"
     },
     {
      "url": "https://www.hnb.hr/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7fbd00e56f6"
     }
    ],
    "scrape": {
-    "anchors": 535,
-    "accepted": 3,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Euro coins of other countries",
-     "Replacement of stained euro banknotes at the Croatian National Bank",
-     "Commemorative coins in circulation",
-     "Demonetisation of damaged kuna coins",
-     "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
-     "Numismatic coins",
-     "Commemorative gold and silver kuna coins"
-    ],
-    "coin_links": [
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/core-functions/payment-system/digital-euro",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro banknotes",
-      "u": "https://www.hnb.hr/en/currency/euro-banknotes",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin denominations",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Issuance of commemorative and collector euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins of other countries",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Numismatic coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/numismatic-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative gold and silver kuna coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/commemorative-gold-and-silver-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Replacement of stained euro banknotes at the Croatian National Bank",
-      "u": "https://www.hnb.hr/en/currency/replacement-of-cash/replacement-of-stained-euro-banknotes-at-the-croatian-national-bank",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-surveys/euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin issuance plan",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative coins in circulation",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/commemorative-coins-in-circulation",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Demonetisation of damaged kuna coins",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/demonetisation-of-damaged-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
-      "u": "https://www.hnb.hr/en/novac/kuna/kovani-novac/prodaja-kovanica-kune-i-lipe",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Republic of Croatia contribution to euro area monetary aggregates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro foreign exchange reference rates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/euro-foreign-exchange-reference-rates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Exchange rates of other currencies for the euro (CNB)",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/exchange-rates-of-other-currencies-for-the-euro-cnb",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "The results of the euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/other-monetary-financial-institutions/credit-institutions/the-results-of-the-euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/public-relations/explainers/by-topic/digital-euro",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Euro coins",
-    "html_chars": 239489,
-    "skipped_menu": 503,
-    "skipped_menu_sample": [
-     "Digital euro",
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Issuance of commemorative and collector euro coins",
-     "Commemorative euro coins",
-     "Euro coins of other countries",
-     "Numismatic coins"
-    ],
-    "child_links": {
-     "count": 14,
-     "no_text": 0,
-     "sample": [
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      },
-      {
-       "t": "Commemorative euro coins",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins"
-      },
-      {
-       "t": "Euro coins of other countries",
-       "u": "ttps://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries"
-      },
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      }
-     ]
-    }
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at"
    },
    "method": "scraping",
-   "relevant": 3,
+   "relevant": 0,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-     "http": 200,
-     "lines": 35,
-     "title": "Euro coin issuance plan",
-     "added": 0,
-     "removed": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan (Cau"
     }
    ]
   },
@@ -3949,7 +4065,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -3961,7 +4077,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4048,9 +4164,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-21",
+     "newest": "2026-10-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Diplomatie : accréditation de quatre Ambassadeurs Nouvelle-Zélande – Gabon – Jamaïque – Grèce",
+       "ok": false
+      },
       {
        "title": "Les travaux d’extension de la Darse Sud débutent",
        "ok": false
@@ -4086,10 +4206,6 @@
       {
        "title": "Bicentenaire de la photographie en Principauté : programmation 2026-2027",
        "ok": false
-      },
-      {
-       "title": "Proclamation des Prix de la Fondation Prince Pierre de Monaco",
-       "ok": false
       }
      ]
     },
@@ -4122,7 +4238,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:139: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4140,7 +4256,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697255,
+    "html_chars": 696994,
     "skipped_menu": 226
    },
    "method": "scraping",
