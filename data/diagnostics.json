@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T04:52:38.041213+00:00",
+ "generated_at": "2026-10-23T11:39:53.842901+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 38.2,
+     "seconds": 41.3,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 27.9,
+     "seconds": 21.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -119,9 +119,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-21",
+     "newest": "2026-10-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "ECB Consumer Expectations Survey results – September 2026",
+       "ok": false
+      },
       {
        "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
        "ok": false
@@ -177,10 +181,6 @@
       {
        "title": "Philip R. Lane: Diagnostic Challenges for ECB Monetary Policy",
        "ok": false
-      },
-      {
-       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-       "ok": false
       }
      ]
     }
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.685,15",
-     "€ 1.914,14",
-     "€ 1.821,24"
+     "€ 3.711,71",
+     "€ 1.927,94",
+     "€ 1.823,04"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.685,15",
+      "t": "€ 3.711,71",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.914,14",
+      "t": "€ 1.927,94",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.821,24",
+      "t": "€ 1.823,04",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -491,111 +491,55 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-18",
+     "newest": "2026-10-11",
      "relevant": 0,
      "sample": [
       {
-       "title": "Identifiants de produits (PID) obligatoires à partir du 1er novembre 2026 pour certains envois B2C",
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
        "ok": false
       },
       {
-       "title": "Origine préférentielle : préférences tarifaires autonomes pour l’Arménie",
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
        "ok": false
       },
       {
-       "title": "IDMS-ALL/H7: Union Handling Fee - nouveau document",
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
        "ok": false
       },
       {
-       "title": "Demander l’annulation ou la modification d’une déclaration d’exportation dans AES",
+       "title": "The Library presents its new website",
        "ok": false
       },
       {
-       "title": "Les paradis fiscaux : enjeux, cadre juridique et ressources",
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
        "ok": false
       },
       {
-       "title": "Pillar 2 - future modification de la date limite d’introduction de la déclaration relative à l’impôt national ",
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
        "ok": false
       },
       {
-       "title": "IDMS : Activation des certificats ODS",
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
        "ok": false
       },
       {
-       "title": "Déforestation – EUDR – R. (EU) 2023/1115 – Données TARIC",
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
        "ok": false
       },
       {
-       "title": "Désactivation des numéros EORI liés à un numéro BCE inactif",
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
        "ok": false
       },
       {
-       "title": "Pillar 2 - Report du délai de dépôt des déclarations relatives à l’impôt national complémentaire et à l’impôt ",
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "",
-    "html_chars": 0
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -952,7 +896,7 @@
     ],
     "http": 200,
     "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 116073,
+    "html_chars": 116069,
     "skipped_menu": 47,
     "skipped_menu_sample": [
      "Alle Münzen",
@@ -1033,9 +977,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-22",
+     "newest": "2026-10-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Resultados de la encuesta del BCE sobre las expectativas de los consumidores – septiembre de 2026",
+       "ok": false
+      },
       {
        "title": "Seminario conjunto Banco de España/Banco de Portugal sobre integración económica ibérica",
        "ok": false
@@ -1090,10 +1038,6 @@
       },
       {
        "title": "Trabajar en el Banco de España: una forma única de construir Europa",
-       "ok": false
-      },
-      {
-       "title": "DG Economía. CREO 2026. Incertidumbre, transformación y resiliencia",
        "ok": false
       }
      ]
@@ -1255,7 +1199,9 @@
    "boe": [
     {
      "day": "2026-10-23",
-     "http": 404
+     "http": 200,
+     "items": 284,
+     "relevant": 0
     },
     {
      "day": "2026-10-22",
@@ -1345,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180205,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1582,7 +1528,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 316796,
+    "html_chars": 315570,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1782,7 +1728,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455864,
+    "html_chars": 455756,
     "child_links": {
      "count": 315,
      "no_text": 61,
@@ -2074,7 +2020,7 @@
     ],
     "http": 200,
     "page_title": "Home page",
-    "html_chars": 203018,
+    "html_chars": 203130,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "2 Euro Coins",
@@ -2237,7 +2183,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163910,
+    "html_chars": 163885,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2257,9 +2203,29 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-22",
+     "newest": "2026-10-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Lancement des consultations publiques portant sur trois plans d'action relatifs aux espèces exotiques envahiss",
+       "ok": false
+      },
+      {
+       "title": "\"Sief Educatioun! Däin Job fir d'Zukunft.\": le ministère de l'Éducation nationale, de l'Enfance et de la Jeune",
+       "ok": false
+      },
+      {
+       "title": "Luc Marteling nommé directeur du Centre national de l'audiovisuel",
+       "ok": false
+      },
+      {
+       "title": "La Maison médicale du Nord change d'adresse et propose désormais le dépistage de l'hypercholestérolémie famili",
+       "ok": false
+      },
+      {
+       "title": "\"Keine kleinen Pflaster, sondern konsequente Beträge\"",
+       "ok": false
+      },
       {
        "title": "\"Histoires sans frontières\": un nouveau podcast pour les frontaliers francophones au Luxembourg par le ministè",
        "ok": false
@@ -2298,26 +2264,6 @@
       },
       {
        "title": "25e conférence annuelle du réseau EPAC/EACN au Monténégro",
-       "ok": false
-      },
-      {
-       "title": "Réunion de la cellule d'évaluation du risque cyber (CERC) – Recommandations aux organisations utilisant PHP su",
-       "ok": false
-      },
-      {
-       "title": "Cofinancé par le Luxembourg et la Région Grand Est, le nouveau centre de maintenance de Montigny-lès-Metz ouvr",
-       "ok": false
-      },
-      {
-       "title": "Infections respiratoires: rétrospective de la semaine du 12 au 18 octobre 2026",
-       "ok": false
-      },
-      {
-       "title": "Xavier Bettel au Berlin Global Dialogue 2026",
-       "ok": false
-      },
-      {
-       "title": "Stéphanie Obertin en visite de travail au Royaume-Uni: renforcer la coopération dans les domaines de la recher",
        "ok": false
       }
      ]
@@ -3264,9 +3210,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-20",
-     "relevant": 0,
+     "newest": "2026-10-23",
+     "relevant": 1,
      "sample": [
+      {
+       "title": "Malé Karpaty a ich prírodné bohatstvo na novej 20-eurovej zberateľskej minci",
+       "ok": true
+      },
       {
        "title": "Chránená krajinná oblasť Malé Karpaty",
        "ok": false
@@ -3301,10 +3251,6 @@
       },
       {
        "title": "NBS upravuje pravidlá pri hypotékach",
-       "ok": false
-      },
-      {
-       "title": "Makroprudenciálny komentár – september 2026",
        "ok": false
       }
      ]
@@ -3424,7 +3370,7 @@
     }
    },
    "method": "feeds_a_mano+scraping",
-   "relevant": 5,
+   "relevant": 6,
    "watch": [
     {
      "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
@@ -3567,7 +3513,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135487,
+    "html_chars": 135460,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4178,7 +4124,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4300,14 +4246,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4326,7 +4272,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4413,7 +4359,7 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-22",
+     "newest": "2026-10-23",
      "relevant": 0,
      "sample": [
       {
@@ -4487,7 +4433,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:234: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4505,7 +4451,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 696094,
+    "html_chars": 697018,
     "skipped_menu": 226
    },
    "method": "scraping",
@@ -4648,9 +4594,9 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901017,
+    "html_chars": 902469,
     "coin_filter": "news",
-    "skipped_menu": 956
+    "skipped_menu": 957
    },
    "method": "scraping",
    "relevant": 0
