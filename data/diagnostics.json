@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-22T21:42:30.653533+00:00",
+ "generated_at": "2026-10-23T04:52:38.041213+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
-     "seconds": 38.1,
+     "seconds": 38.2,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 17.7,
+     "seconds": 27.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.731,89",
-     "€ 1.938,41",
-     "€ 1.820,22"
+     "€ 3.685,15",
+     "€ 1.914,14",
+     "€ 1.821,24"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.731,89",
+      "t": "€ 3.685,15",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.938,41",
+      "t": "€ 1.914,14",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.820,22",
+      "t": "€ 1.821,24",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -491,55 +491,111 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-11",
+     "newest": "2026-10-18",
      "relevant": 0,
      "sample": [
       {
-       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "title": "Identifiants de produits (PID) obligatoires à partir du 1er novembre 2026 pour certains envois B2C",
        "ok": false
       },
       {
-       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "title": "Origine préférentielle : préférences tarifaires autonomes pour l’Arménie",
        "ok": false
       },
       {
-       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "title": "IDMS-ALL/H7: Union Handling Fee - nouveau document",
        "ok": false
       },
       {
-       "title": "The Library presents its new website",
+       "title": "Demander l’annulation ou la modification d’une déclaration d’exportation dans AES",
        "ok": false
       },
       {
-       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "title": "Les paradis fiscaux : enjeux, cadre juridique et ressources",
        "ok": false
       },
       {
-       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "title": "Pillar 2 - future modification de la date limite d’introduction de la déclaration relative à l’impôt national ",
        "ok": false
       },
       {
-       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "title": "IDMS : Activation des certificats ODS",
        "ok": false
       },
       {
-       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "title": "Déforestation – EUDR – R. (EU) 2023/1115 – Données TARIC",
        "ok": false
       },
       {
-       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "title": "Désactivation des numéros EORI liés à un numéro BCE inactif",
        "ok": false
       },
       {
-       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "title": "Pillar 2 - Report du délai de dépôt des déclarations relatives à l’impôt national complémentaire et à l’impôt ",
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "",
+    "html_chars": 0
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -1198,6 +1254,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-10-23",
+     "http": 404
+    },
+    {
      "day": "2026-10-22",
      "http": 200,
      "items": 248,
@@ -1213,12 +1273,6 @@
      "day": "2026-10-20",
      "http": 200,
      "items": 257,
-     "relevant": 0
-    },
-    {
-     "day": "2026-10-19",
-     "http": 200,
-     "items": 261,
      "relevant": 0
     }
    ],
@@ -1291,7 +1345,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 181767,
+    "html_chars": 180205,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1728,7 +1782,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 457124,
+    "html_chars": 455864,
     "child_links": {
      "count": 315,
      "no_text": 61,
@@ -2183,7 +2237,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885,
+    "html_chars": 163910,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2552,7 +2606,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623361,
+    "html_chars": 624798,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -3948,44 +4002,235 @@
    "name": "Croatian National Bank",
    "country": "HR",
    "section_url": "https://www.hnb.hr/en/currency/euro-coins",
-   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at",
+   "section_http": 200,
+   "section_title": "Euro coins",
+   "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.hnb.hr/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f298aea7b90"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.hnb.hr/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f298aea58e0>, "
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.hnb.hr/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f2989370b6"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.hnb.hr/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f2989f0a720>, '"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.hnb.hr/atom.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7f298aea630"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 535,
+    "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at"
+    "rejected_sample": [
+     "Euro banknotes",
+     "Euro coins",
+     "Euro coin denominations",
+     "Euro coins of other countries",
+     "Replacement of stained euro banknotes at the Croatian National Bank",
+     "Commemorative coins in circulation",
+     "Demonetisation of damaged kuna coins",
+     "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
+     "Numismatic coins",
+     "Commemorative gold and silver kuna coins"
+    ],
+    "coin_links": [
+     {
+      "t": "Digital euro",
+      "u": "https://www.hnb.hr/en/core-functions/payment-system/digital-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://www.hnb.hr/en/currency/euro-banknotes",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coin denominations",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Issuance of commemorative and collector euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative euro coins",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins of other countries",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Numismatic coins",
+      "u": "https://www.hnb.hr/en/currency/numismatics/numismatic-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative gold and silver kuna coins",
+      "u": "https://www.hnb.hr/en/currency/numismatics/commemorative-gold-and-silver-kuna-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Replacement of stained euro banknotes at the Croatian National Bank",
+      "u": "https://www.hnb.hr/en/currency/replacement-of-cash/replacement-of-stained-euro-banknotes-at-the-croatian-national-bank",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro area bank lending survey",
+      "u": "https://www.hnb.hr/en/statistics/statistical-surveys/euro-area-bank-lending-survey",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coin issuance plan",
+      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Commemorative coins in circulation",
+      "u": "https://www.hnb.hr/en/currency/kuna/coins/commemorative-coins-in-circulation",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Demonetisation of damaged kuna coins",
+      "u": "https://www.hnb.hr/en/currency/kuna/coins/demonetisation-of-damaged-kuna-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
+      "u": "https://www.hnb.hr/en/novac/kuna/kovani-novac/prodaja-kovanica-kune-i-lipe",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Republic of Croatia contribution to euro area monetary aggregates",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro foreign exchange reference rates",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/euro-foreign-exchange-reference-rates",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Exchange rates of other currencies for the euro (CNB)",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/exchange-rates-of-other-currencies-for-the-euro-cnb",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "The results of the euro area bank lending survey",
+      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/other-monetary-financial-institutions/credit-institutions/the-results-of-the-euro-area-bank-lending-survey",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Digital euro",
+      "u": "https://www.hnb.hr/en/public-relations/explainers/by-topic/digital-euro",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Euro coins",
+    "html_chars": 239486,
+    "skipped_menu": 503,
+    "skipped_menu_sample": [
+     "Digital euro",
+     "Euro banknotes",
+     "Euro coins",
+     "Euro coin denominations",
+     "Issuance of commemorative and collector euro coins",
+     "Commemorative euro coins",
+     "Euro coins of other countries",
+     "Numismatic coins"
+    ],
+    "child_links": {
+     "count": 14,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Euro coin denominations",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
+      },
+      {
+       "t": "Issuance of commemorative and collector euro coins",
+       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
+      },
+      {
+       "t": "Commemorative euro coins",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins"
+      },
+      {
+       "t": "Euro coins of other countries",
+       "u": "ttps://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries"
+      },
+      {
+       "t": "Euro coin denominations",
+       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
+      },
+      {
+       "t": "Issuance of commemorative and collector euro coins",
+       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
+      }
+     ]
+    }
    },
    "method": "scraping",
-   "relevant": 0,
+   "relevant": 3,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan (Cau"
+     "http": 200,
+     "lines": 35,
+     "title": "Euro coin issuance plan",
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -4055,14 +4300,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4081,7 +4326,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4242,7 +4487,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:234: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4260,7 +4505,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697108,
+    "html_chars": 696094,
     "skipped_menu": 226
    },
    "method": "scraping",
