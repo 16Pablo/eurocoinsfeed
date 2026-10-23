@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T17:09:18.522046+00:00",
+ "generated_at": "2026-10-23T21:27:25.904175+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 38.1,
+     "seconds": 37.3,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.0,
+     "seconds": 20.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.687,79",
-     "€ 1.915,51",
-     "€ 1.816,66"
+     "€ 3.693,08",
+     "€ 1.918,25",
+     "€ 1.817,93"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.687,79",
+      "t": "€ 3.693,08",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.915,51",
+      "t": "€ 1.918,25",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.816,66",
+      "t": "€ 1.817,93",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -1291,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180204,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -2207,6 +2207,14 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Léon Gloden bei den \"Otzenhausener Gesprächen\": Grenzüberschreitende Zusammenarbeit bei Sicherheit und Bevölke",
+       "ok": false
+      },
+      {
+       "title": "Résumé des travaux du 23 octobre 2026",
+       "ok": false
+      },
+      {
        "title": "Lancement des consultations publiques portant sur trois plans d'action relatifs aux espèces exotiques envahiss",
        "ok": false
       },
@@ -2256,14 +2264,6 @@
       },
       {
        "title": "Adapto et Mobibus - un nouveau cadre légal pour renforcer la mobilité inclusive",
-       "ok": false
-      },
-      {
-       "title": "Un nouveau certificat universitaire, au croisement de la normalisation et du développement durable",
-       "ok": false
-      },
-      {
-       "title": "25e conférence annuelle du réseau EPAC/EACN au Monténégro",
        "ok": false
       }
      ]
@@ -3513,7 +3513,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135452,
+    "html_chars": 135454,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4124,7 +4124,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239482,
+    "html_chars": 239486,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4246,14 +4246,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4451,7 +4451,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697723,
+    "html_chars": 697684,
     "skipped_menu": 226
    },
    "method": "scraping",
