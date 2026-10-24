@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-23T21:27:25.904175+00:00",
+ "generated_at": "2026-10-24T04:37:37.978784+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.3,
+     "seconds": 43.0,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.9,
+     "seconds": 29.7,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -697,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
+    "html_chars": 282745,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1198,6 +1198,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-10-24",
+     "http": 404
+    },
+    {
      "day": "2026-10-23",
      "http": 200,
      "items": 284,
@@ -1213,12 +1217,6 @@
      "day": "2026-10-21",
      "http": 200,
      "items": 163,
-     "relevant": 0
-    },
-    {
-     "day": "2026-10-20",
-     "http": 200,
-     "items": 257,
      "relevant": 0
     }
    ],
@@ -1291,7 +1289,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1728,7 +1726,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456452,
+    "html_chars": 456680,
     "child_links": {
      "count": 315,
      "no_text": 61,
@@ -2183,7 +2181,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163910,
+    "html_chars": 163885,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -4433,7 +4431,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:97: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:166: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4451,7 +4449,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697684,
+    "html_chars": 697865,
     "skipped_menu": 226
    },
    "method": "scraping",
