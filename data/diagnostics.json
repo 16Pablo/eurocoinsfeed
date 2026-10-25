@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-25T11:32:30.945415+00:00",
+ "generated_at": "2026-10-25T16:18:26.002095+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 53.7,
+     "seconds": 28.9,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 39.5,
+     "seconds": 26.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -491,55 +491,61 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2026-10-11",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
-       "ok": false
-      },
-      {
-       "title": "The Library presents its new website",
-       "ok": false
-      },
-      {
-       "title": "Library closed from 7 until 10 September 2026 inclusive",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
-       "ok": false
-      },
-      {
-       "title": "BEPS 13 Webinar: register now and prepare your questions",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
-       "ok": false
-      },
-      {
-       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
-       "ok": false
-      }
-     ]
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "",
+   "link_feeds": [],
+   "scrape": {
+    "anchors": 57,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "Actueel | FPS Finance",
+    "html_chars": 41427,
+    "skipped_menu": 41
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -697,7 +703,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1289,7 +1295,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180206,
+    "html_chars": 181766,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -2201,7 +2207,7 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-24",
+     "newest": "2026-10-25",
      "relevant": 0,
      "sample": [
       {
@@ -3205,45 +3211,178 @@
    "feeds_tried": [
     {
      "url": "https://nbs.sk/feed",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://nbs.sk/rss.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://nbs.sk/feed",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://nbs.sk/feed.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://nbs.sk/rss",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://nbs.sk/atom.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
+     "http": 200,
+     "type": "application/rss+xml; charset=UTF-8",
+     "entries": 10,
+     "newest": "2026-10-23",
+     "relevant": 1,
+     "sample": [
+      {
+       "title": "Malé Karpaty a ich prírodné bohatstvo na novej 20-eurovej zberateľskej minci",
+       "ok": true
+      },
+      {
+       "title": "Chránená krajinná oblasť Malé Karpaty",
+       "ok": false
+      },
+      {
+       "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
+       "ok": false
+      },
+      {
+       "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
+       "ok": false
+      },
+      {
+       "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
+       "ok": false
+      },
+      {
+       "title": "Platíme inak ako pred pár rokmi. Dáta ukazujú, ako sa menia naše návyky",
+       "ok": false
+      },
+      {
+       "title": "Komuniké z 18. rokovania Bankovej rady NBS",
+       "ok": false
+      },
+      {
+       "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
+       "ok": false
+      },
+      {
+       "title": "Prekvapivé zlacnenie potravín drží infláciu na dvojročnom minime",
+       "ok": false
+      },
+      {
+       "title": "NBS upravuje pravidlá pri hypotékach",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)",
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 203,
+    "accepted": 5,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
+    "rejected_sample": [
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "Circulation coins",
+     "How the Slovak euro coin designs were chosen",
+     "Exchanging banknotes and coins",
+     "Banknotes and coins",
+     "Exchanging banknotes and coins",
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "Exchanging banknotes and coins",
+     "Museum of Coins and Medals in Kremnica",
+     "Museum of coins and medals",
+     "Exchange rates of selected foreign currencies against the euro"
+    ],
+    "coin_links": [
+     {
+      "t": "Banknotes and coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/",
+      "ok": false
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-banknotes/",
+      "ok": false
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/",
+      "ok": false
+     },
+     {
+      "t": "Circulation coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/circulation-coins/",
+      "ok": false
+     },
+     {
+      "t": "Commemorative coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/commemorative-coins/",
+      "ok": true
+     },
+     {
+      "t": "Collector coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/collector-coins/",
+      "ok": true
+     },
+     {
+      "t": "Issuance schedule for commemorative and collector coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
+      "ok": true
+     },
+     {
+      "t": "Upcoming coin issues",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/news/",
+      "ok": true
+     },
+     {
+      "t": "How the Slovak euro coin designs were chosen",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/how-the-slovak-euro-coin-designs-were-chosen/",
+      "ok": false
+     },
+     {
+      "t": "Exchanging banknotes and coins",
+      "u": "https://nbs.sk/en/banknotes-and-coins/exchange-of-money/",
+      "ok": false
+     },
+     {
+      "t": "Museum of Coins and Medals in Kremnica",
+      "u": "https://www.muzeumkremnica.sk/en/",
+      "ok": false
+     },
+     {
+      "t": "Exchange rates of selected foreign currencies against the euro",
+      "u": "https://nbs.sk/en/statistics/exchange-rates/exchange-rates-of-selected-foreign-currencies-against-the-eur/",
+      "ok": false
+     },
+     {
+      "t": "Next coin to be issued",
+      "u": "https://nbs.sk/en/banknotes-and-coins/euro-coins/news/next-coin-to-be-issued",
+      "ok": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Upcoming coin issues - Národná banka Slovenska",
+    "html_chars": 151704,
+    "coin_filter": "news",
+    "skipped_menu": 12,
+    "skipped_menu_sample": [
+     "Banknotes and coins",
+     "Euro coins"
+    ],
+    "child_links": {
+     "count": 2,
+     "no_text": 0,
+     "sample": [
+      {
+       "t": "Terms and conditions of public anonymous competiti",
+       "u": "-coins/news/terms-and-conditions-of-the-public-anonymous-competitions/"
+      },
+      {
+       "t": "Next coin to be issued",
+       "u": "//nbs.sk/en/banknotes-and-coins/euro-coins/news/next-coin-to-be-issued"
+      }
+     ]
+    }
    },
-   "method": "scraping",
-   "relevant": 0,
+   "method": "feeds_a_mano+scraping",
+   "relevant": 6,
    "watch": [
     {
      "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='nbs.sk', port=443): Read timed out. (read timeout=30)"
+     "http": 200,
+     "lines": 144,
+     "title": "Issuance schedule for commemorative and collector coins - Národná banka Slovenska",
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -3989,7 +4128,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4137,7 +4276,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4298,7 +4437,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:166: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4316,7 +4455,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 697883,
+    "html_chars": 696422,
     "skipped_menu": 226
    },
    "method": "scraping",
