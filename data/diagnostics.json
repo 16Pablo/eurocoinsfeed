@@ -1,22 +1,30 @@
 {
- "generated_at": "2026-10-26T13:05:47.747089+00:00",
+ "generated_at": "2026-10-26T22:43:51.745035+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
    "name": "EUR-Lex — Diario Oficial de la UE",
    "country": "EU",
    "section_url": null,
-   "method": "sparql_sin_respuesta",
+   "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
-     "query": "por_titulo"
+     "method": "POST",
+     "http": 200,
+     "seconds": 39.6,
+     "query": "por_titulo",
+     "rows": 1,
+     "relevant": 0,
+     "skipped_not_notice": 1
     },
     {
-     "method": "GET",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=60)",
-     "query": "por_celex"
+     "method": "POST",
+     "http": 200,
+     "seconds": 27.4,
+     "query": "por_celex",
+     "rows": 1,
+     "relevant": 0,
+     "skipped_not_notice": 0
     }
    ],
    "relevant": 0
@@ -225,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.705,03",
-     "€ 1.924,47",
-     "€ 1.790,80"
+     "€ 3.707,70",
+     "€ 1.925,85",
+     "€ 1.784,88"
     ],
     "coin_links": [
      {
@@ -369,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.705,03",
+      "t": "€ 3.707,70",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.924,47",
+      "t": "€ 1.925,85",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.790,80",
+      "t": "€ 1.784,88",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -398,7 +406,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147373,
+    "html_chars": 147372,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -548,6 +556,10 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "ESM is first European supranational issuer to settle DLT-based bond issuance on Eurosystem’s Pontes platform w",
+       "ok": false
+      },
+      {
        "title": "Invitation to bid by auction – Reopening of Federal Treasury notes",
        "ok": false
       },
@@ -581,10 +593,6 @@
       },
       {
        "title": "Remarks on the panel topic “Paths to prosperity: Forging growth, trade and investment between Europe and Asia”",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
        "ok": false
       }
      ]
@@ -689,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -977,6 +985,10 @@
        "ok": false
       },
       {
+       "title": "Encuesta sobre el acceso de las empresas a la financiación: endurecimiento de los criterios de concesión de cr",
+       "ok": false
+      },
+      {
        "title": "El Banco de España y el Banco de Portugal refuerzan la cooperación en migración a la criptografía cuántica y r",
        "ok": false
       },
@@ -1026,10 +1038,6 @@
       },
       {
        "title": "Artículo del DG de Economía en El Mundo/ Actualidad Económica. \"Hall y Woodford: Expectativas y estabilización",
-       "ok": false
-      },
-      {
-       "title": "José Luis Escrivá. Seminar on Iberian Economic Integration",
        "ok": false
       }
      ]
@@ -1281,7 +1289,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180204,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1718,7 +1726,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456003,
+    "html_chars": 456283,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2197,7 +2205,15 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Présentation du rapport de mission dressant un bilan de 10 ans d'application de la loi du 24 juillet 2014 rela",
+       "ok": false
+      },
+      {
        "title": "Elisabeth Margue réaffirme l’engagement du Gouvernement contre les violences faites aux femmes et pour la prot",
+       "ok": false
+      },
+      {
+       "title": "Le gouvernement lance officiellement la construction du NEOS space campus à Kockelscheuer",
        "ok": false
       },
       {
@@ -2246,14 +2262,6 @@
       },
       {
        "title": "\"Histoires sans frontières\": un nouveau podcast pour les frontaliers francophones au Luxembourg par le ministè",
-       "ok": false
-      },
-      {
-       "title": "Présentation du Jugendpakt 2026–2030 au secteur de la jeunesse",
-       "ok": false
-      },
-      {
-       "title": "Le ministère de la Culture, le SCRIPT et la Fondation Sommer lancent un appel à projets pour des résidences d'",
        "ok": false
       }
      ]
@@ -3204,6 +3212,10 @@
      "relevant": 1,
      "sample": [
       {
+       "title": "Komuniké z 19. rokovania Bankovej rady NBS",
+       "ok": false
+      },
+      {
        "title": "Mnohé firmy o úver nežiadajú, hoci by ho získali",
        "ok": false
       },
@@ -3237,10 +3249,6 @@
       },
       {
        "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
-       "ok": false
-      },
-      {
-       "title": "Prekvapivé zlacnenie potravín drží infláciu na dvojročnom minime",
        "ok": false
       }
      ]
@@ -3441,7 +3449,7 @@
      },
      {
       "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
-      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
+      "u": "https://www.mint.sk/index.php/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
       "ok": true
      },
      {
@@ -3494,7 +3502,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 134794,
+    "html_chars": 134881,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4104,7 +4112,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239489,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4252,7 +4260,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4327,11 +4335,74 @@
    "name": "Gouvernement Princier de Monaco",
    "country": "MC",
    "section_url": "https://www.gouv.mc/",
-   "section_error": "ConnectionError: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='www.gouv.mc', port=443): Failed to resolve 'w",
+   "section_http": 200,
+   "section_title": "Portail Officiel du Gouvernement Princier de Monaco",
+   "link_feeds": [
+    "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+    "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr"
+   ],
    "feeds_tried": [
     {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-23",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Grippe et Covid-19 : les deux vaccins désormais disponibles",
+       "ok": false
+      },
+      {
+       "title": "Diplomatie : accréditation de quatre Ambassadeurs Nouvelle-Zélande – Gabon – Jamaïque – Grèce",
+       "ok": false
+      },
+      {
+       "title": "Les travaux d’extension de la Darse Sud débutent",
+       "ok": false
+      },
+      {
+       "title": "Feuille de route santé sexuelle : Mieux informer et mieux accompagner",
+       "ok": false
+      },
+      {
+       "title": "Appels indésirables : des solutions gratuites pour mieux s’en protéger",
+       "ok": false
+      },
+      {
+       "title": "Conseil de l’Europe : Monaco accueille les Ministres responsables du Sport",
+       "ok": false
+      },
+      {
+       "title": "Monaco défend une économie lunaire responsable, équitable et multilatérale à l’IAC 2026",
+       "ok": false
+      },
+      {
+       "title": "Vaccination contre la grippe : dès à présent, pensez à vous faire vacciner",
+       "ok": false
+      },
+      {
+       "title": "Diplomatie : accréditation de cinq Ambassadeurs République Dominicaine – Equateur – Saint-Marin – Egypte – Gui",
+       "ok": false
+      },
+      {
+       "title": "Monaco reçoit une mission de prospection d’une trentaine d’entreprises allemandes",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 0
+    },
+    {
      "url": "https://www.gouv.mc/rss.xml",
-     "error": "ConnectionError: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError(\"HTTPSConnection(host='www.gouv.mc', port=443): Failed to res"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.gouv.mc/feed",
@@ -4350,7 +4421,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:235: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4368,7 +4439,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 439369,
+    "html_chars": 438638,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4511,7 +4582,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901243,
+    "html_chars": 901263,
     "coin_filter": "news",
     "skipped_menu": 957
    },
