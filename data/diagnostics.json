@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T12:12:51.309559+00:00",
+ "generated_at": "2026-10-27T18:04:05.013035+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 53.8,
+     "seconds": 28.6,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 28.0,
+     "seconds": 19.1,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.714,39",
-     "€ 1.929,33",
-     "€ 1.761,11"
+     "€ 3.763,25",
+     "€ 1.954,71",
+     "€ 1.795,51"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.714,39",
+      "t": "€ 3.763,25",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.929,33",
+      "t": "€ 1.954,71",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.761,11",
+      "t": "€ 1.795,51",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -697,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -981,6 +981,18 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Estado financiero consolidado del Eurosistema a 23 de octubre de 2026",
+       "ok": false
+      },
+      {
+       "title": "Evolución monetaria de la zona del euro: septiembre de 2026",
+       "ok": false
+      },
+      {
+       "title": "Encuesta sobre préstamos bancarios en la zona del euro de octubre de 2026",
+       "ok": false
+      },
+      {
        "title": "La oferta de crédito se endureció de nuevo en el tercer trimestre de 2026 y la demanda siguió reduciéndose",
        "ok": false
       },
@@ -1026,18 +1038,6 @@
       },
       {
        "title": "Balanza de pagos mensual de la zona del euro: agosto de 2026",
-       "ok": false
-      },
-      {
-       "title": "Estado financiero consolidado del Eurosistema a 16 de octubre de 2026",
-       "ok": false
-      },
-      {
-       "title": "Gobernador. UCLM. Las cooperativas de crédito en el sistema bancario español",
-       "ok": false
-      },
-      {
-       "title": "El Banco de España se adhiere a la Red Panhispánica de Lenguaje Claro y Accesible",
        "ok": false
       }
      ]
@@ -1289,7 +1289,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180205,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1726,7 +1726,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455879,
+    "html_chars": 456103,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2205,6 +2205,18 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Publication des chiffres clés de l'enseignement supérieur 2025/2026",
+       "ok": false
+      },
+      {
+       "title": "Comité de conjoncture du 27 octobre 2026",
+       "ok": false
+      },
+      {
+       "title": "Comité de suivi Logement: État d'avancement des mesures et perspectives d'action",
+       "ok": false
+      },
+      {
        "title": "Conseil Agriculture et Pêche: Martine Hansen défend une PAC flexible et prévisible pour les agriculteurs",
        "ok": false
       },
@@ -2250,18 +2262,6 @@
       },
       {
        "title": "Luc Marteling nommé directeur du Centre national de l'audiovisuel",
-       "ok": false
-      },
-      {
-       "title": "La Maison médicale du Nord change d'adresse et propose désormais le dépistage de l'hypercholestérolémie famili",
-       "ok": false
-      },
-      {
-       "title": "\"Keine kleinen Pflaster, sondern konsequente Beträge\"",
-       "ok": false
-      },
-      {
-       "title": "\"La réforme fiscale supprime des inégalités\"",
        "ok": false
       }
      ]
@@ -2377,8 +2377,8 @@
      "Circulation Coins",
      "Commemorative Coins",
      "Commemoratives and loose coins",
-     "Gold Bullion Coins",
      "Coin sets Europe",
+     "Gold Bullion Coins",
      "Coin bars with face value",
      "Non European coins",
      "Craft of Coin making",
@@ -2432,13 +2432,13 @@
       "ok": false
      },
      {
-      "t": "Gold Bullion Coins",
-      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
+      "t": "Coin sets Europe",
+      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
       "ok": false
      },
      {
-      "t": "Coin sets Europe",
-      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
+      "t": "Gold Bullion Coins",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
       "ok": false
      },
      {
@@ -2550,7 +2550,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623606,
+    "html_chars": 623409,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -3368,16 +3368,15 @@
     }
    },
    "method": "feeds_a_mano+scraping",
-   "relevant": 7,
+   "relevant": 6,
    "watch": [
     {
      "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
      "http": 200,
      "lines": 144,
      "title": "Issuance schedule for commemorative and collector coins - Národná banka Slovenska",
-     "added": 1,
-     "removed": 1,
-     "ref": "18757b2b"
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -3514,7 +3513,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135771,
+    "html_chars": 135768,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4124,7 +4123,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239487,
+    "html_chars": 239488,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4246,14 +4245,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4363,6 +4362,14 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Diplomatie : accréditation de six Ambassadeurs Canada – République de Corée – Burundi – El Salvador – Thaïland",
+       "ok": false
+      },
+      {
+       "title": "19e Conférence des Ministres responsables du Sport : la Principauté renouvelle son attachement aux valeurs du ",
+       "ok": false
+      },
+      {
        "title": "A Hamilton (Bermudes), la Principauté réitère son engagement pour la protection de la Mer des Sargasses*",
        "ok": false
       },
@@ -4392,14 +4399,6 @@
       },
       {
        "title": "Monaco défend une économie lunaire responsable, équitable et multilatérale à l’IAC 2026",
-       "ok": false
-      },
-      {
-       "title": "Vaccination contre la grippe : dès à présent, pensez à vous faire vacciner",
-       "ok": false
-      },
-      {
-       "title": "Diplomatie : accréditation de cinq Ambassadeurs République Dominicaine – Equateur – Saint-Marin – Egypte – Gui",
        "ok": false
       }
      ]
@@ -4433,7 +4432,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:178: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:83: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4451,7 +4450,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438607,
+    "html_chars": 437955,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4594,7 +4593,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900568,
+    "html_chars": 902126,
     "coin_filter": "news",
     "skipped_menu": 957
    },
