@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-26T22:43:51.745035+00:00",
+ "generated_at": "2026-10-27T05:06:14.934793+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 39.6,
+     "seconds": 38.7,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 27.4,
+     "seconds": 26.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -235,7 +235,7 @@
     "rejected_sample": [
      "€ 3.707,70",
      "€ 1.925,85",
-     "€ 1.784,88"
+     "€ 1.773,64"
     ],
     "coin_links": [
      {
@@ -387,7 +387,7 @@
       "ok": false
      },
      {
-      "t": "€ 1.784,88",
+      "t": "€ 1.773,64",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -697,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282739,
+    "html_chars": 282745,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1198,6 +1198,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-10-27",
+     "http": 404
+    },
+    {
      "day": "2026-10-26",
      "http": 200,
      "items": 324,
@@ -1211,12 +1215,6 @@
      "day": "2026-10-24",
      "http": 200,
      "items": 326,
-     "relevant": 0
-    },
-    {
-     "day": "2026-10-23",
-     "http": 200,
-     "items": 284,
      "relevant": 0
     }
    ],
@@ -1289,7 +1287,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180204,
+    "html_chars": 181767,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1726,7 +1724,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456283,
+    "html_chars": 455359,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2181,7 +2179,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885,
+    "html_chars": 163935,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2550,7 +2548,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623558,
+    "html_chars": 623583,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -4112,7 +4110,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239489,
+    "html_chars": 239483,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4234,14 +4232,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4421,7 +4419,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:235: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4439,7 +4437,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438638,
+    "html_chars": 439063,
     "skipped_menu": 30
    },
    "method": "scraping",
