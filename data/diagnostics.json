@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T05:06:14.934793+00:00",
+ "generated_at": "2026-10-27T12:12:51.309559+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 38.7,
+     "seconds": 53.8,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 26.5,
+     "seconds": 28.0,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -119,9 +119,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-26",
+     "newest": "2026-10-27",
      "relevant": 0,
      "sample": [
+      {
+       "title": "October 2026 euro area bank lending survey",
+       "ok": false
+      },
       {
        "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
        "ok": false
@@ -177,10 +181,6 @@
       {
        "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing a",
        "ok": false
-      },
-      {
-       "title": "Frank Elderson: Effective supervision through timely remediation",
-       "ok": false
       }
      ]
     }
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.707,70",
-     "€ 1.925,85",
-     "€ 1.773,64"
+     "€ 3.714,39",
+     "€ 1.929,33",
+     "€ 1.761,11"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.707,70",
+      "t": "€ 3.714,39",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.925,85",
+      "t": "€ 1.929,33",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.773,64",
+      "t": "€ 1.761,11",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -552,9 +552,25 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-26",
+     "newest": "2026-10-27",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening of Federal Treasury notes – Auction result",
+       "ok": false
+      },
+      {
+       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
+       "ok": false
+      },
+      {
+       "title": "Announcement – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "ESM is first European supranational issuer to settle DLT-based bond issuance on Eurosystem’s Pontes platform w",
        "ok": false
@@ -577,22 +593,6 @@
       },
       {
        "title": "Reopening of two Green Federal securities – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Acquisition of financial assets and external financing in Germany in the second quarter of 2026 | Results of t",
-       "ok": false
-      },
-      {
-       "title": "Auction result – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid multi-ISIN auction – Reopening of two Green German Federal securities",
-       "ok": false
-      },
-      {
-       "title": "Remarks on the panel topic “Paths to prosperity: Forging growth, trade and investment between Europe and Asia”",
        "ok": false
       }
      ]
@@ -896,7 +896,7 @@
     ],
     "http": 200,
     "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 116069,
+    "html_chars": 116146,
     "skipped_menu": 47,
     "skipped_menu_sample": [
      "Alle Münzen",
@@ -977,9 +977,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-26",
+     "newest": "2026-10-27",
      "relevant": 0,
      "sample": [
+      {
+       "title": "La oferta de crédito se endureció de nuevo en el tercer trimestre de 2026 y la demanda siguió reduciéndose",
+       "ok": false
+      },
       {
        "title": "El efectivo mantiene su importancia como medio de pago y refugio ante imprevistos y fallos electrónicos",
        "ok": false
@@ -1034,10 +1038,6 @@
       },
       {
        "title": "El Banco de España se adhiere a la Red Panhispánica de Lenguaje Claro y Accesible",
-       "ok": false
-      },
-      {
-       "title": "Artículo del DG de Economía en El Mundo/ Actualidad Económica. \"Hall y Woodford: Expectativas y estabilización",
        "ok": false
       }
      ]
@@ -1145,7 +1145,7 @@
     ],
     "http": 200,
     "page_title": "Banknotes and coins - Banco de España",
-    "html_chars": 397141,
+    "html_chars": 397185,
     "skipped_menu": 409,
     "skipped_menu_sample": [
      "Banknotes and coins",
@@ -1199,7 +1199,9 @@
    "boe": [
     {
      "day": "2026-10-27",
-     "http": 404
+     "http": 200,
+     "items": 290,
+     "relevant": 0
     },
     {
      "day": "2026-10-26",
@@ -1287,7 +1289,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 181767,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1350,7 +1352,7 @@
    ],
    "scrape": {
     "anchors": 82,
-    "accepted": 4,
+    "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
@@ -1358,17 +1360,17 @@
      "Gold Coins",
      "Bullion Coins",
      "Silver Coins",
+     "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
+     "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Add to Cart",
+     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+     "Finland 30 years member of the EU €9.95 Add to Cart",
+     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
+     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
-     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
-     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality €32.50 Add to Cart",
-     "Finland 20 Euro “Raili & Reima Pietilä” Silver",
-     "Finland 20 Euro “Raili & Reima Pietilä” Silver €149.95 Add to Cart",
-     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-     "Finland Baby Set 2026 – My First Coin Set",
-     "Finland 30 years member of the EU €9.95 Add to Cart"
+     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality"
     ],
     "coin_links": [
      {
@@ -1398,6 +1400,28 @@
       "ok": false
      },
      {
+      "t": "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
+      "u": "https://www.helsinkimint.com/finland-20-euro-women-s-rights-silver-2026",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
+      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
+      "ok": false
+     },
+     {
+      "t": "Finland 30 years member of the EU €9.95 Add to Cart",
+      "u": "https://www.helsinkimint.com/finland-30-years-member-of-the-eu",
+      "ok": false
+     },
+     {
+      "t": "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
+      "u": "https://www.helsinkimint.com/finland-20-euro-erik-allardt-100-years-social-sciences-in-finland-2025",
+      "ok": false,
+      "via": "attr"
+     },
+     {
       "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
       "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-en",
       "ok": false,
@@ -1424,28 +1448,6 @@
      {
       "t": "Finland 20 Euro “Raili & Reima Pietilä” Silver",
       "u": "https://www.helsinkimint.com/finland-20-euro-raili-reima-pietila-silver",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
-      "ok": false
-     },
-     {
-      "t": "Finland Baby Set 2026 – My First Coin Set",
-      "u": "https://www.helsinkimint.com/finland-baby-set-2026-my-first-coin-set",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 30 years member of the EU €9.95 Add to Cart",
-      "u": "https://www.helsinkimint.com/finland-30-years-member-of-the-eu",
-      "ok": false
-     },
-     {
-      "t": "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
-      "u": "https://www.helsinkimint.com/finland-20-euro-erik-allardt-100-years-social-sciences-in-finland-2025",
       "ok": false,
       "via": "attr"
      },
@@ -1524,14 +1526,14 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 315570,
+    "html_chars": 316895,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
     ]
    },
    "method": "scraping",
-   "relevant": 4
+   "relevant": 3
   },
   "france_bdf": {
    "name": "Banque de France",
@@ -1622,7 +1624,7 @@
     }
    ],
    "scrape": {
-    "anchors": 367,
+    "anchors": 366,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1724,7 +1726,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 455359,
+    "html_chars": 455879,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -1849,7 +1851,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 123366,
+    "html_chars": 124366,
     "skipped_menu": 301,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2016,7 +2018,7 @@
     ],
     "http": 200,
     "page_title": "Home page",
-    "html_chars": 203018,
+    "html_chars": 203043,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "2 Euro Coins",
@@ -2102,7 +2104,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132866,
+    "html_chars": 132707,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2179,7 +2181,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163935,
+    "html_chars": 163910,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2199,9 +2201,13 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-26",
+     "newest": "2026-10-27",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Conseil Agriculture et Pêche: Martine Hansen défend une PAC flexible et prévisible pour les agriculteurs",
+       "ok": false
+      },
       {
        "title": "Présentation du rapport de mission dressant un bilan de 10 ans d'application de la loi du 24 juillet 2014 rela",
        "ok": false
@@ -2256,10 +2262,6 @@
       },
       {
        "title": "\"La réforme fiscale supprime des inégalités\"",
-       "ok": false
-      },
-      {
-       "title": "\"Histoires sans frontières\": un nouveau podcast pour les frontaliers francophones au Luxembourg par le ministè",
        "ok": false
       }
      ]
@@ -2548,7 +2550,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623583,
+    "html_chars": 623606,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2624,8 +2626,12 @@
      "type": "application/rss+xml",
      "entries": 10,
      "newest": "2026-10-26",
-     "relevant": 3,
+     "relevant": 2,
      "sample": [
+      {
+       "title": "A INCM entrega Prémio de Arte e Prémio Editorial na Drawing Room Lisboa 2026",
+       "ok": false
+      },
       {
        "title": "Moedas dedicadas à «Azulejaria Portuguesa» premiadas nos Graphis Design Awards 2027",
        "ok": true
@@ -2661,16 +2667,12 @@
       {
        "title": "Exposição «O Arco-íris debaixo de terra», de Tiago Baptista, na Galeria Imprensa Nacional",
        "ok": false
-      },
-      {
-       "title": "Moeda dedicada a Amadeo de Souza-Cardoso apresentada no CAM – Centro de Arte Moderna Gulbenkian",
-       "ok": true
       }
      ]
     }
    ],
    "method": "feeds_a_mano",
-   "relevant": 3
+   "relevant": 2
   },
   "greece": {
    "name": "Bank of Greece",
@@ -2895,7 +2897,7 @@
     }
    ],
    "scrape": {
-    "anchors": 800,
+    "anchors": 801,
     "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3100,7 +3102,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 453860,
+    "html_chars": 454404,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3108,9 +3110,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 775,
-     "no_text": 774,
+     "count": 776,
+     "no_text": 775,
      "sample": [
+      {
+       "t": "",
+       "u": "y-financial-institutions-mfis-deposits-and-loans-statistics-27-10-2026"
+      },
       {
        "t": "",
        "u": "ank-of-cyprus-balance-sheet-as-at-the-end-of-september-2026-26-10-2026"
@@ -3130,10 +3136,6 @@
       {
        "t": "",
        "u": "ps://www.centralbank.cy/en/announcements/commemorative-2026-19-10-2026"
-      },
-      {
-       "t": "",
-       "u": "tps://www.centralbank.cy/en/announcements/npls-31-july-2026-19-10-2026"
       }
      ]
     }
@@ -3206,9 +3208,17 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-26",
+     "newest": "2026-10-27",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Makroekonomické predikcie vybraných bánk – október 2026",
+       "ok": false
+      },
+      {
+       "title": "Chránená krajinná oblasť Malé Karpaty",
+       "ok": false
+      },
       {
        "title": "Komuniké z 19. rokovania Bankovej rady NBS",
        "ok": false
@@ -3220,10 +3230,6 @@
       {
        "title": "Malé Karpaty a ich prírodné bohatstvo na novej 20-eurovej zberateľskej minci",
        "ok": true
-      },
-      {
-       "title": "Chránená krajinná oblasť Malé Karpaty",
-       "ok": false
       },
       {
        "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
@@ -3243,10 +3249,6 @@
       },
       {
        "title": "Komuniké z 18. rokovania Bankovej rady NBS",
-       "ok": false
-      },
-      {
-       "title": "Mnohé domácnosti o úver pre obavy zo zamietnutia ani nežiadajú",
        "ok": false
       }
      ]
@@ -3366,15 +3368,16 @@
     }
    },
    "method": "feeds_a_mano+scraping",
-   "relevant": 6,
+   "relevant": 7,
    "watch": [
     {
      "url": "https://nbs.sk/en/banknotes-and-coins/euro-coins/issue-plan/",
      "http": 200,
      "lines": 144,
      "title": "Issuance schedule for commemorative and collector coins - Národná banka Slovenska",
-     "added": 0,
-     "removed": 0
+     "added": 1,
+     "removed": 1,
+     "ref": "18757b2b"
     }
    ]
   },
@@ -3419,7 +3422,7 @@
    ],
    "scrape": {
     "anchors": 59,
-    "accepted": 6,
+    "accepted": 7,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
@@ -3427,7 +3430,8 @@
      "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
      "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+     "Zlatá medaila - Z archívu Mincovne Kremnica - Repliky medailí Krištofa Füssela - Bitka pri Moháči - 500.výroči"
     ],
     "coin_links": [
      {
@@ -3447,12 +3451,12 @@
      },
      {
       "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
-      "u": "https://www.mint.sk/index.php/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
+      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
       "ok": true
      },
      {
       "t": "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
-      "u": "https://www.mint.sk/index.php/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
+      "u": "https://www.mint.sk/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
       "ok": false
      },
      {
@@ -3481,6 +3485,16 @@
       "ok": true
      },
      {
+      "t": "Strieborná minca 20€ (2026) proof - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 25",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-vyhlasenie-morica-benovskeho-za-krala-madagaskaru",
+      "ok": true
+     },
+     {
+      "t": "Zlatá medaila - Z archívu Mincovne Kremnica - Repliky medailí Krištofa Füssela - Bitka pri",
+      "u": "https://www.mint.sk/eshop/zlata-medaila-z-archivu-mincovne-kremnica-repliky-medaili-kristofa-fussela-bitka-pri-mohaci",
+      "ok": false
+     },
+     {
       "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
       "u": "https://www.mint.sk/eshop/pamatna-minca-2eu-2026-proof-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy-50vyrocie",
       "ok": true
@@ -3500,7 +3514,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 134881,
+    "html_chars": 135771,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3512,7 +3526,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 6
+   "relevant": 7
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -4110,7 +4124,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239487,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4345,9 +4359,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-23",
+     "newest": "2026-10-27",
      "relevant": 0,
      "sample": [
+      {
+       "title": "A Hamilton (Bermudes), la Principauté réitère son engagement pour la protection de la Mer des Sargasses*",
+       "ok": false
+      },
       {
        "title": "Grippe et Covid-19 : les deux vaccins désormais disponibles",
        "ok": false
@@ -4383,10 +4401,6 @@
       {
        "title": "Diplomatie : accréditation de cinq Ambassadeurs République Dominicaine – Equateur – Saint-Marin – Egypte – Gui",
        "ok": false
-      },
-      {
-       "title": "Monaco reçoit une mission de prospection d’une trentaine d’entreprises allemandes",
-       "ok": false
       }
      ]
     },
@@ -4419,7 +4433,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:178: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4437,7 +4451,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 439063,
+    "html_chars": 438607,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4580,7 +4594,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901263,
+    "html_chars": 900568,
     "coin_filter": "news",
     "skipped_menu": 957
    },
