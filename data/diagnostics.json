@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-27T18:04:05.013035+00:00",
+ "generated_at": "2026-10-27T22:16:44.966766+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 28.6,
+     "seconds": 33.2,
      "query": "por_titulo",
      "rows": 1,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 19.1,
+     "seconds": 30.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.763,25",
-     "€ 1.954,71",
-     "€ 1.795,51"
+     "€ 3.761,87",
+     "€ 1.953,99",
+     "€ 1.805,52"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.763,25",
+      "t": "€ 3.761,87",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.954,71",
+      "t": "€ 1.953,99",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.795,51",
+      "t": "€ 1.805,52",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -491,6 +491,12 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-11",
@@ -537,9 +543,61 @@
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "scrape": {
+    "anchors": 56,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "Actueel | FPS Finance",
+    "html_chars": 39892,
+    "skipped_menu": 41
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -1289,7 +1347,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180205,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1812,7 +1870,7 @@
     }
    ],
    "scrape": {
-    "anchors": 309,
+    "anchors": 310,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1851,8 +1909,8 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124366,
-    "skipped_menu": 301,
+    "html_chars": 124503,
+    "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
      "Single Euro Payments Area",
@@ -2104,7 +2162,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132707,
+    "html_chars": 132699,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -3513,7 +3571,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135768,
+    "html_chars": 135770,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4123,7 +4181,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239488,
+    "html_chars": 239486,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4245,14 +4303,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4432,7 +4490,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:83: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4450,7 +4508,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437955,
+    "html_chars": 437491,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4593,7 +4651,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 902126,
+    "html_chars": 902283,
     "coin_filter": "news",
     "skipped_menu": 957
    },
