@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T05:44:47.864630+00:00",
+ "generated_at": "2026-10-28T12:55:03.981970+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 30.8,
+     "seconds": 49.0,
      "query": "por_titulo",
      "rows": 24,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 42.2,
+     "seconds": 30.6,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.742,73",
-     "€ 1.944,05",
-     "€ 1.792,03"
+     "€ 3.756,38",
+     "€ 1.951,13",
+     "€ 1.809,05"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.742,73",
+      "t": "€ 3.756,38",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.944,05",
+      "t": "€ 1.951,13",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.792,03",
+      "t": "€ 1.809,05",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -406,7 +406,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147372,
+    "html_chars": 147373,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -552,9 +552,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-27",
+     "newest": "2026-10-28",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening Federal bond issue – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Auction announcement – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194 by aucti",
+       "ok": false
+      },
       {
        "title": "Reopening of Federal Treasury notes – Auction result",
        "ok": false
@@ -585,14 +593,6 @@
       },
       {
        "title": "Auction announcement – Reopening of Federal Treasury notes",
-       "ok": false
-      },
-      {
-       "title": "Stable banks, strong capital markets – Europe’s financial system for the future | Keynote speech at the confer",
-       "ok": false
-      },
-      {
-       "title": "Reopening of two Green Federal securities – Auction result",
        "ok": false
       }
      ]
@@ -977,9 +977,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-27",
+     "newest": "2026-10-28",
      "relevant": 0,
      "sample": [
+      {
+       "title": "El uso de la inteligencia artificial por parte de las empresas españolas",
+       "ok": false
+      },
       {
        "title": "Estado financiero consolidado del Eurosistema a 23 de octubre de 2026",
        "ok": false
@@ -1034,10 +1038,6 @@
       },
       {
        "title": "El gobernador del Banco de España visita la UCLM para conocer el desarrollo del programa pionero de educación ",
-       "ok": false
-      },
-      {
-       "title": "Balanza de pagos mensual de la zona del euro: agosto de 2026",
        "ok": false
       }
      ]
@@ -1199,7 +1199,9 @@
    "boe": [
     {
      "day": "2026-10-28",
-     "http": 404
+     "http": 200,
+     "items": 183,
+     "relevant": 0
     },
     {
      "day": "2026-10-27",
@@ -1287,7 +1289,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180209,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1724,7 +1726,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 456995,
+    "html_chars": 462449,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -1810,7 +1812,7 @@
     }
    ],
    "scrape": {
-    "anchors": 310,
+    "anchors": 311,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1849,8 +1851,8 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124503,
-    "skipped_menu": 302,
+    "html_chars": 125050,
+    "skipped_menu": 303,
     "skipped_menu_sample": [
      "Money, notes and coins",
      "Single Euro Payments Area",
@@ -2102,7 +2104,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132707,
+    "html_chars": 132776,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2199,7 +2201,7 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-27",
+     "newest": "2026-10-28",
      "relevant": 0,
      "sample": [
       {
@@ -2623,9 +2625,13 @@
      "http": 200,
      "type": "application/rss+xml",
      "entries": 10,
-     "newest": "2026-10-26",
+     "newest": "2026-10-28",
      "relevant": 2,
      "sample": [
+      {
+       "title": "Obra Lírica, Sonetos de Camões apresentada na Biblioteca da Imprensa Nacional",
+       "ok": false
+      },
       {
        "title": "A INCM entrega Prémio de Arte e Prémio Editorial na Drawing Room Lisboa 2026",
        "ok": false
@@ -2660,10 +2666,6 @@
       },
       {
        "title": "Visite a Contrastaria na Portojóia",
-       "ok": false
-      },
-      {
-       "title": "Exposição «O Arco-íris debaixo de terra», de Tiago Baptista, na Galeria Imprensa Nacional",
        "ok": false
       }
      ]
@@ -3511,7 +3513,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135770,
+    "html_chars": 135769,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4121,7 +4123,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239490,
+    "html_chars": 239486,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4356,7 +4358,7 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-27",
+     "newest": "2026-10-28",
      "relevant": 0,
      "sample": [
       {
@@ -4430,7 +4432,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:54: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4448,7 +4450,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437949,
+    "html_chars": 436823,
     "skipped_menu": 30
    },
    "method": "scraping",
