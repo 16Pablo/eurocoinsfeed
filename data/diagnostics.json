@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-29T05:48:57.140024+00:00",
+ "generated_at": "2026-10-29T13:02:32.992089+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.4,
+     "seconds": 27.8,
      "query": "por_titulo",
      "rows": 24,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 21.0,
+     "seconds": 6.1,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -119,9 +119,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-27",
+     "newest": "2026-10-29",
      "relevant": 0,
      "sample": [
+      {
+       "title": "ECB President Lagarde to step down on 7 February 2027",
+       "ok": false
+      },
       {
        "title": "October 2026 euro area bank lending survey",
        "ok": false
@@ -177,10 +181,6 @@
       {
        "title": "Piero Cipollone: Interview with Corriere della Sera",
        "ok": false
-      },
-      {
-       "title": "Results of the September 2026 survey on credit terms and conditions in euro-denominated securities financing a",
-       "ok": false
       }
      ]
     }
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.744,09",
-     "€ 1.944,76",
-     "€ 1.784,39"
+     "€ 3.726,49",
+     "€ 1.935,61",
+     "€ 1.734,71"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.744,09",
+      "t": "€ 3.726,49",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.944,76",
+      "t": "€ 1.935,61",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.784,39",
+      "t": "€ 1.734,71",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -552,9 +552,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-28",
+     "newest": "2026-10-29",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Announcement of a multi-ISIN auction – Reopening of two Federal bonds",
+       "ok": false
+      },
       {
        "title": "Reopening Federal bond issue – Auction result",
        "ok": false
@@ -589,10 +593,6 @@
       },
       {
        "title": "Announcement of auction – Reopening 10-year Federal bond",
-       "ok": false
-      },
-      {
-       "title": "Auction announcement – Reopening of Federal Treasury notes",
        "ok": false
       }
      ]
@@ -697,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -977,9 +977,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-28",
+     "newest": "2026-10-29",
      "relevant": 0,
      "sample": [
+      {
+       "title": "La presidenta del BCE, Christine Lagarde, dejará su cargo el 7 de febrero de 2027",
+       "ok": false
+      },
       {
        "title": "Evolución económica y financiera de la zona del euro por sectores institucionales: segundo trimestre de 2026",
        "ok": false
@@ -1034,10 +1038,6 @@
       },
       {
        "title": "19th Research Workshop Banco de España-CEMFI",
-       "ok": false
-      },
-      {
-       "title": "La deuda de las Administraciones Públicas se situó en agosto de 2026 en el 99,7% del PIB",
        "ok": false
       }
      ]
@@ -1199,7 +1199,9 @@
    "boe": [
     {
      "day": "2026-10-29",
-     "http": 404
+     "http": 200,
+     "items": 216,
+     "relevant": 0
     },
     {
      "day": "2026-10-28",
@@ -1289,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1526,7 +1528,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 316854,
+    "html_chars": 316895,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1726,7 +1728,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 463781,
+    "html_chars": 465209,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2018,7 +2020,7 @@
     ],
     "http": 200,
     "page_title": "Home page",
-    "html_chars": 202196,
+    "html_chars": 202155,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "2 Euro Coins",
@@ -2104,7 +2106,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132776,
+    "html_chars": 132888,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2365,8 +2367,8 @@
     }
    ],
    "scrape": {
-    "anchors": 219,
-    "accepted": 20,
+    "anchors": 220,
+    "accepted": 21,
     "second_chance": 0,
     "detail_errors": 1,
     "rejected_sample": [
@@ -2482,24 +2484,9 @@
       "ok": true
      },
      {
-      "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/halloween-2026-medal-in-coincard",
-      "ok": false
-     },
-     {
-      "t": "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart",
-      "u": "https://www.royaldutchmint.com/dutch-burn-foundation-medal-in-coincard",
-      "ok": false
-     },
-     {
-      "t": "250th anniversary of the United States in a coincard €19.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/250th-anniversary-of-the-united-states-in-a-coincard",
-      "ok": false
-     },
-     {
-      "t": "Wonder Women 50 Dollar Cents in Coincard",
-      "u": "https://www.royaldutchmint.com/wonder-women-50-dollar-cents-in-coincard",
-      "ok": false,
+      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 First Day Issue",
+      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-first-day-issue",
+      "ok": true,
       "via": "attr"
      },
      {
@@ -2527,6 +2514,27 @@
       "via": "attr"
      },
      {
+      "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/halloween-2026-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart",
+      "u": "https://www.royaldutchmint.com/dutch-burn-foundation-medal-in-coincard",
+      "ok": false
+     },
+     {
+      "t": "250th anniversary of the United States in a coincard €19.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/250th-anniversary-of-the-united-states-in-a-coincard",
+      "ok": false
+     },
+     {
+      "t": "Wonder Women 50 Dollar Cents in Coincard",
+      "u": "https://www.royaldutchmint.com/wonder-women-50-dollar-cents-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
       "t": "75 years TV – 75 cents in Coincard",
       "u": "https://www.royaldutchmint.com/75-years-tv-75-cents-in-coincard",
       "ok": false,
@@ -2541,16 +2549,11 @@
       "t": "Theme Set 2026 €34.95 Add to Cart",
       "u": "https://www.royaldutchmint.com/theme-set-2026",
       "ok": false
-     },
-     {
-      "t": "Annual Set The Netherlands 2026 UNC Quality €14.50 Add to Cart",
-      "u": "https://www.royaldutchmint.com/annual-set-the-netherlands-2026-unc-quality",
-      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 621972,
+    "html_chars": 630948,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2564,7 +2567,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 20
+   "relevant": 21
   },
   "portugal_bdp": {
    "name": "Banco de Portugal",
@@ -3513,7 +3516,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135771,
+    "html_chars": 135769,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4123,7 +4126,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
+    "html_chars": 239406,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4167,16 +4170,15 @@
     }
    },
    "method": "scraping",
-   "relevant": 4,
+   "relevant": 3,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
      "http": 200,
      "lines": 35,
      "title": "Euro coin issuance plan",
-     "added": 1,
-     "removed": 0,
-     "ref": "0180b3e5"
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -4260,7 +4262,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4272,7 +4274,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4433,7 +4435,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:220: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4451,7 +4453,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 435856,
+    "html_chars": 436837,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4594,7 +4596,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 899973,
+    "html_chars": 900432,
     "coin_filter": "news",
     "skipped_menu": 957
    },
