@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T05:48:44.539890+00:00",
+ "generated_at": "2026-10-30T12:55:39.428072+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 39.8,
+     "seconds": 40.8,
      "query": "por_titulo",
      "rows": 24,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.2,
+     "seconds": 36.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -119,9 +119,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-29",
+     "newest": "2026-10-30",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
+       "ok": false
+      },
       {
        "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial inf",
        "ok": false
@@ -177,10 +181,6 @@
       {
        "title": "Christine Lagarde: IMFC Statement",
        "ok": false
-      },
-      {
-       "title": "Frank Elderson: Ensuring resilience in the face of uncertainty",
-       "ok": false
       }
      ]
     }
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.694,40",
-     "€ 1.918,95",
-     "€ 1.701,23"
+     "€ 3.653,78",
+     "€ 1.897,85",
+     "€ 1.670,10"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.694,40",
+      "t": "€ 3.653,78",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.918,95",
+      "t": "€ 1.897,85",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.701,23",
+      "t": "€ 1.670,10",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -406,7 +406,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147373,
+    "html_chars": 147372,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -552,9 +552,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-29",
+     "newest": "2026-10-30",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Announcement of auction – 3-months Bills of the European Stability Mechanism (ESM)",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Capital needs AI, and AI needs capital: Europe's opportunity for more growth | Keynote Speech: AI Week Frankfu",
        "ok": false
@@ -585,14 +593,6 @@
       },
       {
        "title": "Announcement – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "ESM is first European supranational issuer to settle DLT-based bond issuance on Eurosystem’s Pontes platform w",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening of Federal Treasury notes",
        "ok": false
       }
      ]
@@ -697,7 +697,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282739,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -977,11 +977,19 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-29",
+     "newest": "2026-10-30",
      "relevant": 0,
      "sample": [
       {
+       "title": "La capacidad de financiación de la economía española se situó en agosto de 2026 en el 3,7% del PIB",
+       "ok": false
+      },
+      {
        "title": "El BCE mantiene sin cambios los tipos de interés en octubre",
+       "ok": false
+      },
+      {
+       "title": "Financiación del Eurosistema (octubre de 2026)",
        "ok": false
       },
       {
@@ -989,55 +997,47 @@
        "ok": false
       },
       {
-       "title": "Evolución económica y financiera de la zona del euro por sectores institucionales: segundo trimestre de 2026",
+       "title": "Principales indicadores económico-financieros de las empresas en 2025 y 2026: muestras anual y trimestral",
        "ok": false
       },
       {
-       "title": "El uso de la inteligencia artificial por parte de las empresas españolas",
+       "title": "José Luis Escrivá. Santander Conferencia Internacional de Banca 2026",
        "ok": false
       },
       {
-       "title": "Estado financiero consolidado del Eurosistema a 23 de octubre de 2026",
+       "title": "José Luis Escrivá. Barcelona 2026. World in Progress",
        "ok": false
       },
       {
-       "title": "Evolución monetaria de la zona del euro: septiembre de 2026",
+       "title": "Avance de la balanza de pagos (septiembre de 2026)",
        "ok": false
       },
       {
-       "title": "Encuesta sobre préstamos bancarios en la zona del euro de octubre de 2026",
+       "title": "Deuda de las Administraciones Públicas según el Protocolo de Déficit Excesivo. Avance mensual (septiembre de 2",
        "ok": false
       },
       {
-       "title": "La oferta de crédito se endureció de nuevo en el tercer trimestre de 2026 y la demanda siguió reduciéndose",
+       "title": "Datos de créditos dudosos (septiembre de 2026)",
        "ok": false
       },
       {
-       "title": "El efectivo mantiene su importancia como medio de pago y refugio ante imprevistos y fallos electrónicos",
+       "title": "Datos de depósitos (octubre de 2026)",
        "ok": false
       },
       {
-       "title": "Encuesta sobre el acceso de las empresas a la financiación: endurecimiento de los criterios de concesión de cr",
+       "title": "Datos de billetes y monedas (octubre de 2026)",
        "ok": false
       },
       {
-       "title": "El Banco de España y el Banco de Portugal refuerzan la cooperación en migración a la criptografía cuántica y r",
+       "title": "Indicadores de liquidez y financiación de sociedades no financieras y hogares (septiembre de 2026)",
        "ok": false
       },
       {
-       "title": "El Banco de España lanza un programa piloto de intercambio de información con empresas para reforzar su sistem",
+       "title": "Euríbor hipotecario (octubre de 2026)",
        "ok": false
       },
       {
-       "title": "Resultados de la encuesta del BCE sobre las expectativas de los consumidores – septiembre de 2026",
-       "ok": false
-      },
-      {
-       "title": "Seminario conjunto Banco de España/Banco de Portugal sobre integración económica ibérica",
-       "ok": false
-      },
-      {
-       "title": "9th ANNUAL RESEARCH CONFERENCE Structural change in the international monetary system: Challenges for central ",
+       "title": "Informe de Estabilidad Financiera (Otoño 2026)",
        "ok": false
       }
      ]
@@ -1199,7 +1199,9 @@
    "boe": [
     {
      "day": "2026-10-30",
-     "http": 404
+     "http": 200,
+     "items": 193,
+     "relevant": 0
     },
     {
      "day": "2026-10-29",
@@ -1289,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1357,8 +1359,8 @@
     "detail_errors": 0,
     "rejected_sample": [
      "Foreign coins",
-     "Gold Coins",
      "Bullion Coins",
+     "Gold Coins",
      "Silver Coins",
      "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
      "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Add to Cart",
@@ -1385,13 +1387,13 @@
       "ok": true
      },
      {
-      "t": "Gold Coins",
-      "u": "https://www.helsinkimint.com/finland/gold-coins",
+      "t": "Bullion Coins",
+      "u": "https://www.helsinkimint.com/gold-and-silverbars/bullion-coins",
       "ok": false
      },
      {
-      "t": "Bullion Coins",
-      "u": "https://www.helsinkimint.com/gold-and-silverbars/bullion-coins",
+      "t": "Gold Coins",
+      "u": "https://www.helsinkimint.com/finland/gold-coins",
       "ok": false
      },
      {
@@ -1526,7 +1528,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 317071,
+    "html_chars": 317030,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1726,7 +1728,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464530,
+    "html_chars": 464278,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2104,7 +2106,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132971,
+    "html_chars": 132926,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2201,9 +2203,13 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-29",
+     "newest": "2026-10-30",
      "relevant": 0,
      "sample": [
+      {
+       "title": "La CERC salue la réactivité des organisations face aux vulnérabilités critiques de PHP: aucun incident confirm",
+       "ok": false
+      },
       {
        "title": "Lex Delles a participé à la réunion du Conseil des ministres de l'Énergie au Luxembourg",
        "ok": false
@@ -2258,10 +2264,6 @@
       },
       {
        "title": "Conseil Agriculture et Pêche: Martine Hansen défend une PAC flexible et prévisible pour les agriculteurs",
-       "ok": false
-      },
-      {
-       "title": "Présentation du rapport de mission dressant un bilan de 10 ans d'application de la loi du 24 juillet 2014 rela",
        "ok": false
       }
      ]
@@ -2897,7 +2899,7 @@
     }
    ],
    "scrape": {
-    "anchors": 803,
+    "anchors": 805,
     "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3102,7 +3104,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 455526,
+    "html_chars": 456567,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3110,9 +3112,17 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 778,
-     "no_text": 777,
+     "count": 780,
+     "no_text": 779,
      "sample": [
+      {
+       "t": "",
+       "u": "www.centralbank.cy/en/announcements/reference-interest-rate-30-10-2026"
+      },
+      {
+       "t": "",
+       "u": "entralbank.cy/en/announcements/quarterly-financial-accounts-30-10-2026"
+      },
       {
        "t": "",
        "u": "nts/cbc-governor-participated-in-ecb-governing-council-meeting-10-2026"
@@ -3128,14 +3138,6 @@
       {
        "t": "",
        "u": "ank-of-cyprus-balance-sheet-as-at-the-end-of-september-2026-26-10-2026"
-      },
-      {
-       "t": "",
-       "u": "https://www.centralbank.cy/en/announcements/bank-holiday-22-10-2026"
-      },
-      {
-       "t": "",
-       "u": "s://www.centralbank.cy/en/announcements/behind-every-number-20-10-2026"
       }
      ]
     }
@@ -3513,7 +3515,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135768,
+    "html_chars": 135826,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4123,7 +4125,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239484,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4245,14 +4247,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4271,7 +4273,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4432,7 +4434,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:236: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4450,7 +4452,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 435781,
+    "html_chars": 436268,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4593,7 +4595,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900716,
+    "html_chars": 904518,
     "coin_filter": "news",
     "skipped_menu": 957
    },
