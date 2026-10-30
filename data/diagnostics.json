@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30T12:55:39.428072+00:00",
+ "generated_at": "2026-10-30T22:21:31.991507+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 40.8,
+     "seconds": 47.8,
      "query": "por_titulo",
      "rows": 24,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 36.9,
+     "seconds": 23.7,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -123,6 +123,14 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Philip R. Lane: AI adoption in Europe",
+       "ok": false
+      },
+      {
+       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
+       "ok": false
+      },
+      {
        "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
        "ok": false
       },
@@ -172,14 +180,6 @@
       },
       {
        "title": "Frank Elderson: Interview with Die Presse",
-       "ok": false
-      },
-      {
-       "title": "Frank Elderson: From climate and nature risks to economic resilience and competitiveness",
-       "ok": false
-      },
-      {
-       "title": "Christine Lagarde: IMFC Statement",
        "ok": false
       }
      ]
@@ -233,9 +233,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.653,78",
-     "€ 1.897,85",
-     "€ 1.670,10"
+     "€ 3.592,61",
+     "€ 1.866,07",
+     "€ 1.682,89"
     ],
     "coin_links": [
      {
@@ -377,17 +377,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.653,78",
+      "t": "€ 3.592,61",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.897,85",
+      "t": "€ 1.866,07",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.670,10",
+      "t": "€ 1.682,89",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -406,7 +406,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147372,
+    "html_chars": 147370,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -981,6 +981,14 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Decisiones adoptadas por el Consejo de Gobierno del BCE (distintas de las decisiones por las que se establecen",
+       "ok": false
+      },
+      {
+       "title": "Resultados de la encuesta del BCE a expertos en previsión económica correspondiente al cuarto trimestre de 202",
+       "ok": false
+      },
+      {
        "title": "La capacidad de financiación de la economía española se situó en agosto de 2026 en el 3,7% del PIB",
        "ok": false
       },
@@ -1030,14 +1038,6 @@
       },
       {
        "title": "Indicadores de liquidez y financiación de sociedades no financieras y hogares (septiembre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Euríbor hipotecario (octubre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Informe de Estabilidad Financiera (Otoño 2026)",
        "ok": false
       }
      ]
@@ -1195,31 +1195,23 @@
    "name": "BOE — Boletín Oficial del Estado",
    "country": "ES",
    "section_url": null,
-   "method": "boe",
+   "method": "boe_sin_respuesta",
    "boe": [
     {
      "day": "2026-10-30",
-     "http": 200,
-     "items": 193,
-     "relevant": 0
+     "http": 500
     },
     {
      "day": "2026-10-29",
-     "http": 200,
-     "items": 216,
-     "relevant": 0
+     "http": 500
     },
     {
      "day": "2026-10-28",
-     "http": 200,
-     "items": 184,
-     "relevant": 0
+     "http": 500
     },
     {
      "day": "2026-10-27",
-     "http": 200,
-     "items": 290,
-     "relevant": 0
+     "http": 500
     }
    ],
    "relevant": 0
@@ -1291,7 +1283,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1728,7 +1720,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464278,
+    "html_chars": 463998,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2106,7 +2098,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132926,
+    "html_chars": 132788,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2176,14 +2168,14 @@
       "menu": true
      },
      {
-      "t": "Nuove Emissioni Dalla Magna Grecia ai sapori di oggi: la Calabria diventa moneta La nuova ",
-      "u": "https://www.ipzs.it/news/lista-news/dettaglio-news/2026/10/15/dalla-magna-grecia-ai-sapori-di-oggi--la-calabria-diventa-moneta",
+      "t": "Eventi Falstaff in diretta su Rai 3: la moneta da 5 euro celebra il Teatro dell’Opera di R",
+      "u": "https://www.ipzs.it/news/lista-news/dettaglio-news/2026/10/30/falstaff-in-diretta-su-rai-3--la-moneta-da-5-euro-celebra-il-teatro-dell-opera-di-roma",
       "ok": true
      }
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163885,
+    "html_chars": 164091,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -3462,7 +3454,7 @@
      },
      {
       "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
-      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
+      "u": "https://www.mint.sk/index.php/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
       "ok": true
      },
      {
@@ -3515,7 +3507,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135826,
+    "html_chars": 135891,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4125,7 +4117,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239484,
+    "html_chars": 239483,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4360,9 +4352,21 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-29",
+     "newest": "2026-10-30",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Monaco sort de la « liste grise » du GAFI, la liste de surveillance mondiale de la lutte anti-blanchiment",
+       "ok": false
+      },
+      {
+       "title": "La campagne de réfection des enrobés débute le 4 novembre",
+       "ok": false
+      },
+      {
+       "title": "Monaco participe à la 13ᵉ Conférence des Autorités compétentes du Forum mondial",
+       "ok": false
+      },
       {
        "title": "Une nouvelle formalité sanitaire mise en place pour se rendre aux Etats-Unis dès le 3 novembre",
        "ok": false
@@ -4389,18 +4393,6 @@
       },
       {
        "title": "Diplomatie : accréditation de quatre Ambassadeurs Nouvelle-Zélande – Gabon – Jamaïque – Grèce",
-       "ok": false
-      },
-      {
-       "title": "Les travaux d’extension de la Darse Sud débutent",
-       "ok": false
-      },
-      {
-       "title": "Feuille de route santé sexuelle : Mieux informer et mieux accompagner",
-       "ok": false
-      },
-      {
-       "title": "Appels indésirables : des solutions gratuites pour mieux s’en protéger",
        "ok": false
       }
      ]
@@ -4434,7 +4426,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4452,7 +4444,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 436268,
+    "html_chars": 437039,
     "skipped_menu": 30
    },
    "method": "scraping",
