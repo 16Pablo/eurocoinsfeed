@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T13:01:01.746740+00:00",
+ "generated_at": "2026-10-31T21:35:10.430853+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 28.6,
+     "seconds": 27.3,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.1,
+     "seconds": 22.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147370,
+    "html_chars": 147368,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1301,7 +1301,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1738,7 +1738,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 463722,
+    "html_chars": 464362,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2193,7 +2193,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 164091,
+    "html_chars": 164116,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2213,9 +2213,13 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-30",
+     "newest": "2026-10-31",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Serge Wilmes à la COP17 sur la biodiversité à Erevan, en Arménie",
+       "ok": false
+      },
       {
        "title": "La CERC salue la réactivité des organisations face aux vulnérabilités critiques de PHP: aucun incident confirm",
        "ok": false
@@ -2270,10 +2274,6 @@
       },
       {
        "title": "Comité de suivi Logement: État d'avancement des mesures et perspectives d'action",
-       "ok": false
-      },
-      {
-       "title": "Conseil Agriculture et Pêche: Martine Hansen défend une PAC flexible et prévisible pour les agriculteurs",
        "ok": false
       }
      ]
@@ -4135,7 +4135,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239482,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4454,7 +4454,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:123: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4472,7 +4472,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437404,
+    "html_chars": 436709,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4482,27 +4482,27 @@
    "name": "Divisione Filatelica Numismatica",
    "country": "SM",
    "section_url": "https://www.aasfn.sm/",
-   "section_error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl",
+   "section_error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_s",
    "feeds_tried": [
     {
      "url": "https://www.aasfn.sm/rss.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur"
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake fail"
     },
     {
      "url": "https://www.aasfn.sm/feed",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure ("
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure"
     },
     {
      "url": "https://www.aasfn.sm/feed.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake fai"
     },
     {
      "url": "https://www.aasfn.sm/rss",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_"
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /rss (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure "
     },
     {
      "url": "https://www.aasfn.sm/atom.xml",
-     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failu"
+     "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: /atom.xml (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake fai"
     }
    ],
    "scrape": {
@@ -4512,7 +4512,7 @@
     "detail_errors": 0,
     "rejected_sample": [],
     "coin_links": [],
-    "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl"
+    "error": "SSLError: HTTPSConnectionPool(host='www.aasfn.sm', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLError(1, '[SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_s"
    },
    "method": "scraping",
    "relevant": 0
