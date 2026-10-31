@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T12:27:19.236386+00:00",
+ "generated_at": "2026-10-31T12:38:54.212543+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 59.7,
+     "seconds": 27.5,
      "query": "por_titulo",
      "rows": 24,
      "relevant": 0,
@@ -20,7 +20,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 17.7,
+     "seconds": 21.6,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -1291,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180206,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1317,225 +1317,50 @@
    "name": "Helsinkimint / Mint of Finland",
    "country": "FI",
    "section_url": "https://www.helsinkimint.com/",
-   "section_http": 200,
-   "section_title": "Home Page - Helsinkimint.com",
-   "link_feeds": [],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkimint.com/",
    "feeds_tried": [
     {
      "url": "https://www.helsinkimint.com/rss.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/feed",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/feed.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/rss",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/atom.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 82,
-    "accepted": 3,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Foreign coins",
-     "Bullion Coins",
-     "Gold Coins",
-     "Silver Coins",
-     "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
-     "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Add to Cart",
-     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-     "Finland 30 years member of the EU €9.95 Add to Cart",
-     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
-     "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
-     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
-     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
-     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
-     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
-     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality"
-    ],
-    "coin_links": [
-     {
-      "t": "Foreign coins",
-      "u": "https://www.helsinkimint.com/foreign-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "2 Euro Coins",
-      "u": "https://www.helsinkimint.com/finland/2-euro-coins",
-      "ok": true
-     },
-     {
-      "t": "Bullion Coins",
-      "u": "https://www.helsinkimint.com/gold-and-silverbars/bullion-coins",
-      "ok": false
-     },
-     {
-      "t": "Gold Coins",
-      "u": "https://www.helsinkimint.com/finland/gold-coins",
-      "ok": false
-     },
-     {
-      "t": "Silver Coins",
-      "u": "https://www.helsinkimint.com/finland/silver-coins",
-      "ok": false
-     },
-     {
-      "t": "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
-      "u": "https://www.helsinkimint.com/finland-20-euro-women-s-rights-silver-2026",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
-      "ok": false
-     },
-     {
-      "t": "Finland 30 years member of the EU €9.95 Add to Cart",
-      "u": "https://www.helsinkimint.com/finland-30-years-member-of-the-eu",
-      "ok": false
-     },
-     {
-      "t": "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
-      "u": "https://www.helsinkimint.com/finland-20-euro-erik-allardt-100-years-social-sciences-in-finland-2025",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
-      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-en",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
-      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-bu-quality-in-coincard-fi-se",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality",
-      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-proof-quality",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Raili & Reima Pietilä” Coin Roll",
-      "u": "https://www.helsinkimint.com/finland-2-euro-raili-reima-pietila-coin-roll",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 20 Euro “Raili & Reima Pietilä” Silver",
-      "u": "https://www.helsinkimint.com/finland-20-euro-raili-reima-pietila-silver",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard EN",
-      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-en",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “100 years Yle Broadcasting” BU Quality in Coincard FI/SE",
-      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-bu-quality-in-coincard-fi-se",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “100 years Yle Broadcasting” Proof Quality",
-      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-proof-quality",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 100 Euro “100 years Yle Broadcasting” Gold",
-      "u": "https://www.helsinkimint.com/finland-100-euro-100-years-yle-broadcasting-gold",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “100 years Yle Broadcasting” Coin Roll",
-      "u": "https://www.helsinkimint.com/finland-2-euro-100-years-yle-broadcasting-coin-roll",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 20 Euro “Finland-Sweden Athletics International 100 years” 2025 – Silver Proof",
-      "u": "https://www.helsinkimint.com/finland-20-euro-finland-sweden-athletics-international-100-years-2025-silver-proof",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” – BU Quality in Coincard",
-      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-bu-quality-in-coincard-fi-se",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Finland 2 Euro “Finland-Sweden Athletics International 100 years” 2025 – BU Quality in Coi",
-      "u": "https://www.helsinkimint.com/finland-2-euro-finland-sweden-athletics-international-100-years-2025-bu-quality-in-coincard-en",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Slovakia 2 Euro \"EC Champion\" 2026",
-      "u": "https://www.helsinkimint.com/slowakije-2-euro-ek-kampioen-2026",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Slovenia 2 Euro \"Ivan Cankar\" 2026 UNC",
-      "u": "https://www.helsinkimint.com/slovenie-2-euro-ivan-cankar-2026-unc",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Estonia 2 Euro \"Sipsik\" 2026",
-      "u": "https://www.helsinkimint.com/estland-2-euro-sipsik-2026",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Spain 2 Euro \"Poblet\" 2026",
-      "u": "https://www.helsinkimint.com/spanje-2-euro-poblet-2026",
-      "ok": false,
-      "via": "attr"
-     }
-    ],
-    "http": 200,
-    "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 317030,
-    "skipped_menu": 22,
-    "skipped_menu_sample": [
-     "Foreign coins"
-    ]
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.helsinkimint.com/"
    },
    "method": "scraping",
-   "relevant": 3
+   "relevant": 0
   },
   "france_bdf": {
    "name": "Banque de France",
@@ -2331,242 +2156,50 @@
    "name": "Royal Dutch Mint",
    "country": "NL",
    "section_url": "https://www.royaldutchmint.com/",
-   "section_http": 200,
-   "section_title": "Home Page - Royal Dutch Mint",
-   "link_feeds": [],
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://www.royaldutchmint.com/",
    "feeds_tried": [
     {
      "url": "https://www.royaldutchmint.com/rss.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/feed",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/feed.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/rss",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     },
     {
      "url": "https://www.royaldutchmint.com/atom.xml",
-     "http": 404,
+     "http": 403,
      "type": "text/html; charset=UTF-8",
      "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 219,
-    "accepted": 20,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
-    "detail_errors": 1,
-    "rejected_sample": [
-     "Dutch coins",
-     "Foreign coins",
-     "Silver Coins",
-     "Gold coins",
-     "Circulation Coins",
-     "Commemorative Coins",
-     "Commemoratives and loose coins",
-     "Coin sets Europe",
-     "Gold Bullion Coins",
-     "Coin bars with face value",
-     "Non European coins",
-     "Craft of Coin making",
-     "NGC Graded Foreign Coins",
-     "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
-     "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart"
-    ],
-    "coin_links": [
-     {
-      "t": "Dutch coins",
-      "u": "https://www.royaldutchmint.com/dutch-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Foreign coins",
-      "u": "https://www.royaldutchmint.com/buitenland",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Silver Coins",
-      "u": "https://www.royaldutchmint.com/silver-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Gold coins",
-      "u": "https://www.royaldutchmint.com/gold-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Circulation Coins",
-      "u": "https://www.royaldutchmint.com/circulation-coins",
-      "ok": false
-     },
-     {
-      "t": "Commemorative Coins",
-      "u": "https://www.royaldutchmint.com/commemorative-coins",
-      "ok": false
-     },
-     {
-      "t": "2 Euro coins",
-      "u": "https://www.royaldutchmint.com/buitenland/2-euromunten",
-      "ok": true
-     },
-     {
-      "t": "Commemoratives and loose coins",
-      "u": "https://www.royaldutchmint.com/catalog/category/view/s/commemoratives-and-loose-coins/id/551/",
-      "ok": false
-     },
-     {
-      "t": "Coin sets Europe",
-      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
-      "ok": false
-     },
-     {
-      "t": "Gold Bullion Coins",
-      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
-      "ok": false
-     },
-     {
-      "t": "Coin bars with face value",
-      "u": "https://www.royaldutchmint.com/gold-and-silverbars/coin-bars-with-face-value",
-      "ok": false
-     },
-     {
-      "t": "Non European coins",
-      "u": "https://www.royaldutchmint.com/buitenland/niet-europese-munten",
-      "ok": false
-     },
-     {
-      "t": "Craft of Coin making",
-      "u": "https://www.royaldutchmint.com/dutch-coins/specials/craft-of-coin-making",
-      "ok": false
-     },
-     {
-      "t": "NGC Graded Foreign Coins",
-      "u": "https://www.royaldutchmint.com/dutch-coins/ngc-graded/ngc-graded-foreign-coins",
-      "ok": false
-     },
-     {
-      "t": "50 years recognition COC 5 Euro Coin",
-      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/50-jaar-erkenning-coc",
-      "ok": true
-     },
-     {
-      "t": "Willemstad 5 Euro Coin",
-      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/willemstad-vijfje",
-      "ok": true
-     },
-     {
-      "t": "Piet Mondriaan 5 Euro Coin",
-      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/piet-mondriaan-vijfje",
-      "ok": true
-     },
-     {
-      "t": "Maastricht Treaty 5 Euro Coin",
-      "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/verdrag-van-maastricht",
-      "ok": true
-     },
-     {
-      "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/halloween-2026-medal-in-coincard",
-      "ok": false
-     },
-     {
-      "t": "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart",
-      "u": "https://www.royaldutchmint.com/dutch-burn-foundation-medal-in-coincard",
-      "ok": false
-     },
-     {
-      "t": "250th anniversary of the United States in a coincard €19.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/250th-anniversary-of-the-united-states-in-a-coincard",
-      "ok": false
-     },
-     {
-      "t": "Wonder Women 50 Dollar Cents in Coincard",
-      "u": "https://www.royaldutchmint.com/wonder-women-50-dollar-cents-in-coincard",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 UNC Quality in Coincard",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-unc-quality-in-coincard",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 BU Quality in Coincard",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-bu-quality-in-coincard",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 Silver Coin",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-silver-coin",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 10 Euro Coin 2026 Gold Proof",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-10-euro-coin-2026-gold-proof",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "75 years TV – 75 cents in Coincard",
-      "u": "https://www.royaldutchmint.com/75-years-tv-75-cents-in-coincard",
-      "ok": false,
-      "via": "attr"
-     },
-     {
-      "t": "75 years TV – Silver Medal €150.00 Out of stock",
-      "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
-      "ok": false
-     },
-     {
-      "t": "Theme Set 2026 €34.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/theme-set-2026",
-      "ok": false
-     },
-     {
-      "t": "Annual Set The Netherlands 2026 UNC Quality €14.50 Add to Cart",
-      "u": "https://www.royaldutchmint.com/annual-set-the-netherlands-2026-unc-quality",
-      "ok": false
-     }
-    ],
-    "http": 200,
-    "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623544,
-    "skipped_menu": 43,
-    "skipped_menu_sample": [
-     "Dutch coins",
-     "Foreign coins",
-     "Silver Coins",
-     "Gold coins",
-     "Circulation Coins",
-     "Commemorative Coins",
-     "Circulation Coins",
-     "Commemorative Coins"
-    ]
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.royaldutchmint.com/"
    },
    "method": "scraping",
-   "relevant": 20
+   "relevant": 0
   },
   "portugal_bdp": {
    "name": "Banco de Portugal",
@@ -4125,7 +3758,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239489,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4184,28 +3817,38 @@
   "croatia_mint": {
    "name": "Croatian Mint",
    "country": "HR",
-   "section_url": "https://croatian-mint.hr/",
-   "section_error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed to ",
+   "section_url": "https://croatianmint.hr/en/news/",
+   "section_error": "HTTPError: 403 Client Error: Forbidden for url: https://croatianmint.hr/en/news/",
    "feeds_tried": [
     {
-     "url": "https://croatian-mint.hr/rss.xml",
-     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fai"
+     "url": "https://croatianmint.hr/rss.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
-     "url": "https://croatian-mint.hr/feed",
-     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /feed (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed"
+     "url": "https://croatianmint.hr/feed",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
-     "url": "https://croatian-mint.hr/feed.xml",
-     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fa"
+     "url": "https://croatianmint.hr/feed.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
-     "url": "https://croatian-mint.hr/rss",
-     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /rss (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed "
+     "url": "https://croatianmint.hr/rss",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
-     "url": "https://croatian-mint.hr/atom.xml",
-     "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Fa"
+     "url": "https://croatianmint.hr/atom.xml",
+     "http": 403,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -4215,7 +3858,7 @@
     "detail_errors": 0,
     "rejected_sample": [],
     "coin_links": [],
-    "error": "ConnectionError: HTTPSConnectionPool(host='croatian-mint.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='croatian-mint.hr', port=443): Failed to "
+    "error": "HTTPError: 403 Client Error: Forbidden for url: https://croatianmint.hr/en/news/"
    },
    "method": "scraping",
    "relevant": 0
@@ -4434,7 +4077,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4452,7 +4095,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438050,
+    "html_chars": 438491,
     "skipped_menu": 30
    },
    "method": "scraping",
