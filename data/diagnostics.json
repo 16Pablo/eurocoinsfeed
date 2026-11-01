@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31T21:35:10.430853+00:00",
+ "generated_at": "2026-11-01T06:03:48.659714+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 27.3,
+     "seconds": 30.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 22.9,
+     "seconds": 20.3,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -594,11 +594,11 @@
        "ok": false
       },
       {
-       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
+       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
        "ok": false
       },
       {
-       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
+       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
        "ok": false
       },
       {
@@ -1208,6 +1208,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-01",
+     "http": 404
+    },
+    {
      "day": "2026-10-31",
      "http": 200,
      "items": 369,
@@ -1223,12 +1227,6 @@
      "day": "2026-10-29",
      "http": 200,
      "items": 216,
-     "relevant": 0
-    },
-    {
-     "day": "2026-10-28",
-     "http": 200,
-     "items": 184,
      "relevant": 0
     }
    ],
@@ -1738,7 +1736,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464362,
+    "html_chars": 463834,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2116,7 +2114,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132788,
+    "html_chars": 132999,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2193,7 +2191,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 164116,
+    "html_chars": 164091,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -4135,7 +4133,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239482,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4267,14 +4265,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4293,7 +4291,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4454,7 +4452,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:123: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:180: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4472,7 +4470,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 436709,
+    "html_chars": 436826,
     "skipped_menu": 30
    },
    "method": "scraping",
