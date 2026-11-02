@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01T22:04:42.520803+00:00",
+ "generated_at": "2026-11-02T06:02:42.925830+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 34.1,
+     "seconds": 29.6,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 18.5,
+     "seconds": 18.2,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.586,35",
-     "€ 1.862,82",
-     "€ 1.675,72"
+     "€ 3.612,77",
+     "€ 1.876,54",
+     "€ 1.683,34"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.586,35",
+      "t": "€ 3.612,77",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.862,82",
+      "t": "€ 1.876,54",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.675,72",
+      "t": "€ 1.683,34",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -505,16 +505,68 @@
      "entries": 0
     },
     {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
+    },
+    {
      "url": "https://finance.belgium.be/rss.xml",
      "http": 200,
      "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed",
      "http": 200,
      "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
@@ -539,8 +591,10 @@
     }
    ],
    "section_http": 200,
-   "section_title": "",
-   "link_feeds": [],
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
    "scrape": {
     "anchors": 56,
     "accepted": 0,
@@ -598,11 +652,11 @@
        "ok": false
       },
       {
-       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
+       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
        "ok": false
       },
       {
-       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
+       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
        "ok": false
       },
       {
@@ -1212,6 +1266,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-02",
+     "http": 404
+    },
+    {
      "day": "2026-11-01",
      "http": 404
     },
@@ -1225,12 +1283,6 @@
      "day": "2026-10-30",
      "http": 200,
      "items": 193,
-     "relevant": 0
-    },
-    {
-     "day": "2026-10-29",
-     "http": 200,
-     "items": 216,
      "relevant": 0
     }
    ],
@@ -1303,7 +1355,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1740,7 +1792,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464646,
+    "html_chars": 464446,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -2195,7 +2247,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 164116,
+    "html_chars": 164091,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -3474,7 +3526,7 @@
      },
      {
       "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
-      "u": "https://www.mint.sk/index.php/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
+      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
       "ok": true
      },
      {
@@ -3527,7 +3579,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135895,
+    "html_chars": 135806,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4269,14 +4321,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4295,7 +4347,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4456,7 +4508,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:80: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:153: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4474,7 +4526,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438522,
+    "html_chars": 438709,
     "skipped_menu": 30
    },
    "method": "scraping",
