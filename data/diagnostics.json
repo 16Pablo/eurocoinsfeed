@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02T06:02:42.925830+00:00",
+ "generated_at": "2026-11-02T15:49:07.116153+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 29.6,
+     "seconds": 27.9,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 18.2,
+     "seconds": 20.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -129,9 +129,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-10-30",
+     "newest": "2026-11-02",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
+       "ok": false
+      },
       {
        "title": "Philip R. Lane: AI adoption in Europe",
        "ok": false
@@ -187,10 +191,6 @@
       {
        "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
        "ok": false
-      },
-      {
-       "title": "Frank Elderson: Interview with Die Presse",
-       "ok": false
       }
      ]
     }
@@ -238,14 +238,14 @@
     }
    ],
    "scrape": {
-    "anchors": 225,
+    "anchors": 237,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.612,77",
-     "€ 1.876,54",
-     "€ 1.683,34"
+     "€ 3.643,44",
+     "€ 1.892,48",
+     "€ 1.695,89"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.612,77",
+      "t": "€ 3.643,44",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.876,54",
+      "t": "€ 1.892,48",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.683,34",
+      "t": "€ 1.695,89",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 147368,
+    "html_chars": 153712,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -501,12 +501,6 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-11",
@@ -553,61 +547,9 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 56,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "Actueel | FPS Finance",
-    "html_chars": 39892,
-    "skipped_menu": 41
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -620,9 +562,21 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-30",
+     "newest": "2026-11-02",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Auction result – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid for 3-months Bills of the European Stability Mechanism (ESM)",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid by auction – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194",
+       "ok": false
+      },
       {
        "title": "Announcement of auction – 3-months Bills of the European Stability Mechanism (ESM)",
        "ok": false
@@ -649,18 +603,6 @@
       },
       {
        "title": "Reopening of Federal Treasury notes – Auction result",
-       "ok": false
-      },
-      {
-       "title": "October results of the Bank Lending Survey (BLS) | Credit standards for loans to enterprises tightened further",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
-       "ok": false
-      },
-      {
-       "title": "Announcement – Federal Treasury discount paper (Bubills)",
        "ok": false
       }
      ]
@@ -765,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282745,
+    "html_chars": 282715,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1045,9 +987,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-10-30",
+     "newest": "2026-11-02",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Gobernador. Barcelona 2026 World in Progress. Bancos centrales: independencia, estabilidad y crecimiento",
+       "ok": false
+      },
       {
        "title": "Decisiones adoptadas por el Consejo de Gobierno del BCE (distintas de las decisiones por las que se establecen",
        "ok": false
@@ -1102,10 +1048,6 @@
       },
       {
        "title": "Datos de billetes y monedas (octubre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Indicadores de liquidez y financiación de sociedades no financieras y hogares (septiembre de 2026)",
        "ok": false
       }
      ]
@@ -1267,7 +1209,9 @@
    "boe": [
     {
      "day": "2026-11-02",
-     "http": 404
+     "http": 200,
+     "items": 132,
+     "relevant": 0
     },
     {
      "day": "2026-11-01",
@@ -1355,7 +1299,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180206,
+    "html_chars": 181766,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1690,13 +1634,14 @@
     }
    ],
    "scrape": {
-    "anchors": 367,
+    "anchors": 369,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
      "Voir toutes les monnaies",
+     "nocturne les coulisses de la monnaie",
      "de monnaies de collection, de médailles et d’objets d’art ."
     ],
     "coin_links": [
@@ -1779,6 +1724,12 @@
       "ok": true
      },
      {
+      "t": "nocturne les coulisses de la monnaie",
+      "u": "https://www.monnaiedeparis.fr/fr/nocturne-les-coulisses-de-la-monnaie",
+      "ok": false,
+      "via": "slug"
+     },
+     {
       "t": "de monnaies de collection, de médailles et d’objets d’art .",
       "u": "https://www.monnaiedeparis.fr/fr/boutique-en-ligne",
       "ok": false
@@ -1792,7 +1743,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464446,
+    "html_chars": 465623,
     "child_links": {
      "count": 311,
      "no_text": 59,
@@ -1917,7 +1868,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124503,
+    "html_chars": 124546,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2084,7 +2035,7 @@
     ],
     "http": 200,
     "page_title": "Home page",
-    "html_chars": 202155,
+    "html_chars": 201330,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "2 Euro Coins",
@@ -2170,7 +2121,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132999,
+    "html_chars": 133192,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2267,9 +2218,21 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-10-31",
+     "newest": "2026-11-02",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Lëtzebuerger Musekspräisser 2026: annonce des shortlists",
+       "ok": false
+      },
+      {
+       "title": "#MedSafetyWeek 2026: pour mieux protéger les patients, chaque déclaration compte",
+       "ok": false
+      },
+      {
+       "title": "Près de 14.000 visiteurs à la 40e édition de la Foire de l'étudiant",
+       "ok": false
+      },
       {
        "title": "Serge Wilmes à la COP17 sur la biodiversité à Erevan, en Arménie",
        "ok": false
@@ -2295,6 +2258,10 @@
        "ok": false
       },
       {
+       "title": "Mir sichen d’Wuert vum Joer 2026!",
+       "ok": false
+      },
+      {
        "title": "Infections respiratoires: rétrospective de la semaine du 19 au 25 octobre 2026",
        "ok": false
       },
@@ -2312,22 +2279,6 @@
       },
       {
        "title": "Léon Gloden en visite de travail à Lisbonne",
-       "ok": false
-      },
-      {
-       "title": "La Chambre des députés donne son feu vert à une classe d'impôt unique à partir de 2028",
-       "ok": false
-      },
-      {
-       "title": "Publication des chiffres clés de l'enseignement supérieur 2025/2026",
-       "ok": false
-      },
-      {
-       "title": "Comité de conjoncture du 27 octobre 2026",
-       "ok": false
-      },
-      {
-       "title": "Comité de suivi Logement: État d'avancement des mesures et perspectives d'action",
        "ok": false
       }
      ]
@@ -2691,9 +2642,13 @@
      "http": 200,
      "type": "application/rss+xml",
      "entries": 10,
-     "newest": "2026-10-29",
+     "newest": "2026-11-02",
      "relevant": 3,
      "sample": [
+      {
+       "title": "INCM é a nova promotora do Prémio Literário Fernando Namora",
+       "ok": false
+      },
       {
        "title": "Moeda comemorativa dos «70 Anos da Fundação Calouste Gulbenkian» apresentada ao público",
        "ok": true
@@ -2729,10 +2684,6 @@
       {
        "title": "Moeda «Cabo de São Vicente» distinguida pelo European Product Design Award",
        "ok": true
-      },
-      {
-       "title": "INCM na sessão de abertura da 9.ª edição da Festa do Livro em Belém",
-       "ok": false
       }
      ]
     }
@@ -2963,7 +2914,7 @@
     }
    ],
    "scrape": {
-    "anchors": 805,
+    "anchors": 806,
     "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3168,7 +3119,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 456567,
+    "html_chars": 457096,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3176,9 +3127,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 780,
-     "no_text": 779,
+     "count": 781,
+     "no_text": 780,
      "sample": [
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/risk-buffer-02-11-2026"
+      },
       {
        "t": "",
        "u": "www.centralbank.cy/en/announcements/reference-interest-rate-30-10-2026"
@@ -3198,10 +3153,6 @@
       {
        "t": "",
        "u": "y-financial-institutions-mfis-deposits-and-loans-statistics-27-10-2026"
-      },
-      {
-       "t": "",
-       "u": "ank-of-cyprus-balance-sheet-as-at-the-end-of-september-2026-26-10-2026"
       }
      ]
     }
@@ -3274,9 +3225,17 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-10-27",
+     "newest": "2026-11-02",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Hranice trpezlivosti… potrebujeme konať skôr, ako nám vysoká inflácia začne pripadať normálna",
+       "ok": false
+      },
+      {
+       "title": "O budúcej prosperite Slovenska rozhodnú zručnosti a talent [Štrukturálne výzvy 2026]",
+       "ok": false
+      },
       {
        "title": "Makroekonomické predikcie vybraných bánk – október 2026",
        "ok": false
@@ -3307,14 +3266,6 @@
       },
       {
        "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
-       "ok": false
-      },
-      {
-       "title": "Platíme inak ako pred pár rokmi. Dáta ukazujú, ako sa menia naše návyky",
-       "ok": false
-      },
-      {
-       "title": "Komuniké z 18. rokovania Bankovej rady NBS",
        "ok": false
       }
      ]
@@ -3487,16 +3438,15 @@
    ],
    "scrape": {
     "anchors": 59,
-    "accepted": 7,
+    "accepted": 8,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Emisný plán Mincovne Kremnica 2027",
      "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
-     "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
-     "Zlatá medaila - Z archívu Mincovne Kremnica - Repliky medailí Krištofa Füssela - Bitka pri Moháči - 500.výroči"
+     "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
     ],
     "coin_links": [
      {
@@ -3520,11 +3470,6 @@
       "ok": true
      },
      {
-      "t": "Pamätný list 10€ (2026) - Ivan Krasko - 150.výročie narodenia",
-      "u": "https://www.mint.sk/eshop/pamatny-list-10eur-2026-ivan-krasko-150vyrocie-narodenia",
-      "ok": false
-     },
-     {
       "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
       "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
       "ok": true
@@ -3540,6 +3485,21 @@
       "ok": false
      },
      {
+      "t": "Strieborná minca 20€ (2026) proof - Chránená krajinná oblasť Malé Karpaty",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-chranena-krajinna-oblast-male-karpaty",
+      "ok": true
+     },
+     {
+      "t": "Strieborná minca 20€ (2026) BU - Chránená krajinná oblasť Malé Karpaty",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-chranena-krajinna-oblast-male-karpaty",
+      "ok": true
+     },
+     {
+      "t": "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
+      "u": "https://www.mint.sk/eshop/pamatny-list-20eur-2026-chranena-krajinna-oblast-male-karpaty",
+      "ok": false
+     },
+     {
       "t": "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
       "u": "https://www.mint.sk/eshop/strieborna-minca-1000-francs-cfa-pribehy-zeme-viii-nosorozec",
       "ok": false
@@ -3548,16 +3508,6 @@
       "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
       "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
       "ok": true
-     },
-     {
-      "t": "Strieborná minca 20€ (2026) proof - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 25",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-proof-vyhlasenie-morica-benovskeho-za-krala-madagaskaru",
-      "ok": true
-     },
-     {
-      "t": "Zlatá medaila - Z archívu Mincovne Kremnica - Repliky medailí Krištofa Füssela - Bitka pri",
-      "u": "https://www.mint.sk/eshop/zlata-medaila-z-archivu-mincovne-kremnica-repliky-medaili-kristofa-fussela-bitka-pri-mohaci",
-      "ok": false
      },
      {
       "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
@@ -3579,7 +3529,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 135806,
+    "html_chars": 137040,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3591,7 +3541,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 7
+   "relevant": 8
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -4189,7 +4139,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239481,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4372,15 +4322,15 @@
      "relevant": 1,
      "sample": [
       {
-       "title": "Златна монета „Св. Иван Рилски“",
+       "title": "Златна монета “Св. Иван Рилски”",
        "ok": false
       },
       {
-       "title": "10 евро „Преображенски манастир“ – изчерпана наличност",
+       "title": "10 евро “Преображенски манастир” – изчерпана наличност",
        "ok": false
       },
       {
-       "title": "10 евро „Преображенски манастир“",
+       "title": "10 евро “Преображенски манастир”",
        "ok": true
       },
       {
@@ -4388,19 +4338,19 @@
        "ok": false
       },
       {
-       "title": "Медал „Рожден ден“",
+       "title": "Медал “Рожден ден”",
        "ok": false
       },
       {
-       "title": "Монета „150 години от Априлското въстание“",
+       "title": "Монета “150 години от Априлското въстание”",
        "ok": false
       },
       {
-       "title": "Празничен медал „Лазарица – Цветница“",
+       "title": "Празничен медал “Лазарица – Цветница”",
        "ok": false
       },
       {
-       "title": "Монета „150 години от рождението на Кръстьо Сарафов“",
+       "title": "Монета “150 години от рождението на Кръстьо Сарафов”",
        "ok": false
       },
       {
@@ -4508,7 +4458,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:153: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:234: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4526,7 +4476,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438709,
+    "html_chars": 436924,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4669,7 +4619,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 904518,
+    "html_chars": 902515,
     "coin_filter": "news",
     "skipped_menu": 957
    },
