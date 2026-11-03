@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T01:02:52.145814+00:00",
+ "generated_at": "2026-11-03T14:15:37.760557+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,16 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
-     "seconds": 40.8,
+     "seconds": 52.8,
+     "earlier_attempts": [
+      {
+       "method": "POST",
+       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
+       "seconds": 90.4
+      }
+     ],
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +37,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 19.5,
+     "seconds": 37.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,8 +250,8 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.643,44",
-     "€ 1.892,48",
+     "€ 3.653,78",
+     "€ 1.897,85",
      "€ 1.687,06"
     ],
     "coin_links": [
@@ -387,12 +394,12 @@
       "menu": true
      },
      {
-      "t": "€ 3.643,44",
+      "t": "€ 3.653,78",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.892,48",
+      "t": "€ 1.897,85",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
@@ -501,64 +508,55 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='finance.belgium.be', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-10-11",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Postponement of the deadline for filing the returns related to the domestic top-up tax and the top-",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - New deadline for filing the GIR reporting entity notification",
+       "ok": false
+      },
+      {
+       "title": "The Library presents its new website",
+       "ok": false
+      },
+      {
+       "title": "Library closed from 7 until 10 September 2026 inclusive",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - More information on fiscal years referred to in the notification of the GIR filing entity on 30 Sep",
+       "ok": false
+      },
+      {
+       "title": "BEPS 13 Webinar: register now and prepare your questions",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Publication of returns related to top-up taxes (qualified domestic top-up tax and IRR) for the asse",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
+       "ok": false
+      },
+      {
+       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 56,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "Actueel | FPS Finance",
-    "html_chars": 39892,
-    "skipped_menu": 41
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -571,9 +569,25 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-02",
+     "newest": "2026-11-03",
      "relevant": 0,
      "sample": [
+      {
+       "title": "3-months Bills of the European Stability Mechanism (ESM) – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid – Reopening of two Federal bonds",
+       "ok": false
+      },
+      {
+       "title": "Announcement – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -596,22 +610,6 @@
       },
       {
        "title": "Capital needs AI, and AI needs capital: Europe's opportunity for more growth | Keynote Speech: AI Week Frankfu",
-       "ok": false
-      },
-      {
-       "title": "Announcement of a multi-ISIN auction – Reopening of two Federal bonds",
-       "ok": false
-      },
-      {
-       "title": "Reopening Federal bond issue – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Auction announcement – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194 by aucti",
-       "ok": false
-      },
-      {
-       "title": "Reopening of Federal Treasury notes – Auction result",
        "ok": false
       }
      ]
@@ -716,7 +714,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282709,
+    "html_chars": 282715,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -996,9 +994,21 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-02",
+     "newest": "2026-11-03",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Gobernador. 2026 Santander International Banking Conference",
+       "ok": false
+      },
+      {
+       "title": "El euríbor se sitúa en el 3,239% en octubre, 1,052 puntos más que hace un año",
+       "ok": false
+      },
+      {
+       "title": "Estadísticas de los tipos de interés aplicados por las entidades de crédito de la zona del euro: septiembre de",
+       "ok": false
+      },
       {
        "title": "Gobernador. Barcelona 2026 World in Progress. Bancos centrales: independencia, estabilidad y crecimiento",
        "ok": false
@@ -1045,18 +1055,6 @@
       },
       {
        "title": "Deuda de las Administraciones Públicas según el Protocolo de Déficit Excesivo. Avance mensual (septiembre de 2",
-       "ok": false
-      },
-      {
-       "title": "Datos de créditos dudosos (septiembre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Datos de depósitos (octubre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Datos de billetes y monedas (octubre de 2026)",
        "ok": false
       }
      ]
@@ -1218,7 +1216,9 @@
    "boe": [
     {
      "day": "2026-11-03",
-     "http": 404
+     "http": 200,
+     "items": 240,
+     "relevant": 0
     },
     {
      "day": "2026-11-02",
@@ -1306,7 +1306,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 180207,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1543,7 +1543,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 317030,
+    "html_chars": 317619,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1641,7 +1641,7 @@
     }
    ],
    "scrape": {
-    "anchors": 369,
+    "anchors": 366,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1750,10 +1750,10 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464689,
+    "html_chars": 463984,
     "child_links": {
      "count": 311,
-     "no_text": 61,
+     "no_text": 63,
      "sample": [
       {
        "t": "en",
@@ -1781,7 +1781,7 @@
       }
      ]
     },
-    "skipped_menu": 287,
+    "skipped_menu": 285,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -2099,7 +2099,9 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
+    "rejected_sample": [
+     "€-coin è aumentato in ottobre"
+    ],
     "coin_links": [
      {
       "t": "Emissione euro",
@@ -2124,11 +2126,16 @@
       "u": "https://www.bancaditalia.it/statistiche/tematiche/moneta-intermediari-finanza/index.html",
       "ok": false,
       "menu": true
+     },
+     {
+      "t": "€-coin è aumentato in ottobre",
+      "u": "https://www.bancaditalia.it/media/notizia/coin-aumentato-in-ottobre/",
+      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133192,
+    "html_chars": 133208,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2225,7 +2232,7 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-02",
+     "newest": "2026-11-03",
      "relevant": 0,
      "sample": [
       {
@@ -2238,6 +2245,10 @@
       },
       {
        "title": "Près de 14.000 visiteurs à la 40e édition de la Foire de l'étudiant",
+       "ok": false
+      },
+      {
+       "title": "Tourisme: la Communauté germanophone et le Luxembourg adoptent un plan en 10 points",
        "ok": false
       },
       {
@@ -2282,10 +2293,6 @@
       },
       {
        "title": "Résumé des travaux du 28 octobre 2026",
-       "ok": false
-      },
-      {
-       "title": "Léon Gloden en visite de travail à Lisbonne",
        "ok": false
       }
      ]
@@ -2574,7 +2581,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623544,
+    "html_chars": 626024,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2921,7 +2928,7 @@
     }
    ],
    "scrape": {
-    "anchors": 806,
+    "anchors": 807,
     "accepted": 21,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3126,7 +3133,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 457096,
+    "html_chars": 457599,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3134,9 +3141,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 781,
-     "no_text": 780,
+     "count": 782,
+     "no_text": 781,
      "sample": [
+      {
+       "t": "",
+       "u": "s://www.centralbank.cy/en/announcements/interest-rates-mfis-03-11-2026"
+      },
       {
        "t": "",
        "u": "https://www.centralbank.cy/en/announcements/risk-buffer-02-11-2026"
@@ -3156,10 +3167,6 @@
       {
        "t": "",
        "u": "w.centralbank.cy/en/announcements/monetary-policy-decisions-29-10-2026"
-      },
-      {
-       "t": "",
-       "u": "y-financial-institutions-mfis-deposits-and-loans-statistics-27-10-2026"
       }
      ]
     }
@@ -3232,9 +3239,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-02",
+     "newest": "2026-11-03",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Drahšie hypotéky zatiaľ rast cien nehnuteľností nepribrzdili",
+       "ok": false
+      },
       {
        "title": "Hranice trpezlivosti… potrebujeme konať skôr, ako nám vysoká inflácia začne pripadať normálna",
        "ok": false
@@ -3269,10 +3280,6 @@
       },
       {
        "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
-       "ok": false
-      },
-      {
-       "title": "Keď sa kameň nadýchne: výnimočná výstava v priestoroch NBS otvorí svoje brány verejnosti",
        "ok": false
       }
      ]
@@ -3445,12 +3452,13 @@
    ],
    "scrape": {
     "anchors": 59,
-    "accepted": 8,
+    "accepted": 7,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Emisný plán Mincovne Kremnica 2027",
      "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
+     "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
      "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
      "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
@@ -3472,13 +3480,13 @@
       "ok": false
      },
      {
-      "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
-      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
-      "ok": true
+      "t": "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
+      "u": "https://www.mint.sk/eshop/minca-zlata-250-dollars-fauna-flora-na-slovensku-vlk-dravy",
+      "ok": false
      },
      {
-      "t": "Pamätná minca 2€ (2026) - Víťazstvo futbalistov Československa na Majstrovstvách Európy - ",
-      "u": "https://www.mint.sk/eshop/pamatna-minca-2eur-2026-vitazstvo-futbalistov-ceskoslovenska-na-majstrovstvach-europy",
+      "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
+      "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
       "ok": true
      },
      {
@@ -3536,7 +3544,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 137040,
+    "html_chars": 136761,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3548,7 +3556,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 8
+   "relevant": 7
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -4146,7 +4154,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239487,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4278,14 +4286,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4304,7 +4312,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4391,9 +4399,17 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-30",
+     "newest": "2026-11-03",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Monaco à la 76e session du Comité régional de l’OMS pour l’Europe",
+       "ok": false
+      },
+      {
+       "title": "Monaco participe à la 18ème réunion plénière du Cadre inclusif de l’OCDE/G20 sur le BEPS",
+       "ok": false
+      },
       {
        "title": "Monaco sort de la « liste grise » du GAFI, la liste de surveillance mondiale de la lutte anti-blanchiment",
        "ok": false
@@ -4424,14 +4440,6 @@
       },
       {
        "title": "A Hamilton (Bermudes), la Principauté réitère son engagement pour la protection de la Mer des Sargasses*",
-       "ok": false
-      },
-      {
-       "title": "Grippe et Covid-19 : les deux vaccins désormais disponibles",
-       "ok": false
-      },
-      {
-       "title": "Diplomatie : accréditation de quatre Ambassadeurs Nouvelle-Zélande – Gabon – Jamaïque – Grèce",
        "ok": false
       }
      ]
@@ -4465,7 +4473,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:165: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4483,7 +4491,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437438,
+    "html_chars": 437176,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4626,7 +4634,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 903701,
+    "html_chars": 905477,
     "coin_filter": "news",
     "skipped_menu": 957
    },
