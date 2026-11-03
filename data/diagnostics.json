@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T14:15:37.760557+00:00",
+ "generated_at": "2026-11-03T23:24:03.357728+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,16 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 52.8,
-     "earlier_attempts": [
-      {
-       "method": "POST",
-       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.4
-      }
-     ],
+     "seconds": 32.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -37,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.9,
+     "seconds": 18.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -250,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.653,78",
-     "€ 1.897,85",
-     "€ 1.687,06"
+     "€ 3.626,76",
+     "€ 1.883,81",
+     "€ 1.654,74"
     ],
     "coin_links": [
      {
@@ -394,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.653,78",
+      "t": "€ 3.626,76",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.897,85",
+      "t": "€ 1.883,81",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.687,06",
+      "t": "€ 1.654,74",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -423,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 153712,
+    "html_chars": 153711,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -508,6 +501,12 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-11",
@@ -554,9 +553,61 @@
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "scrape": {
+    "anchors": 56,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "Actueel | FPS Finance",
+    "html_chars": 39892,
+    "skipped_menu": 41
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -589,6 +640,10 @@
        "ok": false
       },
       {
+       "title": "Introductory remarks at the Bundesbank Invited Speakers Series with Itay Goldstein",
+       "ok": false
+      },
+      {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
       },
@@ -606,10 +661,6 @@
       },
       {
        "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "Capital needs AI, and AI needs capital: Europe's opportunity for more growth | Keynote Speech: AI Week Frankfu",
        "ok": false
       }
      ]
@@ -1002,6 +1053,10 @@
        "ok": false
       },
       {
+       "title": "Estado financiero consolidado del Eurosistema a 30 de octubre de 2026",
+       "ok": false
+      },
+      {
        "title": "El euríbor se sitúa en el 3,239% en octubre, 1,052 puntos más que hace un año",
        "ok": false
       },
@@ -1051,10 +1106,6 @@
       },
       {
        "title": "Avance de la balanza de pagos (septiembre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "Deuda de las Administraciones Públicas según el Protocolo de Déficit Excesivo. Avance mensual (septiembre de 2",
        "ok": false
       }
      ]
@@ -1306,7 +1357,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180206,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1543,7 +1594,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 317619,
+    "html_chars": 320071,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1641,7 +1692,7 @@
     }
    ],
    "scrape": {
-    "anchors": 366,
+    "anchors": 368,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1750,7 +1801,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 463984,
+    "html_chars": 465206,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -1781,7 +1832,7 @@
       }
      ]
     },
-    "skipped_menu": 285,
+    "skipped_menu": 287,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -2135,7 +2186,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133208,
+    "html_chars": 133380,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2656,9 +2707,13 @@
      "http": 200,
      "type": "application/rss+xml",
      "entries": 10,
-     "newest": "2026-11-02",
-     "relevant": 3,
+     "newest": "2026-11-03",
+     "relevant": 2,
      "sample": [
+      {
+       "title": "«Daimon. Poesia Reunida 1996-2026», de António Carlos Cortez, apresentado no El Corte Inglés",
+       "ok": false
+      },
       {
        "title": "INCM é a nova promotora do Prémio Literário Fernando Namora",
        "ok": false
@@ -2694,16 +2749,12 @@
       {
        "title": "Portugal acolhe 22.ª edição do Fórum Europeu de Jornais Oficiais",
        "ok": false
-      },
-      {
-       "title": "Moeda «Cabo de São Vicente» distinguida pelo European Product Design Award",
-       "ok": true
       }
      ]
     }
    ],
    "method": "feeds_a_mano",
-   "relevant": 3
+   "relevant": 2
   },
   "greece": {
    "name": "Bank of Greece",
@@ -3544,7 +3595,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136761,
+    "html_chars": 136763,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4154,7 +4205,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239487,
+    "html_chars": 239484,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4473,7 +4524,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:165: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4491,7 +4542,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437176,
+    "html_chars": 438535,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4634,7 +4685,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 905477,
+    "html_chars": 907200,
     "coin_filter": "news",
     "skipped_menu": 957
    },
