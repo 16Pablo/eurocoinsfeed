@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03T23:24:03.357728+00:00",
+ "generated_at": "2026-11-04T06:18:41.689429+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 32.2,
+     "seconds": 47.0,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 18.9,
+     "seconds": 37.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.626,76",
-     "€ 1.883,81",
-     "€ 1.654,74"
+     "€ 3.674,64",
+     "€ 1.908,68",
+     "€ 1.682,03"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.626,76",
+      "t": "€ 3.674,64",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.883,81",
+      "t": "€ 1.908,68",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.654,74",
+      "t": "€ 1.682,03",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -565,8 +565,7 @@
      "url": "https://finance.belgium.be/feed",
      "http": 200,
      "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
+     "entries": 0
     },
     {
      "url": "https://finance.belgium.be/feed.xml",
@@ -765,7 +764,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282715,
+    "html_chars": 282709,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1266,6 +1265,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-04",
+     "http": 404
+    },
+    {
      "day": "2026-11-03",
      "http": 200,
      "items": 240,
@@ -1280,12 +1283,6 @@
     {
      "day": "2026-11-01",
      "http": 404
-    },
-    {
-     "day": "2026-10-31",
-     "http": 200,
-     "items": 369,
-     "relevant": 0
     }
    ],
    "relevant": 0
@@ -1801,7 +1798,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465206,
+    "html_chars": 465426,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -4205,7 +4202,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239484,
+    "html_chars": 239487,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4524,7 +4521,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4542,7 +4539,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438535,
+    "html_chars": 439219,
     "skipped_menu": 30
    },
    "method": "scraping",
