@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T06:18:41.689429+00:00",
+ "generated_at": "2026-11-04T14:35:40.607207+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 47.0,
+     "seconds": 84.4,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.5,
+     "seconds": 44.0,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -129,9 +129,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-02",
+     "newest": "2026-11-04",
      "relevant": 0,
      "sample": [
+      {
+       "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full y",
+       "ok": false
+      },
       {
        "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
        "ok": false
@@ -187,10 +191,6 @@
       {
        "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
        "ok": false
-      },
-      {
-       "title": "Philip R. Lane: Euro liquidity lines and the international monetary system",
-       "ok": false
       }
      ]
     }
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.674,64",
-     "€ 1.908,68",
-     "€ 1.682,03"
+     "€ 3.695,73",
+     "€ 1.919,63",
+     "€ 1.699,01"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.674,64",
+      "t": "€ 3.695,73",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.908,68",
+      "t": "€ 1.919,63",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.682,03",
+      "t": "€ 1.699,01",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 153711,
+    "html_chars": 154658,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -501,12 +501,6 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-11",
@@ -553,60 +547,9 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 56,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "Actueel | FPS Finance",
-    "html_chars": 39892,
-    "skipped_menu": 41
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -619,9 +562,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-03",
+     "newest": "2026-11-04",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening of two Federal bonds – Auction result",
+       "ok": false
+      },
+      {
+       "title": "The courage to strive for more Europe | Speech delivered at the Bundesbank’s Capital City Reception",
+       "ok": false
+      },
       {
        "title": "3-months Bills of the European Stability Mechanism (ESM) – Auction result",
        "ok": false
@@ -653,20 +604,12 @@
       {
        "title": "Invitation to bid by auction – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194",
        "ok": false
-      },
-      {
-       "title": "Announcement of auction – 3-months Bills of the European Stability Mechanism (ESM)",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
-       "ok": false
       }
      ]
     }
    ],
    "scrape": {
-    "anchors": 505,
+    "anchors": 504,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
@@ -764,8 +707,8 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282709,
-    "skipped_menu": 497,
+    "html_chars": 282442,
+    "skipped_menu": 496,
     "skipped_menu_sample": [
      "Euro pavilion",
      "Digital euro",
@@ -1044,9 +987,17 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-03",
+     "newest": "2026-11-04",
      "relevant": 0,
      "sample": [
+      {
+       "title": "El indicador del BCE de seguimiento de los salarios apunta a un crecimiento salarial en los tres primeros trim",
+       "ok": false
+      },
+      {
+       "title": "El acceso a la financiación bancaria siguió mejorando en el tercer trimestre de 2026, aunque levemente y menos",
+       "ok": false
+      },
       {
        "title": "Gobernador. 2026 Santander International Banking Conference",
        "ok": false
@@ -1097,14 +1048,6 @@
       },
       {
        "title": "José Luis Escrivá. Santander Conferencia Internacional de Banca 2026",
-       "ok": false
-      },
-      {
-       "title": "José Luis Escrivá. Barcelona 2026. World in Progress",
-       "ok": false
-      },
-      {
-       "title": "Avance de la balanza de pagos (septiembre de 2026)",
        "ok": false
       }
      ]
@@ -1266,7 +1209,9 @@
    "boe": [
     {
      "day": "2026-11-04",
-     "http": 404
+     "http": 200,
+     "items": 232,
+     "relevant": 0
     },
     {
      "day": "2026-11-03",
@@ -1354,7 +1299,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180206,
+    "html_chars": 180208,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1694,6 +1639,8 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la Monnaie de Paris co",
+     "Nouveauté 2025-2026 Histoire de l'automobile L’histoire de l’automobile s’écrit aussi en monnaies. Lancée en 2",
      "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
      "Voir toutes les monnaies",
      "nocturne les coulisses de la monnaie",
@@ -1749,6 +1696,16 @@
       "menu": true
      },
      {
+      "t": "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la",
+      "u": "https://www.monnaiedeparis.fr/batman",
+      "ok": false
+     },
+     {
+      "t": "Nouveauté 2025-2026 Histoire de l'automobile L’histoire de l’automobile s’écrit aussi en m",
+      "u": "https://www.monnaiedeparis.fr/histoire-de-l-automobile",
+      "ok": false
+     },
+     {
       "t": "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondia",
       "u": "https://www.monnaiedeparis.fr/unesco-patrimoine-mondial",
       "ok": false
@@ -1798,7 +1755,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465426,
+    "html_chars": 464824,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -1923,7 +1880,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124546,
+    "html_chars": 124412,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2183,7 +2140,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133380,
+    "html_chars": 133086,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2241,7 +2198,7 @@
    ],
    "scrape": {
     "anchors": 158,
-    "accepted": 1,
+    "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
@@ -2253,6 +2210,11 @@
       "menu": true
      },
      {
+      "t": "Nuove Emissioni Zecca dello Stato: una nuova 10 euro celebra Collodi Nel bicentenario dell",
+      "u": "https://www.ipzs.it/news/lista-news/dettaglio-news/2026/11/04/zecca-dello-stato--una-nuova-10-euro-celebra-collodi",
+      "ok": true
+     },
+     {
       "t": "Eventi Falstaff in diretta su Rai 3: la moneta da 5 euro celebra il Teatro dell’Opera di R",
       "u": "https://www.ipzs.it/news/lista-news/dettaglio-news/2026/10/30/falstaff-in-diretta-su-rai-3--la-moneta-da-5-euro-celebra-il-teatro-dell-opera-di-roma",
       "ok": true
@@ -2260,7 +2222,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 164091,
+    "html_chars": 163895,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2268,7 +2230,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 1
+   "relevant": 2
   },
   "luxembourg_gov": {
    "name": "Gouvernement du Luxembourg",
@@ -2280,9 +2242,13 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-03",
+     "newest": "2026-11-04",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Xavier Bettel en visite de travail à San Francisco",
+       "ok": false
+      },
       {
        "title": "Lëtzebuerger Musekspräisser 2026: annonce des shortlists",
        "ok": false
@@ -2337,10 +2303,6 @@
       },
       {
        "title": "Le Luxembourg plaide à Copenhague pour une OMS fondée sur la science et proche des États membres",
-       "ok": false
-      },
-      {
-       "title": "Résumé des travaux du 28 octobre 2026",
        "ok": false
       }
      ]
@@ -3505,7 +3467,6 @@
     "detail_errors": 0,
     "rejected_sample": [
      "Emisný plán Mincovne Kremnica 2027",
-     "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
      "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
      "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
@@ -3521,11 +3482,6 @@
       "t": "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
       "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
       "ok": true
-     },
-     {
-      "t": "20€ - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru – 250. výročie",
-      "u": "https://www.mint.sk/novinky/20eur-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250-vyrocie",
-      "ok": false
      },
      {
       "t": "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
@@ -3592,7 +3548,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136763,
+    "html_chars": 136715,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4348,7 +4304,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4360,7 +4316,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4447,9 +4403,17 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-03",
+     "newest": "2026-11-04",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Monaco International Triathlon : quels aménagements routiers ?",
+       "ok": false
+      },
+      {
+       "title": "Mise en garde contre les appels téléphoniques frauduleux usurpant le numéro de la Police",
+       "ok": false
+      },
       {
        "title": "Monaco à la 76e session du Comité régional de l’OMS pour l’Europe",
        "ok": false
@@ -4480,14 +4444,6 @@
       },
       {
        "title": "Diplomatie : accréditation de six Ambassadeurs Canada – République de Corée – Burundi – El Salvador – Thaïland",
-       "ok": false
-      },
-      {
-       "title": "19e Conférence des Ministres responsables du Sport : la Principauté renouvelle son attachement aux valeurs du ",
-       "ok": false
-      },
-      {
-       "title": "A Hamilton (Bermudes), la Principauté réitère son engagement pour la protection de la Mer des Sargasses*",
        "ok": false
       }
      ]
@@ -4521,7 +4477,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4539,7 +4495,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 439219,
+    "html_chars": 437472,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4682,7 +4638,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 907200,
+    "html_chars": 900357,
     "coin_filter": "news",
     "skipped_menu": 957
    },
