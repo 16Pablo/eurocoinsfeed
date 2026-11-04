@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04T14:35:40.607207+00:00",
+ "generated_at": "2026-11-04T23:44:28.724469+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 84.4,
+     "seconds": 31.7,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 44.0,
+     "seconds": 20.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.695,73",
-     "€ 1.919,63",
-     "€ 1.699,01"
+     "€ 3.733,24",
+     "€ 1.939,12",
+     "€ 1.741,00"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.695,73",
+      "t": "€ 3.733,24",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.919,63",
+      "t": "€ 1.939,12",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.699,01",
+      "t": "€ 1.741,00",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282442,
+    "html_chars": 282448,
     "skipped_menu": 496,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1210,7 +1210,7 @@
     {
      "day": "2026-11-04",
      "http": 200,
-     "items": 232,
+     "items": 234,
      "relevant": 0
     },
     {
@@ -1299,7 +1299,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180208,
+    "html_chars": 181765,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1536,7 +1536,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 320071,
+    "html_chars": 320268,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1755,7 +1755,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464824,
+    "html_chars": 465548,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2140,7 +2140,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133086,
+    "html_chars": 132939,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -3249,9 +3249,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-03",
+     "newest": "2026-11-04",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Joint statement by the the Czech National Bank, Magyar Nemzeti Bank, Narodowy Bank Polski, and Národná banka S",
+       "ok": false
+      },
       {
        "title": "Drahšie hypotéky zatiaľ rast cien nehnuteľností nepribrzdili",
        "ok": false
@@ -3286,10 +3290,6 @@
       },
       {
        "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
-       "ok": false
-      },
-      {
-       "title": "ESMA – Stanovisko k poskytovaniu služieb kryptoaktív so stablecoinami, ktoré nespĺňajú požiadavky MiCA",
        "ok": false
       }
      ]
@@ -3548,7 +3548,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136715,
+    "html_chars": 136719,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4158,7 +4158,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239487,
+    "html_chars": 239481,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4290,21 +4290,21 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4407,6 +4407,10 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Expérience Logement : un nouveau parcours en ligne pour les candidats",
+       "ok": false
+      },
+      {
        "title": "Monaco International Triathlon : quels aménagements routiers ?",
        "ok": false
       },
@@ -4441,10 +4445,6 @@
       {
        "title": "À la COP17, Monaco réaffirme son engagement en faveur de la biodiversité",
        "ok": false
-      },
-      {
-       "title": "Diplomatie : accréditation de six Ambassadeurs Canada – République de Corée – Burundi – El Salvador – Thaïland",
-       "ok": false
       }
      ]
     },
@@ -4477,7 +4477,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4495,7 +4495,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 437472,
+    "html_chars": 437995,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4634,11 +4634,19 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
+    "rejected_sample": [
+     "Educació atorga 108.000 euros per impulsar dos projectes de recerca doctoral"
+    ],
+    "coin_links": [
+     {
+      "t": "Educació atorga 108.000 euros per impulsar dos projectes de recerca doctoral",
+      "u": "https://www.govern.ad/ca/w/educacio-atorga-108-000-euros-per-impulsar-dos-projectes-de-recerca-doctoral",
+      "ok": false
+     }
+    ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900357,
+    "html_chars": 898665,
     "coin_filter": "news",
     "skipped_menu": 957
    },
