@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T06:45:43.200636+00:00",
+ "generated_at": "2026-11-05T19:59:39.938965+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.2,
+     "seconds": 28.0,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 18.6,
+     "seconds": 20.6,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -129,9 +129,17 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-04",
+     "newest": "2026-11-05",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
+       "ok": false
+      },
+      {
+       "title": "Piero Cipollone: Shaping the future of money",
+       "ok": false
+      },
       {
        "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full y",
        "ok": false
@@ -182,14 +190,6 @@
       },
       {
        "title": "Piero Cipollone: Interview with Milano Finanza",
-       "ok": false
-      },
-      {
-       "title": "ECB Consumer Expectations Survey results – September 2026",
-       "ok": false
-      },
-      {
-       "title": "Piero Cipollone: Pontes and Appia: unlocking opportunities for banks",
        "ok": false
       }
      ]
@@ -243,10 +243,10 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.781,20",
-     "€ 1.964,03",
-     "€ 1.000,37",
-     "€ 1.759,92"
+     "€ 3.779,81",
+     "€ 1.963,31",
+     "€ 1.000,00",
+     "€ 1.777,78"
     ],
     "coin_links": [
      {
@@ -388,22 +388,22 @@
       "menu": true
      },
      {
-      "t": "€ 3.781,20",
+      "t": "€ 3.779,81",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.964,03",
+      "t": "€ 1.963,31",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.000,37",
+      "t": "€ 1.000,00",
       "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.759,92",
+      "t": "€ 1.777,78",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -422,7 +422,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154660,
+    "html_chars": 154656,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -509,9 +509,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-10-11",
+     "newest": "2026-10-29",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Pillar 2 - Adapting the deadline for filing the Qualified Domestic Minimum Top-up Tax (QDMTT) return",
+       "ok": false
+      },
       {
        "title": "Pillar 2 – future change to the deadline for filing the return related to the Qualified Domestic Minimum Top-u",
        "ok": false
@@ -547,10 +551,6 @@
       {
        "title": "Pillar 2 - Notification of the entity filing the GloBE Information Return (GIR)",
        "ok": false
-      },
-      {
-       "title": "Pillar 2 - Common understanding of implementing jurisdictions on the central filing and the exchange of GloBE ",
-       "ok": false
       }
      ]
     }
@@ -568,9 +568,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-04",
+     "newest": "2026-11-05",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Announcement of a multi-ISIN auction – Reopening of two Federal bonds",
+       "ok": false
+      },
       {
        "title": "Reopening of two Federal bonds – Auction result",
        "ok": false
@@ -605,10 +609,6 @@
       },
       {
        "title": "Invitation to bid for 3-months Bills of the European Stability Mechanism (ESM)",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194",
        "ok": false
       }
      ]
@@ -1060,7 +1060,7 @@
     }
    ],
    "scrape": {
-    "anchors": 435,
+    "anchors": 436,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1161,8 +1161,8 @@
     ],
     "http": 200,
     "page_title": "Banknotes and coins - Banco de España",
-    "html_chars": 397185,
-    "skipped_menu": 409,
+    "html_chars": 397895,
+    "skipped_menu": 410,
     "skipped_menu_sample": [
      "Banknotes and coins",
      "Euro banknotes",
@@ -1307,7 +1307,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180207,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1763,10 +1763,10 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464547,
+    "html_chars": 465160,
     "child_links": {
-     "count": 311,
-     "no_text": 63,
+     "count": 312,
+     "no_text": 64,
      "sample": [
       {
        "t": "en",
@@ -1888,7 +1888,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124412,
+    "html_chars": 123412,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2113,6 +2113,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
      "€-coin è aumentato in ottobre"
     ],
     "coin_links": [
@@ -2141,6 +2142,11 @@
       "menu": true
      },
      {
+      "t": "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
+      "u": "https://www.bancaditalia.it/media/notizia/al-galata-museo-del-mare-di-genova-arriva-l-avventura-della-moneta-dall-oro-al-digitale/",
+      "ok": false
+     },
+     {
       "t": "€-coin è aumentato in ottobre",
       "u": "https://www.bancaditalia.it/media/notizia/coin-aumentato-in-ottobre/",
       "ok": false
@@ -2148,7 +2154,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132939,
+    "html_chars": 133293,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2250,11 +2256,27 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-04",
+     "newest": "2026-11-05",
      "relevant": 0,
      "sample": [
       {
+       "title": "Visite de travail de Lex Delles à Barcelone",
+       "ok": false
+      },
+      {
+       "title": "Infections respiratoires: rétrospective de la semaine du 26 octobre au 1er novembre 2026",
+       "ok": false
+      },
+      {
        "title": "Xavier Bettel en visite de travail à San Francisco",
+       "ok": false
+      },
+      {
+       "title": "Événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF et exploité par Cargolux Airlines I",
+       "ok": false
+      },
+      {
+       "title": "Event involving the Boeing B747-8R7F registered LX-VCF, operated by Cargolux Airlines International S.A., whic",
        "ok": false
       },
       {
@@ -2295,22 +2317,6 @@
       },
       {
        "title": "Mise en ligne de la nouvelle version du JobBoard de l'ADEM",
-       "ok": false
-      },
-      {
-       "title": "Mir sichen d’Wuert vum Joer 2026!",
-       "ok": false
-      },
-      {
-       "title": "Infections respiratoires: rétrospective de la semaine du 19 au 25 octobre 2026",
-       "ok": false
-      },
-      {
-       "title": "La célébration du patron des douaniers marque l'entrée en vigueur du nouveau code des ‎douanes de l'Union",
-       "ok": false
-      },
-      {
-       "title": "Le Luxembourg plaide à Copenhague pour une OMS fondée sur la science et proche des États membres",
        "ok": false
       }
      ]
@@ -2864,7 +2870,7 @@
     ],
     "http": 200,
     "page_title": "Numismatics | Banka Slovenije",
-    "html_chars": 241721,
+    "html_chars": 241785,
     "coin_filter": "news",
     "skipped_menu": 25,
     "child_links": {
@@ -3556,7 +3562,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136723,
+    "html_chars": 136750,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4298,14 +4304,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4411,9 +4417,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-04",
+     "newest": "2026-11-05",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Conseil de l’Europe : les Ministres responsables du Sport réunis en Principauté",
+       "ok": false
+      },
       {
        "title": "Expérience Logement : un nouveau parcours en ligne pour les candidats",
        "ok": false
@@ -4449,10 +4459,6 @@
       {
        "title": "Une nouvelle formalité sanitaire mise en place pour se rendre aux Etats-Unis dès le 3 novembre",
        "ok": false
-      },
-      {
-       "title": "À la COP17, Monaco réaffirme son engagement en faveur de la biodiversité",
-       "ok": false
       }
      ]
     },
@@ -4485,7 +4491,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:97: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4503,7 +4509,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 438781,
+    "html_chars": 441930,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4654,7 +4660,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 898665,
+    "html_chars": 900840,
     "coin_filter": "news",
     "skipped_menu": 957
    },
