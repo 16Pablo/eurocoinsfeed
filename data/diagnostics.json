@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-05T19:59:39.938965+00:00",
+ "generated_at": "2026-11-06T06:45:37.148543+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 28.0,
+     "seconds": 30.6,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.6,
+     "seconds": 21.1,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -238,15 +238,14 @@
     }
    ],
    "scrape": {
-    "anchors": 238,
+    "anchors": 237,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.779,81",
-     "€ 1.963,31",
-     "€ 1.000,00",
-     "€ 1.777,78"
+     "€ 3.729,18",
+     "€ 1.937,01",
+     "€ 1.755,62"
     ],
     "coin_links": [
      {
@@ -388,22 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.779,81",
+      "t": "€ 3.729,18",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.963,31",
+      "t": "€ 1.937,01",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.000,00",
-      "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
-      "ok": false
-     },
-     {
-      "t": "€ 1.777,78",
+      "t": "€ 1.755,62",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -422,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154656,
+    "html_chars": 154654,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1214,6 +1208,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-06",
+     "http": 200,
+     "items": 191,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-05",
      "http": 200,
      "items": 205,
@@ -1229,12 +1229,6 @@
      "day": "2026-11-03",
      "http": 200,
      "items": 240,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-02",
-     "http": 200,
-     "items": 132,
      "relevant": 0
     }
    ],
@@ -1307,7 +1301,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 180165,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1763,7 +1757,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465160,
+    "html_chars": 464152,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -2236,7 +2230,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163920,
+    "html_chars": 163895,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -3562,7 +3556,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136750,
+    "html_chars": 136746,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4172,7 +4166,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239487,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4304,14 +4298,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4330,7 +4324,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4405,93 +4399,23 @@
    "name": "Gouvernement Princier de Monaco",
    "country": "MC",
    "section_url": "https://www.gouv.mc/",
-   "section_http": 200,
-   "section_title": "Portail Officiel du Gouvernement Princier de Monaco",
-   "link_feeds": [
-    "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
-    "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr"
-   ],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b441040>, 'C",
    "feeds_tried": [
     {
-     "url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
-     "http": 200,
-     "type": "application/xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2026-11-05",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Conseil de l’Europe : les Ministres responsables du Sport réunis en Principauté",
-       "ok": false
-      },
-      {
-       "title": "Expérience Logement : un nouveau parcours en ligne pour les candidats",
-       "ok": false
-      },
-      {
-       "title": "Monaco International Triathlon : quels aménagements routiers ?",
-       "ok": false
-      },
-      {
-       "title": "Mise en garde contre les appels téléphoniques frauduleux usurpant le numéro de la Police",
-       "ok": false
-      },
-      {
-       "title": "Monaco à la 76e session du Comité régional de l’OMS pour l’Europe",
-       "ok": false
-      },
-      {
-       "title": "Monaco participe à la 18ème réunion plénière du Cadre inclusif de l’OCDE/G20 sur le BEPS",
-       "ok": false
-      },
-      {
-       "title": "Monaco sort de la « liste grise » du GAFI, la liste de surveillance mondiale de la lutte anti-blanchiment",
-       "ok": false
-      },
-      {
-       "title": "La campagne de réfection des enrobés débute le 4 novembre",
-       "ok": false
-      },
-      {
-       "title": "Monaco participe à la 13ᵉ Conférence des Autorités compétentes du Forum mondial",
-       "ok": false
-      },
-      {
-       "title": "Une nouvelle formalité sanitaire mise en place pour se rendre aux Etats-Unis dès le 3 novembre",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
-     "http": 200,
-     "type": "application/xml; charset=utf-8",
-     "entries": 0
-    },
-    {
      "url": "https://www.gouv.mc/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5c6411"
     },
     {
      "url": "https://www.gouv.mc/feed",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b7a2c30>"
     },
     {
      "url": "https://www.gouv.mc/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b441"
     },
     {
      "url": "https://www.gouv.mc/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5c643ce0>,"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4509,7 +4433,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 441930,
+    "html_chars": 442581,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4660,7 +4584,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900840,
+    "html_chars": 901999,
     "coin_filter": "news",
     "skipped_menu": 957
    },
