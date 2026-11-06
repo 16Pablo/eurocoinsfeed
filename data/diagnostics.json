@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06T06:45:37.148543+00:00",
+ "generated_at": "2026-11-06T19:26:43.408382+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.6,
+     "seconds": 38.4,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 21.1,
+     "seconds": 21.4,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -129,9 +129,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-05",
+     "newest": "2026-11-06",
      "relevant": 0,
      "sample": [
+      {
+       "title": "ECB publishes consolidated banking data for end-June 2026",
+       "ok": false
+      },
       {
        "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
        "ok": false
@@ -187,10 +191,6 @@
       {
        "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
        "ok": false
-      },
-      {
-       "title": "Piero Cipollone: Interview with Milano Finanza",
-       "ok": false
       }
      ]
     }
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.729,18",
-     "€ 1.937,01",
-     "€ 1.755,62"
+     "€ 3.771,51",
+     "€ 1.959,00",
+     "€ 1.801,75"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.729,18",
+      "t": "€ 3.771,51",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.937,01",
+      "t": "€ 1.959,00",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.755,62",
+      "t": "€ 1.801,75",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154654,
+    "html_chars": 154658,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -562,9 +562,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-05",
+     "newest": "2026-11-06",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Announcement of a multi-ISIN auction – Reopening of two Federal bonds",
        "ok": false
@@ -599,10 +603,6 @@
       },
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid for 3-months Bills of the European Stability Mechanism (ESM)",
        "ok": false
       }
      ]
@@ -987,9 +987,21 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-04",
+     "newest": "2026-11-06",
      "relevant": 0,
      "sample": [
+      {
+       "title": "El BCE publica los datos bancarios consolidados correspondientes a junio de 2026",
+       "ok": false
+      },
+      {
+       "title": "José Luis Escrivá. International Center for Monetary and Banking Studies",
+       "ok": false
+      },
+      {
+       "title": "David López Salido. 29th Annual Research Conference of the Dutch Central Bank",
+       "ok": false
+      },
       {
        "title": "El indicador del BCE de seguimiento de los salarios apunta a un crecimiento salarial en los tres primeros trim",
        "ok": false
@@ -1036,18 +1048,6 @@
       },
       {
        "title": "Financiación del Eurosistema (octubre de 2026)",
-       "ok": false
-      },
-      {
-       "title": "La presidenta del BCE, Christine Lagarde, dejará su cargo el 7 de febrero de 2027",
-       "ok": false
-      },
-      {
-       "title": "Principales indicadores económico-financieros de las empresas en 2025 y 2026: muestras anual y trimestral",
-       "ok": false
-      },
-      {
-       "title": "José Luis Escrivá. Santander Conferencia Internacional de Banca 2026",
        "ok": false
       }
      ]
@@ -1301,7 +1301,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180165,
+    "html_chars": 180164,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1757,7 +1757,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464152,
+    "html_chars": 464708,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -2148,7 +2148,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133293,
+    "html_chars": 133537,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2230,7 +2230,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163895,
+    "html_chars": 163750,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2253,6 +2253,10 @@
      "newest": "2026-11-05",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Arbeitsbesuch von Marc Spautz in Berlin",
+       "ok": false
+      },
       {
        "title": "Visite de travail de Lex Delles à Barcelone",
        "ok": false
@@ -2307,10 +2311,6 @@
       },
       {
        "title": "Prolongation des mesures énergétiques – Resilienzpak",
-       "ok": false
-      },
-      {
-       "title": "Mise en ligne de la nouvelle version du JobBoard de l'ADEM",
        "ok": false
       }
      ]
@@ -2599,7 +2599,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 626024,
+    "html_chars": 624587,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2946,8 +2946,8 @@
     }
    ],
    "scrape": {
-    "anchors": 807,
-    "accepted": 21,
+    "anchors": 809,
+    "accepted": 22,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
@@ -2973,6 +2973,12 @@
       "u": "https://www.centralbank.cy/en/banknotes-and-coins",
       "ok": false,
       "menu": true
+     },
+     {
+      "t": "Suspension of Sales of Cyprus Euro Coins, Minted in 2025 and 2026",
+      "u": "https://www.centralbank.cy/en/announcements/suspension-of-sales-coins-06-11-2026",
+      "ok": true,
+      "via": "attr"
      },
      {
       "t": "Commemorative coin, mint year 2026, on the occasion of the assumption of the Presidency of",
@@ -3141,17 +3147,11 @@
       "u": "https://www.centralbank.cy/en/announcements/16-12-2024",
       "ok": true,
       "via": "attr"
-     },
-     {
-      "t": "Procedure for the submission of requests for the purchase of commemorative and collector c",
-      "u": "https://www.centralbank.cy/en/announcements/12-12-2024",
-      "ok": true,
-      "via": "attr"
      }
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 457599,
+    "html_chars": 457796,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3159,9 +3159,17 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 782,
-     "no_text": 781,
+     "count": 784,
+     "no_text": 783,
      "sample": [
+      {
+       "t": "",
+       "u": "w.centralbank.cy/en/announcements/suspension-of-sales-coins-06-11-2026"
+      },
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/06-11-2026"
+      },
       {
        "t": "",
        "u": "s://www.centralbank.cy/en/announcements/interest-rates-mfis-03-11-2026"
@@ -3177,20 +3185,12 @@
       {
        "t": "",
        "u": "entralbank.cy/en/announcements/quarterly-financial-accounts-30-10-2026"
-      },
-      {
-       "t": "",
-       "u": "nts/cbc-governor-participated-in-ecb-governing-council-meeting-10-2026"
-      },
-      {
-       "t": "",
-       "u": "w.centralbank.cy/en/announcements/monetary-policy-decisions-29-10-2026"
       }
      ]
     }
    },
    "method": "scraping",
-   "relevant": 21
+   "relevant": 22
   },
   "malta": {
    "name": "Central Bank of Malta",
@@ -3261,7 +3261,7 @@
      "relevant": 1,
      "sample": [
       {
-       "title": "Joint statement by the the Czech National Bank, Magyar Nemzeti Bank, Narodowy Bank Polski, and Národná banka S",
+       "title": "Joint statement by the Czech National Bank, Magyar Nemzeti Bank, Narodowy Bank Polski, and Národná banka Slove",
        "ok": false
       },
       {
@@ -3556,7 +3556,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136746,
+    "html_chars": 136722,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4166,7 +4166,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
+    "html_chars": 239487,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4298,21 +4298,21 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4399,23 +4399,93 @@
    "name": "Gouvernement Princier de Monaco",
    "country": "MC",
    "section_url": "https://www.gouv.mc/",
-   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b441040>, 'C",
+   "section_http": 200,
+   "section_title": "Portail Officiel du Gouvernement Princier de Monaco",
+   "link_feeds": [
+    "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+    "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr"
+   ],
    "feeds_tried": [
     {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-11-06",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "COP17 Biodiversité : bilan de la participation de Monaco à Erevan",
+       "ok": false
+      },
+      {
+       "title": "Monaco participe à la session plénière de l’Alliance internationale pour la mémoire de l’Holocauste",
+       "ok": false
+      },
+      {
+       "title": "La Commission Supérieure des Comptes lance son nouveau site Internet",
+       "ok": false
+      },
+      {
+       "title": "Une nouvelle loi pour encadrer le sport à Monaco",
+       "ok": false
+      },
+      {
+       "title": "Conseil de l’Europe : les Ministres responsables du Sport réunis en Principauté",
+       "ok": false
+      },
+      {
+       "title": "Expérience Logement : un nouveau parcours en ligne pour les candidats",
+       "ok": false
+      },
+      {
+       "title": "Monaco International Triathlon : quels aménagements routiers ?",
+       "ok": false
+      },
+      {
+       "title": "Mise en garde contre les appels téléphoniques frauduleux usurpant le numéro de la Police",
+       "ok": false
+      },
+      {
+       "title": "Monaco à la 76e session du Comité régional de l’OMS pour l’Europe",
+       "ok": false
+      },
+      {
+       "title": "Monaco participe à la 18ème réunion plénière du Cadre inclusif de l’OCDE/G20 sur le BEPS",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 0
+    },
+    {
      "url": "https://www.gouv.mc/rss.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5c6411"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.gouv.mc/feed",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b7a2c30>"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.gouv.mc/feed.xml",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5b441"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.gouv.mc/rss",
-     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.gouv.mc', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gouv.mc', port=443) at 0x782d5c643ce0>,"
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:76:221: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4433,7 +4503,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 442581,
+    "html_chars": 440285,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4572,19 +4642,11 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Educació atorga 108.000 euros per impulsar dos projectes de recerca doctoral"
-    ],
-    "coin_links": [
-     {
-      "t": "Educació atorga 108.000 euros per impulsar dos projectes de recerca doctoral",
-      "u": "https://www.govern.ad/ca/w/educacio-atorga-108-000-euros-per-impulsar-dos-projectes-de-recerca-doctoral",
-      "ok": false
-     }
-    ],
+    "rejected_sample": [],
+    "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901999,
+    "html_chars": 900005,
     "coin_filter": "news",
     "skipped_menu": 957
    },
