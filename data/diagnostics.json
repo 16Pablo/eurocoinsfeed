@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T13:01:26.094545+00:00",
+ "generated_at": "2026-11-07T21:52:28.433275+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.7,
+     "seconds": 28.9,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 22.3,
+     "seconds": 28.5,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -129,9 +129,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-06",
+     "newest": "2026-11-07",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
+       "ok": false
+      },
       {
        "title": "ECB publishes consolidated banking data for end-June 2026",
        "ok": false
@@ -186,10 +190,6 @@
       },
       {
        "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-       "ok": false
-      },
-      {
-       "title": "Frank Elderson: Taking action for nature – investing in economic resilience and prosperity",
        "ok": false
       }
      ]
@@ -713,7 +713,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282442,
+    "html_chars": 282448,
     "skipped_menu": 496,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1307,7 +1307,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 180162,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1763,7 +1763,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 464768,
+    "html_chars": 465692,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -3562,7 +3562,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136724,
+    "html_chars": 136722,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4172,7 +4172,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239479,
+    "html_chars": 239487,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4330,7 +4330,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4491,7 +4491,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:192: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:167: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4509,7 +4509,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 440179,
+    "html_chars": 442053,
     "skipped_menu": 30
    },
    "method": "scraping",
