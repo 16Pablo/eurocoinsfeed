@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07T06:00:39.446733+00:00",
+ "generated_at": "2026-11-07T13:01:26.094545+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 29.7,
+     "seconds": 30.7,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 80.5,
+     "seconds": 22.3,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -1215,7 +1215,9 @@
    "boe": [
     {
      "day": "2026-11-07",
-     "http": 404
+     "http": 200,
+     "items": 304,
+     "relevant": 0
     },
     {
      "day": "2026-11-06",
@@ -1305,7 +1307,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180162,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1761,7 +1763,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465464,
+    "html_chars": 464768,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -3560,7 +3562,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136722,
+    "html_chars": 136724,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4170,7 +4172,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239486,
+    "html_chars": 239479,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4302,14 +4304,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4489,7 +4491,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:234: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:192: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4507,7 +4509,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 440273,
+    "html_chars": 440179,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4650,7 +4652,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900005,
+    "html_chars": 901491,
     "coin_filter": "news",
     "skipped_menu": 957
    },
