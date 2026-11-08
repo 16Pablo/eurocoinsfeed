@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T13:24:01.517677+00:00",
+ "generated_at": "2026-11-08T22:06:21.288489+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 31.0,
+     "seconds": 37.7,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.1,
+     "seconds": 23.0,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -238,15 +238,14 @@
     }
    ],
    "scrape": {
-    "anchors": 238,
+    "anchors": 237,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.782,59",
-     "€ 1.964,76",
-     "€ 1.000,74",
-     "€ 1.807,28"
+     "€ 3.770,13",
+     "€ 1.958,28",
+     "€ 1.796,26"
     ],
     "coin_links": [
      {
@@ -388,22 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.782,59",
+      "t": "€ 3.770,13",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.964,76",
+      "t": "€ 1.958,28",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.000,74",
-      "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
-      "ok": false
-     },
-     {
-      "t": "€ 1.807,28",
+      "t": "€ 1.796,26",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -422,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154660,
+    "html_chars": 154658,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1761,7 +1755,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465104,
+    "html_chars": 471152,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -2234,7 +2228,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163725,
+    "html_chars": 163775,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -3487,12 +3481,12 @@
     "coin_links": [
      {
       "t": "Emisný plán Mincovne Kremnica 2027",
-      "u": "https://www.mint.sk/novinky/emisny-plan-mincovne-kremnica-2027",
+      "u": "https://www.mint.sk/index.php/novinky/emisny-plan-mincovne-kremnica-2027",
       "ok": false
      },
      {
       "t": "Pozvánka - predaj 20€ minca - Chránená krajinná oblasť Malé Karpaty - 27.10.",
-      "u": "https://www.mint.sk/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
+      "u": "https://www.mint.sk/index.php/novinky/pozvanka-predaj-20eur-minca-chranena-krajinna-oblast-male-karpaty-2710",
       "ok": true
      },
      {
@@ -3560,7 +3554,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136805,
+    "html_chars": 136931,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4170,7 +4164,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239487,
+    "html_chars": 239483,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4316,7 +4310,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4328,7 +4322,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4489,7 +4483,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4507,7 +4501,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 440623,
+    "html_chars": 441240,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4650,7 +4644,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 900005,
+    "html_chars": 901491,
     "coin_filter": "news",
     "skipped_menu": 957
    },
