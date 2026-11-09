@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-08T22:06:21.288489+00:00",
+ "generated_at": "2026-11-09T06:25:18.727748+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.7,
+     "seconds": 31.8,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 23.0,
+     "seconds": 66.2,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -238,14 +238,15 @@
     }
    ],
    "scrape": {
-    "anchors": 237,
+    "anchors": 238,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.770,13",
-     "€ 1.958,28",
-     "€ 1.796,26"
+     "€ 3.807,77",
+     "€ 1.977,83",
+     "€ 1.007,40",
+     "€ 1.811,32"
     ],
     "coin_links": [
      {
@@ -387,17 +388,22 @@
       "menu": true
      },
      {
-      "t": "€ 3.770,13",
+      "t": "€ 3.807,77",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.958,28",
+      "t": "€ 1.977,83",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.796,26",
+      "t": "€ 1.007,40",
+      "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
+      "ok": false
+     },
+     {
+      "t": "€ 1.811,32",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +422,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154658,
+    "html_chars": 154660,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1208,6 +1214,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-09",
+     "http": 404
+    },
+    {
      "day": "2026-11-08",
      "http": 404
     },
@@ -1221,12 +1231,6 @@
      "day": "2026-11-06",
      "http": 200,
      "items": 191,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-05",
-     "http": 200,
-     "items": 205,
      "relevant": 0
     }
    ],
@@ -1299,7 +1303,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180162,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1755,7 +1759,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 471152,
+    "html_chars": 464487,
     "child_links": {
      "count": 312,
      "no_text": 64,
@@ -3468,15 +3472,15 @@
    ],
    "scrape": {
     "anchors": 59,
-    "accepted": 7,
+    "accepted": 6,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
      "Emisný plán Mincovne Kremnica 2027",
      "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
      "Pamätný list 100€ (2026) - Bitka pri Moháči - 500. výročie",
-     "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
-     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec"
+     "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
+     "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty"
     ],
     "coin_links": [
      {
@@ -3490,14 +3494,14 @@
       "ok": true
      },
      {
-      "t": "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
-      "u": "https://www.mint.sk/eshop/minca-zlata-250-dollars-fauna-flora-na-slovensku-vlk-dravy",
-      "ok": false
-     },
-     {
       "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
       "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
       "ok": true
+     },
+     {
+      "t": "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
+      "u": "https://www.mint.sk/eshop/minca-zlata-250-dollars-fauna-flora-na-slovensku-vlk-dravy",
+      "ok": false
      },
      {
       "t": "Album na mince - 5€ (2026-2030)",
@@ -3515,14 +3519,9 @@
       "ok": true
      },
      {
-      "t": "Strieborná minca 20€ (2026) BU - Chránená krajinná oblasť Malé Karpaty",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-chranena-krajinna-oblast-male-karpaty",
+      "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
+      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
       "ok": true
-     },
-     {
-      "t": "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
-      "u": "https://www.mint.sk/eshop/pamatny-list-20eur-2026-chranena-krajinna-oblast-male-karpaty",
-      "ok": false
      },
      {
       "t": "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
@@ -3530,9 +3529,9 @@
       "ok": false
      },
      {
-      "t": "Strieborná minca 20€ (2026) BU - Vyhlásenie Mórica Beňovského za kráľa Madagaskaru - 250.v",
-      "u": "https://www.mint.sk/eshop/strieborna-minca-20eur-2026-bu-vyhlasenie-morica-benovskeho-za-krala-madagaskaru-250vyrocie",
-      "ok": true
+      "t": "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty",
+      "u": "https://www.mint.sk/eshop/pamatny-list-20eur-2026-chranena-krajinna-oblast-male-karpaty",
+      "ok": false
      },
      {
       "t": "Pamätná minca 2€ (2026) proof like - Víťazstvo futbalistov Československa na Majstrovstvác",
@@ -3554,7 +3553,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136931,
+    "html_chars": 139485,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3566,7 +3565,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 7
+   "relevant": 6
   },
   "estonia": {
    "name": "Eesti Pank",
@@ -4164,7 +4163,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239485,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4310,7 +4309,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4322,7 +4321,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4483,7 +4482,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:137: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4501,7 +4500,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 441240,
+    "html_chars": 441996,
     "skipped_menu": 30
    },
    "method": "scraping",
