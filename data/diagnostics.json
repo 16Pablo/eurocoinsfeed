@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-09T22:23:31.144292+00:00",
+ "generated_at": "2026-11-10T07:22:27.729560+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,9 +9,16 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
      "seconds": 30.9,
+     "earlier_attempts": [
+      {
+       "method": "POST",
+       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
+       "seconds": 90.4
+      }
+     ],
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -28,9 +35,16 @@
      "skipped_not_notice": 24
     },
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
-     "seconds": 20.2,
+     "seconds": 54.7,
+     "earlier_attempts": [
+      {
+       "method": "POST",
+       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
+       "seconds": 90.0
+      }
+     ],
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,10 +257,10 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.817,64",
-     "€ 1.982,96",
-     "€ 1.010,02",
-     "€ 1.832,06"
+     "€ 3.783,98",
+     "€ 1.965,47",
+     "€ 1.001,11",
+     "€ 1.821,00"
     ],
     "coin_links": [
      {
@@ -388,22 +402,22 @@
       "menu": true
      },
      {
-      "t": "€ 3.817,64",
+      "t": "€ 3.783,98",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.982,96",
+      "t": "€ 1.965,47",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.010,02",
+      "t": "€ 1.001,11",
       "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.832,06",
+      "t": "€ 1.821,00",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -422,7 +436,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154631,
+    "html_chars": 154632,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1208,6 +1222,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-10",
+     "http": 200,
+     "items": 259,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-09",
      "http": 200,
      "items": 152,
@@ -1221,12 +1241,6 @@
      "day": "2026-11-07",
      "http": 200,
      "items": 304,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-06",
-     "http": 200,
-     "items": 191,
      "relevant": 0
     }
    ],
@@ -1299,7 +1313,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180162,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1634,7 +1648,7 @@
     }
    ],
    "scrape": {
-    "anchors": 367,
+    "anchors": 365,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1748,9 +1762,9 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 463850,
+    "html_chars": 463307,
     "child_links": {
-     "count": 311,
+     "count": 309,
      "no_text": 63,
      "sample": [
       {
@@ -1779,7 +1793,7 @@
       }
      ]
     },
-    "skipped_menu": 287,
+    "skipped_menu": 285,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -2221,7 +2235,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163725,
+    "html_chars": 163750,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2241,9 +2255,21 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-09",
+     "newest": "2026-11-10",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Xavier Bettel en visite de travail en Côte d'Ivoire",
+       "ok": false
+      },
+      {
+       "title": "Gilles Roth a participé aux réunions de l'Eurogroupe et du Conseil ECOFIN à Bruxelles",
+       "ok": false
+      },
+      {
+       "title": "Landwirtschaftsdësch: À Wickrange, le dialogue avec le secteur agricole se poursuit pour préparer la prochaine",
+       "ok": false
+      },
       {
        "title": "Léon Gloden a signé le protocole additionnel à la Charte européenne de l'autonomie locale sur le droit de part",
        "ok": false
@@ -2290,18 +2316,6 @@
       },
       {
        "title": "Événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF et exploité par Cargolux Airlines I",
-       "ok": false
-      },
-      {
-       "title": "Event involving the Boeing B747-8R7F registered LX-VCF, operated by Cargolux Airlines International S.A., whic",
-       "ok": false
-      },
-      {
-       "title": "Lëtzebuerger Musekspräisser 2026: annonce des shortlists",
-       "ok": false
-      },
-      {
-       "title": "#MedSafetyWeek 2026: pour mieux protéger les patients, chaque déclaration compte",
        "ok": false
       }
      ]
@@ -3542,7 +3556,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136589,
+    "html_chars": 136559,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4152,7 +4166,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239485,
+    "html_chars": 239483,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4196,16 +4210,15 @@
     }
    },
    "method": "scraping",
-   "relevant": 4,
+   "relevant": 3,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
      "http": 200,
      "lines": 36,
      "title": "Euro coin issuance plan",
-     "added": 1,
-     "removed": 0,
-     "ref": "e27c2e0b"
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -4285,14 +4298,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4472,7 +4485,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4490,7 +4503,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 440566,
+    "html_chars": 441800,
     "skipped_menu": 30
    },
    "method": "scraping",
