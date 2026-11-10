@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T07:22:27.729560+00:00",
+ "generated_at": "2026-11-10T19:46:17.591546+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,16 +9,9 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 30.9,
-     "earlier_attempts": [
-      {
-       "method": "POST",
-       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.4
-      }
-     ],
+     "seconds": 28.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -35,16 +28,9 @@
      "skipped_not_notice": 24
     },
     {
-     "method": "GET",
+     "method": "POST",
      "http": 200,
-     "seconds": 54.7,
-     "earlier_attempts": [
-      {
-       "method": "POST",
-       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.0
-      }
-     ],
+     "seconds": 22.4,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -143,9 +129,17 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-07",
+     "newest": "2026-11-10",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Philip R. Lane: The science and practice of monetary policy communication: the ECB experience",
+       "ok": false
+      },
+      {
+       "title": "Piero Cipollone: Cash and the digital euro: two sides of the same coin",
+       "ok": false
+      },
       {
        "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
        "ok": false
@@ -197,14 +191,6 @@
       {
        "title": "ECB President Lagarde to step down on 7 February 2027",
        "ok": false
-      },
-      {
-       "title": "October 2026 euro area bank lending survey",
-       "ok": false
-      },
-      {
-       "title": "Survey on the Access to Finance of Enterprises: lending conditions tightened",
-       "ok": false
       }
      ]
     }
@@ -252,15 +238,14 @@
     }
    ],
    "scrape": {
-    "anchors": 238,
+    "anchors": 237,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.783,98",
-     "€ 1.965,47",
-     "€ 1.001,11",
-     "€ 1.821,00"
+     "€ 3.725,14",
+     "€ 1.934,91",
+     "€ 1.798,01"
     ],
     "coin_links": [
      {
@@ -402,22 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.783,98",
+      "t": "€ 3.725,14",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.965,47",
+      "t": "€ 1.934,91",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.001,11",
-      "u": "https://www.muenzeoesterreich.at/produkte/1-4-unze-gold-wiener-philharmoniker",
-      "ok": false
-     },
-     {
-      "t": "€ 1.821,00",
+      "t": "€ 1.798,01",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -436,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154632,
+    "html_chars": 154630,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -582,9 +562,17 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-09",
+     "newest": "2026-11-10",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Invitation to bid – Reopening of two Federal bonds",
+       "ok": false
+      },
+      {
+       "title": "Announcement – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -615,14 +603,6 @@
       },
       {
        "title": "Invitation to bid – Reopening of two Federal bonds",
-       "ok": false
-      },
-      {
-       "title": "Announcement – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "Introductory remarks at the Bundesbank Invited Speakers Series with Itay Goldstein",
        "ok": false
       }
      ]
@@ -727,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282448,
+    "html_chars": 282442,
     "skipped_menu": 496,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -920,7 +900,7 @@
     ],
     "http": 200,
     "page_title": "Münze Deutschland | Startseite | Sammler- und Gedenkmünzen",
-    "html_chars": 113756,
+    "html_chars": 113757,
     "skipped_menu": 44,
     "skipped_menu_sample": [
      "Alle Münzen",
@@ -1001,9 +981,17 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-06",
+     "newest": "2026-11-10",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Gobernador. ICMB. Europe in the new geopolitical landscape",
+       "ok": false
+      },
+      {
+       "title": "Estado financiero consolidado del Eurosistema a 6 de noviembre de 2026",
+       "ok": false
+      },
       {
        "title": "El BCE publica los datos bancarios consolidados correspondientes a junio de 2026",
        "ok": false
@@ -1054,14 +1042,6 @@
       },
       {
        "title": "La capacidad de financiación de la economía española se situó en agosto de 2026 en el 3,7% del PIB",
-       "ok": false
-      },
-      {
-       "title": "El BCE mantiene sin cambios los tipos de interés en octubre",
-       "ok": false
-      },
-      {
-       "title": "Financiación del Eurosistema (octubre de 2026)",
        "ok": false
       }
      ]
@@ -1648,11 +1628,12 @@
     }
    ],
    "scrape": {
-    "anchors": 365,
+    "anchors": 369,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
+     "semeuse les mythes de l or monnaie de 5 000eur en or cresus qualite bu millesime 2026",
      "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la Monnaie de Paris co",
      "Nouveauté 2025-2026 Histoire de l'automobile L’histoire de l’automobile s’écrit aussi en monnaies. Lancée en 2",
      "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
@@ -1709,6 +1690,12 @@
       "menu": true
      },
      {
+      "t": "semeuse les mythes de l or monnaie de 5 000eur en or cresus qualite bu millesime 2026",
+      "u": "https://www.monnaiedeparis.fr/fr/semeuse-les-mythes-de-l-or-monnaie-de-5-000eur-en-or-cresus-qualite-bu-millesime-2026",
+      "ok": false,
+      "via": "slug"
+     },
+     {
       "t": "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la",
       "u": "https://www.monnaiedeparis.fr/batman",
       "ok": false
@@ -1762,9 +1749,9 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 463307,
+    "html_chars": 465653,
     "child_links": {
-     "count": 309,
+     "count": 311,
      "no_text": 63,
      "sample": [
       {
@@ -1793,7 +1780,7 @@
       }
      ]
     },
-    "skipped_menu": 285,
+    "skipped_menu": 289,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -1887,7 +1874,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124412,
+    "html_chars": 124485,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2112,8 +2099,8 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
-     "€-coin è aumentato in ottobre"
+     "Banche e moneta: serie nazionali - Settembre 2026",
+     "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\""
     ],
     "coin_links": [
      {
@@ -2141,19 +2128,19 @@
       "menu": true
      },
      {
-      "t": "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
-      "u": "https://www.bancaditalia.it/media/notizia/al-galata-museo-del-mare-di-genova-arriva-l-avventura-della-moneta-dall-oro-al-digitale/",
+      "t": "Banche e moneta: serie nazionali - Settembre 2026",
+      "u": "https://www.bancaditalia.it/media/notizia/banche-e-moneta-serie-nazionali-settembre-2026/",
       "ok": false
      },
      {
-      "t": "€-coin è aumentato in ottobre",
-      "u": "https://www.bancaditalia.it/media/notizia/coin-aumentato-in-ottobre/",
+      "t": "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
+      "u": "https://www.bancaditalia.it/media/notizia/al-galata-museo-del-mare-di-genova-arriva-l-avventura-della-moneta-dall-oro-al-digitale/",
       "ok": false
      }
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133694,
+    "html_chars": 132973,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2235,7 +2222,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163750,
+    "html_chars": 163725,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2258,6 +2245,22 @@
      "newest": "2026-11-10",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Assermentation de Madame Romy Wiesen, nommée attachée auprès de l’Observatoire de la culture",
+       "ok": false
+      },
+      {
+       "title": "Assermentation de Madame Berglind Fridriks, nommée directrice adjointe auprès du Musée national d’archéologie,",
+       "ok": false
+      },
+      {
+       "title": "Eric Thill a assisté à la constitution de l'ASBL \"Centre national du patrimoine ferroviaire\" (Zuchmusée)",
+       "ok": false
+      },
+      {
+       "title": "Marc Spautz présente la nouvelle stratégie nationale pour l'économie sociale et solidaire et l'innovation soci",
+       "ok": false
+      },
       {
        "title": "Xavier Bettel en visite de travail en Côte d'Ivoire",
        "ok": false
@@ -2291,31 +2294,15 @@
        "ok": false
       },
       {
+       "title": "Nouveaux formulaires de réclamation et de plainte sur Guichet.lu",
+       "ok": false
+      },
+      {
        "title": "\"Niemand diktiert uns unsere Meinung\"",
        "ok": false
       },
       {
        "title": "\"Es war nie Ziel, alle Leute zu erfassen, die in Wohnungsnot sind\"",
-       "ok": false
-      },
-      {
-       "title": "Arbeitsbesuch von Marc Spautz in Berlin",
-       "ok": false
-      },
-      {
-       "title": "Visite de travail de Lex Delles à Barcelone",
-       "ok": false
-      },
-      {
-       "title": "Infections respiratoires: rétrospective de la semaine du 26 octobre au 1er novembre 2026",
-       "ok": false
-      },
-      {
-       "title": "Xavier Bettel en visite de travail à San Francisco",
-       "ok": false
-      },
-      {
-       "title": "Événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF et exploité par Cargolux Airlines I",
        "ok": false
       }
      ]
@@ -2587,7 +2574,7 @@
       "via": "attr"
      },
      {
-      "t": "75 years TV – Silver Medal €150.00 Add to Cart",
+      "t": "75 years TV – Silver Medal €150.00 Out of stock",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
      },
@@ -2604,7 +2591,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 626024,
+    "html_chars": 623150,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2951,11 +2938,12 @@
     }
    ],
    "scrape": {
-    "anchors": 809,
+    "anchors": 812,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 0,
+    "detail_errors": 12,
     "rejected_sample": [
+     "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
      "Πρόσκληση Εκδήλωσης Ενδιαφέροντος για Συμμετοχή σε Μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
      "Νέα ανάρτηση στο The CBC Blog: Από τη Γνώση στη Χρήση - Τι Δείχνει η Έρευνα για το Ψηφιακό Ευρώ",
@@ -2969,8 +2957,7 @@
      "Focus Session with Payment Service Providers on the Digital Euro",
      "ECB launches design contest for future euro banknotes",
      "Digital euro: safeguarding the existing order of our financial system",
-     "Annual Bulletin on euro banknote counterfeiting",
-     "ECB selects motifs for future euro banknotes"
+     "Annual Bulletin on euro banknote counterfeiting"
     ],
     "coin_links": [
      {
@@ -2978,6 +2965,12 @@
       "u": "https://www.centralbank.cy/en/banknotes-and-coins",
       "ok": false,
       "menu": true
+     },
+     {
+      "t": "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
+      "u": "https://www.centralbank.cy/en/announcements/10-11-26",
+      "ok": false,
+      "via": "attr"
      },
      {
       "t": "Suspension of Sales of Cyprus Euro Coins, Minted in 2025 and 2026",
@@ -3146,17 +3139,11 @@
       "u": "https://www.centralbank.cy/en/announcements/31-01-2025",
       "ok": false,
       "via": "attr"
-     },
-     {
-      "t": "Sales of commemorative and collector coins issued on the occasion of the 20th anniversary ",
-      "u": "https://www.centralbank.cy/en/announcements/16-12-2024",
-      "ok": true,
-      "via": "attr"
      }
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 457796,
+    "html_chars": 459438,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3164,9 +3151,21 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 784,
-     "no_text": 783,
+     "count": 787,
+     "no_text": 786,
      "sample": [
+      {
+       "t": "",
+       "u": "ps://www.centralbank.cy/en/announcements/financial-literacy-10-11-2026"
+      },
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/gov-speech-10-11-2026"
+      },
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/10-11-26"
+      },
       {
        "t": "",
        "u": "w.centralbank.cy/en/announcements/suspension-of-sales-coins-06-11-2026"
@@ -3178,18 +3177,6 @@
       {
        "t": "",
        "u": "s://www.centralbank.cy/en/announcements/interest-rates-mfis-03-11-2026"
-      },
-      {
-       "t": "",
-       "u": "https://www.centralbank.cy/en/announcements/risk-buffer-02-11-2026"
-      },
-      {
-       "t": "",
-       "u": "www.centralbank.cy/en/announcements/reference-interest-rate-30-10-2026"
-      },
-      {
-       "t": "",
-       "u": "entralbank.cy/en/announcements/quarterly-financial-accounts-30-10-2026"
       }
      ]
     }
@@ -3556,7 +3543,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136559,
+    "html_chars": 139339,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3816,9 +3803,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-09",
+     "newest": "2026-11-10",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Working paper: How Tax Incentives Shape Participation and Contributions in Tax-Favoured Saving Schemes: Eviden",
+       "ok": false
+      },
       {
        "title": "Latvijas Banka's economic conference – coming up this week",
        "ok": false
@@ -3853,10 +3844,6 @@
       },
       {
        "title": "Latvijas Banka is issuing a licence to Neverless SIA to operate as a payment institution",
-       "ok": false
-      },
-      {
-       "title": "Latvijas Banka is issuing a licence to Atrya Technologies SIA for the provision of crypto-asset services",
        "ok": false
       }
      ]
@@ -4026,7 +4013,7 @@
     }
    ],
    "scrape": {
-    "anchors": 535,
+    "anchors": 534,
     "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
@@ -4038,7 +4025,6 @@
      "Replacement of stained euro banknotes at the Croatian National Bank",
      "Commemorative coins in circulation",
      "Demonetisation of damaged kuna coins",
-     "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
      "Numismatic coins",
      "Commemorative gold and silver kuna coins"
     ],
@@ -4128,12 +4114,6 @@
       "menu": true
      },
      {
-      "t": "Public tender for the sale of kuna and lipa coins and blanks owned by the CNB",
-      "u": "https://www.hnb.hr/en/novac/kuna/kovani-novac/prodaja-kovanica-kune-i-lipe",
-      "ok": false,
-      "menu": true
-     },
-     {
       "t": "Republic of Croatia contribution to euro area monetary aggregates",
       "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
       "ok": false,
@@ -4166,7 +4146,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239483,
+    "html_chars": 239188,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4215,10 +4195,10 @@
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
      "http": 200,
-     "lines": 36,
+     "lines": 34,
      "title": "Euro coin issuance plan",
      "added": 0,
-     "removed": 0
+     "removed": 2
     }
    ]
   },
@@ -4485,7 +4465,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4503,7 +4483,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 441800,
+    "html_chars": 441844,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4642,11 +4622,19 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
+    "rejected_sample": [
+     "Andorra Business duplica els incentius a la recerca i el desenvolupament i destina un milió d’euros a 10 proje"
+    ],
+    "coin_links": [
+     {
+      "t": "Andorra Business duplica els incentius a la recerca i el desenvolupament i destina un mili",
+      "u": "https://www.govern.ad/ca/w/andorra-business-duplica-els-incentius-a-la-recerca-i-el-desenvolupament-i-destina-un-milio-d-euros-a-10-projectes-empresarials",
+      "ok": false
+     }
+    ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901605,
+    "html_chars": 899084,
     "coin_filter": "news",
     "skipped_menu": 957
    },
