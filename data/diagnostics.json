@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10T19:46:17.591546+00:00",
+ "generated_at": "2026-11-11T06:15:35.970732+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 28.2,
+     "seconds": 38.3,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 22.4,
+     "seconds": 29.9,
      "query": "por_celex",
      "rows": 1,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.725,14",
-     "€ 1.934,91",
-     "€ 1.798,01"
+     "€ 3.752,28",
+     "€ 1.949,01",
+     "€ 1.839,34"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.725,14",
+      "t": "€ 3.752,28",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.934,91",
+      "t": "€ 1.949,01",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.798,01",
+      "t": "€ 1.839,34",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154630,
+    "html_chars": 154629,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -501,6 +501,12 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-29",
@@ -547,9 +553,100 @@
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2021-10-28",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
+       "ok": false
+      },
+      {
+       "title": "Calendrier des opérations de maintenance",
+       "ok": false
+      },
+      {
+       "title": "Planning van onderhoudswerkzaamheden",
+       "ok": false
+      },
+      {
+       "title": "MyMinFin",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyRent",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      },
+      {
+       "title": "Tax-Calc",
+       "ok": false
+      },
+      {
+       "title": "Tax-on-web",
+       "ok": false
+      },
+      {
+       "title": "MyMinfin",
+       "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "",
+    "html_chars": 0,
+    "warning": "la página respondió pero sin enlaces utilizables: ¿mantenimiento, bloqueo o página que se pinta con JavaScript? (mira page_title)"
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -707,7 +804,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282442,
+    "html_chars": 282448,
     "skipped_menu": 496,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1202,6 +1299,10 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-11",
+     "http": 404
+    },
+    {
      "day": "2026-11-10",
      "http": 200,
      "items": 259,
@@ -1216,12 +1317,6 @@
     {
      "day": "2026-11-08",
      "http": 404
-    },
-    {
-     "day": "2026-11-07",
-     "http": 200,
-     "items": 304,
-     "relevant": 0
     }
    ],
    "relevant": 0
@@ -1293,7 +1388,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 180164,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1749,7 +1844,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465653,
+    "html_chars": 465509,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2574,7 +2669,7 @@
       "via": "attr"
      },
      {
-      "t": "75 years TV – Silver Medal €150.00 Out of stock",
+      "t": "75 years TV – Silver Medal €150.00 Add to Cart",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
      },
@@ -2591,7 +2686,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623150,
+    "html_chars": 624587,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2941,7 +3036,7 @@
     "anchors": 812,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 12,
+    "detail_errors": 11,
     "rejected_sample": [
      "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -4146,7 +4241,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239188,
+    "html_chars": 239183,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4198,7 +4293,7 @@
      "lines": 34,
      "title": "Euro coin issuance plan",
      "added": 0,
-     "removed": 2
+     "removed": 0
     }
    ]
   },
@@ -4465,7 +4560,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:208: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4483,7 +4578,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 441844,
+    "html_chars": 440851,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4634,7 +4729,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 899084,
+    "html_chars": 900570,
     "coin_filter": "news",
     "skipped_menu": 957
    },
