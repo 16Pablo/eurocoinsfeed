@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-11T06:15:35.970732+00:00",
+ "generated_at": "2026-11-11T14:21:03.672852+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 38.3,
+     "seconds": 37.5,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,9 +30,9 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 29.9,
+     "seconds": 26.8,
      "query": "por_celex",
-     "rows": 1,
+     "rows": 2,
      "relevant": 0,
      "skipped_not_notice": 0
     }
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.752,28",
-     "€ 1.949,01",
-     "€ 1.839,34"
+     "€ 3.746,82",
+     "€ 1.946,17",
+     "€ 1.834,39"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.752,28",
+      "t": "€ 3.746,82",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.949,01",
+      "t": "€ 1.946,17",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.839,34",
+      "t": "€ 1.834,39",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154629,
+    "html_chars": 154630,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -501,12 +501,6 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-29",
@@ -553,100 +547,9 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 10,
-     "newest": "2021-10-28",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "Le SPF Finances est fermé les 1er, 2, 11, 12 et 15 novembre 2021",
-       "ok": false
-      },
-      {
-       "title": "Calendrier des opérations de maintenance",
-       "ok": false
-      },
-      {
-       "title": "Planning van onderhoudswerkzaamheden",
-       "ok": false
-      },
-      {
-       "title": "MyMinFin",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyRent",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      },
-      {
-       "title": "Tax-Calc",
-       "ok": false
-      },
-      {
-       "title": "Tax-on-web",
-       "ok": false
-      },
-      {
-       "title": "MyMinfin",
-       "ok": false
-      }
-     ]
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "",
-    "html_chars": 0,
-    "warning": "la página respondió pero sin enlaces utilizables: ¿mantenimiento, bloqueo o página que se pinta con JavaScript? (mira page_title)"
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -659,9 +562,21 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-10",
+     "newest": "2026-11-11",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening of two Federal bonds – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Announcement of auction – Reopening of Federal Treasury notes",
+       "ok": false
+      },
+      {
+       "title": "Economic challenges in Germany and the future of Europe | Keynote speech at the Latvijas Banka Economic Confer",
+       "ok": false
+      },
       {
        "title": "Invitation to bid – Reopening of two Federal bonds",
        "ok": false
@@ -688,18 +603,6 @@
       },
       {
        "title": "The courage to strive for more Europe | Speech delivered at the Bundesbank’s Capital City Reception",
-       "ok": false
-      },
-      {
-       "title": "3-months Bills of the European Stability Mechanism (ESM) – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid – Reopening of two Federal bonds",
        "ok": false
       }
      ]
@@ -1300,7 +1203,9 @@
    "boe": [
     {
      "day": "2026-11-11",
-     "http": 404
+     "http": 200,
+     "items": 187,
+     "relevant": 0
     },
     {
      "day": "2026-11-10",
@@ -1388,7 +1293,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180164,
+    "html_chars": 181723,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1844,7 +1749,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465509,
+    "html_chars": 465541,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -1969,7 +1874,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 124485,
+    "html_chars": 123448,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2235,7 +2140,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132973,
+    "html_chars": 132906,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2317,7 +2222,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163725,
+    "html_chars": 163750,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2337,9 +2242,29 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-10",
+     "newest": "2026-11-11",
      "relevant": 0,
      "sample": [
+      {
+       "title": "L'Armée luxembourgeoise a célébré la Saint-Martin au centre militaire de Diekirch",
+       "ok": false
+      },
+      {
+       "title": "2026 Benelux Summit - Outcome Document",
+       "ok": false
+      },
+      {
+       "title": "Léger recul du transport voyageurs et hausse du chiffre d'affaires des entreprises ferroviaires",
+       "ok": false
+      },
+      {
+       "title": "Première rencontre entre le ministre Claude Meisch et le Kollektiv Logementskris",
+       "ok": false
+      },
+      {
+       "title": "Le Luxembourg accueille une mission du FMI consacrée à la gestion des investissements publics",
+       "ok": false
+      },
       {
        "title": "Assermentation de Madame Romy Wiesen, nommée attachée auprès de l’Observatoire de la culture",
        "ok": false
@@ -2378,26 +2303,6 @@
       },
       {
        "title": "Assermentation de quatre agents au ministère de l'Environnement, du Climat et de la Biodiversité",
-       "ok": false
-      },
-      {
-       "title": "Présentation du rapport d'activité 2025 du Bureau de gestion des avoirs",
-       "ok": false
-      },
-      {
-       "title": "Journée mondiale du diabète 2026: agir tôt pour mieux protéger sa santé",
-       "ok": false
-      },
-      {
-       "title": "Nouveaux formulaires de réclamation et de plainte sur Guichet.lu",
-       "ok": false
-      },
-      {
-       "title": "\"Niemand diktiert uns unsere Meinung\"",
-       "ok": false
-      },
-      {
-       "title": "\"Es war nie Ziel, alle Leute zu erfassen, die in Wohnungsnot sind\"",
        "ok": false
       }
      ]
@@ -2669,7 +2574,7 @@
       "via": "attr"
      },
      {
-      "t": "75 years TV – Silver Medal €150.00 Add to Cart",
+      "t": "75 years TV – Silver Medal €150.00 Out of stock",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
      },
@@ -2686,7 +2591,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 624587,
+    "html_chars": 623150,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2998,10 +2903,9 @@
    "feeds_tried": [
     {
      "url": "https://www.centralbank.cy/rss.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
     },
     {
      "url": "https://www.centralbank.cy/feed",
@@ -3012,10 +2916,9 @@
     },
     {
      "url": "https://www.centralbank.cy/feed.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
     },
     {
      "url": "https://www.centralbank.cy/rss",
@@ -3026,17 +2929,16 @@
     },
     {
      "url": "https://www.centralbank.cy/atom.xml",
-     "http": 200,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:147:17: not well-formed (invalid token)"
+     "http": 404,
+     "type": "text/html",
+     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 812,
+    "anchors": 815,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 11,
+    "detail_errors": 20,
     "rejected_sample": [
      "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3238,7 +3140,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 459438,
+    "html_chars": 461103,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3246,9 +3148,21 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 787,
-     "no_text": 786,
+     "count": 790,
+     "no_text": 789,
      "sample": [
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/gov-mni-11-11-26"
+      },
+      {
+       "t": "",
+       "u": "https://www.centralbank.cy/en/announcements/imir-sept-2026-11-11-2026"
+      },
+      {
+       "t": "",
+       "u": "centralbank.cy/en/announcements/cir-statistics-october-2026-11-11-2026"
+      },
       {
        "t": "",
        "u": "ps://www.centralbank.cy/en/announcements/financial-literacy-10-11-2026"
@@ -3260,18 +3174,6 @@
       {
        "t": "",
        "u": "https://www.centralbank.cy/en/announcements/10-11-26"
-      },
-      {
-       "t": "",
-       "u": "w.centralbank.cy/en/announcements/suspension-of-sales-coins-06-11-2026"
-      },
-      {
-       "t": "",
-       "u": "https://www.centralbank.cy/en/announcements/06-11-2026"
-      },
-      {
-       "t": "",
-       "u": "s://www.centralbank.cy/en/announcements/interest-rates-mfis-03-11-2026"
       }
      ]
     }
@@ -3344,9 +3246,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-04",
+     "newest": "2026-11-11",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Komuniké z 20. rokovania Bankovej rady NBS",
+       "ok": false
+      },
       {
        "title": "Joint statement by the Czech National Bank, Magyar Nemzeti Bank, Narodowy Bank Polski, and Národná banka Slove",
        "ok": false
@@ -3382,10 +3288,6 @@
       {
        "title": "Malé Karpaty a ich prírodné bohatstvo na novej 20-eurovej zberateľskej minci",
        "ok": true
-      },
-      {
-       "title": "Vyšší výnos dane z príjmov stojí na zlomku firiem",
-       "ok": false
       }
      ]
     }
@@ -3638,7 +3540,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 139339,
+    "html_chars": 138343,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4241,7 +4143,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239183,
+    "html_chars": 239181,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4366,14 +4268,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/feed.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
@@ -4387,7 +4289,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4399,7 +4301,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43229
+    "html_chars": 32768
    },
    "method": "scraping",
    "relevant": 0
@@ -4486,9 +4388,17 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-09",
+     "newest": "2026-11-11",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Festival Résonance : du 24 novembre au 10 décembre 2026",
+       "ok": false
+      },
+      {
+       "title": "PIB 2025 : une cinquième année consécutive de croissance",
+       "ok": false
+      },
       {
        "title": "COP17 Biodiversité : bilan de la participation de Monaco à Erevan",
        "ok": false
@@ -4519,14 +4429,6 @@
       },
       {
        "title": "Mise en garde contre les appels téléphoniques frauduleux usurpant le numéro de la Police",
-       "ok": false
-      },
-      {
-       "title": "Monaco à la 76e session du Comité régional de l’OMS pour l’Europe",
-       "ok": false
-      },
-      {
-       "title": "Monaco participe à la 18ème réunion plénière du Cadre inclusif de l’OCDE/G20 sur le BEPS",
        "ok": false
       }
      ]
@@ -4574,11 +4476,19 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
+    "rejected_sample": [
+     "11 novembre 2026 PIB 2025 : une cinquième année consécutive de croissance Malgré le contexte économique mondia"
+    ],
+    "coin_links": [
+     {
+      "t": "11 novembre 2026 PIB 2025 : une cinquième année consécutive de croissance Malgré le contex",
+      "u": "https://www.gouv.mc/actualites/pib-2025-une-cinquieme-annee-consecutive-de-croissance",
+      "ok": false
+     }
+    ],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 440851,
+    "html_chars": 440539,
     "skipped_menu": 30
    },
    "method": "scraping",
