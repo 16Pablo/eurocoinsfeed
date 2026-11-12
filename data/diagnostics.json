@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T15:13:30.875604+00:00",
+ "generated_at": "2026-11-12T23:42:05.494492+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 50.5,
+     "seconds": 29.6,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 24.9,
+     "seconds": 74.7,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,77 +46,75 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 30,
-     "newest": "2026-10-14",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "35 years of the Erasmus programme - Finland",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovakia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovenia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Portugal",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Austria",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Netherlands",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Malta",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Luxembourg",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Lithuania",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Latvia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Cyprus",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Italy",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - France",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Spain",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Greece",
-       "ok": true
-      }
-     ],
-     "skipped_old": 30
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss.xml",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed.xml",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/atom.xml",
+     "http": 429,
+     "type": "",
+     "entries": 0
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Commemorative coins - Economy and Finance - European Commission",
+   "link_feeds": [],
+   "scrape": {
+    "anchors": 82,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "Euro coins and notes",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Commemorative coins - Economy and Finance - European Commission",
+    "html_chars": 156077,
+    "coin_filter": "news",
+    "skipped_menu": 36,
+    "skipped_menu_sample": [
+     "Euro coins and notes",
+     "Euro coins"
+    ]
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "ecb": {
@@ -243,9 +241,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.605,19",
-     "€ 1.872,61",
-     "€ 1.789,07"
+     "€ 3.617,84",
+     "€ 1.879,18",
+     "€ 1.792,54"
     ],
     "coin_links": [
      {
@@ -387,17 +385,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.605,19",
+      "t": "€ 3.617,84",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.872,61",
+      "t": "€ 1.879,18",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.789,07",
+      "t": "€ 1.792,54",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -1295,7 +1293,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 181721,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1751,7 +1749,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466465,
+    "html_chars": 465625,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2043,7 +2041,7 @@
     ],
     "http": 200,
     "page_title": "Home page",
-    "html_chars": 201330,
+    "html_chars": 201358,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "2 Euro Coins",
@@ -2100,9 +2098,7 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Banche e moneta: serie nazionali - Settembre 2026"
-    ],
+    "rejected_sample": [],
     "coin_links": [
      {
       "t": "Emissione euro",
@@ -2127,16 +2123,11 @@
       "u": "https://www.bancaditalia.it/statistiche/tematiche/moneta-intermediari-finanza/index.html",
       "ok": false,
       "menu": true
-     },
-     {
-      "t": "Banche e moneta: serie nazionali - Settembre 2026",
-      "u": "https://www.bancaditalia.it/media/notizia/banche-e-moneta-serie-nazionali-settembre-2026/",
-      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132946,
+    "html_chars": 133122,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2242,6 +2233,18 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Ouverture anticipée du foyer de nuit de l'Action Hiver (Wanteraktioun – WAK) le 13.11.2026",
+       "ok": false
+      },
+      {
+       "title": "Dates des examens théoriques pour 2027",
+       "ok": false
+      },
+      {
+       "title": "Interdiction temporaire de vols de drones à l’occasion du projet LAS",
+       "ok": false
+      },
+      {
        "title": "Annonce des résultats du Concours littéraire national 2026",
        "ok": false
       },
@@ -2287,18 +2290,6 @@
       },
       {
        "title": "Assermentation de Madame Berglind Fridriks, nommée directrice adjointe auprès du Musée national d’archéologie,",
-       "ok": false
-      },
-      {
-       "title": "Eric Thill a assisté à la constitution de l'ASBL \"Centre national du patrimoine ferroviaire\" (Zuchmusée)",
-       "ok": false
-      },
-      {
-       "title": "Marc Spautz présente la nouvelle stratégie nationale pour l'économie sociale et solidaire et l'innovation soci",
-       "ok": false
-      },
-      {
-       "title": "Xavier Bettel en visite de travail en Côte d'Ivoire",
        "ok": false
       }
      ]
@@ -2570,7 +2561,7 @@
       "via": "attr"
      },
      {
-      "t": "75 years TV – Silver Medal €150.00 Add to Cart",
+      "t": "75 years TV – Silver Medal €150.00 Out of stock",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
      },
@@ -2587,7 +2578,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623375,
+    "html_chars": 621938,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2937,7 +2928,7 @@
     "anchors": 815,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 21,
+    "detail_errors": 1,
     "rejected_sample": [
      "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3539,7 +3530,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138346,
+    "html_chars": 138348,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4142,7 +4133,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239188,
+    "html_chars": 239181,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4267,7 +4258,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/feed.xml",
@@ -4281,14 +4272,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4387,7 +4378,7 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-11",
+     "newest": "2026-11-12",
      "relevant": 0,
      "sample": [
       {
@@ -4487,7 +4478,7 @@
     ],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 443546,
+    "html_chars": 443512,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4638,7 +4629,7 @@
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 895626,
+    "html_chars": 895530,
     "coin_filter": "news",
     "skipped_menu": 957
    },
