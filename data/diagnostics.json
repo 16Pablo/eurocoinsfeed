@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T00:44:09.817976+00:00",
+ "generated_at": "2026-11-12T15:13:30.875604+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.8,
+     "seconds": 50.5,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 24.0,
+     "seconds": 24.9,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.703,70",
-     "€ 1.923,77",
-     "€ 1.799,76"
+     "€ 3.605,19",
+     "€ 1.872,61",
+     "€ 1.789,07"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.703,70",
+      "t": "€ 3.605,19",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.923,77",
+      "t": "€ 1.872,61",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.799,76",
+      "t": "€ 1.789,07",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154630,
+    "html_chars": 154750,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -562,9 +562,21 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-11",
+     "newest": "2026-11-12",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Bundesbank: Risks to financial stability remain elevated | The 2026 Financial Stability Review sees challenges",
+       "ok": false
+      },
+      {
+       "title": "Statement on the publication of the Financial Stability Review 2026 of the Deutsche Bundesbank | Press confere",
+       "ok": false
+      },
+      {
+       "title": "Announcement of auction – Reopening 7-year Federal bond",
+       "ok": false
+      },
       {
        "title": "Reopening of two Federal bonds – Auction result",
        "ok": false
@@ -592,24 +604,12 @@
       {
        "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
        "ok": false
-      },
-      {
-       "title": "Announcement of a multi-ISIN auction – Reopening of two Federal bonds",
-       "ok": false
-      },
-      {
-       "title": "Reopening of two Federal bonds – Auction result",
-       "ok": false
-      },
-      {
-       "title": "The courage to strive for more Europe | Speech delivered at the Bundesbank’s Capital City Reception",
-       "ok": false
       }
      ]
     }
    ],
    "scrape": {
-    "anchors": 504,
+    "anchors": 505,
     "accepted": 2,
     "second_chance": 0,
     "detail_errors": 0,
@@ -707,8 +707,8 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 282442,
-    "skipped_menu": 496,
+    "html_chars": 286006,
+    "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
      "Digital euro",
@@ -1203,7 +1203,9 @@
    "boe": [
     {
      "day": "2026-11-12",
-     "http": 404
+     "http": 200,
+     "items": 210,
+     "relevant": 0
     },
     {
      "day": "2026-11-11",
@@ -1749,7 +1751,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466549,
+    "html_chars": 466465,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -1874,7 +1876,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 123500,
+    "html_chars": 123633,
     "skipped_menu": 302,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2099,8 +2101,7 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "Banche e moneta: serie nazionali - Settembre 2026",
-     "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\""
+     "Banche e moneta: serie nazionali - Settembre 2026"
     ],
     "coin_links": [
      {
@@ -2131,16 +2132,11 @@
       "t": "Banche e moneta: serie nazionali - Settembre 2026",
       "u": "https://www.bancaditalia.it/media/notizia/banche-e-moneta-serie-nazionali-settembre-2026/",
       "ok": false
-     },
-     {
-      "t": "Al Galata Museo del Mare di Genova arriva \"L'avventura della moneta. Dall'oro al digitale\"",
-      "u": "https://www.bancaditalia.it/media/notizia/al-galata-museo-del-mare-di-genova-arriva-l-avventura-della-moneta-dall-oro-al-digitale/",
-      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 132906,
+    "html_chars": 132946,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2242,9 +2238,21 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-11",
+     "newest": "2026-11-12",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Annonce des résultats du Concours littéraire national 2026",
+       "ok": false
+      },
+      {
+       "title": "Infections respiratoires: rétrospective de la semaine du 2 au 8 novembre 2026",
+       "ok": false
+      },
+      {
+       "title": "Résumé des travaux du 11 novembre 2026",
+       "ok": false
+      },
       {
        "title": "\"Des avancées concrètes et de nouvelles perspectives\": la Commission européenne finance des projets innovants ",
        "ok": false
@@ -2291,18 +2299,6 @@
       },
       {
        "title": "Xavier Bettel en visite de travail en Côte d'Ivoire",
-       "ok": false
-      },
-      {
-       "title": "Gilles Roth a participé aux réunions de l'Eurogroupe et du Conseil ECOFIN à Bruxelles",
-       "ok": false
-      },
-      {
-       "title": "Landwirtschaftsdësch: À Wickrange, le dialogue avec le secteur agricole se poursuit pour préparer la prochaine",
-       "ok": false
-      },
-      {
-       "title": "Léon Gloden a signé le protocole additionnel à la Charte européenne de l'autonomie locale sur le droit de part",
        "ok": false
       }
      ]
@@ -2574,7 +2570,7 @@
       "via": "attr"
      },
      {
-      "t": "75 years TV – Silver Medal €150.00 Out of stock",
+      "t": "75 years TV – Silver Medal €150.00 Add to Cart",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
      },
@@ -2591,7 +2587,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 623150,
+    "html_chars": 623375,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2941,7 +2937,7 @@
     "anchors": 815,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 0,
+    "detail_errors": 21,
     "rejected_sample": [
      "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3249,9 +3245,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-11",
+     "newest": "2026-11-12",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Pravidelné európske zisťovanie ukáže, koľko máme úspor, dlhov a majetku",
+       "ok": false
+      },
       {
        "title": "Účet „NBS“ pre verejnosť neexistuje. Pozor na podvodné stránky.",
        "ok": false
@@ -3286,10 +3286,6 @@
       },
       {
        "title": "Komuniké z 19. rokovania Bankovej rady NBS",
-       "ok": false
-      },
-      {
-       "title": "Mnohé firmy o úver nežiadajú, hoci by ho získali",
        "ok": false
       }
      ]
@@ -3543,7 +3539,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138374,
+    "html_chars": 138346,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4146,7 +4142,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239187,
+    "html_chars": 239188,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4271,7 +4267,7 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/feed.xml",
@@ -4285,14 +4281,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4465,7 +4461,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:163: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4491,7 +4487,7 @@
     ],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 441883,
+    "html_chars": 443546,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4626,29 +4622,23 @@
     }
    ],
    "scrape": {
-    "anchors": 993,
+    "anchors": 992,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "El Govern destina més de 180.000 euros al foment de la transhumància ovina",
-     "Andorra Business duplica els incentius a la recerca i el desenvolupament i destina un milió d’euros a 10 proje"
+     "El Govern destina més de 180.000 euros al foment de la transhumància ovina"
     ],
     "coin_links": [
      {
       "t": "El Govern destina més de 180.000 euros al foment de la transhumància ovina",
       "u": "https://www.govern.ad/ca/w/el-govern-destina-mes-de-180-000-euros-al-foment-de-la-transhumancia-ovina",
       "ok": false
-     },
-     {
-      "t": "Andorra Business duplica els incentius a la recerca i el desenvolupament i destina un mili",
-      "u": "https://www.govern.ad/ca/w/andorra-business-duplica-els-incentius-a-la-recerca-i-el-desenvolupament-i-destina-un-milio-d-euros-a-10-projectes-empresarials",
-      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 901257,
+    "html_chars": 895626,
     "coin_filter": "news",
     "skipped_menu": 957
    },
