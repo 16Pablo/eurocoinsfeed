@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12T23:42:05.494492+00:00",
+ "generated_at": "2026-11-13T06:46:19.681908+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 29.6,
+     "seconds": 37.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -28,9 +28,16 @@
      "skipped_not_notice": 24
     },
     {
-     "method": "POST",
+     "method": "GET",
      "http": 200,
-     "seconds": 74.7,
+     "seconds": 31.1,
+     "earlier_attempts": [
+      {
+       "method": "POST",
+       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
+       "seconds": 90.1
+      }
+     ],
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,75 +53,77 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/atom.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 30,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "35 years of the Erasmus programme - Finland",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovakia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovenia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Portugal",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Austria",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Netherlands",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Malta",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Luxembourg",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Lithuania",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Latvia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Cyprus",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Italy",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - France",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Spain",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Greece",
+       "ok": true
+      }
+     ],
+     "skipped_old": 30
     }
    ],
-   "section_http": 200,
-   "section_title": "Commemorative coins - Economy and Finance - European Commission",
-   "link_feeds": [],
-   "scrape": {
-    "anchors": 82,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [
-     {
-      "t": "Euro coins and notes",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Commemorative coins - Economy and Finance - European Commission",
-    "html_chars": 156077,
-    "coin_filter": "news",
-    "skipped_menu": 36,
-    "skipped_menu_sample": [
-     "Euro coins and notes",
-     "Euro coins"
-    ]
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "ecb": {
@@ -241,9 +250,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.617,84",
-     "€ 1.879,18",
-     "€ 1.792,54"
+     "€ 3.635,72",
+     "€ 1.888,46",
+     "€ 1.795,01"
     ],
     "coin_links": [
      {
@@ -385,17 +394,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.617,84",
+      "t": "€ 3.635,72",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.879,18",
+      "t": "€ 1.888,46",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.792,54",
+      "t": "€ 1.795,01",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -705,7 +714,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1200,6 +1209,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-13",
+     "http": 200,
+     "items": 271,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-12",
      "http": 200,
      "items": 210,
@@ -1215,12 +1230,6 @@
      "day": "2026-11-10",
      "http": 200,
      "items": 259,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-09",
-     "http": 200,
-     "items": 152,
      "relevant": 0
     }
    ],
@@ -1293,7 +1302,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 181721,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1749,7 +1758,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465625,
+    "html_chars": 467921,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2928,7 +2937,7 @@
     "anchors": 815,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 1,
+    "detail_errors": 0,
     "rejected_sample": [
      "Με επιτυχία ολοκληρώθηκε το πρώτο εργαστήρι σχεδιασμού κερμάτων",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -4133,7 +4142,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239181,
+    "html_chars": 239190,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4265,14 +4274,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4291,7 +4300,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 32768
+    "html_chars": 43229
    },
    "method": "scraping",
    "relevant": 0
@@ -4452,7 +4461,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:80:55: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:81: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4478,7 +4487,7 @@
     ],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 443512,
+    "html_chars": 443580,
     "skipped_menu": 30
    },
    "method": "scraping",
