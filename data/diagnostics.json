@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T06:21:38.281614+00:00",
+ "generated_at": "2026-11-14T13:39:19.945730+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 34.1,
+     "seconds": 33.9,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 25.9,
+     "seconds": 22.9,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1203,7 +1203,9 @@
    "boe": [
     {
      "day": "2026-11-14",
-     "http": 404
+     "http": 200,
+     "items": 388,
+     "relevant": 0
     },
     {
      "day": "2026-11-13",
@@ -1231,57 +1233,76 @@
    "country": "ES",
    "section_url": "https://www.fnmt.es/prensa/notas-de-prensa",
    "section_http": 200,
-   "section_title": "Acceso denegado según la política de seguridad de la FNMT-RCM",
+   "section_title": "Notas de prensa - FNMT",
    "link_feeds": [],
    "feeds_tried": [
     {
      "url": "https://www.fnmt.es/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=utf-8",
-     "entries": 0,
-     "bozo": "<unknown>:66:2: mismatched tag"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed",
-     "http": 200,
-     "type": "text/html; charset=utf-8",
-     "entries": 0,
-     "bozo": "<unknown>:67:766: not well-formed (invalid token)"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.fnmt.es/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=utf-8",
-     "entries": 0,
-     "bozo": "<unknown>:66:2: mismatched tag"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.fnmt.es/rss",
-     "http": 200,
-     "type": "text/html; charset=utf-8",
-     "entries": 0,
-     "bozo": "<unknown>:67:766: not well-formed (invalid token)"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.fnmt.es/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=utf-8",
-     "entries": 0,
-     "bozo": "<unknown>:66:2: mismatched tag"
+     "http": 404,
+     "type": "text/html;charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
-    "anchors": 0,
+    "anchors": 124,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [],
-    "coin_links": [],
+    "coin_links": [
+     {
+      "t": "Moneda Circulante",
+      "u": "https://www.fnmt.es/coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Emisiones de 2 Euro",
+      "u": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-circulante/emisiones-de-2-euros",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Moneda de Colección",
+      "u": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-de-coleccion",
+      "ok": false,
+      "menu": true
+     }
+    ],
     "http": 200,
-    "page_title": "Acceso denegado según la política de seguridad de la FNMT-RCM",
-    "html_chars": 41196,
+    "page_title": "Notas de prensa - FNMT",
+    "html_chars": 180162,
     "coin_filter": "news",
-    "warning": "la página respondió pero sin enlaces utilizables: ¿mantenimiento, bloqueo o página que se pinta con JavaScript? (mira page_title)"
+    "skipped_menu": 91,
+    "skipped_menu_sample": [
+     "Moneda Circulante",
+     "Emisiones de 2 Euro",
+     "Moneda de Colección"
+    ]
    },
    "method": "scraping",
    "relevant": 0,
@@ -1289,9 +1310,10 @@
     {
      "url": "https://www.fnmt.es/productos-y-servicios/moneda-y-billetes/moneda-circulante/emisiones-de-2-euros",
      "http": 200,
-     "lines": 5,
-     "title": "Acceso denegado según la política de seguridad de la FNMT-RCM",
-     "warning": "página mucho más corta (5 líneas frente a 71): se ignora"
+     "lines": 71,
+     "title": "Emisiones de 2 Euros - FNMT",
+     "added": 0,
+     "removed": 0
     }
    ]
   },
@@ -1729,7 +1751,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466157,
+    "html_chars": 465597,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2107,7 +2129,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133284,
+    "html_chars": 133276,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2189,7 +2211,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163750,
+    "html_chars": 163725,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -3510,7 +3532,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138347,
+    "html_chars": 138349,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4113,7 +4135,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239186,
+    "html_chars": 239185,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4245,14 +4267,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4271,7 +4293,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43761
+    "html_chars": 33300
    },
    "method": "scraping",
    "relevant": 0
@@ -4545,7 +4567,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 893451,
+    "html_chars": 893351,
     "coin_filter": "news",
     "skipped_menu": 957
    },
