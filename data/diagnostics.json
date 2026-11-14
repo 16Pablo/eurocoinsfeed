@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14T13:39:19.945730+00:00",
+ "generated_at": "2026-11-14T22:30:51.604065+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 33.9,
+     "seconds": 29.7,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 22.9,
+     "seconds": 6.4,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,77 +46,75 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 30,
-     "newest": "2026-10-14",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "35 years of the Erasmus programme - Finland",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovakia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovenia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Portugal",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Austria",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Netherlands",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Malta",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Luxembourg",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Lithuania",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Latvia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Cyprus",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Italy",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - France",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Spain",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Greece",
-       "ok": true
-      }
-     ],
-     "skipped_old": 30
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/atom.xml",
+     "http": 429,
+     "type": "",
+     "entries": 0
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Commemorative coins - Economy and Finance - European Commission",
+   "link_feeds": [],
+   "scrape": {
+    "anchors": 82,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "Euro coins and notes",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Commemorative coins - Economy and Finance - European Commission",
+    "html_chars": 156077,
+    "coin_filter": "news",
+    "skipped_menu": 36,
+    "skipped_menu_sample": [
+     "Euro coins and notes",
+     "Euro coins"
+    ]
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "ecb": {
@@ -1295,7 +1293,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180162,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1751,7 +1749,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465597,
+    "html_chars": 465933,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -2129,7 +2127,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133276,
+    "html_chars": 133284,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -3532,7 +3530,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138349,
+    "html_chars": 138346,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -3966,228 +3964,44 @@
    "name": "Croatian National Bank",
    "country": "HR",
    "section_url": "https://www.hnb.hr/en/currency/euro-coins",
-   "section_http": 200,
-   "section_title": "Euro coins",
-   "link_feeds": [],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at",
    "feeds_tried": [
     {
      "url": "https://www.hnb.hr/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7ea4de04e480"
     },
     {
      "url": "https://www.hnb.hr/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7ea4dceb7050>, "
     },
     {
      "url": "https://www.hnb.hr/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7ea4dceb76e"
     },
     {
      "url": "https://www.hnb.hr/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7ea4dde25c70>, '"
     },
     {
      "url": "https://www.hnb.hr/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7ea4dd20b74"
     }
    ],
    "scrape": {
-    "anchors": 534,
-    "accepted": 3,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Euro coins of other countries",
-     "Replacement of stained euro banknotes at the Croatian National Bank",
-     "Commemorative coins in circulation",
-     "Demonetisation of damaged kuna coins",
-     "Numismatic coins",
-     "Commemorative gold and silver kuna coins"
-    ],
-    "coin_links": [
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/core-functions/payment-system/digital-euro",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro banknotes",
-      "u": "https://www.hnb.hr/en/currency/euro-banknotes",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin denominations",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Issuance of commemorative and collector euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins of other countries",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Numismatic coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/numismatic-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative gold and silver kuna coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/commemorative-gold-and-silver-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Replacement of stained euro banknotes at the Croatian National Bank",
-      "u": "https://www.hnb.hr/en/currency/replacement-of-cash/replacement-of-stained-euro-banknotes-at-the-croatian-national-bank",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-surveys/euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin issuance plan",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative coins in circulation",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/commemorative-coins-in-circulation",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Demonetisation of damaged kuna coins",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/demonetisation-of-damaged-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Republic of Croatia contribution to euro area monetary aggregates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro foreign exchange reference rates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/euro-foreign-exchange-reference-rates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Exchange rates of other currencies for the euro (CNB)",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/exchange-rates-of-other-currencies-for-the-euro-cnb",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "The results of the euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/other-monetary-financial-institutions/credit-institutions/the-results-of-the-euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/public-relations/explainers/by-topic/digital-euro",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Euro coins",
-    "html_chars": 239185,
-    "skipped_menu": 503,
-    "skipped_menu_sample": [
-     "Digital euro",
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Issuance of commemorative and collector euro coins",
-     "Commemorative euro coins",
-     "Euro coins of other countries",
-     "Numismatic coins"
-    ],
-    "child_links": {
-     "count": 14,
-     "no_text": 0,
-     "sample": [
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      },
-      {
-       "t": "Commemorative euro coins",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins"
-      },
-      {
-       "t": "Euro coins of other countries",
-       "u": "ttps://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries"
-      },
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      }
-     ]
-    }
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at"
    },
    "method": "scraping",
-   "relevant": 3,
+   "relevant": 0,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-     "http": 200,
-     "lines": 34,
-     "title": "Euro coin issuance plan",
-     "added": 0,
-     "removed": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan (Cau"
     }
    ]
   },
@@ -4267,14 +4081,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4293,7 +4107,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 33300
+    "html_chars": 43761
    },
    "method": "scraping",
    "relevant": 0
