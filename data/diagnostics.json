@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15T06:31:42.707958+00:00",
+ "generated_at": "2026-11-15T18:53:00.469252+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -9,22 +9,28 @@
    "method": "sparql",
    "sparql": [
     {
-     "method": "GET",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-     "seconds": 90.4,
-     "earlier_attempts": [
-      {
-       "method": "POST",
-       "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.4
-      }
+     "method": "POST",
+     "http": 200,
+     "seconds": 37.7,
+     "query": "por_titulo",
+     "rows": 24,
+     "skipped_sample": [
+      "C/2026/05648 | New national side of euro coins intended for circulation",
+      "C/2026/05635 | New national side of euro coins intended for circulation",
+      "C/2026/05652 | New national side of euro coins intended for circulation",
+      "C/2026/05645 | New national side of euro coins intended for circulation",
+      "C/2026/05644 | New national side of euro coins intended for circulation",
+      "C/2026/05663 | New national side of euro coins intended for circulation",
+      "C/2026/05660 | New national side of euro coins intended for circulation",
+      "C/2026/05642 | New national side of euro coins intended for circulation"
      ],
-     "query": "por_titulo"
+     "relevant": 0,
+     "skipped_not_notice": 24
     },
     {
      "method": "POST",
      "http": 200,
-     "seconds": 20.9,
+     "seconds": 19.9,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -237,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.643,44",
-     "€ 1.892,48",
-     "€ 1.773,64"
+     "€ 3.629,32",
+     "€ 1.885,14",
+     "€ 1.761,59"
     ],
     "coin_links": [
      {
@@ -381,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.643,44",
+      "t": "€ 3.629,32",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.892,48",
+      "t": "€ 1.885,14",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.773,64",
+      "t": "€ 1.761,59",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -410,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154864,
+    "html_chars": 154863,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -701,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1287,7 +1293,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 180162,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1743,7 +1749,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465033,
+    "html_chars": 465789,
     "child_links": {
      "count": 311,
      "no_text": 63,
@@ -3524,7 +3530,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138349,
+    "html_chars": 138343,
     "skipped_menu": 21,
     "accepted_in_menu": 1,
     "accepted_in_menu_sample": [
@@ -4127,7 +4133,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239188,
+    "html_chars": 239185,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4259,14 +4265,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4285,7 +4291,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43761
+    "html_chars": 33300
    },
    "method": "scraping",
    "relevant": 0
@@ -4465,63 +4471,50 @@
    "name": "Vatican City State",
    "country": "VA",
    "section_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.html",
-   "section_error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)",
+   "section_http": 200,
+   "section_title": "Vatican State",
+   "link_feeds": [
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=atom"
+   ],
    "feeds_tried": [
     {
-     "url": "https://vaticanstate.va/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://vaticanstate.va/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://vaticanstate.va/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://vaticanstate.va/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://vaticanstate.va/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 6,
+     "newest": "2026-10-03",
+     "relevant": 6,
+     "sample": [
+      {
+       "title": "New Numismatic Issues Available",
+       "ok": true
+      },
+      {
+       "title": "New numismatic issues, year 2025, of the Governorate of the Vatican City State",
+       "ok": true
+      },
+      {
+       "title": "Numismatic issues commemorating Saint Francis",
+       "ok": true
+      },
+      {
+       "title": "Presentation of New Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three States, One Tribute to Saint Francis: the Numismatic Triptych Dedicated to the Canticle of the Creatures",
+       "ok": true
+      }
+     ]
     }
    ],
-   "scrape": {
-    "anchors": 62,
-    "accepted": 6,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [
-     {
-      "t": "Coins and stamps",
-      "u": "https://vaticanstate.va/en/state-and-government/general-informations/coins-and-stamps.html",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Vatican State",
-    "html_chars": 33104,
-    "coin_filter": "news",
-    "skipped_menu": 56,
-    "skipped_menu_sample": [
-     "Coins and stamps"
-    ]
-   },
-   "method": "scraping",
+   "method": "feed_descubierto",
+   "feed_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
    "relevant": 6
   },
   "andorra": {
@@ -4572,7 +4565,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 893351,
+    "html_chars": 894948,
     "coin_filter": "news",
     "skipped_menu": 957
    },
