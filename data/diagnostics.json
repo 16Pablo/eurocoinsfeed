@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T07:56:30.695747+00:00",
+ "generated_at": "2026-11-17T20:57:01.881396+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 46.1,
+     "seconds": 39.9,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 21.5,
+     "seconds": 19.6,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -58,8 +58,8 @@
     },
     {
      "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 429,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
      "entries": 0
     },
     {
@@ -70,8 +70,8 @@
     },
     {
      "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 429,
-     "type": "",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
      "entries": 0
     },
     {
@@ -127,9 +127,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-16",
+     "newest": "2026-11-17",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
+       "ok": false
+      },
       {
        "title": "Frank Elderson: Smart supervision for small banks",
        "ok": false
@@ -185,10 +189,6 @@
       {
        "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
        "ok": false
-      },
-      {
-       "title": "Piero Cipollone: Next-day securities settlement, tokenisation and the transformation of Europe’s financial inf",
-       "ok": false
       }
      ]
     }
@@ -241,9 +241,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.631,87",
-     "€ 1.886,46",
-     "€ 1.740,06"
+     "€ 3.608,97",
+     "€ 1.874,57",
+     "€ 1.688,38"
     ],
     "coin_links": [
      {
@@ -385,17 +385,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.631,87",
+      "t": "€ 3.608,97",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.886,46",
+      "t": "€ 1.874,57",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.740,06",
+      "t": "€ 1.688,38",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -414,7 +414,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154751,
+    "html_chars": 154748,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -560,9 +560,21 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-16",
+     "newest": "2026-11-17",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening of Federal Treasury notes – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Invitation to bid by auction – Reopening 7-year Federal bond",
+       "ok": false
+      },
+      {
+       "title": "Announcement – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Auction result – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -589,18 +601,6 @@
       },
       {
        "title": "German balance of payments in September 2026",
-       "ok": false
-      },
-      {
-       "title": "Bundesbank: Risks to financial stability remain elevated | The 2026 Financial Stability Review sees challenges",
-       "ok": false
-      },
-      {
-       "title": "Statement on the publication of the Financial Stability Review 2026 of the Deutsche Bundesbank | Press confere",
-       "ok": false
-      },
-      {
-       "title": "Announcement of auction – Reopening 7-year Federal bond",
        "ok": false
       }
      ]
@@ -705,7 +705,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -979,9 +979,21 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-13",
+     "newest": "2026-11-17",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Estado financiero consolidado del Eurosistema a 13 de noviembre de 2026",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España celebra el XXIV Foro de Análisis Latinoamericano",
+       "ok": false
+      },
+      {
+       "title": "La deuda de las Administraciones Públicas se situó en septiembre de 2026 en el 100,3 % del PIB",
+       "ok": false
+      },
       {
        "title": "El Banco de España y la Cátedra Nebrija celebran un encuentro en el que se analiza la nueva fase exportadora e",
        "ok": false
@@ -1028,18 +1040,6 @@
       },
       {
        "title": "Estado financiero consolidado del Eurosistema a 30 de octubre de 2026",
-       "ok": false
-      },
-      {
-       "title": "El euríbor se sitúa en el 3,239% en octubre, 1,052 puntos más que hace un año",
-       "ok": false
-      },
-      {
-       "title": "Estadísticas de los tipos de interés aplicados por las entidades de crédito de la zona del euro: septiembre de",
-       "ok": false
-      },
-      {
-       "title": "Gobernador. Barcelona 2026 World in Progress. Bancos centrales: independencia, estabilidad y crecimiento",
        "ok": false
       }
      ]
@@ -1291,7 +1291,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180164,
+    "html_chars": 180162,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1341,9 +1341,7 @@
     },
     {
      "url": "https://www.helsinkimint.com/rss",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
     },
     {
      "url": "https://www.helsinkimint.com/atom.xml",
@@ -1362,9 +1360,9 @@
      "Bullion Coins",
      "Gold Coins",
      "Silver Coins",
+     "Annual Set Finland 2026 Proof Quality €109.95 Add to Cart",
      "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
      "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Add to Cart",
-     "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
      "Finland 30 years member of the EU €9.95 Add to Cart",
      "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
      "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
@@ -1402,15 +1400,15 @@
       "ok": false
      },
      {
+      "t": "Annual Set Finland 2026 Proof Quality €109.95 Add to Cart",
+      "u": "https://www.helsinkimint.com/annual-set-finland-2026-proof-quality",
+      "ok": false
+     },
+     {
       "t": "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
       "u": "https://www.helsinkimint.com/finland-20-euro-women-s-rights-silver-2026",
       "ok": false,
       "via": "attr"
-     },
-     {
-      "t": "Annual Set Finland 2026 BU Quality €36.95 Out of stock",
-      "u": "https://www.helsinkimint.com/annual-set-finland-2026-bu-quality",
-      "ok": false
      },
      {
       "t": "Finland 30 years member of the EU €9.95 Add to Cart",
@@ -1528,7 +1526,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 319067,
+    "html_chars": 319687,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1626,7 +1624,7 @@
     }
    ],
    "scrape": {
-    "anchors": 368,
+    "anchors": 371,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1747,9 +1745,9 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 465845,
+    "html_chars": 467281,
     "child_links": {
-     "count": 310,
+     "count": 311,
      "no_text": 62,
      "sample": [
       {
@@ -1778,7 +1776,7 @@
       }
      ]
     },
-    "skipped_menu": 289,
+    "skipped_menu": 291,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -1872,7 +1870,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 125223,
+    "html_chars": 125298,
     "skipped_menu": 304,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2125,7 +2123,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133388,
+    "html_chars": 133481,
     "skipped_menu": 117,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2231,7 +2229,19 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Dépistage génétique des nouveau-nés: une conférence ouverte à tous le 21 novembre 2026",
+       "ok": false
+      },
+      {
+       "title": "Visite de travail de Marc Spautz à Paris",
+       "ok": false
+      },
+      {
        "title": "À Phnom Penh, le Luxembourg renforce sa coopération avec le Cambodge",
+       "ok": false
+      },
+      {
+       "title": "Regroupement familial des bénéficiaires de protection internationale",
        "ok": false
       },
       {
@@ -2276,18 +2286,6 @@
       },
       {
        "title": "Remise du Lëtzebuerger Konschtpräis 2026 à Simone Decker",
-       "ok": false
-      },
-      {
-       "title": "Ouverture anticipée du foyer de nuit de l'Action Hiver (Wanteraktioun – WAK) le 13.11.2026",
-       "ok": false
-      },
-      {
-       "title": "Dates des examens théoriques pour 2027",
-       "ok": false
-      },
-      {
-       "title": "Interdiction temporaire de vols de drones à l’occasion du projet LAS",
        "ok": false
       }
      ]
@@ -2926,7 +2924,7 @@
     "anchors": 816,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 21,
+    "detail_errors": 22,
     "rejected_sample": [
      "The CBC hosted a successful coin design workshop",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3533,7 +3531,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136823,
+    "html_chars": 136854,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -3794,9 +3792,17 @@
      "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-10",
-     "relevant": 1,
+     "newest": "2026-11-17",
+     "relevant": 0,
      "sample": [
+      {
+       "title": "Latvijas Banka calls on insurers to make the claims process more understandable for customers",
+       "ok": false
+      },
+      {
+       "title": "Working paper: Oil Price Pass-Through and Inflation Expectations: Insights from Time-Varying and Real-Time App",
+       "ok": false
+      },
       {
        "title": "Working paper: How Tax Incentives Shape Participation and Contributions in Tax-Favoured Saving Schemes: Eviden",
        "ok": false
@@ -3828,21 +3834,240 @@
       {
        "title": "The contours of the digital euro are becoming increasingly clear",
        "ok": false
+      }
+     ]
+    },
+    {
+     "url": "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=atom",
+     "http": 200,
+     "type": "application/atom+xml; charset=utf-8",
+     "entries": 10,
+     "newest": "2026-11-17",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Latvijas Banka calls on insurers to make the claims process more understandable for customers",
+       "ok": false
       },
       {
-       "title": "Latvijas Banka is issuing a symbolic collector coin \"Chestnut\"",
-       "ok": true
+       "title": "Working paper: Oil Price Pass-Through and Inflation Expectations: Insights from Time-Varying and Real-Time App",
+       "ok": false
       },
       {
-       "title": "Latvijas Banka is issuing a licence to Neverless SIA to operate as a payment institution",
+       "title": "Working paper: How Tax Incentives Shape Participation and Contributions in Tax-Favoured Saving Schemes: Eviden",
+       "ok": false
+      },
+      {
+       "title": "Latvijas Banka's economic conference – coming up this week",
+       "ok": false
+      },
+      {
+       "title": "​The EBA appoints Kristīne Černaja-Mežmale as its new Vice-Chair (eba.europa.eu)",
+       "ok": false
+      },
+      {
+       "title": "Working paper: Causal Macroeconomic Effects of Public Investment",
+       "ok": false
+      },
+      {
+       "title": "Turning Europe's scale into impact",
+       "ok": false
+      },
+      {
+       "title": "What lessons have we learned from the August storm?",
+       "ok": false
+      },
+      {
+       "title": "The new euro banknotes: what happens next?",
+       "ok": false
+      },
+      {
+       "title": "The contours of the digital euro are becoming increasingly clear",
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://www.bank.lv/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bank.lv/feed",
+     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate v"
+    },
+    {
+     "url": "https://www.bank.lv/feed.xml",
+     "error": "SSLError: HTTPSConnectionPool(host='uzraudziba.bank.lv', port=443): Max retries exceeded with url: /feed.xml (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certifica"
+    },
+    {
+     "url": "https://www.bank.lv/rss",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.bank.lv/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
-   "method": "feed_descubierto",
-   "feed_url": "https://www.bank.lv/en/news-and-events/news-and-articles/news?tag=new-coins&format=feed&type=rss",
-   "relevant": 1
+   "scrape": {
+    "anchors": 72,
+    "accepted": 2,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [
+     "17689 on resuming the sale of the coin bridal crown",
+     "On resuming the sale of the coin \"Bridal Crown\" Read more",
+     "17670 four coins issued in 2025 have made it to the finals of the coin of the year competition",
+     "Four coins issued in 2025 have made it to the finals of the \"Coin of the Year\" competition Read more",
+     "17583 the coin flow becomes latvias coin of the year 2025",
+     "The coin \"Flow\" becomes Latvia's Coin of the Year 2025 Read more",
+     "17561 voting for the best collector coin of 2025 is open",
+     "Voting for the best collector coin of 2025 is open Read more"
+    ],
+    "coin_links": [
+     {
+      "t": "Exchanging damaged banknotes and coins",
+      "u": "https://www.bank.lv/en/services/exchanging-damaged-banknotes-and-coins",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Exchanging the lats for the euro",
+      "u": "https://www.bank.lv/en/services/exchanging-the-lats-for-the-euro",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Collector coin purchases",
+      "u": "https://www.bank.lv/en/services/collector-coin-purchases",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro Area Bank Lending Survey",
+      "u": "https://www.bank.lv/en/news-and-events/euro-area-bank-lending-survey",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro area statistics",
+      "u": "https://data.ecb.europa.eu/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "17821 latvijas banka is issuing a symbolic collector coin chestnut",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17821-latvijas-banka-is-issuing-a-symbolic-collector-coin-chestnut",
+      "ok": true,
+      "via": "slug"
+     },
+     {
+      "t": "17752 coin programme for 2026",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17752-coin-programme-for-2026",
+      "ok": true,
+      "via": "slug"
+     },
+     {
+      "t": "17734 latvijas banka issues a gold coin set golden seeds",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17734-latvijas-banka-issues-a-gold-coin-set-golden-seeds",
+      "ok": true,
+      "via": "slug"
+     },
+     {
+      "t": "17689 on resuming the sale of the coin bridal crown",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17689-on-resuming-the-sale-of-the-coin-bridal-crown",
+      "ok": false,
+      "via": "slug"
+     },
+     {
+      "t": "17676 latvijas banka is issuing a coin bridal crown adorned with crystals",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17676-latvijas-banka-is-issuing-a-coin-bridal-crown-adorned-with-crystals",
+      "ok": true,
+      "via": "slug"
+     },
+     {
+      "t": "17670 four coins issued in 2025 have made it to the finals of the coin of the year competi",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17670-four-coins-issued-in-2025-have-made-it-to-the-finals-of-the-coin-of-the-year-competition",
+      "ok": false,
+      "via": "slug"
+     },
+     {
+      "t": "17583 the coin flow becomes latvias coin of the year 2025",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17583-the-coin-flow-becomes-latvias-coin-of-the-year-2025",
+      "ok": false,
+      "via": "slug"
+     },
+     {
+      "t": "17561 voting for the best collector coin of 2025 is open",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17561-voting-for-the-best-collector-coin-of-2025-is-open",
+      "ok": false,
+      "via": "slug"
+     },
+     {
+      "t": "17417 characters from the animated film flow will be reimagined on a coin issued by latvij",
+      "u": "https://www.bank.lv/en/news-and-events/news-and-articles/news/17417-characters-from-the-animated-film-flow-will-be-reimagined-on-a-coin-issued-by-latvijas-banka",
+      "ok": true,
+      "via": "slug"
+     },
+     {
+      "t": "E-monetas.lv",
+      "u": "https://www.e-monetas.lv/en",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "News | Latvijas Banka",
+    "html_chars": 57191,
+    "coin_filter": "news",
+    "skipped_menu": 57,
+    "skipped_menu_sample": [
+     "Exchanging damaged banknotes and coins",
+     "Exchanging the lats for the euro",
+     "Collector coin purchases",
+     "Euro Area Bank Lending Survey",
+     "Euro area statistics",
+     "E-monetas.lv"
+    ],
+    "child_links": {
+     "count": 18,
+     "no_text": 9,
+     "sample": [
+      {
+       "t": "",
+       "u": "ews/17821-latvijas-banka-is-issuing-a-symbolic-collector-coin-chestnut"
+      },
+      {
+       "t": "Latvijas Banka is issuing a symbolic collector coi",
+       "u": "ews/17821-latvijas-banka-is-issuing-a-symbolic-collector-coin-chestnut"
+      },
+      {
+       "t": "",
+       "u": "n/news-and-events/news-and-articles/news/17752-coin-programme-for-2026"
+      },
+      {
+       "t": "Coin Programme for 2026 Read more",
+       "u": "n/news-and-events/news-and-articles/news/17752-coin-programme-for-2026"
+      },
+      {
+       "t": "",
+       "u": "articles/news/17734-latvijas-banka-issues-a-gold-coin-set-golden-seeds"
+      },
+      {
+       "t": "Latvijas Banka issues a gold coin set \"Golden Seed",
+       "u": "articles/news/17734-latvijas-banka-issues-a-gold-coin-set-golden-seeds"
+      }
+     ]
+    },
+    "skipped_old": 3
+   },
+   "method": "scraping",
+   "relevant": 2
   },
   "lithuania_lb": {
    "name": "Lietuvos bankas",
@@ -4137,7 +4362,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239189,
+    "html_chars": 239188,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4382,9 +4607,25 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-16",
+     "newest": "2026-11-17",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Diçiunari : le dictionnaire franco-monégasque désormais accessible en ligne",
+       "ok": false
+      },
+      {
+       "title": "Invest Monaco en Asie du Sud-Est : Une cible stratégique pour construire des partenariats durables",
+       "ok": false
+      },
+      {
+       "title": "Campagne d’enrobés : des ajustements pour faciliter l’accès aux parkings",
+       "ok": false
+      },
+      {
+       "title": "« Survivre aux violences » pour la journée du 25 novembre 2026",
+       "ok": false
+      },
       {
        "title": "IA et éthique : quatre jours de conférences ouvertes à tous à la Maison du numérique",
        "ok": false
@@ -4398,7 +4639,7 @@
        "ok": false
       },
       {
-       "title": "Échanges dans le secteur domanial : Les primes à la mobilité évoluent",
+       "title": "Échanges dans le secteur domanial : les primes à la mobilité évoluent",
        "ok": true
       },
       {
@@ -4407,22 +4648,6 @@
       },
       {
        "title": "Conseil de l’Europe : Après six mois historiques, Monaco transmet au Monténégro la Présidence du Comité des Mi",
-       "ok": false
-      },
-      {
-       "title": "Festival Résonance : du 24 novembre au 10 décembre 2026",
-       "ok": false
-      },
-      {
-       "title": "PIB 2025 : une cinquième année consécutive de croissance",
-       "ok": false
-      },
-      {
-       "title": "COP17 Biodiversité : bilan de la participation de Monaco à Erevan",
-       "ok": false
-      },
-      {
-       "title": "Monaco participe à la session plénière de l’Alliance internationale pour la mémoire de l’Holocauste",
        "ok": false
       }
      ]
@@ -4569,7 +4794,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 895064,
+    "html_chars": 894456,
     "coin_filter": "news",
     "skipped_menu": 957
    },
