@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-17T20:57:01.881396+00:00",
+ "generated_at": "2026-11-18T07:32:23.920643+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 39.9,
+     "seconds": 29.0,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 19.6,
+     "seconds": 19.9,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,75 +46,77 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/atom.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 30,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "35 years of the Erasmus programme - Finland",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovakia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovenia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Portugal",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Austria",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Netherlands",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Malta",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Luxembourg",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Lithuania",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Latvia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Cyprus",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Italy",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - France",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Spain",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Greece",
+       "ok": true
+      }
+     ],
+     "skipped_old": 30
     }
    ],
-   "section_http": 200,
-   "section_title": "Commemorative coins - Economy and Finance - European Commission",
-   "link_feeds": [],
-   "scrape": {
-    "anchors": 82,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [
-     {
-      "t": "Euro coins and notes",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Commemorative coins - Economy and Finance - European Commission",
-    "html_chars": 156077,
-    "coin_filter": "news",
-    "skipped_menu": 36,
-    "skipped_menu_sample": [
-     "Euro coins and notes",
-     "Euro coins"
-    ]
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "ecb": {
@@ -241,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.608,97",
-     "€ 1.874,57",
-     "€ 1.688,38"
+     "€ 3.545,61",
+     "€ 1.841,66",
+     "€ 1.668,17"
     ],
     "coin_links": [
      {
@@ -385,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.608,97",
+      "t": "€ 3.545,61",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.874,57",
+      "t": "€ 1.841,66",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.688,38",
+      "t": "€ 1.668,17",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -414,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154748,
+    "html_chars": 154747,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -499,6 +501,12 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
+     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-29",
@@ -545,9 +553,61 @@
        "ok": false
       }
      ]
+    },
+    {
+     "url": "https://finance.belgium.be/rss.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/feed.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
+    },
+    {
+     "url": "https://finance.belgium.be/atom.xml",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Actueel | FPS Finance",
+   "link_feeds": [
+    "https://finance.belgium.be/en/Actueel/rss.xml"
+   ],
+   "scrape": {
+    "anchors": 56,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "Actueel | FPS Finance",
+    "html_chars": 39793,
+    "skipped_menu": 41
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -1200,6 +1260,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-18",
+     "http": 200,
+     "items": 145,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-17",
      "http": 200,
      "items": 288,
@@ -1214,12 +1280,6 @@
     {
      "day": "2026-11-15",
      "http": 404
-    },
-    {
-     "day": "2026-11-14",
-     "http": 200,
-     "items": 388,
-     "relevant": 0
     }
    ],
    "relevant": 0
@@ -1291,7 +1351,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180162,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1341,7 +1401,9 @@
     },
     {
      "url": "https://www.helsinkimint.com/rss",
-     "error": "ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.helsinkimint.com/atom.xml",
@@ -1594,9 +1656,7 @@
    "feeds_tried": [
     {
      "url": "https://www.monnaiedeparis.fr/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.monnaiedeparis.fr', port=443): Read timed out. (read timeout=30)"
     },
     {
      "url": "https://www.monnaiedeparis.fr/feed",
@@ -1618,9 +1678,7 @@
     },
     {
      "url": "https://www.monnaiedeparis.fr/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
+     "error": "ReadTimeout: HTTPSConnectionPool(host='www.monnaiedeparis.fr', port=443): Read timed out. (read timeout=30)"
     }
    ],
    "scrape": {
@@ -1745,7 +1803,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 467281,
+    "html_chars": 466249,
     "child_links": {
      "count": 311,
      "no_text": 62,
@@ -2229,6 +2287,10 @@
      "relevant": 0,
      "sample": [
       {
+       "title": "Classement du Luxembourg au sein du Gender Equality Index 2026",
+       "ok": false
+      },
+      {
        "title": "Dépistage génétique des nouveau-nés: une conférence ouverte à tous le 21 novembre 2026",
        "ok": false
       },
@@ -2282,10 +2344,6 @@
       },
       {
        "title": "Réapparition de la grippe aviaire en Europe: Mesures de biosécurité pour détenteurs de volaille",
-       "ok": false
-      },
-      {
-       "title": "Remise du Lëtzebuerger Konschtpräis 2026 à Simone Decker",
        "ok": false
       }
      ]
@@ -3531,7 +3589,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136854,
+    "html_chars": 136853,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4362,7 +4420,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239188,
+    "html_chars": 239185,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4700,51 +4758,40 @@
    "name": "Vatican City State",
    "country": "VA",
    "section_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.html",
-   "section_http": 200,
-   "section_title": "Vatican State",
-   "link_feeds": [
-    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
-    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=atom"
-   ],
+   "section_error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)",
    "feeds_tried": [
     {
-     "url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 6,
-     "newest": "2026-10-03",
-     "relevant": 6,
-     "sample": [
-      {
-       "title": "New Numismatic Issues Available",
-       "ok": true
-      },
-      {
-       "title": "New numismatic issues, year 2025, of the Governorate of the Vatican City State",
-       "ok": true
-      },
-      {
-       "title": "Numismatic issues commemorating Saint Francis",
-       "ok": true
-      },
-      {
-       "title": "Presentation of New Numismatic Issues",
-       "ok": true
-      },
-      {
-       "title": "Three Numismatic Issues",
-       "ok": true
-      },
-      {
-       "title": "Three States, One Tribute to Saint Francis: the Numismatic Triptych Dedicated to the Canticle of the Creatures",
-       "ok": true
-      }
-     ]
+     "url": "https://vaticanstate.va/rss.xml",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+     "url": "https://vaticanstate.va/feed",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+     "url": "https://vaticanstate.va/feed.xml",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+     "url": "https://vaticanstate.va/rss",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+    },
+    {
+     "url": "https://vaticanstate.va/atom.xml",
+     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
     }
    ],
-   "method": "feed_descubierto",
-   "feed_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
-   "relevant": 6
+   "scrape": {
+    "anchors": 0,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+   },
+   "method": "scraping",
+   "relevant": 0
   },
   "andorra": {
    "name": "Govern d'Andorra",
@@ -4794,7 +4841,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 894456,
+    "html_chars": 892970,
     "coin_filter": "news",
     "skipped_menu": 957
    },
