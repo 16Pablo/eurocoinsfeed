@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-18T07:32:23.920643+00:00",
+ "generated_at": "2026-11-18T20:36:55.422674+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 29.0,
+     "seconds": 28.4,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 19.9,
+     "seconds": 21.1,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,77 +46,75 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 200,
-     "type": "application/rss+xml; charset=utf-8",
-     "entries": 30,
-     "newest": "2026-10-14",
-     "relevant": 0,
-     "sample": [
-      {
-       "title": "35 years of the Erasmus programme - Finland",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovakia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Slovenia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Portugal",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Austria",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Netherlands",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Malta",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Luxembourg",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Lithuania",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Latvia",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Cyprus",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Italy",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - France",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Spain",
-       "ok": true
-      },
-      {
-       "title": "35 years of the Erasmus programme - Greece",
-       "ok": true
-      }
-     ],
-     "skipped_old": 30
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/feed.xml",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/rss",
+     "http": 429,
+     "type": "",
+     "entries": 0
+    },
+    {
+     "url": "https://economy-finance.ec.europa.eu/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=utf-8",
+     "entries": 0
     }
    ],
-   "method": "feeds_a_mano",
+   "section_http": 200,
+   "section_title": "Commemorative coins - Economy and Finance - European Commission",
+   "link_feeds": [],
+   "scrape": {
+    "anchors": 82,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [
+     {
+      "t": "Euro coins and notes",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
+      "ok": false,
+      "menu": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Commemorative coins - Economy and Finance - European Commission",
+    "html_chars": 156077,
+    "coin_filter": "news",
+    "skipped_menu": 36,
+    "skipped_menu_sample": [
+     "Euro coins and notes",
+     "Euro coins"
+    ]
+   },
+   "method": "scraping",
    "relevant": 0
   },
   "ecb": {
@@ -129,9 +127,17 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-17",
+     "newest": "2026-11-18",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Boris Vujčić: Financial Stability Review - November 2026",
+       "ok": false
+      },
+      {
+       "title": "Risks from AI valuations, fiscal imbalances and geoeconomic tensions weigh on financial stability outlook",
+       "ok": false
+      },
       {
        "title": "Philip R. Lane: The practice and science of monetary policy communication: the ECB experience",
        "ok": false
@@ -182,14 +188,6 @@
       },
       {
        "title": "Philip R. Lane: AI adoption in Europe",
-       "ok": false
-      },
-      {
-       "title": "Decisions taken by the Governing Council of the ECB (in addition to decisions setting interest rates)",
-       "ok": false
-      },
-      {
-       "title": "Results of the ECB Survey of Professional Forecasters for the fourth quarter of 2026",
        "ok": false
       }
      ]
@@ -243,9 +241,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.545,61",
-     "€ 1.841,66",
-     "€ 1.668,17"
+     "€ 3.504,60",
+     "€ 1.820,36",
+     "€ 1.629,17"
     ],
     "coin_links": [
      {
@@ -387,17 +385,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.545,61",
+      "t": "€ 3.504,60",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.841,66",
+      "t": "€ 1.820,36",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.668,17",
+      "t": "€ 1.629,17",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +414,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154747,
+    "html_chars": 154750,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -501,12 +499,6 @@
     {
      "url": "https://finance.belgium.be/en/Actueel/rss.xml",
      "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0
-    },
-    {
-     "url": "https://finance.belgium.be/en/Actueel/rss.xml",
-     "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
      "newest": "2026-10-29",
@@ -553,61 +545,9 @@
        "ok": false
       }
      ]
-    },
-    {
-     "url": "https://finance.belgium.be/rss.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/feed.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/rss",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
-    },
-    {
-     "url": "https://finance.belgium.be/atom.xml",
-     "http": 200,
-     "type": "text/html; charset=UTF-8",
-     "entries": 0,
-     "bozo": "<unknown>:50:2: mismatched tag"
     }
    ],
-   "section_http": 200,
-   "section_title": "Actueel | FPS Finance",
-   "link_feeds": [
-    "https://finance.belgium.be/en/Actueel/rss.xml"
-   ],
-   "scrape": {
-    "anchors": 56,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "http": 200,
-    "page_title": "Actueel | FPS Finance",
-    "html_chars": 39793,
-    "skipped_menu": 41
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "germany_bundesbank": {
@@ -620,9 +560,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-17",
+     "newest": "2026-11-18",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Reopening Federal bond issue – Auction result",
+       "ok": false
+      },
       {
        "title": "Reopening of Federal Treasury notes – Auction result",
        "ok": false
@@ -657,10 +601,6 @@
       },
       {
        "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
-       "ok": false
-      },
-      {
-       "title": "German balance of payments in September 2026",
        "ok": false
       }
      ]
@@ -765,7 +705,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286000,
+    "html_chars": 286006,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -981,53 +921,121 @@
    "feeds_tried": [
     {
      "url": "https://www.bundesfinanzministerium.de/SiteGlobals/Functions/RSSFeed/DE/Pressemitteilungen/RSSPressemitteilungen.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/feed.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/rss",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
-    },
-    {
-     "url": "https://www.bundesfinanzministerium.de/atom.xml",
-     "http": 503,
-     "type": "text/html",
-     "entries": 0
+     "http": 200,
+     "type": "text/xml;charset=utf-8",
+     "entries": 20,
+     "newest": "2026-11-18",
+     "relevant": 5,
+     "sample": [
+      {
+       "title": "Bundesregierung beschließt erste Finanzbildungsstrategie des Bundes: Mehr Finanzkompetenz für mehr Chancengere",
+       "ok": false
+      },
+      {
+       "title": "Stabile Entwicklung 2026, insgesamt keine Spielräume in 2027 und weiterhin Konsolidierungsbedarf",
+       "ok": false
+      },
+      {
+       "title": "Sonderpostwertzeichen „Immaterielles Kulturerbe -Spitzenklöppeln\"",
+       "ok": false
+      },
+      {
+       "title": "Gemeinsames Eckpunktepapier des Bundes und der Energieministerkonferenz zur Finanzierung von Stromverteil- und",
+       "ok": false
+      },
+      {
+       "title": "Bundeskabinett bringt Gesetzentwurf für Zuckergetränkesteuer auf den Weg",
+       "ok": false
+      },
+      {
+       "title": "36. Sitzung des Stabilitätsrates am 12. Oktober 2026",
+       "ok": false
+      },
+      {
+       "title": "50-Euro-Sammlermünze „Alle Jahre wieder“",
+       "ok": true
+      },
+      {
+       "title": "100-Euro-Sammlermünze „Dies Buch gehört dem König“",
+       "ok": true
+      },
+      {
+       "title": "2-Euro-Gedenkmünze „Hans-Dietrich Genscher“",
+       "ok": true
+      },
+      {
+       "title": "Digitale Belege und digitale Kassen: Bundesregierung baut Bürokratie ab und bekämpft Steuerhinterziehung",
+       "ok": false
+      },
+      {
+       "title": "Bund und Berlin unterzeichnen neuen Hauptstadtfinanzierungsvertrag",
+       "ok": false
+      },
+      {
+       "title": "Bundesregierung stärkt Transparenz: Bundeshaushalt wird mit Nachhaltigkeitszielen verknüpft",
+       "ok": false
+      },
+      {
+       "title": "Bundesregierung bringt Einkommensteuerreform auf den Weg: Insbesondere Familien mit Kindern werden entlastet",
+       "ok": false
+      },
+      {
+       "title": "Vorstellung der Sonderbriefmarke „Alexandria Blue Boy“ aus der Serie „Tag der Briefmarke“",
+       "ok": false
+      },
+      {
+       "title": "Vorstellung der Sonderbriefmarke „Anpassung an den Klimawandel“ aus der Serie „Für den Umweltschutz“",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html",
    "scrape": {
-    "anchors": 0,
-    "accepted": 0,
+    "anchors": 173,
+    "accepted": 3,
     "second_chance": 0,
-    "detail_errors": 0,
+    "detail_errors": 3,
     "rejected_sample": [],
-    "coin_links": [],
-    "error": "HTTPError: 503 Server Error: Service Temporarily Unavailable for url: https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/pressemitteilungen.html"
+    "coin_links": [
+     {
+      "t": "Zurück Briefmarken & Sammlermünzen Weiter",
+      "u": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/Web/DE/Themen/Briefmarken-Sammlermuenzen/briefmarken-sammlermuenzen.html",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Sammlermünzen",
+      "u": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/Web/DE/Themen/Briefmarken-Sammlermuenzen/Sammlermuenzen/sammlermuenzen.html",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "50-Euro-Sammlermünze „Alle Jahre wieder“",
+      "u": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/Content/DE/Pressemitteilungen/Briefmarken/2026/2026-10-07-50-euro-sammlermuenze-alle-jahre-wieder.html",
+      "ok": true
+     },
+     {
+      "t": "100-Euro-Sammlermünze „Dies Buch gehört dem König“",
+      "u": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/Content/DE/Pressemitteilungen/Briefmarken/2026/2026-10-07-100-euro-sammlermuenze.html",
+      "ok": true
+     },
+     {
+      "t": "2-Euro-Gedenkmünze „Hans-Dietrich Genscher“",
+      "u": "https://www.bundesfinanzministerium.de/Web/DE/Presse/Pressemitteilungen/Content/DE/Pressemitteilungen/Briefmarken/2026/2026-10-07-gedenkmuenze-hans-dietrich-genscher.html",
+      "ok": true
+     }
+    ],
+    "http": 200,
+    "page_title": "Bundesfinanzministerium  - Pressemitteilungen",
+    "html_chars": 209462,
+    "skipped_menu": 141,
+    "skipped_menu_sample": [
+     "Zurück Briefmarken & Sammlermünzen Weiter",
+     "Sammlermünzen"
+    ]
    },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feeds_a_mano+scraping",
+   "relevant": 8
   },
   "spain_bde": {
    "name": "Banco de España",
@@ -1039,9 +1047,17 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-17",
+     "newest": "2026-11-18",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Los riesgos derivados de las valoraciones de las empresas del sector de la IA, los desequilibrios fiscales y l",
+       "ok": false
+      },
+      {
+       "title": "Gobernador. Singapore Fintech Festival. “The Next Chapter in Financial Innovation”",
+       "ok": false
+      },
       {
        "title": "Estado financiero consolidado del Eurosistema a 13 de noviembre de 2026",
        "ok": false
@@ -1092,14 +1108,6 @@
       },
       {
        "title": "El acceso a la financiación bancaria siguió mejorando en el tercer trimestre de 2026, aunque levemente y menos",
-       "ok": false
-      },
-      {
-       "title": "Gobernador. 2026 Santander International Banking Conference",
-       "ok": false
-      },
-      {
-       "title": "Estado financiero consolidado del Eurosistema a 30 de octubre de 2026",
        "ok": false
       }
      ]
@@ -1351,7 +1359,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180163,
+    "html_chars": 180159,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1588,7 +1596,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 319687,
+    "html_chars": 319884,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1656,7 +1664,9 @@
    "feeds_tried": [
     {
      "url": "https://www.monnaiedeparis.fr/rss.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='www.monnaiedeparis.fr', port=443): Read timed out. (read timeout=30)"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     },
     {
      "url": "https://www.monnaiedeparis.fr/feed",
@@ -1678,7 +1688,9 @@
     },
     {
      "url": "https://www.monnaiedeparis.fr/atom.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='www.monnaiedeparis.fr', port=443): Read timed out. (read timeout=30)"
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     }
    ],
    "scrape": {
@@ -1803,7 +1815,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466249,
+    "html_chars": 466389,
     "child_links": {
      "count": 311,
      "no_text": 62,
@@ -1928,7 +1940,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 125298,
+    "html_chars": 124298,
     "skipped_menu": 304,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2148,7 +2160,7 @@
     }
    ],
    "scrape": {
-    "anchors": 169,
+    "anchors": 170,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -2181,8 +2193,8 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133481,
-    "skipped_menu": 117,
+    "html_chars": 133712,
+    "skipped_menu": 118,
     "skipped_menu_sample": [
      "Emissione euro",
      "Euro Digitale",
@@ -2263,7 +2275,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163750,
+    "html_chars": 163725,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2283,15 +2295,43 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-17",
+     "newest": "2026-11-18",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Nouvel appel à candidatures DAB+",
+       "ok": false
+      },
+      {
+       "title": "Une nouvelle école européenne publique à Redange/Attert",
+       "ok": false
+      },
+      {
+       "title": "Lex Delles en déplacement en Allemagne à l'occasion des salons MEDICA et SpaceTech Expo Europe",
+       "ok": false
+      },
+      {
+       "title": "Gilles Roth a effectué une mission financière en Australie",
+       "ok": false
+      },
+      {
+       "title": "Antibiotiques: pas un réflexe, un choix réfléchi",
+       "ok": false
+      },
+      {
+       "title": "Appel à projets R&D – Future Industry and Mobility: des projets innovants pour renforcer la compétitivité et l",
+       "ok": false
+      },
       {
        "title": "Classement du Luxembourg au sein du Gender Equality Index 2026",
        "ok": false
       },
       {
        "title": "Dépistage génétique des nouveau-nés: une conférence ouverte à tous le 21 novembre 2026",
+       "ok": false
+      },
+      {
+       "title": "EMWELT : une œuvre d’art unique à l’École nationale de santé de Strassen",
        "ok": false
       },
       {
@@ -2316,34 +2356,6 @@
       },
       {
        "title": "Mise en place d'un service de navette pendant la fermeture temporaire de l'ascenseur du Grund pour des travaux",
-       "ok": false
-      },
-      {
-       "title": "Ludap.lu: une nouvelle plateforme numérique pour documenter et étudier notre patrimoine culturel",
-       "ok": false
-      },
-      {
-       "title": "\"Wir sollten aufhören, anderen die Welt zu erklären\"",
-       "ok": false
-      },
-      {
-       "title": "''Gënn dir eng Paus vum Scrollen'': une campagne pour sensibiliser les jeunes aux automatismes du scrolling",
-       "ok": false
-      },
-      {
-       "title": "Xavier Bettel à Abu Dhabi à l'occasion du 15e anniversaire de l'ambassade du Luxembourg aux Émirats arabes uni",
-       "ok": false
-      },
-      {
-       "title": "De la salle de classe à la COP31: la jeunesse luxembourgeoise mobilisée pour le climat",
-       "ok": false
-      },
-      {
-       "title": "Comité permanent du travail et de l'emploi: conclusion des travaux sur trois dossiers majeurs",
-       "ok": false
-      },
-      {
-       "title": "Réapparition de la grippe aviaire en Europe: Mesures de biosécurité pour détenteurs de volaille",
        "ok": false
       }
      ]
@@ -2632,7 +2644,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 620501,
+    "html_chars": 619064,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2979,10 +2991,10 @@
     }
    ],
    "scrape": {
-    "anchors": 816,
+    "anchors": 817,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 22,
+    "detail_errors": 21,
     "rejected_sample": [
      "The CBC hosted a successful coin design workshop",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3184,7 +3196,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 461497,
+    "html_chars": 462038,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3192,9 +3204,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 791,
-     "no_text": 790,
+     "count": 792,
+     "no_text": 791,
      "sample": [
+      {
+       "t": "",
+       "u": "-bank-of-cyprus-balance-sheet-as-at-the-end-of-october-2026-18-11-2026"
+      },
       {
        "t": "",
        "u": "centralbank.cy/en/announcements/investment-funds-statistics-16-11-2026"
@@ -3214,10 +3230,6 @@
       {
        "t": "",
        "u": "ps://www.centralbank.cy/en/announcements/financial-literacy-10-11-2026"
-      },
-      {
-       "t": "",
-       "u": "https://www.centralbank.cy/en/announcements/gov-speech-10-11-2026"
       }
      ]
     }
@@ -3290,9 +3302,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-16",
+     "newest": "2026-11-18",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Bez zlacnenia cestovného by inflácia vzrástla",
+       "ok": false
+      },
       {
        "title": "Frankfurtské hárky, číslo 46 / november 2026",
        "ok": false
@@ -3327,10 +3343,6 @@
       },
       {
        "title": "Drahšie hypotéky zatiaľ rast cien nehnuteľností nepribrzdili",
-       "ok": false
-      },
-      {
-       "title": "Branislav Reľovský: Slovensko stráca tempo [STVR]",
        "ok": false
       }
      ]
@@ -3508,8 +3520,8 @@
     "detail_errors": 0,
     "rejected_sample": [
      "Emisný plán Mincovne Kremnica 2027",
-     "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
      "Zlatá minca 50 Francs CFA - Slovensko - Rituálne masky regiónov sveta",
+     "Minca zlatá 250 Dollars - Fauna and flora in Slovakia - Vlk dravý",
      "Strieborná minca 1000 Francs CFA - Príbehy Zeme - VIII. - Nosorožec",
      "Pamätný list 20€ (2026) - Chránená krajinná oblasť Malé Karpaty"
     ],
@@ -3530,6 +3542,11 @@
       "ok": true
      },
      {
+      "t": "Zlatá minca 50 Francs CFA - Slovensko - Rituálne masky regiónov sveta",
+      "u": "https://www.mint.sk/eshop/zlata-minca-50-francs-cfa-slovensko-ritualne-masky-regionov-sveta",
+      "ok": false
+     },
+     {
       "t": "Zlatá minca 100€ (2026) proof - Bitka pri Moháči - 500. výročie",
       "u": "https://www.mint.sk/eshop/zlata-minca-100eur-2026-proof-bitka-pri-mohaci-500-vyrocie",
       "ok": true
@@ -3543,11 +3560,6 @@
       "t": "Album na mince - 5€ (2026-2030)",
       "u": "https://www.mint.sk/eshop/album-na-mince-5eur-2026-2030",
       "ok": true
-     },
-     {
-      "t": "Zlatá minca 50 Francs CFA - Slovensko - Rituálne masky regiónov sveta",
-      "u": "https://www.mint.sk/eshop/zlata-minca-50-francs-cfa-slovensko-ritualne-masky-regionov-sveta",
-      "ok": false
      },
      {
       "t": "Strieborná minca 20€ (2026) proof - Chránená krajinná oblasť Malé Karpaty",
@@ -3589,7 +3601,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 136853,
+    "html_chars": 138641,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4251,228 +4263,44 @@
    "name": "Croatian National Bank",
    "country": "HR",
    "section_url": "https://www.hnb.hr/en/currency/euro-coins",
-   "section_http": 200,
-   "section_title": "Euro coins",
-   "link_feeds": [],
+   "section_error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at",
    "feeds_tried": [
     {
      "url": "https://www.hnb.hr/rss.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7490057b6510"
     },
     {
      "url": "https://www.hnb.hr/feed",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x749006a34650>, "
     },
     {
      "url": "https://www.hnb.hr/feed.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /feed.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x7490066332f"
     },
     {
      "url": "https://www.hnb.hr/rss",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /rss (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x749006a34d10>, '"
     },
     {
      "url": "https://www.hnb.hr/atom.xml",
-     "http": 404,
-     "type": "text/html;charset=UTF-8",
-     "entries": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /atom.xml (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at 0x749005936cf"
     }
    ],
    "scrape": {
-    "anchors": 534,
-    "accepted": 3,
+    "anchors": 0,
+    "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Euro coins of other countries",
-     "Replacement of stained euro banknotes at the Croatian National Bank",
-     "Commemorative coins in circulation",
-     "Demonetisation of damaged kuna coins",
-     "Numismatic coins",
-     "Commemorative gold and silver kuna coins"
-    ],
-    "coin_links": [
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/core-functions/payment-system/digital-euro",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro banknotes",
-      "u": "https://www.hnb.hr/en/currency/euro-banknotes",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin denominations",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Issuance of commemorative and collector euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative euro coins",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins of other countries",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Numismatic coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/numismatic-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative gold and silver kuna coins",
-      "u": "https://www.hnb.hr/en/currency/numismatics/commemorative-gold-and-silver-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Replacement of stained euro banknotes at the Croatian National Bank",
-      "u": "https://www.hnb.hr/en/currency/replacement-of-cash/replacement-of-stained-euro-banknotes-at-the-croatian-national-bank",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-surveys/euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coin issuance plan",
-      "u": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Commemorative coins in circulation",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/commemorative-coins-in-circulation",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Demonetisation of damaged kuna coins",
-      "u": "https://www.hnb.hr/en/currency/kuna/coins/demonetisation-of-damaged-kuna-coins",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Republic of Croatia contribution to euro area monetary aggregates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/republic-of-croatia-contribution-to-euro-area-monetary-aggregates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro foreign exchange reference rates",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/euro-foreign-exchange-reference-rates",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Exchange rates of other currencies for the euro (CNB)",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/central-bank-cnb/exchange-rates/exchange-rates-of-other-currencies-for-the-euro-cnb",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "The results of the euro area bank lending survey",
-      "u": "https://www.hnb.hr/en/statistics/statistical-data/financial-sector/other-monetary-financial-institutions/credit-institutions/the-results-of-the-euro-area-bank-lending-survey",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Digital euro",
-      "u": "https://www.hnb.hr/en/public-relations/explainers/by-topic/digital-euro",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Euro coins",
-    "html_chars": 239185,
-    "skipped_menu": 503,
-    "skipped_menu_sample": [
-     "Digital euro",
-     "Euro banknotes",
-     "Euro coins",
-     "Euro coin denominations",
-     "Issuance of commemorative and collector euro coins",
-     "Commemorative euro coins",
-     "Euro coins of other countries",
-     "Numismatic coins"
-    ],
-    "child_links": {
-     "count": 14,
-     "no_text": 0,
-     "sample": [
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      },
-      {
-       "t": "Commemorative euro coins",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/commemorative-euro-coins"
-      },
-      {
-       "t": "Euro coins of other countries",
-       "u": "ttps://www.hnb.hr/en/currency/euro-coins/euro-coins-of-other-countries"
-      },
-      {
-       "t": "Euro coin denominations",
-       "u": "https://www.hnb.hr/en/currency/euro-coins/euro-coin-denominations"
-      },
-      {
-       "t": "Issuance of commemorative and collector euro coins",
-       "u": "currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins"
-      }
-     ]
-    }
+    "rejected_sample": [],
+    "coin_links": [],
+    "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.hnb.hr', port=443) at"
    },
    "method": "scraping",
-   "relevant": 3,
+   "relevant": 0,
    "watch": [
     {
      "url": "https://www.hnb.hr/en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan",
-     "http": 200,
-     "lines": 34,
-     "title": "Euro coin issuance plan",
-     "added": 0,
-     "removed": 0
+     "error": "ConnectTimeout: HTTPSConnectionPool(host='www.hnb.hr', port=443): Max retries exceeded with url: /en/currency/euro-coins/issuance-of-commemorative-and-collector-euro-coins/euro-coin-issuance-plan (Cau"
     }
    ]
   },
@@ -4552,14 +4380,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4578,7 +4406,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43761
+    "html_chars": 33382
    },
    "method": "scraping",
    "relevant": 0
@@ -4665,9 +4493,17 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-17",
+     "newest": "2026-11-18",
      "relevant": 1,
      "sample": [
+      {
+       "title": "Ateliers jeune public : Exposition « Mémoire Des Lieux » jusqu’au 24 janvier 2027",
+       "ok": false
+      },
+      {
+       "title": "Programme de la 8ème édition de la Semaine Européenne de Réduction des Déchets",
+       "ok": false
+      },
       {
        "title": "Diçiunari : le dictionnaire franco-monégasque désormais accessible en ligne",
        "ok": false
@@ -4699,14 +4535,6 @@
       {
        "title": "Échanges dans le secteur domanial : les primes à la mobilité évoluent",
        "ok": true
-      },
-      {
-       "title": "À Strasbourg, dans le cadre de la Présidence du Comité des Ministres, le Gouvernement place les jeunes au cœur",
-       "ok": false
-      },
-      {
-       "title": "Conseil de l’Europe : Après six mois historiques, Monaco transmet au Monténégro la Présidence du Comité des Mi",
-       "ok": false
       }
      ]
     }
@@ -4758,40 +4586,51 @@
    "name": "Vatican City State",
    "country": "VA",
    "section_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.html",
-   "section_error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)",
+   "section_http": 200,
+   "section_title": "Vatican State",
+   "link_feeds": [
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+    "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=atom"
+   ],
    "feeds_tried": [
     {
-     "url": "https://vaticanstate.va/rss.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://vaticanstate.va/feed",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://vaticanstate.va/feed.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://vaticanstate.va/rss",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
-    },
-    {
-     "url": "https://vaticanstate.va/atom.xml",
-     "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
+     "url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 6,
+     "newest": "2026-10-03",
+     "relevant": 6,
+     "sample": [
+      {
+       "title": "New Numismatic Issues Available",
+       "ok": true
+      },
+      {
+       "title": "New numismatic issues, year 2025, of the Governorate of the Vatican City State",
+       "ok": true
+      },
+      {
+       "title": "Numismatic issues commemorating Saint Francis",
+       "ok": true
+      },
+      {
+       "title": "Presentation of New Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three Numismatic Issues",
+       "ok": true
+      },
+      {
+       "title": "Three States, One Tribute to Saint Francis: the Numismatic Triptych Dedicated to the Canticle of the Creatures",
+       "ok": true
+      }
+     ]
     }
    ],
-   "scrape": {
-    "anchors": 0,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "ReadTimeout: HTTPSConnectionPool(host='vaticanstate.va', port=443): Read timed out. (read timeout=30)"
-   },
-   "method": "scraping",
-   "relevant": 0
+   "method": "feed_descubierto",
+   "feed_url": "https://vaticanstate.va/en/component/tags/tag/new-numismatic-issues.feed?type=rss",
+   "relevant": 6
   },
   "andorra": {
    "name": "Govern d'Andorra",
@@ -4841,7 +4680,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 892970,
+    "html_chars": 897037,
     "coin_filter": "news",
     "skipped_menu": 957
    },
