@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-19T20:36:09.895633+00:00",
+ "generated_at": "2026-11-20T07:15:32.229665+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 37.0,
+     "seconds": 36.0,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 21.0,
+     "seconds": 31.1,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.449,43",
-     "€ 1.791,70",
-     "€ 1.614,96"
+     "€ 3.343,07",
+     "€ 1.736,46",
+     "€ 1.568,44"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.449,43",
+      "t": "€ 3.343,07",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.791,70",
+      "t": "€ 1.736,46",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.614,96",
+      "t": "€ 1.568,44",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154863,
+    "html_chars": 154862,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1029,7 +1029,7 @@
     ],
     "http": 200,
     "page_title": "Bundesfinanzministerium  - Pressemitteilungen",
-    "html_chars": 209462,
+    "html_chars": 209461,
     "skipped_menu": 141,
     "skipped_menu_sample": [
      "Zurück Briefmarken & Sammlermünzen Weiter",
@@ -1270,6 +1270,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-20",
+     "http": 200,
+     "items": 282,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-19",
      "http": 200,
      "items": 243,
@@ -1285,12 +1291,6 @@
      "day": "2026-11-17",
      "http": 200,
      "items": 288,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-16",
-     "http": 200,
-     "items": 273,
      "relevant": 0
     }
    ],
@@ -1363,7 +1363,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180164,
+    "html_chars": 180162,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1816,7 +1816,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466825,
+    "html_chars": 466289,
     "child_links": {
      "count": 311,
      "no_text": 62,
@@ -2276,7 +2276,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163750,
+    "html_chars": 163725,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2995,7 +2995,7 @@
     "anchors": 817,
     "accepted": 22,
     "second_chance": 0,
-    "detail_errors": 20,
+    "detail_errors": 0,
     "rejected_sample": [
      "The CBC hosted a successful coin design workshop",
      "Παράταση προθεσμίας εκδήλωσης ενδιαφέροντος για συμμετοχή σε μονοήμερο Εργαστήρι Σχεδιασμού Κερμάτων",
@@ -3591,7 +3591,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138250,
+    "html_chars": 138248,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4195,7 +4195,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239185,
+    "html_chars": 239184,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
