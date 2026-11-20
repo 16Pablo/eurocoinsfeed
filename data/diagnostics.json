@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T07:15:32.229665+00:00",
+ "generated_at": "2026-11-20T20:15:55.410749+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 36.0,
+     "seconds": 28.9,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 31.1,
+     "seconds": 20.4,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -129,9 +129,13 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-18",
+     "newest": "2026-11-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Christine Lagarde: Acting in time",
+       "ok": false
+      },
       {
        "title": "Boris Vujčić: Financial Stability Review - November 2026",
        "ok": false
@@ -187,10 +191,6 @@
       {
        "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
        "ok": false
-      },
-      {
-       "title": "Philip R. Lane: AI adoption in Europe",
-       "ok": false
       }
      ]
     }
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.343,07",
-     "€ 1.736,46",
-     "€ 1.568,44"
+     "€ 3.311,89",
+     "€ 1.720,26",
+     "€ 1.545,25"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.343,07",
+      "t": "€ 3.311,89",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.736,46",
+      "t": "€ 1.720,26",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.568,44",
+      "t": "€ 1.545,25",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154862,
+    "html_chars": 154957,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -562,9 +562,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-19",
+     "newest": "2026-11-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Announcement of auction – Reopening 10-year Federal bond",
        "ok": false
@@ -599,10 +603,6 @@
       },
       {
        "title": "Invitation to bid by auction – Reopening of Federal Treasury notes",
-       "ok": false
-      },
-      {
-       "title": "MAS and Deutsche Bundesbank Advance Cross-Border Digital Asset Settlement Connectivity | Joint press release w",
        "ok": false
       }
      ]
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286000,
+    "html_chars": 286006,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1029,7 +1029,7 @@
     ],
     "http": 200,
     "page_title": "Bundesfinanzministerium  - Pressemitteilungen",
-    "html_chars": 209461,
+    "html_chars": 209348,
     "skipped_menu": 141,
     "skipped_menu_sample": [
      "Zurück Briefmarken & Sammlermünzen Weiter",
@@ -1049,9 +1049,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-19",
+     "newest": "2026-11-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Subgobernadora. IX Foro Banca/elEconomista. Fortaleza bancaria y riesgos para la estabilidad financiera",
+       "ok": false
+      },
       {
        "title": "El Banco de España y la red GFTN sitúan a Madrid en el núcleo de una nueva alianza financiera entre Europa y L",
        "ok": false
@@ -1107,16 +1111,12 @@
       {
        "title": "Gobernador. ICMB. Europe in the new geopolitical landscape",
        "ok": false
-      },
-      {
-       "title": "Estado financiero consolidado del Eurosistema a 6 de noviembre de 2026",
-       "ok": false
       }
      ]
     }
    ],
    "scrape": {
-    "anchors": 437,
+    "anchors": 436,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1217,8 +1217,8 @@
     ],
     "http": 200,
     "page_title": "Banknotes and coins - Banco de España",
-    "html_chars": 398496,
-    "skipped_menu": 411,
+    "html_chars": 397895,
+    "skipped_menu": 410,
     "skipped_menu_sample": [
      "Banknotes and coins",
      "Euro banknotes",
@@ -1425,7 +1425,7 @@
     }
    ],
    "scrape": {
-    "anchors": 82,
+    "anchors": 83,
     "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1434,17 +1434,17 @@
      "Bullion Coins",
      "Gold Coins",
      "Silver Coins",
+     "Foreign coins",
      "Annual Set Finland 2026 Proof Quality €109.95 Out of stock",
      "Finland 20 Euro ‘Women’s Rights’ Silver 2026",
-     "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Out of stock",
+     "Finland 20 Euro ‘Women’s Rights’ Silver 2026 €139.95 Add to Cart",
      "Finland 30 years member of the EU €9.95 Add to Cart",
      "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025",
      "Finland 20 Euro “Erik Allardt 100 years – Social Sciences in Finland” 2025 €139.00 Add to Cart",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard EN €12.50 Add to Cart",
      "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE",
-     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart",
-     "Finland 2 Euro “Raili & Reima Pietilä” Proof Quality"
+     "Finland 2 Euro “Raili & Reima Pietilä” BU Quality in Coincard FI/SE €12.50 Add to Cart"
     ],
     "coin_links": [
      {
@@ -1471,6 +1471,11 @@
      {
       "t": "Silver Coins",
       "u": "https://www.helsinkimint.com/finland/silver-coins",
+      "ok": false
+     },
+     {
+      "t": "Foreign coins",
+      "u": "https://www.helsinkimint.com/finland/black-week-2026/foreign-coins",
       "ok": false
      },
      {
@@ -1600,7 +1605,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 317379,
+    "html_chars": 319231,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1816,7 +1821,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 466289,
+    "html_chars": 467777,
     "child_links": {
      "count": 311,
      "no_text": 62,
@@ -2194,7 +2199,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133822,
+    "html_chars": 133773,
     "skipped_menu": 118,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2296,9 +2301,37 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-19",
+     "newest": "2026-11-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Luc Frieden et Léon Gloden ont accueilli au Luxembourg la \"European Coalition on Civil Preparedness and Resili",
+       "ok": false
+      },
+      {
+       "title": "Lancement des travaux de mise à 2x2 voies de la B7 entre Schieren et Ettelbruck: un investissement stratégique",
+       "ok": false
+      },
+      {
+       "title": "Elisabeth Margue au Conseil \"Éducation, jeunesse, culture et sport\" de l'Union européenne au sujet de l'EU Kid",
+       "ok": false
+      },
+      {
+       "title": "36 vignerons et 20 producteurs du terroir luxembourgeois à l'Expogast 2026",
+       "ok": false
+      },
+      {
+       "title": "Le taux de chômage reste stable à 6,4 %, malgré la hausse du nombre de demandeurs d'emploi",
+       "ok": false
+      },
+      {
+       "title": "Une première semaine dédiée à l'inclusion numérique au Luxembourg",
+       "ok": false
+      },
+      {
+       "title": "European Testing Week: une semaine pour faire le point sur sa santé sexuelle",
+       "ok": false
+      },
       {
        "title": "Visite de la ministre des Sports Martine Hansen au centre de ski de fond et de biathlon Herzebösch",
        "ok": false
@@ -2329,34 +2362,6 @@
       },
       {
        "title": "Visite de courtoisie de S.A.R. le Grand-Duc à Londres - Deuxième journée",
-       "ok": false
-      },
-      {
-       "title": "Nouvel appel à candidatures DAB+",
-       "ok": false
-      },
-      {
-       "title": "Une nouvelle école européenne publique à Redange/Attert",
-       "ok": false
-      },
-      {
-       "title": "Lex Delles en déplacement en Allemagne à l'occasion des salons MEDICA et SpaceTech Expo Europe",
-       "ok": false
-      },
-      {
-       "title": "Visite de courtoisie de S.A.R. le Grand-Duc à Londres - Première journée",
-       "ok": false
-      },
-      {
-       "title": "Gilles Roth a effectué une mission financière en Australie",
-       "ok": false
-      },
-      {
-       "title": "Antibiotiques: pas un réflexe, un choix réfléchi",
-       "ok": false
-      },
-      {
-       "title": "Appel à projets R&D – Future Industry and Mobility: des projets innovants pour renforcer la compétitivité et l",
        "ok": false
       }
      ]
@@ -2460,7 +2465,7 @@
     }
    ],
    "scrape": {
-    "anchors": 219,
+    "anchors": 224,
     "accepted": 20,
     "second_chance": 0,
     "detail_errors": 1,
@@ -2472,14 +2477,14 @@
      "Circulation Coins",
      "Commemorative Coins",
      "Commemoratives and loose coins",
-     "Coin sets Europe",
      "Gold Bullion Coins",
+     "Coin sets Europe",
      "Coin bars with face value",
      "Non European coins",
-     "Craft of Coin making",
      "NGC Graded Foreign Coins",
-     "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
-     "Dutch Burn Foundation Medal in Coincard €15.00 Add to Cart"
+     "Craft of Coin making",
+     "JEEJ x Royal Dutch Mint – Silver €245.00 Add to Cart",
+     "JEEJ x Royal Dutch Mint – Medal in Coincard €9.95 Add to Cart"
     ],
     "coin_links": [
      {
@@ -2527,13 +2532,13 @@
       "ok": false
      },
      {
-      "t": "Coin sets Europe",
-      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
+      "t": "Gold Bullion Coins",
+      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
       "ok": false
      },
      {
-      "t": "Gold Bullion Coins",
-      "u": "https://www.royaldutchmint.com/gold-and-silverbars/gouden-bullions",
+      "t": "Coin sets Europe",
+      "u": "https://www.royaldutchmint.com/buitenland/muntsets-europa",
       "ok": false
      },
      {
@@ -2547,13 +2552,13 @@
       "ok": false
      },
      {
-      "t": "Craft of Coin making",
-      "u": "https://www.royaldutchmint.com/dutch-coins/specials/craft-of-coin-making",
+      "t": "NGC Graded Foreign Coins",
+      "u": "https://www.royaldutchmint.com/dutch-coins/ngc-graded/ngc-graded-foreign-coins",
       "ok": false
      },
      {
-      "t": "NGC Graded Foreign Coins",
-      "u": "https://www.royaldutchmint.com/dutch-coins/ngc-graded/ngc-graded-foreign-coins",
+      "t": "Craft of Coin making",
+      "u": "https://www.royaldutchmint.com/dutch-coins/specials/craft-of-coin-making",
       "ok": false
      },
      {
@@ -2575,6 +2580,16 @@
       "t": "Maastricht Treaty 5 Euro Coin",
       "u": "https://www.royaldutchmint.com/nederland/herdenkingsmunten/verdrag-van-maastricht",
       "ok": true
+     },
+     {
+      "t": "JEEJ x Royal Dutch Mint – Silver €245.00 Add to Cart",
+      "u": "https://www.royaldutchmint.com/jeej-x-royal-dutch-mint-silver",
+      "ok": false
+     },
+     {
+      "t": "JEEJ x Royal Dutch Mint – Medal in Coincard €9.95 Add to Cart",
+      "u": "https://www.royaldutchmint.com/jeej-x-royal-dutch-mint-medal-in-coincard",
+      "ok": false
      },
      {
       "t": "Halloween 2026 – Medal in Coincard €9.95 Add to Cart",
@@ -2631,21 +2646,11 @@
       "t": "75 years TV – Silver Medal €150.00 Out of stock",
       "u": "https://www.royaldutchmint.com/75-years-tv-silver-medal",
       "ok": false
-     },
-     {
-      "t": "Theme Set 2026 €34.95 Add to Cart",
-      "u": "https://www.royaldutchmint.com/theme-set-2026",
-      "ok": false
-     },
-     {
-      "t": "Annual Set The Netherlands 2026 UNC Quality €14.50 Add to Cart",
-      "u": "https://www.royaldutchmint.com/annual-set-the-netherlands-2026-unc-quality",
-      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 619407,
+    "html_chars": 635245,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2992,7 +2997,7 @@
     }
    ],
    "scrape": {
-    "anchors": 817,
+    "anchors": 818,
     "accepted": 22,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3197,7 +3202,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 462038,
+    "html_chars": 462471,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3205,9 +3210,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 792,
-     "no_text": 791,
+     "count": 793,
+     "no_text": 792,
      "sample": [
+      {
+       "t": "",
+       "u": "tralbank.cy/en/announcements/foreign-direct-investment-2025-20-11-2026"
+      },
       {
        "t": "",
        "u": "-bank-of-cyprus-balance-sheet-as-at-the-end-of-october-2026-18-11-2026"
@@ -3227,10 +3236,6 @@
       {
        "t": "",
        "u": "centralbank.cy/en/announcements/cir-statistics-october-2026-11-11-2026"
-      },
-      {
-       "t": "",
-       "u": "ps://www.centralbank.cy/en/announcements/financial-literacy-10-11-2026"
       }
      ]
     }
@@ -3303,9 +3308,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-18",
+     "newest": "2026-11-20",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Posviacka Veľkého evanjelického kostola na Panenskej ulici v Bratislave – 250. výročie",
+       "ok": false
+      },
       {
        "title": "Bez zlacnenia cestovného by inflácia vzrástla",
        "ok": false
@@ -3340,10 +3349,6 @@
       },
       {
        "title": "Michal Horváth: Čo rozhodne o budúcnosti Slovenska? [markiza.sk]",
-       "ok": false
-      },
-      {
-       "title": "Drahšie hypotéky zatiaľ rast cien nehnuteľností nepribrzdili",
        "ok": false
       }
      ]
@@ -3591,7 +3596,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138248,
+    "html_chars": 138317,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4195,7 +4200,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239184,
+    "html_chars": 239186,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4327,14 +4332,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4353,7 +4358,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 33382
+    "html_chars": 43843
    },
    "method": "scraping",
    "relevant": 0
@@ -4443,15 +4448,23 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-18",
-     "relevant": 1,
+     "newest": "2026-11-20",
+     "relevant": 0,
      "sample": [
+      {
+       "title": "Francophonie : Monaco participe au XXe Sommet à Phnom Penh",
+       "ok": false
+      },
+      {
+       "title": "La Principauté de Monaco célèbre sa Fête nationale aux Nations Unies",
+       "ok": false
+      },
       {
        "title": "Ateliers jeune public : Exposition « Mémoire Des Lieux » jusqu’au 24 janvier 2027",
        "ok": false
       },
       {
-       "title": "Programme de la 8ème édition de la Semaine Européenne de Réduction des Déchets",
+       "title": "Présentation de la 8ème édition de la Semaine Européenne de Réduction des Déchets",
        "ok": false
       },
       {
@@ -4477,21 +4490,61 @@
       {
        "title": "Le bâtiment A Fighera distingué à la COP31 pour ses performances environnementales",
        "ok": false
-      },
-      {
-       "title": "Le Gouvernement Princier lance un service de numéros d’immatriculation sur mesure",
-       "ok": false
-      },
-      {
-       "title": "Échanges dans le secteur domanial : les primes à la mobilité évoluent",
-       "ok": true
       }
      ]
+    },
+    {
+     "url": "https://www.gouv.mc/rss/feed/portail-gouv-publications-fr",
+     "http": 200,
+     "type": "application/xml; charset=utf-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/rss.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/feed",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/feed.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
+    },
+    {
+     "url": "https://www.gouv.mc/rss",
+     "http": 200,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0,
+     "bozo": "<unknown>:80:167: not well-formed (invalid token)"
+    },
+    {
+     "url": "https://www.gouv.mc/atom.xml",
+     "http": 404,
+     "type": "text/html; charset=UTF-8",
+     "entries": 0
     }
    ],
-   "method": "feed_descubierto",
-   "feed_url": "https://www.gouv.mc/rss/feed/portail-gouv-actualites-fr",
-   "relevant": 1
+   "scrape": {
+    "anchors": 74,
+    "accepted": 0,
+    "second_chance": 0,
+    "detail_errors": 0,
+    "rejected_sample": [],
+    "coin_links": [],
+    "http": 200,
+    "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
+    "html_chars": 436008,
+    "skipped_menu": 30
+   },
+   "method": "scraping",
+   "relevant": 0
   },
   "san_marino": {
    "name": "Divisione Filatelica Numismatica",
@@ -4622,7 +4675,7 @@
     }
    ],
    "scrape": {
-    "anchors": 992,
+    "anchors": 998,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
@@ -4630,9 +4683,9 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 895387,
+    "html_chars": 898344,
     "coin_filter": "news",
-    "skipped_menu": 957
+    "skipped_menu": 963
    },
    "method": "scraping",
    "relevant": 0
