@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-22T06:47:26.370688+00:00",
+ "generated_at": "2026-11-22T19:38:47.933449+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.0,
+     "seconds": 31.7,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 30.9,
+     "seconds": 21.0,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.337,65",
-     "€ 1.733,65",
-     "€ 1.552,66"
+     "€ 3.330,10",
+     "€ 1.729,72",
+     "€ 1.544,33"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.337,65",
+      "t": "€ 3.330,10",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.733,65",
+      "t": "€ 1.729,72",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.552,66",
+      "t": "€ 1.544,33",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1046,40 +1046,221 @@
    "feeds_tried": [
     {
      "url": "https://www.bde.es/wbe/es/inicio/rss/rss-noticias/",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
-     "url": "https://www.bde.es/rss.xml",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
-     "url": "https://www.bde.es/feed",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
-     "url": "https://www.bde.es/feed.xml",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
-     "url": "https://www.bde.es/rss",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
-    },
-    {
-     "url": "https://www.bde.es/atom.xml",
-     "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+     "http": 200,
+     "type": "text/xml; charset=UTF-8",
+     "entries": 20,
+     "newest": "2026-11-20",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "Subgobernadora. IX Foro Banca/elEconomista. Fortaleza bancaria y riesgos para la estabilidad financiera",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España y la red GFTN sitúan a Madrid en el núcleo de una nueva alianza financiera entre Europa y L",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España presenta el catálogo razonado de su colección de textiles",
+       "ok": false
+      },
+      {
+       "title": "Balanza de pagos mensual de la zona del euro: septiembre de 2026",
+       "ok": false
+      },
+      {
+       "title": "El BCE mantiene básicamente estables los requerimientos de capital para 2027 y centra sus prioridades en la re",
+       "ok": false
+      },
+      {
+       "title": "DG de Relaciones Institucionales, Transparencia y Conducta. Presentación del catálogo razonado de la colección",
+       "ok": false
+      },
+      {
+       "title": "Los riesgos derivados de las valoraciones de las empresas del sector de la IA, los desequilibrios fiscales y l",
+       "ok": false
+      },
+      {
+       "title": "Gobernador. Singapore Fintech Festival. “The Next Chapter in Financial Innovation”",
+       "ok": false
+      },
+      {
+       "title": "Estado financiero consolidado del Eurosistema a 13 de noviembre de 2026",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España celebra el XXIV Foro de Análisis Latinoamericano",
+       "ok": false
+      },
+      {
+       "title": "La deuda de las Administraciones Públicas se situó en septiembre de 2026 en el 100,3 % del PIB",
+       "ok": false
+      },
+      {
+       "title": "El Banco de España y la Cátedra Nebrija celebran un encuentro en el que se analiza la nueva fase exportadora e",
+       "ok": false
+      },
+      {
+       "title": "Soledad Núñez. IX Foro Banca de elEconomista",
+       "ok": false
+      },
+      {
+       "title": "José Luis Escrivá. Singapore Fintech Festival",
+       "ok": false
+      },
+      {
+       "title": "Gobernador. ICMB. Europe in the new geopolitical landscape",
+       "ok": false
+      }
+     ]
     }
    ],
-   "section_error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
    "scrape": {
-    "anchors": 0,
+    "anchors": 436,
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
-    "error": "ConnectionError: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))"
+    "rejected_sample": [
+     "Euro banknotes",
+     "Euro coins",
+     "History of peseta coins and notes",
+     "Training programme on banknotes and coins and information material",
+     "Legislation on general regime of the euro",
+     "Study on the payment attitudes of consumers in the euro area",
+     "El euro: 20 años en nuestros bolsillos"
+    ],
+    "coin_links": [
+     {
+      "t": "Banknotes and coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro banknotes",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/monedas-euros/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "“ Conozca el euro ” course",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/talleres-jornadas-y-visitas/curso-conozca-el-euro/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Generation €uro Students’ Award",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/concursos/generacion-euro/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Videos on banknotes and coins",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/educacion-financiera/recursos/videos/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Euro area monetary policy and instruments",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/politica-monetaria/politica-monetaria-area-euro/bce-estrategia-politica-monetaria/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "Digital euro",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/sistemas-pago/euro-digital/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "The Single Euro Payments Area ( SEPA )",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/sistemas-pago/zona-unica-pagos-euros-sepa/",
+      "ok": false,
+      "menu": true
+     },
+     {
+      "t": "History of peseta coins and notes",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/historia-peseta/",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Training programme on banknotes and coins and information material",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/programa-formacion-billetes-monedas-material-informativo/",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Legislation on general regime of the euro",
+      "u": "https://www.bde.es/wbe/en/areas-actuacion/normativa/regulacion-sistema-financiero/regimen-general-del-euro.html",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Study on the payment attitudes of consumers in the euro area",
+      "u": "https://www.ecb.europa.eu/stats/ecb_surveys/space/html/index.en.html",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "El euro: 20 años en nuestros bolsillos",
+      "u": "https://www.bde.es/wbe/en/inicio/noticias/euro-20-anos-nuestros-bolsillos.html",
+      "ok": false,
+      "via": "attr"
+     }
+    ],
+    "http": 200,
+    "page_title": "Banknotes and coins - Banco de España",
+    "html_chars": 397895,
+    "skipped_menu": 410,
+    "skipped_menu_sample": [
+     "Banknotes and coins",
+     "Euro banknotes",
+     "Euro coins",
+     "“ Conozca el euro ” course",
+     "Generation €uro Students’ Award",
+     "Videos on banknotes and coins",
+     "Euro area monetary policy and instruments",
+     "Digital euro"
+    ],
+    "child_links": {
+     "count": 26,
+     "no_text": 10,
+     "sample": [
+      {
+       "t": "Euro banknotes",
+       "u": "s://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/billetes-euros/"
+      },
+      {
+       "t": "Euro coins",
+       "u": "ps://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/monedas-euros/"
+      },
+      {
+       "t": "Anti-counterfeiting",
+       "u": "es/wbe/en/areas-actuacion/billetes-monedas/lucha-contra-falsificacion/"
+      },
+      {
+       "t": "The role of cash",
+       "u": "s://www.bde.es/wbe/en/areas-actuacion/billetes-monedas/papel-efectivo/"
+      },
+      {
+       "t": "The Eurosystem cash strategy",
+       "u": "reas-actuacion/billetes-monedas/estrategia-sobre-efectivo-eurosistema/"
+      },
+      {
+       "t": "Cashback and cash-in-shop",
+       "u": "monedas/estrategia-sobre-efectivo-eurosistema/cashback-y-cash-in-shop/"
+      }
+     ]
+    }
    },
-   "method": "scraping",
+   "method": "feeds_a_mano+scraping",
    "relevant": 0
   },
   "spain_boe": {
@@ -1180,7 +1361,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 181722,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1638,7 +1819,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 467077,
+    "html_chars": 466853,
     "child_links": {
      "count": 311,
      "no_text": 62,
@@ -2098,7 +2279,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163775,
+    "html_chars": 163725,
     "skipped_menu": 136,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2118,9 +2299,17 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-20",
+     "newest": "2026-11-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Positionnement du ministre de l'Environnement, du Climat et de la Biodiversité, Serge Wilmes, sur la COP31 à A",
+       "ok": false
+      },
+      {
+       "title": "Serge Wilmes à la COP31 à Antalya",
+       "ok": false
+      },
       {
        "title": "Résumé des travaux du 20 novembre 2026",
        "ok": false
@@ -2171,14 +2360,6 @@
       },
       {
        "title": "Le ministère de la Culture lance son aide aux entités culturelles luxembourgeoises porteuses ou partenaires d'",
-       "ok": false
-      },
-      {
-       "title": "La Journée mondiale de l'enfance: renforcer l'inclusion et la participation",
-       "ok": false
-      },
-      {
-       "title": "Infections respiratoires: rétrospective de la semaine du 9 au 15 novembre 2026",
        "ok": false
       }
      ]
@@ -3413,7 +3594,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138317,
+    "html_chars": 138277,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4149,14 +4330,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4339,7 +4520,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:77:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4357,7 +4538,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 435117,
+    "html_chars": 434444,
     "skipped_menu": 30
    },
    "method": "scraping",
