@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T07:37:54.150480+00:00",
+ "generated_at": "2026-11-23T23:55:20.214370+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 38.3,
+     "seconds": 49.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 22.0,
+     "seconds": 34.1,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -46,75 +46,77 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/atom.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 30,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "35 years of the Erasmus programme - Finland",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovakia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovenia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Portugal",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Austria",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Netherlands",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Malta",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Luxembourg",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Lithuania",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Latvia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Cyprus",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Italy",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - France",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Spain",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Greece",
+       "ok": true
+      }
+     ],
+     "skipped_old": 30
     }
    ],
-   "section_http": 200,
-   "section_title": "Commemorative coins - Economy and Finance - European Commission",
-   "link_feeds": [],
-   "scrape": {
-    "anchors": 82,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [
-     {
-      "t": "Euro coins and notes",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Commemorative coins - Economy and Finance - European Commission",
-    "html_chars": 156075,
-    "coin_filter": "news",
-    "skipped_menu": 36,
-    "skipped_menu_sample": [
-     "Euro coins and notes",
-     "Euro coins"
-    ]
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "ecb": {
@@ -127,9 +129,17 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-20",
+     "newest": "2026-11-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Philip R. Lane: Climate change and monetary policy",
+       "ok": false
+      },
+      {
+       "title": "ECB expands acceptance of DLT-based assets as eligible Eurosystem collateral",
+       "ok": false
+      },
       {
        "title": "Christine Lagarde: Acting in time",
        "ok": false
@@ -180,14 +190,6 @@
       },
       {
        "title": "Piero Cipollone: Shaping the future of money",
-       "ok": false
-      },
-      {
-       "title": "ECB wage tracker suggests slightly higher wage growth in first three quarters of 2027 compared with the full y",
-       "ok": false
-      },
-      {
-       "title": "Boris Vujčić: Integrated, open and resilient: Europe’s strengths in a fragmenting world",
        "ok": false
       }
      ]
@@ -241,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.404,96",
-     "€ 1.768,60",
-     "€ 1.567,86"
+     "€ 3.457,62",
+     "€ 1.795,95",
+     "€ 1.592,58"
     ],
     "coin_links": [
      {
@@ -385,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.404,96",
+      "t": "€ 3.457,62",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.768,60",
+      "t": "€ 1.795,95",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.567,86",
+      "t": "€ 1.592,58",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -414,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 154957,
+    "html_chars": 154904,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -560,9 +562,13 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-20",
+     "newest": "2026-11-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Auction result – Federal Treasury discount paper (Bubills)",
+       "ok": false
+      },
       {
        "title": "Invitation to bid – Federal Treasury discount paper (Bubills)",
        "ok": false
@@ -597,10 +603,6 @@
       },
       {
        "title": "Europe and China: A changing relationship in a changing world | Keynote speech at 12th China Day, DFV Euro Fin",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening of Federal Treasury notes",
        "ok": false
       }
      ]
@@ -1047,9 +1049,13 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-20",
+     "newest": "2026-11-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "El BCE amplía la aceptación de activos basados en tecnología DLT como activos de garantía admisibles en el Eur",
+       "ok": false
+      },
       {
        "title": "Subgobernadora. IX Foro Banca/elEconomista. Fortaleza bancaria y riesgos para la estabilidad financiera",
        "ok": false
@@ -1104,10 +1110,6 @@
       },
       {
        "title": "José Luis Escrivá. Singapore Fintech Festival",
-       "ok": false
-      },
-      {
-       "title": "Gobernador. ICMB. Europe in the new geopolitical landscape",
        "ok": false
       }
      ]
@@ -1359,7 +1361,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180164,
+    "html_chars": 180163,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1606,7 +1608,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 322517,
+    "html_chars": 322516,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1704,12 +1706,11 @@
     }
    ],
    "scrape": {
-    "anchors": 371,
+    "anchors": 370,
     "accepted": 4,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "semeuse les mythes de l or monnaie de 5 000eur en or cresus qualite bu millesime 2026",
      "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la Monnaie de Paris co",
      "Nouveauté 2025-2026 Histoire de l'automobile L’histoire de l’automobile s’écrit aussi en monnaies. Lancée en 2",
      "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
@@ -1767,12 +1768,6 @@
       "menu": true
      },
      {
-      "t": "semeuse les mythes de l or monnaie de 5 000eur en or cresus qualite bu millesime 2026",
-      "u": "https://www.monnaiedeparis.fr/fr/semeuse-les-mythes-de-l-or-monnaie-de-5-000eur-en-or-cresus-qualite-bu-millesime-2026",
-      "ok": false,
-      "via": "slug"
-     },
-     {
       "t": "Nouveauté 2026 Batman Après avoir célébré les héros emblématiques de DC Comics en 2025, la",
       "u": "https://www.monnaiedeparis.fr/batman",
       "ok": false
@@ -1803,6 +1798,11 @@
       "ok": true
      },
      {
+      "t": "Semeuse - Les Mythes de l'Or Monnaie de 5 000€ en Or - Crésus - Qualité BU Millésime 2026",
+      "u": "https://www.monnaiedeparis.fr/fr/semeuse-les-mythes-de-l-or-monnaie-de-5-000eur-en-or-cresus-qualite-bu-millesime-2026",
+      "ok": true
+     },
+     {
       "t": "batman monnaie de 10eur argent qualite be millesime 2026",
       "u": "https://www.monnaiedeparis.fr/fr/batman-monnaie-de-10eur-argent-qualite-be-millesime-2026",
       "ok": false,
@@ -1822,10 +1822,10 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 468078,
+    "html_chars": 467786,
     "child_links": {
-     "count": 311,
-     "no_text": 62,
+     "count": 309,
+     "no_text": 60,
      "sample": [
       {
        "t": "en",
@@ -1853,7 +1853,7 @@
       }
      ]
     },
-    "skipped_menu": 291,
+    "skipped_menu": 293,
     "skipped_menu_sample": [
      "euros or 2",
      "Euros Argent",
@@ -2200,7 +2200,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 133749,
+    "html_chars": 133687,
     "skipped_menu": 118,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2282,7 +2282,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163749,
+    "html_chars": 163759,
     "skipped_menu": 138,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2302,9 +2302,17 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-23",
+     "newest": "2026-11-22",
      "relevant": 0,
      "sample": [
+      {
+       "title": "'Gëff däi positive Pefferkär!' − Lancement officiel de la campagne du projet 'ZIVILCOURAGE AM NETZ' contre les",
+       "ok": false
+      },
+      {
+       "title": "Le ministère de la Culture lance son aide au développement de l'entrepreneuriat dans la musique",
+       "ok": false
+      },
       {
        "title": "Entrevue entre Xavier Bettel et Kęstutis Budrys",
        "ok": false
@@ -2355,14 +2363,6 @@
       },
       {
        "title": "\"Aqua Pilot\" ein wichtiger Schritt für den automatisierten Fährbetrieb zwischen Deutschland und Luxemburg",
-       "ok": false
-      },
-      {
-       "title": "Signature d'une convention de coopération entre Luxembourg for Tourism et l'Office régional du tourisme région",
-       "ok": false
-      },
-      {
-       "title": "La ministre Elisabeth Margue a participé au dialogue annuel sur l'État de droit à Bruxelles",
        "ok": false
       }
      ]
@@ -2650,7 +2650,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 641591,
+    "html_chars": 641148,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -2997,7 +2997,7 @@
     }
    ],
    "scrape": {
-    "anchors": 818,
+    "anchors": 819,
     "accepted": 22,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3202,7 +3202,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 462471,
+    "html_chars": 462943,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3210,9 +3210,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 793,
-     "no_text": 792,
+     "count": 794,
+     "no_text": 793,
      "sample": [
+      {
+       "t": "",
+       "u": "tps://www.centralbank.cy/en/announcements/governor-insights-23-11-2026"
+      },
       {
        "t": "",
        "u": "tralbank.cy/en/announcements/foreign-direct-investment-2025-20-11-2026"
@@ -3232,10 +3236,6 @@
       {
        "t": "",
        "u": "https://www.centralbank.cy/en/announcements/imir-sept-2026-11-11-2026"
-      },
-      {
-       "t": "",
-       "u": "centralbank.cy/en/announcements/cir-statistics-october-2026-11-11-2026"
       }
      ]
     }
@@ -3308,9 +3308,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-20",
+     "newest": "2026-11-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Eurofondy majú byť pre Slovensko odrazovým mostíkom, nie barlou",
+       "ok": false
+      },
       {
        "title": "Posviacka Veľkého evanjelického kostola na Panenskej ulici v Bratislave – 250. výročie",
        "ok": false
@@ -3345,10 +3349,6 @@
       },
       {
        "title": "Joint statement by the Czech National Bank, Magyar Nemzeti Bank, Narodowy Bank Polski, and Národná banka Slove",
-       "ok": false
-      },
-      {
-       "title": "Michal Horváth: Čo rozhodne o budúcnosti Slovenska? [markiza.sk]",
        "ok": false
       }
      ]
@@ -3596,7 +3596,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138277,
+    "html_chars": 138247,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4200,7 +4200,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239185,
+    "html_chars": 239182,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4332,14 +4332,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/rss",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
@@ -4358,7 +4358,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43843
+    "html_chars": 33382
    },
    "method": "scraping",
    "relevant": 0
@@ -4448,9 +4448,13 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-20",
+     "newest": "2026-11-23",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Présidence monégasque du Comité des Ministres du Conseil de l’Europe : un bilan extrêmement positif",
+       "ok": false
+      },
       {
        "title": "Francophonie : Monaco participe au XXe Sommet à Phnom Penh",
        "ok": false
@@ -4461,10 +4465,6 @@
       },
       {
        "title": "Ateliers jeune public : Exposition « Mémoire Des Lieux » jusqu’au 24 janvier 2027",
-       "ok": false
-      },
-      {
-       "title": "Présentation de la 8ème édition de la Semaine Européenne de Réduction des Déchets",
        "ok": false
       },
       {
@@ -4522,7 +4522,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:191: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4540,7 +4540,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 434602,
+    "html_chars": 435077,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4679,11 +4679,19 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [],
+    "rejected_sample": [
+     "El Govern aportarà fins a 11 milions d’euros per fer realitat el recinte firal de l’Espai Capital"
+    ],
+    "coin_links": [
+     {
+      "t": "El Govern aportarà fins a 11 milions d’euros per fer realitat el recinte firal de l’Espai ",
+      "u": "https://www.govern.ad/ca/w/el-govern-aportara-fins-a-11-milions-d-euros-per-fer-realitat-el-recinte-firal-de-l-espai-capital",
+      "ok": false
+     }
+    ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 899830,
+    "html_chars": 898299,
     "coin_filter": "news",
     "skipped_menu": 963
    },
