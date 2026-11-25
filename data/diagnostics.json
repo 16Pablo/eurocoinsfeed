@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-24T22:27:55.291442+00:00",
+ "generated_at": "2026-11-25T08:31:47.857535+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 27.7,
+     "seconds": 48.6,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 18.9,
+     "seconds": 7.9,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.353,96",
-     "€ 1.742,11",
-     "€ 1.517,22"
+     "€ 3.323,66",
+     "€ 1.726,37",
+     "€ 1.499,82"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.353,96",
+      "t": "€ 3.323,66",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.742,11",
+      "t": "€ 1.726,37",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.517,22",
+      "t": "€ 1.499,82",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286000,
+    "html_chars": 286006,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1270,6 +1270,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-25",
+     "http": 200,
+     "items": 217,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-24",
      "http": 200,
      "items": 204,
@@ -1284,12 +1290,6 @@
     {
      "day": "2026-11-22",
      "http": 404
-    },
-    {
-     "day": "2026-11-21",
-     "http": 200,
-     "items": 285,
-     "relevant": 0
     }
    ],
    "relevant": 0
@@ -1361,7 +1361,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180167,
+    "html_chars": 180165,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1822,7 +1822,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 468349,
+    "html_chars": 468353,
     "child_links": {
      "count": 309,
      "no_text": 60,
@@ -2200,7 +2200,7 @@
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 134028,
+    "html_chars": 134002,
     "skipped_menu": 118,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2279,7 +2279,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163695,
+    "html_chars": 163745,
     "skipped_menu": 138,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2302,6 +2302,10 @@
      "newest": "2026-11-24",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Les Climate Youth Delegates échangent avec le Premier ministre et le ministre de l'Environnement, du Climat et",
+       "ok": false
+      },
       {
        "title": "Le Conseil supérieur de l'aménagement du territoire a célébré son 50ᵉ anniversaire: un demi-siècle de réflexio",
        "ok": false
@@ -2327,6 +2331,14 @@
        "ok": false
       },
       {
+       "title": "Rapport préliminaire concernant l'événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF e",
+       "ok": false
+      },
+      {
+       "title": "Preliminary report regarding the event involving the Boeing B747-8R7F registered LX-VCF, operated by Cargolux ",
+       "ok": false
+      },
+      {
        "title": "'Gëff däi positive Pefferkär!' − Lancement officiel de la campagne du projet 'ZIVILCOURAGE AM NETZ' contre les",
        "ok": false
       },
@@ -2348,18 +2360,6 @@
       },
       {
        "title": "Résumé des travaux du 20 novembre 2026",
-       "ok": false
-      },
-      {
-       "title": "Luc Frieden et Léon Gloden ont accueilli au Luxembourg la \"European Coalition on Civil Preparedness and Resili",
-       "ok": false
-      },
-      {
-       "title": "Lancement des travaux de mise à 2x2 voies de la B7 entre Schieren et Ettelbruck: un investissement stratégique",
-       "ok": false
-      },
-      {
-       "title": "Elisabeth Margue au Conseil \"Éducation, jeunesse, culture et sport\" de l'Union européenne au sujet de l'EU Kid",
        "ok": false
       }
      ]
@@ -3593,7 +3593,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138247,
+    "html_chars": 138245,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4197,7 +4197,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239189,
+    "html_chars": 239183,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4336,14 +4336,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4519,7 +4519,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:150: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4537,7 +4537,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 435043,
+    "html_chars": 435734,
     "skipped_menu": 30
    },
    "method": "scraping",
