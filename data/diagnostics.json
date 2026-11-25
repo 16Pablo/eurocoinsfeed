@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T08:31:47.857535+00:00",
+ "generated_at": "2026-11-25T21:44:52.585315+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 48.6,
+     "seconds": 46.4,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 7.9,
+     "seconds": 26.4,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -129,9 +129,17 @@
      "http": 200,
      "type": "text/xml",
      "entries": 15,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
+      {
+       "title": "ECB and Sveriges Riksbank conclude agreement for Sweden to join T2",
+       "ok": false
+      },
+      {
+       "title": "Card payments edge past cash in shops; euro area consumers want both",
+       "ok": false
+      },
       {
        "title": "Boris Vujčić: Resilience in an age of shocks: lessons from central and eastern Europe",
        "ok": false
@@ -182,14 +190,6 @@
       },
       {
        "title": "Christine Lagarde: Interview with Yomiuri Shimbun",
-       "ok": false
-      },
-      {
-       "title": "ECB publishes consolidated banking data for end-June 2026",
-       "ok": false
-      },
-      {
-       "title": "Isabel Schnabel: Navigating stormy waters: reflections on monetary policy",
        "ok": false
       }
      ]
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.323,66",
-     "€ 1.726,37",
-     "€ 1.499,82"
+     "€ 3.373,73",
+     "€ 1.752,38",
+     "€ 1.521,84"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.323,66",
+      "t": "€ 3.373,73",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.726,37",
+      "t": "€ 1.752,38",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.499,82",
+      "t": "€ 1.521,84",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 155038,
+    "html_chars": 155402,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -562,9 +562,21 @@
      "http": 200,
      "type": "application/rss+xml;charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Funded Pensions: A Game Changer for Society | Guest Lecture at the Centre for Central Banking, Frankfurt Schoo",
+       "ok": false
+      },
+      {
+       "title": "Reopening Federal bond issue – Auction result",
+       "ok": false
+      },
+      {
+       "title": "Auction announcement – Reopening of five-year Federal notes (Bundesobligationen – “Bobls”) series 194 by aucti",
+       "ok": false
+      },
       {
        "title": "Invitation to bid by auction – Reopening 10-year Federal bond",
        "ok": false
@@ -591,18 +603,6 @@
       },
       {
        "title": "Reopening Federal bond issue – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Reopening of Federal Treasury notes – Auction result",
-       "ok": false
-      },
-      {
-       "title": "Invitation to bid by auction – Reopening 7-year Federal bond",
-       "ok": false
-      },
-      {
-       "title": "Announcement – Federal Treasury discount paper (Bubills)",
        "ok": false
       }
      ]
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286006,
+    "html_chars": 286000,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1049,11 +1049,19 @@
      "http": 200,
      "type": "text/xml; charset=UTF-8",
      "entries": 20,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
       {
+       "title": "Los pagos con tarjeta superan ligeramente al efectivo en los comercios; los consumidores de la zona del euro d",
+       "ok": false
+      },
+      {
        "title": "Las empresas mejoraron su situación económica en 2025 y mantuvieron la tendencia en los nueve primeros meses d",
+       "ok": false
+      },
+      {
+       "title": "Estado financiero consolidado del Eurosistema a 20 de noviembre de 2026",
        "ok": false
       },
       {
@@ -1102,14 +1110,6 @@
       },
       {
        "title": "El Banco de España celebra el XXIV Foro de Análisis Latinoamericano",
-       "ok": false
-      },
-      {
-       "title": "La deuda de las Administraciones Públicas se situó en septiembre de 2026 en el 100,3 % del PIB",
-       "ok": false
-      },
-      {
-       "title": "El Banco de España y la Cátedra Nebrija celebran un encuentro en el que se analiza la nueva fase exportadora e",
        "ok": false
       }
      ]
@@ -1361,7 +1361,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180165,
+    "html_chars": 180167,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1707,7 +1707,7 @@
    ],
    "scrape": {
     "anchors": 370,
-    "accepted": 4,
+    "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
@@ -1715,7 +1715,8 @@
      "Nouveauté 2025-2026 Histoire de l'automobile L’histoire de l’automobile s’écrit aussi en monnaies. Lancée en 2",
      "Nouveauté 2019-...-2026 UNESCO : Patrimoine Mondial La collection UNESCO Patrimoine Mondial nous fait voyager ",
      "Voir toutes les monnaies",
-     "batman monnaie de 10eur argent qualite be millesime 2026",
+     "dc comics monnaie de 10eur argent flash qualite courante millesime 2025",
+     "L'Odyssée Spatiale avec Thomas Pesquet Monnaie 25€ Argent 2 Oz Connectée - Qualité BE Millésime 2025",
      "de monnaies de collection, de médailles et d’objets d’art ."
     ],
     "coin_links": [
@@ -1798,15 +1799,15 @@
       "ok": true
      },
      {
-      "t": "Semeuse - Les Mythes de l'Or Monnaie de 5 000€ en Or - Crésus - Qualité BU Millésime 2026",
-      "u": "https://www.monnaiedeparis.fr/fr/semeuse-les-mythes-de-l-or-monnaie-de-5-000eur-en-or-cresus-qualite-bu-millesime-2026",
-      "ok": true
-     },
-     {
-      "t": "batman monnaie de 10eur argent qualite be millesime 2026",
-      "u": "https://www.monnaiedeparis.fr/fr/batman-monnaie-de-10eur-argent-qualite-be-millesime-2026",
+      "t": "dc comics monnaie de 10eur argent flash qualite courante millesime 2025",
+      "u": "https://www.monnaiedeparis.fr/fr/dc-comics-monnaie-de-10eur-argent-flash-qualite-courante-millesime-2025",
       "ok": false,
       "via": "slug"
+     },
+     {
+      "t": "L'Odyssée Spatiale avec Thomas Pesquet Monnaie 25€ Argent 2 Oz Connectée - Qualité BE Mill",
+      "u": "https://www.monnaiedeparis.fr/fr/l-odyssee-spatiale-avec-thomas-pesquet-monnaie-25eur-argent-2-oz-connectee-qualite-be-millesime-2025",
+      "ok": false
      },
      {
       "t": "de monnaies de collection, de médailles et d’objets d’art .",
@@ -1822,7 +1823,7 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 468353,
+    "html_chars": 468110,
     "child_links": {
      "count": 309,
      "no_text": 60,
@@ -1866,7 +1867,7 @@
     ]
    },
    "method": "scraping",
-   "relevant": 4
+   "relevant": 3
   },
   "ireland": {
    "name": "Central Bank of Ireland",
@@ -1947,7 +1948,7 @@
     ],
     "http": 200,
     "page_title": "News and media | Central Bank of Ireland",
-    "html_chars": 125261,
+    "html_chars": 125209,
     "skipped_menu": 304,
     "skipped_menu_sample": [
      "Money, notes and coins",
@@ -2171,7 +2172,9 @@
     "accepted": 0,
     "second_chance": 0,
     "detail_errors": 0,
-    "rejected_sample": [],
+    "rejected_sample": [
+     "La BCE pubblica il rapporto sulle abitudini di pagamento dei consumatori nell'area dell'euro"
+    ],
     "coin_links": [
      {
       "t": "Emissione euro",
@@ -2196,11 +2199,16 @@
       "u": "https://www.bancaditalia.it/statistiche/tematiche/moneta-intermediari-finanza/index.html",
       "ok": false,
       "menu": true
+     },
+     {
+      "t": "La BCE pubblica il rapporto sulle abitudini di pagamento dei consumatori nell'area dell'eu",
+      "u": "https://www.bancaditalia.it/media/notizia/la-bce-pubblica-il-rapporto-sulle-abitudini-di-pagamento-dei-consumatori-nell-area-dell-euro/",
+      "ok": false
      }
     ],
     "http": 200,
     "page_title": "Banca d'Italia - Notizie",
-    "html_chars": 134002,
+    "html_chars": 134094,
     "skipped_menu": 118,
     "skipped_menu_sample": [
      "Emissione euro",
@@ -2299,9 +2307,37 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Conférence \"Q-DEF − Quantum For Defence\"",
+       "ok": false
+      },
+      {
+       "title": "Résumé des travaux du 25 novembre 2026",
+       "ok": false
+      },
+      {
+       "title": "\"Méi Natur an eise Stied an Dierfer\": huit projets communaux récompensés pour une adaptation concrète au chang",
+       "ok": false
+      },
+      {
+       "title": "Guichet.lu on tour: la numérisation rencontre la proximité citoyenne à partir du 30 novembre",
+       "ok": false
+      },
+      {
+       "title": "Publication du rapport \"Panorama de la santé: Europe 2026\" par l'Organisation de coopération et de développeme",
+       "ok": false
+      },
+      {
+       "title": "Lex Delles en mission économique en République tchèque",
+       "ok": false
+      },
+      {
+       "title": "Statistiques concernant la protection internationale et la protection temporaire - mois d'octobre 2026",
+       "ok": false
+      },
       {
        "title": "Les Climate Youth Delegates échangent avec le Premier ministre et le ministre de l'Environnement, du Climat et",
        "ok": false
@@ -2332,34 +2368,6 @@
       },
       {
        "title": "Rapport préliminaire concernant l'événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF e",
-       "ok": false
-      },
-      {
-       "title": "Preliminary report regarding the event involving the Boeing B747-8R7F registered LX-VCF, operated by Cargolux ",
-       "ok": false
-      },
-      {
-       "title": "'Gëff däi positive Pefferkär!' − Lancement officiel de la campagne du projet 'ZIVILCOURAGE AM NETZ' contre les",
-       "ok": false
-      },
-      {
-       "title": "Le ministère de la Culture lance son aide au développement de l'entrepreneuriat dans la musique",
-       "ok": false
-      },
-      {
-       "title": "Entrevue entre Xavier Bettel et Kęstutis Budrys",
-       "ok": false
-      },
-      {
-       "title": "Positionnement du ministre de l'Environnement, du Climat et de la Biodiversité, Serge Wilmes, sur la COP31 à A",
-       "ok": false
-      },
-      {
-       "title": "Serge Wilmes à la COP31 à Antalya",
-       "ok": false
-      },
-      {
-       "title": "Résumé des travaux du 20 novembre 2026",
        "ok": false
       }
      ]
@@ -2994,7 +3002,7 @@
     }
    ],
    "scrape": {
-    "anchors": 819,
+    "anchors": 820,
     "accepted": 22,
     "second_chance": 0,
     "detail_errors": 0,
@@ -3199,7 +3207,7 @@
     ],
     "http": 200,
     "page_title": "Central Bank of Cyprus - Announcements",
-    "html_chars": 462938,
+    "html_chars": 463498,
     "coin_filter": "news",
     "skipped_menu": 26,
     "skipped_menu_sample": [
@@ -3207,9 +3215,13 @@
      "Banknotes & Coins"
     ],
     "child_links": {
-     "count": 794,
-     "no_text": 793,
+     "count": 795,
+     "no_text": 794,
      "sample": [
+      {
+       "t": "",
+       "u": "s://www.centralbank.cy/en/announcements/npls-31-august-2026-25-11-2026"
+      },
       {
        "t": "",
        "u": "tps://www.centralbank.cy/en/announcements/governor-insights-23-11-2026"
@@ -3229,10 +3241,6 @@
       {
        "t": "",
        "u": "https://www.centralbank.cy/en/announcements/gov-mni-11-11-26"
-      },
-      {
-       "t": "",
-       "u": "https://www.centralbank.cy/en/announcements/imir-sept-2026-11-11-2026"
       }
      ]
     }
@@ -3305,9 +3313,21 @@
      "http": 200,
      "type": "application/rss+xml; charset=UTF-8",
      "entries": 10,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Fauna a flóra na Slovensku – svišť vrchovský",
+       "ok": false
+      },
+      {
+       "title": "Platby kartou v obchodoch tesne predbehli hotovosť, spotrebitelia v eurozóne chcú obe možnosti (v angličtine)",
+       "ok": false
+      },
+      {
+       "title": "Slovensko potrebuje sústrediť pozornosť na zdroje budúceho rastu",
+       "ok": false
+      },
       {
        "title": "Komuniké z 21. rokovania Bankovej rady NBS",
        "ok": false
@@ -3334,18 +3354,6 @@
       },
       {
        "title": "Frankfurtské hárky, číslo 46 / november 2026",
-       "ok": false
-      },
-      {
-       "title": "Ekonomika takmer stagnuje",
-       "ok": false
-      },
-      {
-       "title": "Pravidelné európske zisťovanie ukáže, koľko máme úspor, dlhov a majetku",
-       "ok": false
-      },
-      {
-       "title": "Účet „NBS“ pre verejnosť neexistuje. Pozor na podvodné stránky.",
        "ok": false
       }
      ]
@@ -3593,7 +3601,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138245,
+    "html_chars": 138182,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -3854,9 +3862,13 @@
      "http": 200,
      "type": "application/rss+xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 1,
      "sample": [
+      {
+       "title": "The Nordic-Baltic Macroprudential Forum (NBMF) has published a report on macroprudential capital requirements ",
+       "ok": false
+      },
       {
        "title": "Latvijas Banka announces its annual Student Scientific Research Paper Competition",
        "ok": false
@@ -3891,10 +3903,6 @@
       },
       {
        "title": "Turning Europe's scale into impact",
-       "ok": false
-      },
-      {
-       "title": "What lessons have we learned from the August storm?",
        "ok": false
       }
      ]
@@ -4197,7 +4205,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239183,
+    "html_chars": 239185,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4336,14 +4344,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4355,7 +4363,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 33382
+    "html_chars": 43843
    },
    "method": "scraping",
    "relevant": 0
@@ -4445,15 +4453,27 @@
      "http": 200,
      "type": "application/xml; charset=utf-8",
      "entries": 10,
-     "newest": "2026-11-24",
+     "newest": "2026-11-25",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Les Saveurs du Japon à Monaco",
+       "ok": false
+      },
+      {
+       "title": "Le Gouvernement Princier poursuit la modernisation du droit des sociétés et dépose un projet de loi",
+       "ok": false
+      },
+      {
+       "title": "Frédéric Cottalorda en visite dans les Laboratoires ASEPTA",
+       "ok": false
+      },
       {
        "title": "Réunion consulaire : Monaco mobilise son réseau au service de son rayonnement international",
        "ok": false
       },
       {
-       "title": "LE FESTIVAL RÉSONANCE S’OUVRE CE SOIR À LA CATHÉDRALE DE MONACO",
+       "title": "Le Festival Résonance s'ouvre ce soir à la Cathédrale de Monaco",
        "ok": false
       },
       {
@@ -4474,18 +4494,6 @@
       },
       {
        "title": "Diçiunari : le dictionnaire franco-monégasque désormais accessible en ligne",
-       "ok": false
-      },
-      {
-       "title": "Invest Monaco en Asie du Sud-Est : Une cible stratégique pour construire des partenariats durables",
-       "ok": false
-      },
-      {
-       "title": "Campagne d’enrobés : des ajustements pour faciliter l’accès aux parkings",
-       "ok": false
-      },
-      {
-       "title": "« Survivre aux violences » pour la journée du 25 novembre 2026",
        "ok": false
       }
      ]
@@ -4519,7 +4527,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:159: not well-formed (invalid token)"
+     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4537,7 +4545,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 435734,
+    "html_chars": 436022,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4677,18 +4685,24 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "El Govern aportarà fins a 11 milions d’euros per fer realitat el recinte firal de l’Espai Capital"
+     "El Govern reforça el suport a les famílies amb menys recursos amb un ajut de 200 euros per afrontar les despes",
+     "Adjudicada la segona fase de les obres de reforma de l’edifici de la Policia per tres milions d’euros"
     ],
     "coin_links": [
      {
-      "t": "El Govern aportarà fins a 11 milions d’euros per fer realitat el recinte firal de l’Espai ",
-      "u": "https://www.govern.ad/ca/w/el-govern-aportara-fins-a-11-milions-d-euros-per-fer-realitat-el-recinte-firal-de-l-espai-capital",
+      "t": "El Govern reforça el suport a les famílies amb menys recursos amb un ajut de 200 euros per",
+      "u": "https://www.govern.ad/ca/w/el-govern-reforca-el-suport-a-les-families-amb-menys-recursos-amb-un-ajut-de-200-euros-per-afrontar-les-despeses-de-calefaccio-de-gasoil",
+      "ok": false
+     },
+     {
+      "t": "Adjudicada la segona fase de les obres de reforma de l’edifici de la Policia per tres mili",
+      "u": "https://www.govern.ad/ca/w/adjudicada-la-segona-fase-de-les-obres-de-reforma-de-l-edifici-de-la-policia-per-tres-milions-d-euros",
       "ok": false
      }
     ],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 897976,
+    "html_chars": 900273,
     "coin_filter": "news",
     "skipped_menu": 963
    },
