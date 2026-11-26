@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25T21:44:52.585315+00:00",
+ "generated_at": "2026-11-26T08:16:37.892979+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
@@ -11,7 +11,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 46.4,
+     "seconds": 45.2,
      "query": "por_titulo",
      "rows": 24,
      "skipped_sample": [
@@ -30,7 +30,7 @@
     {
      "method": "POST",
      "http": 200,
-     "seconds": 26.4,
+     "seconds": 29.0,
      "query": "por_celex",
      "rows": 2,
      "relevant": 0,
@@ -243,9 +243,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.373,73",
-     "€ 1.752,38",
-     "€ 1.521,84"
+     "€ 3.353,96",
+     "€ 1.742,11",
+     "€ 1.535,36"
     ],
     "coin_links": [
      {
@@ -387,17 +387,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.373,73",
+      "t": "€ 3.353,96",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.752,38",
+      "t": "€ 1.742,11",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.521,84",
+      "t": "€ 1.535,36",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -416,7 +416,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 155402,
+    "html_chars": 155405,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -707,7 +707,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins | Deutsche Bundesbank",
-    "html_chars": 286000,
+    "html_chars": 286006,
     "skipped_menu": 497,
     "skipped_menu_sample": [
      "Euro pavilion",
@@ -1270,6 +1270,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-26",
+     "http": 200,
+     "items": 285,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-25",
      "http": 200,
      "items": 217,
@@ -1286,10 +1292,6 @@
      "http": 200,
      "items": 328,
      "relevant": 0
-    },
-    {
-     "day": "2026-11-22",
-     "http": 404
     }
    ],
    "relevant": 0
@@ -1361,7 +1363,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 180167,
+    "html_chars": 180165,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -1608,7 +1610,7 @@
     ],
     "http": 200,
     "page_title": "Home Page - Helsinkimint.com",
-    "html_chars": 322516,
+    "html_chars": 323742,
     "skipped_menu": 22,
     "skipped_menu_sample": [
      "Foreign coins"
@@ -1706,7 +1708,7 @@
     }
    ],
    "scrape": {
-    "anchors": 370,
+    "anchors": 383,
     "accepted": 3,
     "second_chance": 0,
     "detail_errors": 0,
@@ -1720,6 +1722,12 @@
      "de monnaies de collection, de médailles et d’objets d’art ."
     ],
     "coin_links": [
+     {
+      "t": "Moins de 20 euros",
+      "u": "https://www.monnaiedeparis.fr/fr/idees-cadeaux-de-noel/moins-de-20-euros",
+      "ok": false,
+      "menu": true
+     },
      {
       "t": "euros or 2",
       "u": "https://www.monnaiedeparis.fr/fr/monnaies/euros-or-2",
@@ -1823,9 +1831,9 @@
     ],
     "http": 200,
     "page_title": "Accueil Monnaie de Paris",
-    "html_chars": 468110,
+    "html_chars": 473047,
     "child_links": {
-     "count": 309,
+     "count": 322,
      "no_text": 60,
      "sample": [
       {
@@ -1854,16 +1862,16 @@
       }
      ]
     },
-    "skipped_menu": 293,
+    "skipped_menu": 306,
     "skipped_menu_sample": [
+     "Moins de 20 euros",
      "euros or 2",
      "Euros Argent",
      "Monnaies de collection classiques",
      "Découvrir toutes les monnaies",
      "Guide du collectionneur L'univers de la monnaie Découvrir",
      "Mon anniversaire à la Monnaie",
-     "Le rôle de la monnaie aujourd'hui",
-     "Euro, les pièces en circulation"
+     "Le rôle de la monnaie aujourd'hui"
     ]
    },
    "method": "scraping",
@@ -2287,7 +2295,7 @@
     ],
     "http": 200,
     "page_title": "IPZS - Diamo valore all'Italia",
-    "html_chars": 163745,
+    "html_chars": 163695,
     "skipped_menu": 138,
     "skipped_menu_sample": [
      "CNAC – Centro Nazionale di Analisi delle Monete",
@@ -2307,9 +2315,21 @@
      "http": 200,
      "type": "text/html; charset=utf-8",
      "entries": 50,
-     "newest": "2026-11-25",
+     "newest": "2026-11-26",
      "relevant": 0,
      "sample": [
+      {
+       "title": "Le Comité de Sélection du Film Fund Luxembourg s'est réuni pour sa quatrième et dernière session de l'année 20",
+       "ok": false
+      },
+      {
+       "title": "Orange Week: renforcer la prévention et l'accès à l'information grâce à la refonte de violence.lu",
+       "ok": false
+      },
+      {
+       "title": "Xavier Bettel en visite de travail au Mexique",
+       "ok": false
+      },
       {
        "title": "Conférence \"Q-DEF − Quantum For Defence\"",
        "ok": false
@@ -2356,18 +2376,6 @@
       },
       {
        "title": "Le site de MeteoLux fait peau neuve: un site plus complet et plus intuitif",
-       "ok": false
-      },
-      {
-       "title": "ANA Awarded Level 3 in CANSO's GreenATM Environmental Accreditation Programme",
-       "ok": false
-      },
-      {
-       "title": "Levée de l'interdiction temporaire des prélèvements d'eau dans les cours d'eau − l'amélioration progressive de",
-       "ok": false
-      },
-      {
-       "title": "Rapport préliminaire concernant l'événement impliquant l’aéronef de type Boeing B747-8R7F immatriculé LX-VCF e",
        "ok": false
       }
      ]
@@ -2471,7 +2479,7 @@
     }
    ],
    "scrape": {
-    "anchors": 228,
+    "anchors": 232,
     "accepted": 20,
     "second_chance": 0,
     "detail_errors": 1,
@@ -2598,6 +2606,18 @@
       "ok": true
      },
      {
+      "t": "Malta 3 Euro 2026 “Game of Thrones” Silver ½ Ounce Prooflike",
+      "u": "https://www.royaldutchmint.com/malta-3-euro-2026-game-of-thrones-silver-ounce-prooflike",
+      "ok": false,
+      "via": "attr"
+     },
+     {
+      "t": "Malta 2 ½ Euro 2026 “Game of Thrones” in Coincard",
+      "u": "https://www.royaldutchmint.com/malta-2-euro-2026-game-of-thrones-in-coincard",
+      "ok": false,
+      "via": "attr"
+     },
+     {
       "t": "JEEJ x Royal Dutch Mint – Silver €245.00 Add to Cart",
       "u": "https://www.royaldutchmint.com/jeej-x-royal-dutch-mint-silver",
       "ok": false
@@ -2639,23 +2659,11 @@
       "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-bu-quality-in-coincard",
       "ok": true,
       "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 5 Euro Coin 2026 Silver Coin",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-5-euro-coin-2026-silver-coin",
-      "ok": true,
-      "via": "attr"
-     },
-     {
-      "t": "Eise Eisinga Planetarium 10 Euro Coin 2026 Gold Proof",
-      "u": "https://www.royaldutchmint.com/eise-eisinga-planetarium-10-euro-coin-2026-gold-proof",
-      "ok": true,
-      "via": "attr"
      }
     ],
     "http": 200,
     "page_title": "Home Page - Royal Dutch Mint",
-    "html_chars": 642585,
+    "html_chars": 658532,
     "skipped_menu": 43,
     "skipped_menu_sample": [
      "Dutch coins",
@@ -3601,7 +3609,7 @@
     ],
     "http": 200,
     "page_title": "Vitajte na Mincovňa Kremnica | Mincovňa Kremnica",
-    "html_chars": 138182,
+    "html_chars": 138192,
     "skipped_menu": 21,
     "accepted_in_menu": 2,
     "accepted_in_menu_sample": [
@@ -4205,7 +4213,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239185,
+    "html_chars": 239187,
     "skipped_menu": 503,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4344,14 +4352,14 @@
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
+     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
     },
     {
      "url": "https://www.bnb.bg/atom.xml",
      "http": 200,
      "type": "text/html;charset=utf-8",
      "entries": 0,
-     "bozo": "<unknown>:297:35: not well-formed (invalid token)"
+     "bozo": "<unknown>:215:10332: not well-formed (invalid token)"
     }
    ],
    "scrape": {
@@ -4363,7 +4371,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "(untitled)",
-    "html_chars": 43843
+    "html_chars": 33902
    },
    "method": "scraping",
    "relevant": 0
@@ -4527,7 +4535,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:76:161: not well-formed (invalid token)"
+     "bozo": "<unknown>:80:83: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4545,7 +4553,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 436022,
+    "html_chars": 437091,
     "skipped_menu": 30
    },
    "method": "scraping",
