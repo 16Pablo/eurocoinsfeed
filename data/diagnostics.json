@@ -1,38 +1,25 @@
 {
- "generated_at": "2026-11-27T21:24:06.983903+00:00",
+ "generated_at": "2026-11-28T07:53:18.938957+00:00",
  "feedparser": "6.0.11",
  "sources": {
   "eurlex_sparql": {
    "name": "EUR-Lex — Diario Oficial de la UE",
    "country": "EU",
    "section_url": null,
-   "method": "sparql",
+   "method": "sparql_sin_respuesta",
    "sparql": [
     {
      "method": "GET",
-     "http": 200,
-     "seconds": 82.4,
+     "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
+     "seconds": 90.4,
      "earlier_attempts": [
       {
        "method": "POST",
        "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.4
+       "seconds": 90.3
       }
      ],
-     "query": "por_titulo",
-     "rows": 24,
-     "skipped_sample": [
-      "C/2026/05648 | New national side of euro coins intended for circulation",
-      "C/2026/05635 | New national side of euro coins intended for circulation",
-      "C/2026/05652 | New national side of euro coins intended for circulation",
-      "C/2026/05645 | New national side of euro coins intended for circulation",
-      "C/2026/05644 | New national side of euro coins intended for circulation",
-      "C/2026/05663 | New national side of euro coins intended for circulation",
-      "C/2026/05660 | New national side of euro coins intended for circulation",
-      "C/2026/05642 | New national side of euro coins intended for circulation"
-     ],
-     "relevant": 0,
-     "skipped_not_notice": 24
+     "query": "por_titulo"
     },
     {
      "method": "GET",
@@ -42,7 +29,7 @@
       {
        "method": "POST",
        "error": "ReadTimeout: HTTPSConnectionPool(host='publications.europa.eu', port=443): Read timed out. (read timeout=90)",
-       "seconds": 90.1
+       "seconds": 90.4
       }
      ],
      "query": "por_celex"
@@ -57,75 +44,77 @@
    "feeds_tried": [
     {
      "url": "https://economy-finance.ec.europa.eu/node/2553/rss_en",
-     "http": 429,
-     "type": "",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/feed.xml",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/rss",
-     "http": 404,
-     "type": "text/html; charset=utf-8",
-     "entries": 0
-    },
-    {
-     "url": "https://economy-finance.ec.europa.eu/atom.xml",
-     "http": 429,
-     "type": "",
-     "entries": 0
+     "http": 200,
+     "type": "application/rss+xml; charset=utf-8",
+     "entries": 30,
+     "newest": "2026-10-14",
+     "relevant": 0,
+     "sample": [
+      {
+       "title": "35 years of the Erasmus programme - Finland",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovakia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Slovenia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Portugal",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Austria",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Netherlands",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Malta",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Luxembourg",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Lithuania",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Latvia",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Cyprus",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Italy",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - France",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Spain",
+       "ok": true
+      },
+      {
+       "title": "35 years of the Erasmus programme - Greece",
+       "ok": true
+      }
+     ],
+     "skipped_old": 30
     }
    ],
-   "section_http": 200,
-   "section_title": "Commemorative coins - Economy and Finance - European Commission",
-   "link_feeds": [],
-   "scrape": {
-    "anchors": 82,
-    "accepted": 0,
-    "second_chance": 0,
-    "detail_errors": 0,
-    "rejected_sample": [],
-    "coin_links": [
-     {
-      "t": "Euro coins and notes",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes_en",
-      "ok": false,
-      "menu": true
-     },
-     {
-      "t": "Euro coins",
-      "u": "https://economy-finance.ec.europa.eu/euro/euro-coins-and-notes/euro-coins_en",
-      "ok": false,
-      "menu": true
-     }
-    ],
-    "http": 200,
-    "page_title": "Commemorative coins - Economy and Finance - European Commission",
-    "html_chars": 156077,
-    "coin_filter": "news",
-    "skipped_menu": 36,
-    "skipped_menu_sample": [
-     "Euro coins and notes",
-     "Euro coins"
-    ]
-   },
-   "method": "scraping",
+   "method": "feeds_a_mano",
    "relevant": 0
   },
   "ecb": {
@@ -252,9 +241,9 @@
     "second_chance": 0,
     "detail_errors": 0,
     "rejected_sample": [
-     "€ 3.448,28",
-     "€ 1.791,11",
-     "€ 1.589,80"
+     "€ 3.420,85",
+     "€ 1.776,85",
+     "€ 1.565,42"
     ],
     "coin_links": [
      {
@@ -396,17 +385,17 @@
       "menu": true
      },
      {
-      "t": "€ 3.448,28",
+      "t": "€ 3.420,85",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.791,11",
+      "t": "€ 1.776,85",
       "u": "https://www.muenzeoesterreich.at/produkte/1-2-unze-gold-wiener-philharmoniker",
       "ok": false
      },
      {
-      "t": "€ 1.589,80",
+      "t": "€ 1.565,42",
       "u": "https://www.muenzeoesterreich.at/produkte/1-unze-platin-wiener-philharmoniker",
       "ok": false
      },
@@ -425,7 +414,7 @@
     ],
     "http": 200,
     "page_title": "Münze Österreich AG – Staatliche Münzprägestätte Österreichs",
-    "html_chars": 158903,
+    "html_chars": 158899,
     "skipped_menu": 208,
     "skipped_menu_sample": [
      "Ansparkassetten 18 Stück Philharmoniker-Münzen",
@@ -1279,6 +1268,12 @@
    "method": "boe",
    "boe": [
     {
+     "day": "2026-11-28",
+     "http": 200,
+     "items": 328,
+     "relevant": 0
+    },
+    {
      "day": "2026-11-27",
      "http": 200,
      "items": 227,
@@ -1294,12 +1289,6 @@
      "day": "2026-11-25",
      "http": 200,
      "items": 217,
-     "relevant": 0
-    },
-    {
-     "day": "2026-11-24",
-     "http": 200,
-     "items": 204,
      "relevant": 0
     }
    ],
@@ -1372,7 +1361,7 @@
     ],
     "http": 200,
     "page_title": "Notas de prensa - FNMT",
-    "html_chars": 179844,
+    "html_chars": 179843,
     "coin_filter": "news",
     "skipped_menu": 91,
     "skipped_menu_sample": [
@@ -4222,7 +4211,7 @@
     ],
     "http": 200,
     "page_title": "Euro coins",
-    "html_chars": 239591,
+    "html_chars": 239589,
     "skipped_menu": 505,
     "skipped_menu_sample": [
      "Digital euro",
@@ -4544,7 +4533,7 @@
      "http": 200,
      "type": "text/html; charset=UTF-8",
      "entries": 0,
-     "bozo": "<unknown>:78:87: not well-formed (invalid token)"
+     "bozo": "<unknown>:77:219: not well-formed (invalid token)"
     },
     {
      "url": "https://www.gouv.mc/atom.xml",
@@ -4562,7 +4551,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portail Officiel du Gouvernement Princier de Monaco",
-    "html_chars": 436895,
+    "html_chars": 436019,
     "skipped_menu": 30
    },
    "method": "scraping",
@@ -4705,7 +4694,7 @@
     "coin_links": [],
     "http": 200,
     "page_title": "Portal oficial del Govern d'Andorra - Govern d’Andorra",
-    "html_chars": 896748,
+    "html_chars": 898234,
     "coin_filter": "news",
     "skipped_menu": 963
    },
